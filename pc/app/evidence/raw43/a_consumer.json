@@ -1,0 +1,23 @@
+{
+  "a_source_sha256": "623a0259f95c8512694f786fad065e6f0dda6a77191d687d5af49d8ca93ee771",
+  "frames": 1267,
+  "raw_samples": 1216,
+  "valid_classifications": 21,
+  "transitions": [
+    {
+      "class_id": 0,
+      "sample_seq": 575
+    },
+    {
+      "class_id": 1,
+      "sample_seq": 767
+    }
+  ],
+  "warmup_samples": 320,
+  "eligible_samples": 896,
+  "segments": 2,
+  "no_inferred_labels": true,
+  "raw_and_sequence_exact": true,
+  "hardware_io": false,
+  "fixture_is_synthetic": true
+}

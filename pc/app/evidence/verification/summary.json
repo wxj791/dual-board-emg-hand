@@ -1,0 +1,33 @@
+{
+  "checks": [
+    {
+      "check": "protocol",
+      "returncode": 0
+    },
+    {
+      "check": "compact_raw",
+      "returncode": 0
+    },
+    {
+      "check": "customer",
+      "returncode": 0
+    },
+    {
+      "check": "default_materials",
+      "returncode": 0
+    },
+    {
+      "check": "export",
+      "returncode": 0
+    },
+    {
+      "check": "signals",
+      "returncode": 0
+    },
+    {
+      "check": "ui_hidden",
+      "returncode": 0
+    }
+  ],
+  "hardware_connected": false
+}

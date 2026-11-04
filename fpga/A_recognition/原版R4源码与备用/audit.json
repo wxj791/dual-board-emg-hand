@@ -1,0 +1,560 @@
+{
+  "passed": true,
+  "capacity": 32,
+  "trained_classes": 7,
+  "runtime_class_range": [
+    2,
+    32
+  ],
+  "resources": {
+    "lut": 18112,
+    "reg": 9626,
+    "bram": 53,
+    "bram32k": 13,
+    "dsp": 26
+  },
+  "timing": {
+    "setup_wns_ns": 4.294,
+    "hold_wns_ns": 0.031,
+    "period_check_wns_ns": 0.0,
+    "coverage_percent": 100.0,
+    "clock_mhz": 24
+  },
+  "bit_sha256": "aa77e2122a40be7dd7bbb17790f0f6b75693e9c48a02e6c41ed7c98a658887c6",
+  "all_v_sha256": "d717f4aab6060599b871795721cd52a5f0e29ca3f4b2b440ed5b6c53fcb4425b",
+  "netlist_sha256": "ba383f2181a959cb2099477eab6843258476e191a3910a9fd5f3245fb47bf3a2",
+  "initialization": [
+    {
+      "file": "cnn_w0.hex",
+      "words": 256,
+      "width": 32,
+      "memory": "core/cnn_unit/ramread0_syn_4",
+      "exact": true,
+      "primitive": [
+        "EG_PHY_BRAM"
+      ]
+    },
+    {
+      "file": "cnn_w1.hex",
+      "words": 256,
+      "width": 32,
+      "memory": "core/cnn_unit/ramread1_syn_4",
+      "exact": true,
+      "primitive": [
+        "EG_PHY_BRAM"
+      ]
+    },
+    {
+      "file": "cnn_w2.hex",
+      "words": 256,
+      "width": 32,
+      "memory": "core/cnn_unit/ramread2_syn_4",
+      "exact": true,
+      "primitive": [
+        "EG_PHY_BRAM"
+      ]
+    },
+    {
+      "file": "cnn_w3.hex",
+      "words": 256,
+      "width": 32,
+      "memory": "core/cnn_unit/ramread3_syn_4",
+      "exact": true,
+      "primitive": [
+        "EG_PHY_BRAM"
+      ]
+    },
+    {
+      "file": "cnn_w4.hex",
+      "words": 256,
+      "width": 32,
+      "memory": "core/cnn_unit/ramread4_syn_4",
+      "exact": true,
+      "primitive": [
+        "EG_PHY_BRAM"
+      ]
+    },
+    {
+      "file": "cnn_w5.hex",
+      "words": 256,
+      "width": 32,
+      "memory": "core/cnn_unit/ramread5_syn_4",
+      "exact": true,
+      "primitive": [
+        "EG_PHY_BRAM"
+      ]
+    },
+    {
+      "file": "cnn_w6.hex",
+      "words": 256,
+      "width": 32,
+      "memory": "core/cnn_unit/ramread6_syn_4",
+      "exact": true,
+      "primitive": [
+        "EG_PHY_BRAM"
+      ]
+    },
+    {
+      "file": "cnn_w7.hex",
+      "words": 256,
+      "width": 32,
+      "memory": "core/cnn_unit/ramread7_syn_4",
+      "exact": true,
+      "primitive": [
+        "EG_PHY_BRAM"
+      ]
+    },
+    {
+      "file": "cnn_bias.hex",
+      "words": 72,
+      "width": 32,
+      "memory": "core/cnn_unit/ramread13_syn_4",
+      "exact": true,
+      "primitive": [
+        "EG_PHY_BRAM"
+      ]
+    },
+    {
+      "file": "cnn_shift.hex",
+      "words": 72,
+      "width": 8,
+      "memory": "core/cnn_unit/ramread14_syn_4",
+      "exact": true,
+      "primitive": [
+        "EG_PHY_BRAM"
+      ]
+    },
+    {
+      "file": "linear_offsets.hex",
+      "words": 304,
+      "width": 16,
+      "memory": "core/head_unit/ramread1_syn_4",
+      "exact": true,
+      "primitive": [
+        "EG_PHY_BRAM"
+      ]
+    },
+    {
+      "file": "cnn_head_weights.hex",
+      "words": 1024,
+      "width": 8,
+      "memory": "core/head_unit/ramread3_syn_4",
+      "exact": true,
+      "primitive": [
+        "EG_PHY_BRAM"
+      ]
+    },
+    {
+      "file": "linear_bank0.hex",
+      "words": 2048,
+      "width": 16,
+      "memory": "core/head_unit/ramread13_syn_4",
+      "exact": true,
+      "primitive": [
+        "EG_PHY_BRAM32K"
+      ]
+    },
+    {
+      "file": "linear_bank1.hex",
+      "words": 2048,
+      "width": 16,
+      "memory": "core/head_unit/ramread4_syn_4",
+      "exact": true,
+      "primitive": [
+        "EG_PHY_BRAM32K"
+      ]
+    },
+    {
+      "file": "linear_bank2.hex",
+      "words": 2048,
+      "width": 16,
+      "memory": "core/head_unit/ramread10_syn_4",
+      "exact": true,
+      "primitive": [
+        "EG_PHY_BRAM32K"
+      ]
+    },
+    {
+      "file": "linear_bank3.hex",
+      "words": 2048,
+      "width": 16,
+      "memory": "core/head_unit/ramread12_syn_4",
+      "exact": true,
+      "primitive": [
+        "EG_PHY_BRAM32K"
+      ]
+    },
+    {
+      "file": "linear_bank4.hex",
+      "words": 2048,
+      "width": 16,
+      "memory": "core/head_unit/ramread6_syn_4",
+      "exact": true,
+      "primitive": [
+        "EG_PHY_BRAM32K"
+      ]
+    },
+    {
+      "file": "RESPONSE_TEMPLATE",
+      "words": 512,
+      "width": 16,
+      "memory": "pc/ramread1_syn_4",
+      "exact": true
+    }
+  ],
+  "distributed_initialization": {
+    "parameter_ramw_blocks": 30,
+    "parameter_init_bits_checked": 1792,
+    "comparisons": 1792,
+    "unresolved_writers": [],
+    "errors": {
+      "core/cnn_unit/ramread8_syn_23": "('unknown', ('core/cnn_unit/lt0_syn_7', 10))",
+      "core/cnn_unit/ramread8_syn_9": "('unknown', ('core/cnn_unit/lt0_syn_7', 10))"
+    },
+    "blocks": [
+      {
+        "name": "core/cnn_unit/ramread8_syn_23",
+        "bits_checked": 0
+      },
+      {
+        "name": "core/cnn_unit/ramread8_syn_9",
+        "bits_checked": 0
+      },
+      {
+        "name": "core/head_unit/ramread11_syn_144",
+        "bits_checked": 64
+      },
+      {
+        "name": "core/head_unit/ramread11_syn_158",
+        "bits_checked": 64
+      },
+      {
+        "name": "core/head_unit/ramread11_syn_172",
+        "bits_checked": 64
+      },
+      {
+        "name": "core/head_unit/ramread11_syn_186",
+        "bits_checked": 64
+      },
+      {
+        "name": "core/head_unit/ramread11_syn_200",
+        "bits_checked": 64
+      },
+      {
+        "name": "core/head_unit/ramread11_syn_214",
+        "bits_checked": 64
+      },
+      {
+        "name": "core/head_unit/ramread11_syn_228",
+        "bits_checked": 64
+      },
+      {
+        "name": "core/head_unit/ramread11_syn_242",
+        "bits_checked": 64
+      },
+      {
+        "name": "core/head_unit/ramread5_syn_103",
+        "bits_checked": 64
+      },
+      {
+        "name": "core/head_unit/ramread5_syn_61",
+        "bits_checked": 64
+      },
+      {
+        "name": "core/head_unit/ramread5_syn_75",
+        "bits_checked": 64
+      },
+      {
+        "name": "core/head_unit/ramread5_syn_89",
+        "bits_checked": 64
+      },
+      {
+        "name": "core/head_unit/ramread7_syn_281",
+        "bits_checked": 64
+      },
+      {
+        "name": "core/head_unit/ramread7_syn_295",
+        "bits_checked": 64
+      },
+      {
+        "name": "core/head_unit/ramread7_syn_309",
+        "bits_checked": 64
+      },
+      {
+        "name": "core/head_unit/ramread7_syn_323",
+        "bits_checked": 64
+      },
+      {
+        "name": "core/head_unit/ramread7_syn_337",
+        "bits_checked": 64
+      },
+      {
+        "name": "core/head_unit/ramread7_syn_351",
+        "bits_checked": 64
+      },
+      {
+        "name": "core/head_unit/ramread7_syn_365",
+        "bits_checked": 64
+      },
+      {
+        "name": "core/head_unit/ramread7_syn_379",
+        "bits_checked": 64
+      },
+      {
+        "name": "core/head_unit/ramread7_syn_393",
+        "bits_checked": 64
+      },
+      {
+        "name": "core/head_unit/ramread7_syn_407",
+        "bits_checked": 64
+      },
+      {
+        "name": "core/head_unit/ramread7_syn_421",
+        "bits_checked": 64
+      },
+      {
+        "name": "core/head_unit/ramread7_syn_435",
+        "bits_checked": 64
+      },
+      {
+        "name": "core/head_unit/ramread7_syn_449",
+        "bits_checked": 64
+      },
+      {
+        "name": "core/head_unit/ramread7_syn_463",
+        "bits_checked": 64
+      },
+      {
+        "name": "core/head_unit/ramread7_syn_477",
+        "bits_checked": 64
+      },
+      {
+        "name": "core/head_unit/ramread7_syn_491",
+        "bits_checked": 64
+      }
+    ],
+    "bitplane_initialization": [
+      {
+        "file": "cnn_input_shift",
+        "group": "core/cnn_unit/ramread8",
+        "physical_bitplane_copies": 1,
+        "nonzero_bitplanes": 3,
+        "exact_bitplane_multiset": true
+      },
+      {
+        "file": "linear_bias",
+        "group": "core/head_unit/ramread9",
+        "physical_bitplane_copies": 2,
+        "nonzero_bitplanes": 48,
+        "exact_bitplane_multiset": true
+      },
+      {
+        "file": "cnn_head_bias",
+        "group": "core/head_unit/ramread7",
+        "physical_bitplane_copies": 1,
+        "nonzero_bitplanes": 32,
+        "exact_bitplane_multiset": true
+      },
+      {
+        "file": "cnn_head_shift",
+        "group": "core/head_unit/ramread5",
+        "physical_bitplane_copies": 1,
+        "nonzero_bitplanes": 3,
+        "exact_bitplane_multiset": true
+      },
+      {
+        "file": "action_map",
+        "group": "core/head_unit/ramread11",
+        "physical_bitplane_copies": 1,
+        "nonzero_bitplanes": 3,
+        "exact_bitplane_multiset": true
+      }
+    ],
+    "fusion_threshold_register_initialization": {
+      "value": 2097152,
+      "exact": true
+    },
+    "decoder_scope": "LUT/alias-only decoder paths checked; carry-chain decoder paths excluded and covered by complete bit-plane audit plus RTL reload simulation"
+  },
+  "pins": {
+    "clk_24m": "K14",
+    "rst_n": "G11",
+    "pc_uart_rx": "F16",
+    "pc_uart_tx": "E16",
+    "link_data[0]": "B14",
+    "link_data[1]": "A14",
+    "link_data[2]": "B8",
+    "link_data[3]": "C8",
+    "link_data[4]": "B6",
+    "link_data[5]": "C5",
+    "link_data[6]": "C6",
+    "link_data[7]": "C7",
+    "link_clk": "B10",
+    "link_valid": "C9",
+    "link_ready": "B16",
+    "status_led_n[0]": "M3",
+    "status_led_n[1]": "M4",
+    "status_led_n[2]": "N3",
+    "status_led_n[3]": "N4",
+    "wireless_uart_rx": "B15",
+    "b_return_rx": "C11"
+  },
+  "protected_files": 99,
+  "immutable_build_test_sources_match": false,
+  "memory_attribute_equivalence": {
+    "passed": true,
+    "actual_all_v_sha256": "d717f4aab6060599b871795721cd52a5f0e29ca3f4b2b440ed5b6c53fcb4425b",
+    "tested_all_v_sha256": "2870a6d515369f85a8a571b3891a9e18a033d05006da5d084089cb96071b696c",
+    "tested_board": "board32_dram_pc_transition",
+    "latency": "latency32_dram",
+    "head": "head_dram_ablation",
+    "differences": [
+      {
+        "actual": "fpga_a\\experimental\\cnn256_gesture_tasks\\balanced_ram\\fusion_features.v",
+        "tested": "fpga_a\\experimental\\cnn256_gesture_tasks\\scratch_dram\\fusion_features.v",
+        "attribute_only": true
+      },
+      {
+        "actual": "fpga_a\\experimental\\cnn256_gesture_tasks\\balanced_ram\\fusion_head.v",
+        "tested": "fpga_a\\experimental\\cnn256_gesture_tasks\\scratch_dram\\fusion_head.v",
+        "attribute_only": true
+      }
+    ],
+    "exact_text_after_declared_attribute_replacements": true,
+    "attribute_replacements": 2,
+    "head_attribute_changes": [
+      {
+        "actual": "fpga_a\\experimental\\cnn256_gesture_tasks\\balanced_ram\\fusion_head.v",
+        "tested": "fpga_a\\experimental\\cnn256_gesture_tasks\\scratch_dram\\fusion_head.v",
+        "attribute_only": true
+      }
+    ],
+    "semantic_mutation_rejected": true,
+    "simulation_behavior_unchanged": true,
+    "new_physical_implementation_requires_separate_audit": true,
+    "hardware_io": false
+  },
+  "source_sha256": {
+    "common\\rtl\\reset_sync_n.v": "b22abc66f48a2bac3a557de41bff0e9c4c8a25e2bba33b91cc4070d43543a837",
+    "common\\rtl\\link_crc16_ccitt.v": "4e26b42c78aa73b8ffab7d98d5f7be96c22a160e679dd4c48c6ad131477d2365",
+    "common\\rtl\\link_frame_rx.v": "c674a6ac4c8cec8d6155372a4dac80fd0c9fb1f6b51e8dcaa9d980f3647b17ac",
+    "common\\rtl\\link_frame_tx.v": "62409e6cae9d3166c0062d652eee7de3f203cb3a2a868c0220cfb0da5ecc8b74",
+    "fpga_a\\rtl\\ingress_uart_rx.v": "e7280825f7a7078673556d106ab7e9cf30bdde4ffa3a94c415f8c5a776588fc7",
+    "fpga_a\\rtl\\link_tx_wrapper.v": "b04bf41e234d60f46219f35fcc1ad9a00a532b3c464a72be420de69d9ff844c9",
+    "fpga_a\\experimental\\hybrid_filter_coefficients.v": "b038cc930f46e80a2aba0708edf068ecf1b63da5f2c4784d25959cba242da6a8",
+    "fpga_a\\experimental\\hybrid_filterbank.v": "54091da2b7670c577108437b3da9dff5a4b0542978cf395be76297e476045ae1",
+    "fpga_a\\experimental\\parallel_lane\\emg_envelope_bank.v": "bda5a54f3969f574fcf6717d9ea46812deef92cbc77abf7bafa9ca050d256d32",
+    "fpga_a\\experimental\\cnn256_gesture_tasks\\balanced_ram\\justfloat_ingress.v": "43a907ae69554cfb2a428319ccf946294eb396bba240c080d92fd92ad2fce906",
+    "fpga_a\\experimental\\cnn256_gesture_tasks\\balanced_ram\\cnn32_core.v": "f984a68989c3f07f6c64f829293dd0a83ef259cf166a22cd281e559bc5910e2b",
+    "fpga_a\\experimental\\cnn256_gesture_tasks\\balanced_ram\\fusion_features.v": "7a08b521badbf0a7655bf69da4adfc5a158200e94cd104d236b04a49c06cef83",
+    "fpga_a\\experimental\\cnn256_gesture_tasks\\balanced_ram\\fusion_head.v": "0e5d06e9fe4a330032cd250b37e735019ce3af01e89006a0e44eacf4a27c3bef",
+    "fpga_a\\experimental\\cnn256_gesture_tasks\\balanced_ram\\fusion_cnn_stream.v": "ffa75f5b3a210ee7ea2ed30b432956de392107b8f093f0bac59374e9add8b17d",
+    "fpga_a\\experimental\\cnn256_gesture_tasks\\balanced_ram\\v2_packet_mux.v": "c4adb02e9039b973c9ab0dcdaff4b1bc5a6f3308a8c616ba59be9ce63335ea21",
+    "fpga_a\\experimental\\cnn256_gesture_tasks\\balanced_ram\\v2_pc.v": "3eee8e8889d8fda29208923e566776bcd33f17b28237631db3b62802b6dce83f",
+    "fpga_a\\experimental\\cnn256_gesture_tasks\\balanced_ram\\v2_board_top.v": "6f013db286b32561e636048e988b3a77bdc6dfb61894ac6d22aa5841c27098b1",
+    "fpga_a\\experimental\\cnn256_gesture_tasks\\balanced_ram\\gt_forward.v": "db05ef8e1668df99438d76016490cd354f6cc6baa4d237e88f2bc27ee73d254b",
+    "fpga_a\\experimental\\cnn256_gesture_tasks\\balanced_ram\\gt_return.v": "5d89296cc151a7e291c3d3fe30430b04082ade2b36da8a9078edc647a009e8fe",
+    "fpga_a\\experimental\\cnn256_gesture_tasks\\balanced_ram\\gt_usb_stream.v": "33f01be0403fb718abe927fffc6c529847a692925853583f4ed70089880ad3c4"
+  },
+  "hardware_io": false,
+  "usb43_included": true,
+  "model_crc_query_included": true,
+  "tested_runtime_classes": 2,
+  "factory_model_crc32_hex": "fc91830a",
+  "usb_complete_raw_verified": true,
+  "three_party_integration": false,
+  "regressions": {
+    "latency": {
+      "directory": "latency32_dram",
+      "rows": [
+        {
+          "active": 2,
+          "cnn": 31584,
+          "head": 31668,
+          "feature": 7850,
+          "total": 40745,
+          "start_delay": 9076
+        },
+        {
+          "active": 7,
+          "cnn": 31584,
+          "head": 31871,
+          "feature": 7850,
+          "total": 40948,
+          "start_delay": 9076
+        },
+        {
+          "active": 32,
+          "cnn": 31584,
+          "head": 32846,
+          "feature": 7850,
+          "total": 41923,
+          "start_delay": 9076
+        }
+      ]
+    },
+    "head": {
+      "directory": "head_dram_ablation",
+      "windows": 27,
+      "phases": 2
+    }
+  },
+  "independent_signoff": {
+    "passed": true,
+    "build": "route32_balanced_final24_20261101_r1",
+    "timing": {
+      "setup_wns_ns": 4.294,
+      "hold_wns_ns": 0.031,
+      "period_check_wns_ns": 0.0,
+      "coverage_percent": 100.0,
+      "clock_mhz": 24
+    },
+    "independent_process": true,
+    "routed_db_sha256": "18fd6ddf1d0de2ca2058038d19fdb0944f1b51cb5088f51331704f3031d435be",
+    "checkpoint_unchanged": true,
+    "hardware_io": false
+  },
+  "fresh_runtime_core": {
+    "passed": true,
+    "samples": 1216,
+    "results": 21,
+    "parameter_writes": 2426,
+    "package_crc32": "df1dd2ae",
+    "package_sha256": "233f6560c1b279d2db69499224fa9aff7d8a2fc2d7faa78ef6b769ceec03ba94",
+    "all_four_groups_and_all_decisions_exact": true,
+    "actual_transition_seq": 767,
+    "matched_frozen_build": "mapping32_balanced_20261101_r1",
+    "all_v_sha256": "d717f4aab6060599b871795721cd52a5f0e29ca3f4b2b440ed5b6c53fcb4425b",
+    "source_sha256": {
+      "common\\rtl\\reset_sync_n.v": "b22abc66f48a2bac3a557de41bff0e9c4c8a25e2bba33b91cc4070d43543a837",
+      "common\\rtl\\link_crc16_ccitt.v": "4e26b42c78aa73b8ffab7d98d5f7be96c22a160e679dd4c48c6ad131477d2365",
+      "common\\rtl\\link_frame_rx.v": "c674a6ac4c8cec8d6155372a4dac80fd0c9fb1f6b51e8dcaa9d980f3647b17ac",
+      "common\\rtl\\link_frame_tx.v": "62409e6cae9d3166c0062d652eee7de3f203cb3a2a868c0220cfb0da5ecc8b74",
+      "fpga_a\\rtl\\ingress_uart_rx.v": "e7280825f7a7078673556d106ab7e9cf30bdde4ffa3a94c415f8c5a776588fc7",
+      "fpga_a\\rtl\\link_tx_wrapper.v": "b04bf41e234d60f46219f35fcc1ad9a00a532b3c464a72be420de69d9ff844c9",
+      "fpga_a\\experimental\\hybrid_filter_coefficients.v": "b038cc930f46e80a2aba0708edf068ecf1b63da5f2c4784d25959cba242da6a8",
+      "fpga_a\\experimental\\hybrid_filterbank.v": "54091da2b7670c577108437b3da9dff5a4b0542978cf395be76297e476045ae1",
+      "fpga_a\\experimental\\parallel_lane\\emg_envelope_bank.v": "bda5a54f3969f574fcf6717d9ea46812deef92cbc77abf7bafa9ca050d256d32",
+      "fpga_a\\experimental\\cnn256_gesture_tasks\\balanced_ram\\justfloat_ingress.v": "43a907ae69554cfb2a428319ccf946294eb396bba240c080d92fd92ad2fce906",
+      "fpga_a\\experimental\\cnn256_gesture_tasks\\balanced_ram\\cnn32_core.v": "f984a68989c3f07f6c64f829293dd0a83ef259cf166a22cd281e559bc5910e2b",
+      "fpga_a\\experimental\\cnn256_gesture_tasks\\balanced_ram\\fusion_features.v": "7a08b521badbf0a7655bf69da4adfc5a158200e94cd104d236b04a49c06cef83",
+      "fpga_a\\experimental\\cnn256_gesture_tasks\\balanced_ram\\fusion_head.v": "0e5d06e9fe4a330032cd250b37e735019ce3af01e89006a0e44eacf4a27c3bef",
+      "fpga_a\\experimental\\cnn256_gesture_tasks\\balanced_ram\\fusion_cnn_stream.v": "ffa75f5b3a210ee7ea2ed30b432956de392107b8f093f0bac59374e9add8b17d",
+      "fpga_a\\experimental\\cnn256_gesture_tasks\\balanced_ram\\v2_packet_mux.v": "c4adb02e9039b973c9ab0dcdaff4b1bc5a6f3308a8c616ba59be9ce63335ea21",
+      "fpga_a\\experimental\\cnn256_gesture_tasks\\balanced_ram\\v2_pc.v": "3eee8e8889d8fda29208923e566776bcd33f17b28237631db3b62802b6dce83f",
+      "fpga_a\\experimental\\cnn256_gesture_tasks\\balanced_ram\\v2_board_top.v": "6f013db286b32561e636048e988b3a77bdc6dfb61894ac6d22aa5841c27098b1",
+      "fpga_a\\experimental\\cnn256_gesture_tasks\\balanced_ram\\gt_forward.v": "db05ef8e1668df99438d76016490cd354f6cc6baa4d237e88f2bc27ee73d254b",
+      "fpga_a\\experimental\\cnn256_gesture_tasks\\balanced_ram\\gt_return.v": "5d89296cc151a7e291c3d3fe30430b04082ade2b36da8a9078edc647a009e8fe",
+      "fpga_a\\experimental\\cnn256_gesture_tasks\\balanced_ram\\gt_usb_stream.v": "33f01be0403fb718abe927fffc6c529847a692925853583f4ed70089880ad3c4"
+    },
+    "vector_origin": "board32_history_raw43_20261101_r1",
+    "vector_sha256": {
+      "expected_wave.hex": "884cf63a150b4caf5b1cbc77c7edd0a9ac971cb62cf8413239acf41f0eadae68",
+      "expected_decision.hex": "e3104e121ce90df4baae6b2bf4537d1af24caefbf317aee24e95b404bfbf9268",
+      "deployed_model.json": "3a0c41752b27c3f0c7ad88827224da98300a421e1514e91e8e38f1d1371ddd52"
+    },
+    "parameter_loading": "Direct core parameter interface; UART/CRC separately verified",
+    "sampling": "Ready/valid maximum rate; not a UART throughput measurement",
+    "hardware_io": false
+  }
+}

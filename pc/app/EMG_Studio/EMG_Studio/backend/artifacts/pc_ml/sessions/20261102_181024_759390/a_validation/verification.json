@@ -1,0 +1,16 @@
+{
+  "scope": "heldout",
+  "statistical_common_score_removed": false,
+  "score_scale_shift": 1,
+  "score_scale_divisor": 2,
+  "fusion_gate_q23": 1048576,
+  "statistical_weight_max": 28740,
+  "score_scaling_note": "\u7edf\u8ba1\u5206\u6570\u3001CNN\u8f93\u51fa\u53ca\u878d\u5408\u9608\u503c\u7b49\u6bd4\u7f29\u653e\uff1bA\u56fa\u5b9a\u5de6\u79fb15\u4f4d\u53ca\u53c2\u6570\u4f4d\u5bbd\u4fdd\u6301\u539f\u72b6",
+  "windows": 1031,
+  "pc_float_accuracy": 0.7099903006789525,
+  "a_quantized_accuracy": 0.7119301648884578,
+  "prediction_agreement": 0.979631425800194,
+  "direct_int64_reference": "all four layers passed on first calibration window",
+  "hardware_verified": false,
+  "source_sha256": "cdcfba4ca5fe08b493a20f23213b16fd27f3b10a90e89121ec6d49e7d0568f18"
+}

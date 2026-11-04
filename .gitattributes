@@ -1,0 +1,8 @@
+* -text
+*.py diff
+*.v diff
+*.sv diff
+*.vh diff
+*.md diff
+*.cpp diff
+*.h diff

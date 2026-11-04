@@ -1,0 +1,127 @@
+--- baseline/fpga_b/gesture_tasks/b_tasks_servo.v
++++ command/fpga_b/gesture_tasks/b_tasks_servo.v
+@@ -1,8 +1,8 @@
+ `timescale 1ns/1ps
+ `default_nettype none
+-// One shared half-duplex engine. All STOP/teach completions require readback.
++// Command-driven half-duplex engine. No idle polling; feedback belongs to a command.
+ module b_tasks_servo #(
+- parameter integer POLL_CLKS=24000,TIMEOUT_CLKS=480000,GAP_CLKS=2400,MS_CLKS=24000
++ parameter integer TIMEOUT_CLKS=480000,GAP_CLKS=2400,MS_CLKS=24000
+ )(
+  input wire clk,rst_n,servo_rx,output wire servo_tx,servo_tx_enable,
+  input wire req_valid,output wire req_ready,input wire [2:0] req_op,
+@@ -17,10 +17,10 @@
+  output reg [8:0] pose_valid,output reg [7:0] motion_state,
+  output wire [4:0] active_mask,retired_mask,output reg [31:0] fault_flags
+ );
+- localparam IDLE=0,OFF=1,VERIFY_OFF=2,CAPTURE=3,SAVE=4,GOAL=5,ON=6,TRACK=7,POLL=8,FETCH_POSE=9;
++ localparam IDLE=0,OFF=1,VERIFY_OFF=2,CAPTURE=3,SAVE=4,GOAL=5,ON=6,TRACK=7,FETCH_POSE=9;
+  reg [3:0] state;reg [2:0] lane;reg [15:0] current_id;reg pending,failed,stop_wait;
+  reg [15:0] waiting_stop_id;reg [3:0] pose;reg [49:0] captured;
+- localparam GAP_BITS=$clog2(GAP_CLKS+1),POLL_BITS=$clog2(POLL_CLKS+1);
++ localparam GAP_BITS=$clog2(GAP_CLKS+1);
+  (* ram_style="block" *)reg [49:0] poses[0:8];
+  reg [49:0] pose_read_data,current_pose;
+  wire fetch_pose=req_valid && req_ready && req_op==2;
+@@ -30,7 +30,7 @@
+   if(flash_load_valid && flash_load_group<9)poses[flash_load_group]<=flash_load_positions;
+   else if(save_inflight && flash_save_done && flash_save_ok)poses[flash_save_group]<=flash_save_positions;
+  end
+- reg [GAP_BITS-1:0] gap;reg [POLL_BITS-1:0] poll_age;
++ reg [GAP_BITS-1:0] gap;
+  reg [4:0] arrived;reg [9:0] best[0:4];reg [15:0] progress_stamp[0:4],motion_started,now_ms;
+  wire [15:0] motion_ms=now_ms-motion_started,progress_ms=now_ms-progress_stamp[lane];
+  reg [15:0] feedback_age[0:4];reg [14:0] ms_counter;
+@@ -70,7 +70,7 @@
+  always @(posedge clk or negedge rst_n)begin
+   if(!rst_n)begin
+    state<=OFF;lane<=0;current_id<=0;pending<=0;failed<=0;stop_wait<=0;waiting_stop_id<=0;
+-   pose<=0;captured<=0;current_pose<=0;gap<=0;poll_age<=0;motion_started<=0;now_ms<=0;arrived<=0;
++   pose<=0;captured<=0;current_pose<=0;gap<=0;motion_started<=0;now_ms<=0;arrived<=0;
+    start<=0;inflight<=0;command<=0;target<=0;speed<=20;
+    save_inflight<=0;
+    online<=0;torque<=0;torque_valid_mask<=0;positions<=0;speeds<=0;loads<=0;pose_valid<=0;motion_state<=0;fault_flags<=0;
+@@ -84,7 +84,6 @@
+     ms_counter<=0;now_ms<=now_ms+1'b1;for(i=0;i<5;i=i+1)if(feedback_age[i]!=16'hffff)feedback_age[i]<=feedback_age[i]+1'b1;
+    end else ms_counter<=ms_counter+1'b1;
+    if(gap!=0)gap<=gap-1'b1;
+-   if(poll_age<POLL_CLKS)poll_age<=poll_age+1'b1;
+    if(motion_state==1)begin
+     if(motion_ms>=10000)begin failed<=1;fault_flags[2]<=1;state<=OFF;lane<=0;motion_state<=0;end
+    end
+@@ -98,9 +97,9 @@
+    end
+    if(stop_wait && !event_valid && !inflight && !engine_busy && gap==0)begin
+     stop_wait<=0;pending<=1;current_id<=waiting_stop_id;failed<=0;state<=OFF;lane<=0;motion_state<=0;
+-   end else if( !inflight && !engine_busy && !start && gap==0)begin
++   end else if(!stop_wait && !(req_valid && req_op==3) && !inflight && !engine_busy && !start && gap==0)begin
+     case(state)
+-     IDLE:if(poll_age>=POLL_CLKS)begin state<=POLL;lane<=0;poll_age<=0;end
++     IDLE:begin end
+      OFF:launch(2,0,20);
+      VERIFY_OFF:launch(6,0,20);
+      CAPTURE:launch(1,0,20);
+@@ -108,7 +107,7 @@
+      GOAL:launch(4,goal,20);
+      FETCH_POSE:begin current_pose<=pose_read_data;state<=GOAL;end
+      ON:launch(3,0,20);
+-     TRACK,POLL:launch(1,0,20);
++     TRACK:launch(1,0,20);
+     endcase
+    end
+    if(done && inflight)begin
+@@ -169,7 +168,6 @@
+        else lane<=lane==4?0:lane+1'b1;
+       end
+      end
+-     POLL:if(lane==4)state<=IDLE;else lane<=lane+1'b1;
+     endcase
+    end
+    if(req_valid && req_ready)begin
+--- baseline/fpga_b/gesture_tasks/b_tasks_control.v
++++ command/fpga_b/gesture_tasks/b_tasks_control.v
+@@ -177,10 +177,12 @@
+    if(link_fault || stale || (result_valid && !valid_result) || result_age==FRESH_CLKS-1 ||
+       (result_seen && (generation!=last_generation || epoch!=last_epoch || class_count!=last_class_count)))begin
+     armed<=0;trigger_ready<=0;stable_windows<=0;
+-    if((motion_state==1 || motion_state==2) && !fault_stop_latched && !req_valid && !stop_pending)begin
++    // A classification/link change revokes automatic work only. An explicit
++    // manual replay owns its feedback loop until completion or explicit STOP.
++    if((motion_state==1 || motion_state==2) && !normal_pending && !fault_stop_latched && !req_valid && !stop_pending)begin
+      issue(3,0,16'hfffe);fault_stop_latched<=1;
+     end
+-    if(req_valid && (req_op==2 || req_op==4))fault_stop_needed<=1;
++    if(req_valid && req_id==16'hffff && (req_op==2 || req_op==4))fault_stop_needed<=1;
+    end
+    if(result_valid)begin
+     result_age<=0;result_seen<=valid_result;last_generation<=generation;last_epoch<=epoch;last_class_count<=class_count;
+@@ -211,8 +213,8 @@
+          auto_count<=auto_count+1'b1;
+         end else auto_rejects<=auto_rejects+1'b1;
+        end else if(row[23:16]==1 || row[23:16]==2)begin
+-        if(armed && !teach_mode && !teach_pending && servo_idle && !req_valid && !normal_pending &&
+-           online==31 && (row[23:16]!=1 || pose_valid[row[35:32]]) &&
++        if(armed && !command_valid && !teach_mode && !teach_pending && servo_idle && !req_valid && !normal_pending &&
++           (row[23:16]!=1 || pose_valid[row[35:32]]) &&
+            (row[23:16]!=2 || COLLISION_SUPPORTED))begin
+          issue(row[23:16]==1?2:4,row[47:32],16'hffff);auto_count<=auto_count+1'b1;
+         end else auto_rejects<=auto_rejects+1'b1;
+@@ -330,7 +332,7 @@
+      16'h0301:begin
+       if(data_length!=2)reply(3);
+       else if(!model_matches || arguments[15:0]!=generation || !valid_result || !result_seen ||
+-        stale || result_age>=FRESH_CLKS || online!=31 || !servo_idle || teach_mode || teach_pending)reply(5);
++        stale || result_age>=FRESH_CLKS || !servo_idle || teach_mode || teach_pending)reply(5);
+       else begin armed<=1;trigger_ready<=0;end
+      end
+      16'h0302:if(data_length!=0)reply(3);else begin armed<=0;trigger_ready<=0;end
+@@ -338,7 +340,7 @@
+       if(opcode==16'h0606 && !COLLISION_SUPPORTED)reply(6);
+       else if((opcode==16'h0606 && data_length!=0) || (opcode!=16'h0606 && (data_length!=2 || arguments[15:0]>=9)))reply(3);
+       else if(normal_pending || stop_pending || req_valid || !servo_idle)reply(4);
+-      else if(online!=31 || (opcode==16'h0304 && (!teach_mode || !flash_ready || torque!=0)) ||
++      else if((opcode==16'h0304 && (!teach_mode || !flash_ready || torque!=0)) ||
+        (opcode==16'h0305 && (!pose_valid[arguments[3:0]] || teach_mode)) ||
+        (opcode==16'h0606 && (!armed || teach_mode)))reply(5);
+       else begin normal_pending<=1;normal_id<=request_id;normal_opcode<=opcode;

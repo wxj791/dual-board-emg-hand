@@ -1,0 +1,28 @@
+--- 
+
++++ 
+
+@@ -1,5 +1,5 @@
+
+ // Verilog netlist created by Tang Dynasty v6.2.168116
+-// Mon Nov  2 11:47:00 2026
++// Mon Nov  2 11:48:42 2026
+ 
+ `timescale 1ns / 1ps
+ module b_tasks_top  // all.v(3749)
+@@ -41426,12 +41426,12 @@
+
+     .f({open_n31910,\display_meta[627]_syn_2 }),
+     .q({open_n31914,\control/json_ages [2]}));  // all.v(3502)
+   EG_PHY_MSLICE #(
+-    //.LUT0("(D*~(~C*~(B*~A)))"),
++    //.LUT0("0"),
+     //.LUT1("(~D*~(C*B*A))"),
+     .CEMUX("CE"),
+     .CLKMUX("CLK"),
+     .DFFMODE("FF"),
+-    .INIT_LUT0(16'b1111010000000000),
++    .INIT_LUT0(16'b0000000000000000),
+     .INIT_LUT1(16'b0000000001111111),
+     .MODE("LOGIC"),
+     .REG0_REGSET("RESET"),

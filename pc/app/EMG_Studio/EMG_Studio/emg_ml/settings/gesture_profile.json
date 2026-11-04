@@ -1,0 +1,137 @@
+{
+  "version": 1,
+  "name": "我的动作方案",
+  "classes": [
+    {
+      "id": 0,
+      "key": "rest",
+      "name": "静息",
+      "instruction": "手和前臂自然放松，不要发力。",
+      "image": "rest.png",
+      "reference": "",
+      "output": {
+        "id": 0,
+        "name": "保持 / 停止触发"
+      }
+    },
+    {
+      "id": 1,
+      "key": "one",
+      "name": "数字一",
+      "instruction": "只伸出食指，其余四指握住。",
+      "image": "ninapro/one.png",
+      "reference": "B7",
+      "output": {
+        "id": 7,
+        "name": "数字一手形"
+      },
+      "response": {
+        "kind": 1,
+        "enabled": true,
+        "argument": 2
+      }
+    },
+    {
+      "id": 2,
+      "key": "radial_deviation",
+      "name": "向拇指侧偏腕",
+      "instruction": "前臂不动，手腕向拇指一侧偏，不要翻转手掌。",
+      "image": "ninapro/radial_deviation.png",
+      "reference": "B15",
+      "output": {
+        "id": 3,
+        "name": "两指捏取"
+      },
+      "response": {
+        "kind": 1,
+        "enabled": true,
+        "argument": 0
+      }
+    },
+    {
+      "id": 3,
+      "key": "fist",
+      "name": "握拳",
+      "instruction": "五指握拳，中等力度，保持每次发力一致。",
+      "image": "ninapro/fist.png",
+      "reference": "B6",
+      "output": {
+        "id": 1,
+        "name": "握拳抓握"
+      },
+      "response": {
+        "kind": 1,
+        "enabled": true,
+        "argument": 1
+      }
+    },
+    {
+      "id": 4,
+      "key": "open",
+      "name": "张开手掌",
+      "instruction": "五指自然伸直张开，保持稳定。",
+      "image": "ninapro/open.png",
+      "reference": "B5",
+      "output": {
+        "id": 2,
+        "name": "五指张开"
+      },
+      "response": {
+        "kind": 5,
+        "enabled": true,
+        "argument": 0
+      }
+    },
+    {
+      "id": 5,
+      "key": "wrist_flexion",
+      "name": "掌屈",
+      "instruction": "前臂保持不动，手掌向前臂掌侧弯曲，手指自然放松。",
+      "image": "ninapro/wrist_flexion.png",
+      "reference": "B13",
+      "output": {
+        "id": 3,
+        "name": "两指捏取"
+      },
+      "response": {
+        "kind": 6,
+        "enabled": true,
+        "argument": 0
+      }
+    },
+    {
+      "id": 6,
+      "key": "scissors",
+      "name": "剪刀手",
+      "instruction": "食指和中指伸出成V字，其余手指握住。",
+      "image": "scissors.png",
+      "reference": "",
+      "output": {
+        "id": 6,
+        "name": "剪刀手形"
+      },
+      "response": {
+        "kind": 3,
+        "enabled": true,
+        "argument": 0
+      }
+    },
+    {
+      "id": 7,
+      "key": "thumbs_up",
+      "name": "点赞",
+      "instruction": "大拇指竖起，其余四指握住。",
+      "image": "ninapro/thumbs_up.png",
+      "reference": "B1",
+      "output": {
+        "id": 5,
+        "name": "点赞手形"
+      },
+      "response": {
+        "kind": 4,
+        "enabled": true,
+        "argument": 0
+      }
+    }
+  ]
+}

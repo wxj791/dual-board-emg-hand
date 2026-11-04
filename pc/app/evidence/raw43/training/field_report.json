@@ -1,0 +1,511 @@
+{
+  "recording": "E:\\FPGA\\Projects\\emg_hand_fpga\\artifacts\\pc_gesture_tasks\\raw43_20261101_081025_196597\\synthetic_raw43_recording.npz",
+  "preset": "cnn_fusion_clean256_v1",
+  "model_title": "统计＋时序CNN融合",
+  "class_names": [
+    "rest",
+    "synthetic_action"
+  ],
+  "recipe": {
+    "architecture": "sequential256",
+    "epochs": 12,
+    "seed": 17,
+    "alpha": 0.5,
+    "gate": 0.25,
+    "learning_rate": 0.002,
+    "weight_decay": 0.003,
+    "batch_size": 128,
+    "gain_sigma": 0.08,
+    "auxiliary_weight": 0.5
+  },
+  "parameters": {
+    "format": "EMG-CNN-FUSION-PC-1",
+    "sha256": "889c2b99eb034df10da4082be3d7a592465a2380a09b67554c7e1d33fb28d50e",
+    "payload_bytes": 23729,
+    "parameter_bytes": 23729,
+    "class_names": [
+      "rest",
+      "synthetic_action"
+    ],
+    "gesture_profile": {
+      "version": 1,
+      "name": "SYNTHETIC PC-SCHEDULED RAW43",
+      "classes": [
+        {
+          "id": 0,
+          "key": "rest",
+          "name": "rest",
+          "instruction": "offline generated sample",
+          "image": "custom.png",
+          "output": {
+            "id": 0,
+            "name": "hold"
+          }
+        },
+        {
+          "id": 1,
+          "key": "custom",
+          "name": "synthetic_action",
+          "instruction": "offline generated sample",
+          "image": "custom.png",
+          "output": {
+            "id": 0,
+            "name": "hold"
+          }
+        }
+      ]
+    },
+    "action_mapping": [
+      {
+        "id": 0,
+        "name": "hold"
+      },
+      {
+        "id": 0,
+        "name": "hold"
+      }
+    ],
+    "frontend": {
+      "name": "clean"
+    },
+    "cnn_correction_active": true,
+    "metadata": {
+      "path": "E:\\FPGA\\Projects\\emg_hand_fpga\\artifacts\\pc_gesture_tasks\\raw43_20261101_081025_196597\\synthetic_raw43_recording.npz",
+      "sha256": "da86c0b60c31e7650f4d4c70eb4371103e416705c5b10c6742492d4a9ad30070",
+      "class_names": [
+        "rest",
+        "synthetic_action"
+      ],
+      "gesture_profile": {
+        "version": 1,
+        "name": "SYNTHETIC PC-SCHEDULED RAW43",
+        "classes": [
+          {
+            "id": 0,
+            "key": "rest",
+            "name": "rest",
+            "instruction": "offline generated sample",
+            "image": "custom.png",
+            "output": {
+              "id": 0,
+              "name": "hold"
+            }
+          },
+          {
+            "id": 1,
+            "key": "custom",
+            "name": "synthetic_action",
+            "instruction": "offline generated sample",
+            "image": "custom.png",
+            "output": {
+              "id": 0,
+              "name": "hold"
+            }
+          }
+        ]
+      },
+      "segments": [
+        {
+          "group": 0,
+          "label": 0,
+          "repetition": 0,
+          "split": 0,
+          "chunks": [
+            {
+              "start": 0,
+              "stop": 1920,
+              "label": 0,
+              "repetition": 0,
+              "split": 0
+            }
+          ]
+        },
+        {
+          "group": 1,
+          "label": 1,
+          "repetition": 0,
+          "split": 0,
+          "chunks": [
+            {
+              "start": 1920,
+              "stop": 3840,
+              "label": 1,
+              "repetition": 0,
+              "split": 0
+            }
+          ]
+        },
+        {
+          "group": 2,
+          "label": 0,
+          "repetition": 1,
+          "split": 1,
+          "chunks": [
+            {
+              "start": 3840,
+              "stop": 5760,
+              "label": 0,
+              "repetition": 1,
+              "split": 1
+            }
+          ]
+        },
+        {
+          "group": 3,
+          "label": 1,
+          "repetition": 1,
+          "split": 1,
+          "chunks": [
+            {
+              "start": 5760,
+              "stop": 7680,
+              "label": 1,
+              "repetition": 1,
+              "split": 1
+            }
+          ]
+        },
+        {
+          "group": 4,
+          "label": 0,
+          "repetition": 2,
+          "split": 2,
+          "chunks": [
+            {
+              "start": 7680,
+              "stop": 9600,
+              "label": 0,
+              "repetition": 2,
+              "split": 2
+            }
+          ]
+        },
+        {
+          "group": 5,
+          "label": 1,
+          "repetition": 2,
+          "split": 2,
+          "chunks": [
+            {
+              "start": 9600,
+              "stop": 11520,
+              "label": 1,
+              "repetition": 2,
+              "split": 2
+            }
+          ]
+        }
+      ],
+      "repetitions": [
+        3,
+        3
+      ],
+      "continuous_filter_and_envelope": true,
+      "no_label_state_resets": true,
+      "capture_edges": [
+        0,
+        11520
+      ],
+      "original_class_names": [
+        "rest",
+        "synthetic_action"
+      ],
+      "removed_original_ids": [],
+      "retained_original_ids": [
+        0,
+        1
+      ],
+      "grouping": "label_bout_across_timestamp_gaps",
+      "removed_gesture_rejection_validated": false,
+      "trained_all_bouts": true,
+      "runtime": "cnn_fusion_clean256_v1",
+      "model_title": "统计＋时序CNN融合",
+      "window": 256,
+      "stride": 32,
+      "guard": 320,
+      "feature_dimensions": 304,
+      "filter_coefficients_q14": [
+        [
+          14991,
+          -29982,
+          14991,
+          -29863,
+          13716
+        ],
+        [
+          16172,
+          -30762,
+          16172,
+          -30762,
+          15961
+        ],
+        [
+          15966,
+          -25833,
+          15966,
+          -25833,
+          15548
+        ],
+        [
+          15765,
+          -18532,
+          15765,
+          -18532,
+          15145
+        ],
+        [
+          15568,
+          -9622,
+          15568,
+          -9622,
+          14752
+        ],
+        [
+          13117,
+          26234,
+          13117,
+          25576,
+          10508
+        ],
+        [
+          2993,
+          0,
+          -2993,
+          -25820,
+          10398
+        ],
+        [
+          4337,
+          0,
+          -4337,
+          -15695,
+          7710
+        ],
+        [
+          8192,
+          0,
+          -8192,
+          10519,
+          0
+        ]
+      ],
+      "decision_policy": "raw_rest_else_ewma_shift2",
+      "recipe": {
+        "architecture": "sequential256",
+        "epochs": 12,
+        "seed": 17,
+        "alpha": 0.5,
+        "gate": 0.25,
+        "learning_rate": 0.002,
+        "weight_decay": 0.003,
+        "batch_size": 128,
+        "gain_sigma": 0.08,
+        "auxiliary_weight": 0.5
+      },
+      "inference_backend": "PC_float_CNN_integer_statistics",
+      "fpga_deployed": false
+    },
+    "linear_fraction": 29,
+    "linear_bound": 37165358622,
+    "architecture": "sequential256",
+    "alpha": 0.5,
+    "gate": 0.25,
+    "tensor_shapes": {
+      "cnn.blocks.0.0.weight": [
+        16,
+        8,
+        5
+      ],
+      "cnn.blocks.0.1.weight": [
+        16
+      ],
+      "cnn.blocks.0.1.bias": [
+        16
+      ],
+      "cnn.blocks.0.1.running_mean": [
+        16
+      ],
+      "cnn.blocks.0.1.running_var": [
+        16
+      ],
+      "cnn.blocks.0.1.num_batches_tracked": [],
+      "cnn.blocks.2.0.weight": [
+        24,
+        16,
+        3
+      ],
+      "cnn.blocks.2.1.weight": [
+        24
+      ],
+      "cnn.blocks.2.1.bias": [
+        24
+      ],
+      "cnn.blocks.2.1.running_mean": [
+        24
+      ],
+      "cnn.blocks.2.1.running_var": [
+        24
+      ],
+      "cnn.blocks.2.1.num_batches_tracked": [],
+      "cnn.blocks.4.0.weight": [
+        32,
+        24,
+        3
+      ],
+      "cnn.blocks.4.1.weight": [
+        32
+      ],
+      "cnn.blocks.4.1.bias": [
+        32
+      ],
+      "cnn.blocks.4.1.running_mean": [
+        32
+      ],
+      "cnn.blocks.4.1.running_var": [
+        32
+      ],
+      "cnn.blocks.4.1.num_batches_tracked": [],
+      "cnn.fc.weight": [
+        2,
+        32
+      ],
+      "cnn.fc.bias": [
+        2
+      ],
+      "offset": [
+        304
+      ],
+      "weights": [
+        2,
+        304
+      ],
+      "bias": [
+        2
+      ],
+      "classes": [
+        2
+      ],
+      "wave_shifts": [
+        8
+      ]
+    }
+  },
+  "evaluation": {
+    "test": {
+      "cnn_float_raw": {
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "recall": [
+          1.0,
+          1.0
+        ],
+        "rest_false_activation": 0.0,
+        "confusion": [
+          [
+            43,
+            0
+          ],
+          [
+            0,
+            43
+          ]
+        ],
+        "windows": 86
+      },
+      "stable": {
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "recall": [
+          1.0,
+          1.0
+        ],
+        "rest_false_activation": 0.0,
+        "confusion": [
+          [
+            43,
+            0
+          ],
+          [
+            0,
+            43
+          ]
+        ],
+        "windows": 86
+      },
+      "statistics_stable": {
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "recall": [
+          1.0,
+          1.0
+        ],
+        "rest_false_activation": 0.0,
+        "confusion": [
+          [
+            43,
+            0
+          ],
+          [
+            0,
+            43
+          ]
+        ],
+        "windows": 86
+      }
+    }
+  },
+  "calibration_fit": {
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "recall": [
+      1.0,
+      1.0
+    ],
+    "rest_false_activation": 0.0,
+    "confusion": [
+      [
+        129,
+        0
+      ],
+      [
+        0,
+        129
+      ]
+    ],
+    "windows": 258
+  },
+  "final_trained_all_bouts": true,
+  "a_deployment": {
+    "heldout": {
+      "scope": "heldout",
+      "windows": 86,
+      "pc_float_accuracy": 1.0,
+      "a_quantized_accuracy": 1.0,
+      "prediction_agreement": 1.0,
+      "direct_int64_reference": "all four layers passed on first calibration window",
+      "hardware_verified": false,
+      "source_sha256": "d794650b9bf34e7a95099a14e0cd72eb8e59d985ce70e53d91b2e377543ca300"
+    },
+    "final": {
+      "scope": "all_bout_model_self_check",
+      "windows": 86,
+      "pc_float_accuracy": 1.0,
+      "a_quantized_accuracy": 1.0,
+      "prediction_agreement": 1.0,
+      "direct_int64_reference": "all four layers passed on first calibration window",
+      "hardware_verified": false,
+      "source_sha256": "889c2b99eb034df10da4082be3d7a592465a2380a09b67554c7e1d33fb28d50e"
+    }
+  },
+  "prospective_online_acceptance": false,
+  "timing_seconds": 3.0050314999825787,
+  "acceptance": {
+    "passed_offline": true,
+    "weak_classes": []
+  },
+  "limitations": [
+    "固定配方来自已研究记录，留出成绩是开发证据。",
+    "export使用全数据，不能把训练自检当实时精度。",
+    "电脑浮点CNN试用，尚未部署FPGA。"
+  ]
+}

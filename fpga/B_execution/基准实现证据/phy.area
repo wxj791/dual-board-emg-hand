@@ -1,0 +1,153 @@
+standard
+***Report Model: b_tasks_top Device: EG4S20BG256***
+
+IO Statistics
+#IO                        54   out of    188   28.72%
+  #input                   16
+  #output                  38
+  #inout                    0
+
+Utilization Statistics
+#lut                    12297   out of  19600   62.74%
+#reg                    11236   out of  19600   57.33%
+#le                     13928
+  #lut only              2692   out of  13928   19.33%
+  #reg only              1631   out of  13928   11.71%
+  #lut&reg               9605   out of  13928   68.96%
+#bram                      41   out of     64   64.06%
+  #bram9k                  41
+  #fifo9k                   0
+#bram32k                   16   out of     16  100.00%
+#dsp                       14   out of     29   48.28%
+#pad                       54   out of    188   28.72%
+  #ireg                    10
+  #oreg                    31
+  #treg                     0
+#pll                        1   out of      4   25.00%
+#gclk                       2   out of     16   12.50%
+
+
+Detailed IO Report
+
+       Name          Direction    Location    IOStandard    IOType    DriveStrength    PullType    PackReg  
+      clk_24m          INPUT        K14        LVCMOS33      PAD           N/A           NONE       NONE    
+    display_sw         INPUT        R15        LVCMOS33      PAD           N/A           NONE       NONE    
+    flash_miso         INPUT        P10        LVCMOS33      PAD           N/A          PULLUP      IREG    
+   host_uart_rx        INPUT        F16        LVCMOS33      PAD           N/A          PULLUP      NONE    
+     link_clk          INPUT        B10        LVCMOS33      PAD           N/A           NONE       NONE    
+   link_data[7]        INPUT         C7        LVCMOS33      PAD           N/A           NONE       IREG    
+   link_data[6]        INPUT         C6        LVCMOS33      PAD           N/A           NONE       IREG    
+   link_data[5]        INPUT         C5        LVCMOS33      PAD           N/A           NONE       IREG    
+   link_data[4]        INPUT         B6        LVCMOS33      PAD           N/A           NONE       IREG    
+   link_data[3]        INPUT         C8        LVCMOS33      PAD           N/A           NONE       IREG    
+   link_data[2]        INPUT         B8        LVCMOS33      PAD           N/A           NONE       IREG    
+   link_data[1]        INPUT        A14        LVCMOS33      PAD           N/A           NONE       IREG    
+   link_data[0]        INPUT        B14        LVCMOS33      PAD           N/A           NONE       IREG    
+    link_valid         INPUT         C9        LVCMOS33      PAD           N/A           NONE       NONE    
+       rst_n           INPUT        G11        LVCMOS33      PAD           N/A          PULLUP      NONE    
+      scs_rx           INPUT        B15        LVCMOS33      PAD           N/A           NONE       IREG    
+    b_return_tx       OUTPUT        A11        LVCMOS33      PAD            8            NONE       OREG    
+     flash_clk        OUTPUT        R11        LVCMOS33      PAD            8            NONE       OREG    
+    flash_cs_n        OUTPUT         T3        LVCMOS33      PAD            8            NONE       OREG    
+    flash_mosi        OUTPUT        T10        LVCMOS33      PAD            8            NONE       OREG    
+   host_uart_tx       OUTPUT        E16        LVCMOS33      PAD            8            NONE       OREG    
+    link_ready        OUTPUT        B16        LVCMOS33      PAD            8            NONE       NONE    
+      scs_tx          OUTPUT        C11        LVCMOS33      PAD            8            NONE       NONE    
+  status_led_n[3]     OUTPUT         N4        LVCMOS33      PAD            8            NONE       NONE    
+  status_led_n[2]     OUTPUT         N3        LVCMOS33      PAD            8            NONE       NONE    
+  status_led_n[1]     OUTPUT         M4        LVCMOS33      PAD            8            NONE       NONE    
+  status_led_n[0]     OUTPUT         M3        LVCMOS33      PAD            8            NONE       NONE    
+     vga_b[7]         OUTPUT         C1        LVCMOS33      PAD            8            NONE       OREG    
+     vga_b[6]         OUTPUT         D1        LVCMOS33      PAD            8            NONE       OREG    
+     vga_b[5]         OUTPUT         E2        LVCMOS33      PAD            8            NONE       OREG    
+     vga_b[4]         OUTPUT         G3        LVCMOS33      PAD            8            NONE       OREG    
+     vga_b[3]         OUTPUT         E1        LVCMOS33      PAD            8            NONE       OREG    
+     vga_b[2]         OUTPUT         F2        LVCMOS33      PAD            8            NONE       OREG    
+     vga_b[1]         OUTPUT         F1        LVCMOS33      PAD            8            NONE       OREG    
+     vga_b[0]         OUTPUT         G1        LVCMOS33      PAD            8            NONE       OREG    
+      vga_clk         OUTPUT         H2        LVCMOS33      PAD            8            NONE       NONE    
+     vga_g[7]         OUTPUT         H5        LVCMOS33      PAD            8            NONE       OREG    
+     vga_g[6]         OUTPUT         H1        LVCMOS33      PAD            8            NONE       OREG    
+     vga_g[5]         OUTPUT         J6        LVCMOS33      PAD            8            NONE       OREG    
+     vga_g[4]         OUTPUT         H3        LVCMOS33      PAD            8            NONE       OREG    
+     vga_g[3]         OUTPUT         J1        LVCMOS33      PAD            8            NONE       OREG    
+     vga_g[2]         OUTPUT         K1        LVCMOS33      PAD            8            NONE       OREG    
+     vga_g[1]         OUTPUT         K2        LVCMOS33      PAD            8            NONE       OREG    
+     vga_g[0]         OUTPUT         L1        LVCMOS33      PAD            8            NONE       OREG    
+      vga_hs          OUTPUT         J3        LVCMOS33      PAD            8            NONE       OREG    
+     vga_r[7]         OUTPUT         K6        LVCMOS33      PAD            8            NONE       OREG    
+     vga_r[6]         OUTPUT         K3        LVCMOS33      PAD            8            NONE       OREG    
+     vga_r[5]         OUTPUT         K5        LVCMOS33      PAD            8            NONE       OREG    
+     vga_r[4]         OUTPUT         L4        LVCMOS33      PAD            8            NONE       OREG    
+     vga_r[3]         OUTPUT         M1        LVCMOS33      PAD            8            NONE       OREG    
+     vga_r[2]         OUTPUT         M2        LVCMOS33      PAD            8            NONE       OREG    
+     vga_r[1]         OUTPUT         L3        LVCMOS33      PAD            8            NONE       OREG    
+     vga_r[0]         OUTPUT         L5        LVCMOS33      PAD            8            NONE       OREG    
+      vga_vs          OUTPUT         J4        LVCMOS33      PAD            8            NONE       OREG    
+
+Report Clock Domain Luts:
+
+---------------------------------------------------------------------------------------------------------------
+  Index   |  Name      |  Frequency   |  LUT As Logic   |  LUT As Shifter   |  LUT As Dram   |  BRAM   |  DSP
+---------------------------------------------------------------------------------------------------------------
+  #1      |  clk_24m   |  24MHz       |  4846           |  0                |  104           |  16     |  4
+  #2      |  clk_pix   |  148MHz      |  1159           |  0                |  24            |  50     |  10
+  #3      |  link_clk  |  6MHz        |  10             |  0                |  0             |  0      |  0
+---------------------------------------------------------------------------------------------------------------
+
+Clock Resource Statistics
+Index     ClockNet           Type               DriverType         Driver               Fanout
+#1        clk_24m_dup_1      Global             io                 clk_24m_syn_2.di     4209
+#2        u_pll/clocks[0]    Global             pll                u_pll/pll.clkc0      2239
+#3        link_clk_dup_1     Global             io                 link_clk_syn_2.di    25
+#4        u_pll/clocks[1]    Global             pll                u_pll/pll.clkc1      0
+
+Report Hierarchy Area:
++---------------------------------------------------------------------------------------------+
+|Instance            |Module            |le      |lut     |ripple  |seq     |bram    |dsp     |
++---------------------------------------------------------------------------------------------+
+|top                 |b_tasks_top       |13928   |11559   |738     |11277   |57      |14      |
+|  a_decode          |b_v2_decode       |1722    |590     |21      |1679    |0       |0       |
+|  control           |b_tasks_control   |2683    |2657    |26      |1864    |2       |0       |
+|  ctrl_sync         |pcs_reset         |6       |6       |0       |2       |0       |0       |
+|  flash_store       |teach_flash_store |809     |790     |19      |537     |0       |0       |
+|    byte_engine     |spi_flash_byte    |73      |73      |0       |42      |0       |0       |
+|  meta_mailbox      |b_v2_mailbox      |669     |534     |0       |664     |0       |0       |
+|  pc                |b_v2_pc           |734     |666     |68      |431     |1       |0       |
+|    tx              |uart_tx_byte      |60      |51      |9       |32      |0       |0       |
+|  receiver          |link_rx_wrapper   |666     |560     |106     |413     |1       |0       |
+|    byte_fifo       |link_async_fifo   |52      |52      |0       |46      |0       |0       |
+|    frame_rx        |link_frame_rx     |491     |403     |88      |294     |1       |0       |
+|    rx_reset_sync   |reset_sync_n      |2       |2       |0       |2       |0       |0       |
+|  renderer          |b_v2_renderer     |3635    |3240    |194     |3229    |41      |10      |
+|    font            |pcs_font_row      |0       |0       |0       |0       |1       |0       |
+|    native_trace    |pcs_native_trace  |1345    |1220    |122     |1125    |27      |10      |
+|    sprite          |b_v2_whale_sprite |121     |120     |0       |121     |12      |0       |
+|    timing          |vga_timing        |128     |98      |30      |73      |0       |0       |
+|    whale_player    |b_v2_whale_player |14      |14      |0       |12      |0       |0       |
+|  sample_fifo       |link_async_fifo   |41      |41      |0       |38      |9       |0       |
+|  scale             |b_tasks_scale     |976     |913     |62      |847     |0       |4       |
+|  servo_controller  |b_tasks_servo     |1455    |1284    |170     |1119    |3       |0       |
+|    engine          |b_tasks_engine    |409     |360     |48      |312     |0       |0       |
+|      servo_uart_rx |uart_rx_byte      |62      |52      |9       |36      |0       |0       |
+|      servo_uart_tx |uart_tx_byte      |57      |48      |9       |40      |0       |0       |
+|  sw                |b_tasks_switch    |45      |33      |11      |25      |0       |0       |
+|  u_pll             |vga_pll_25m2      |1       |1       |0       |0       |0       |0       |
+|  fifo_sync         |pcs_reset         |2       |0       |0       |2       |0       |0       |
+|  pix_sync          |pcs_reset         |2       |0       |0       |2       |0       |0       |
++---------------------------------------------------------------------------------------------+
+
+
+DataNet Average Fanout:
+
+   Index     Fanout     Nets   
+    #1          1       13611  
+    #2          2       3744   
+    #3          3       1626   
+    #4          4        669   
+    #5        5-10      1541   
+    #6        11-50      606   
+    #7       51-100      73    
+    #8       101-500      8    
+    #9        >500        2    
+  Average     2.78             

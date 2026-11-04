@@ -1,0 +1,1151 @@
+{
+  "schema": 1,
+  "created": "2026-11-01T18:07:02.494047",
+  "files": [
+    {
+      "path": "docs/PC_GESTURE_TASKS_A_READONLY_MATERIALS_20261101.md",
+      "bytes": 5209,
+      "sha256": "8dc7f1780868e4c18aa495c51d7c82cbc11ae270f9618f798c30252ef2bb442b"
+    },
+    {
+      "path": "docs/PC_GESTURE_TASKS_B_SYNC_FIX_20261101.md",
+      "bytes": 2854,
+      "sha256": "49cfc4bb4109e248c8a2a39f67b22c613e7e6f9ce696326746f1e41ab9ef8ccb"
+    },
+    {
+      "path": "docs/PC_GESTURE_TASKS_CUSTOMER_UI_20261101.md",
+      "bytes": 7204,
+      "sha256": "936f82c7f4061d18db61870ef0af035fa6293ddbc6c3d4662c92e695e6a3d8b1"
+    },
+    {
+      "path": "docs/PC_GESTURE_TASKS_INTERFACE_DIFF_20261031.md",
+      "bytes": 3546,
+      "sha256": "e4d8b3c9abff5c247685f519bb057218acebd3f92b4be76f6196df683ad53f7d"
+    },
+    {
+      "path": "docs/PC_GESTURE_TASKS_MODEL_CHECK_FIX_20261101.md",
+      "bytes": 3452,
+      "sha256": "43b0557c7de1c45cb4f9fa0f751d0c946be9c4c02943adf62476153e359edffa"
+    },
+    {
+      "path": "docs/PC_GESTURE_TASKS_QUICKSTART_20261031.md",
+      "bytes": 4457,
+      "sha256": "eab844f7feaed9a50300cac7454f41748442fe349962e7ff1f92942d9756ae4a"
+    },
+    {
+      "path": "docs/PC_GESTURE_TASKS_RAW43_20261101.md",
+      "bytes": 5029,
+      "sha256": "e037708e1c6686a3f9e7fc44a0f5f2663c76485a1a1fa0b6aa1c3dabcedcf384"
+    },
+    {
+      "path": "docs/PC_GESTURE_TASKS_RECOGNITION_SOURCE_20261101.md",
+      "bytes": 2882,
+      "sha256": "6c20572449f71f5db0effe04c3f10ae5abd0d437c91c47522aec06d2bf61ef89"
+    },
+    {
+      "path": "docs/PC_GESTURE_TASKS_STATUS_20261031.md",
+      "bytes": 4662,
+      "sha256": "d8b50119d710f4f1bad3597a762212adb2f3d3ba9b945829e8e47ac7c1638470"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/cnn_fusion_pc_trial_20261029/a_deployment/a_model.json",
+      "bytes": 59396,
+      "sha256": "0ad71b63c8bcd69e0ba33f29b97c2ebde86cadcaff90bee240e905863c6bfe56"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/cnn_fusion_pc_trial_20261029/a_deployment/verification.json",
+      "bytes": 451,
+      "sha256": "793cad0368bba1c231e4687d358d92801fb331508aa3f56254cde52ee369c7b3"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/cnn_fusion_pc_trial_20261029/a_readonly_identities.json",
+      "bytes": 2253,
+      "sha256": "5fbe495e4ab3c2956986ad3ba84e1cd994e23e6385cb3f2d4b9080c2c0f179f4"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/cnn_fusion_pc_trial_20261029/export/manifest.json",
+      "bytes": 27478,
+      "sha256": "3f352b876ebd92519012820431a9c4380b6d87e6a44e6605ce7a3e52857dcc00"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/cnn_fusion_pc_trial_20261029/export/parameters.bin",
+      "bytes": 27178,
+      "sha256": "3397d11e9f9b7e416e82ce66852f67fd66575d856b80d0a683e3287060a3a333"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/cnn_fusion_pc_trial_20261029/materials_verification.json",
+      "bytes": 1077,
+      "sha256": "39bc69f0da614ecd9532997cb1f060471af2ebd739ca3c21d95e291179a26571"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/cnn_fusion_pc_trial_20261029/prepared.npz",
+      "bytes": 4250001,
+      "sha256": "539d0cc93960e5c4dfc1b169657985279279e60a24d7cf59808145043b3928b9"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/recovered_model/a_deployment/a_model.json",
+      "bytes": 58666,
+      "sha256": "405eb9d95eb6cc5ef4114052d4644f1003af784012063dcc724f3223807f62ac"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/recovered_model/a_deployment/verification.json",
+      "bytes": 407,
+      "sha256": "9f3e401b99fb559c4e2a57d75107683901ab5e7a9204a20056df27c59b1262a1"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/recovered_model/a_validation/a_model.json",
+      "bytes": 58760,
+      "sha256": "65027901bb4a85c2c1b5d35f26a2c16c4d9295757bae60f198ef032359e55091"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/recovered_model/a_validation/verification.json",
+      "bytes": 434,
+      "sha256": "c41f71b81912bf46116e434174c8b55d18bae59a05b7d19a3d521bd7058b5575"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/recovered_model/data.json",
+      "bytes": 13847,
+      "sha256": "a100ab6b23d69dc41cfd7ebe000841054dad800bc0a7b44aab7e5e7cf7cc8b40"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/recovered_model/export/manifest.json",
+      "bytes": 21491,
+      "sha256": "d03547b41fa911a51ae4413b2f0f5540be1bd2d467b50fff1ce4c18b50aecd2b"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/recovered_model/export/parameters.bin",
+      "bytes": 27202,
+      "sha256": "9e9fbf319ed2bf12e07b8653f4983846d8edd35dc15ae7d6be3404316b69f921"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/recovered_model/field_report.json",
+      "bytes": 30876,
+      "sha256": "c7afddf815c6b5d16780daf6c538464a2dec0b99ffd16db17ff71b32631dd99f"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/recovered_model/prepared.npz",
+      "bytes": 3667785,
+      "sha256": "3ef2d3fa6c4223f53974b9055add06f463df899511c66a1742321dcccae9b047"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/recovered_model/validation_export/manifest.json",
+      "bytes": 21492,
+      "sha256": "8e828274f5a363c9b51220bdb83bccf1ff6e609dd43a89915dfaa21f7adad719"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/recovered_model/validation_export/parameters.bin",
+      "bytes": 27017,
+      "sha256": "c1e48b40084d75aae3ba175d3b1529e00c580d891f6617f14297a53761ff58bf"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/backend/pc_ml/__init__.py",
+      "bytes": 54,
+      "sha256": "6bfccd7d0a795f55f48c993b516edebbbf18d8b749feb5c8afdb62e0dcee7c38"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/backend/pc_ml/audit.py",
+      "bytes": 3063,
+      "sha256": "0cfb7de910b7caadecf36ea96466283da57d0001a516234c988b07667b1fcaa6"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/backend/pc_ml/calibration_logistic.py",
+      "bytes": 4755,
+      "sha256": "43ee924d0a870d8a27e3ab3e18a704de4f9b2490267e6b0b39ba9bddcacae33b"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/backend/pc_ml/cnn_fusion.py",
+      "bytes": 8193,
+      "sha256": "327d271a2092e9b01c94d207941fe6d5ae891c0f9814d6299edd1559779381ec"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/backend/pc_ml/cnn_fusion_field.py",
+      "bytes": 9657,
+      "sha256": "fae050b24d4271a3c6c345fb68807193ba65080248536df5d18cfd8562bb99b9"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/backend/pc_ml/cnn_variants.py",
+      "bytes": 7488,
+      "sha256": "d02e52838a37100871f885557d11fc370f9813d7406a95691b5c9af4baa82424"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/backend/pc_ml/data.py",
+      "bytes": 13093,
+      "sha256": "da301c9162bfbfa393b73326a652670923edee64cf8211554b3b4d892f2c5a5c"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/backend/pc_ml/failure_audit.py",
+      "bytes": 3700,
+      "sha256": "002cb0102128fe3bd241d883116107ea400e206501cfc3dd3817576886b5149a"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/backend/pc_ml/fast_field.py",
+      "bytes": 11633,
+      "sha256": "7c4ac51b07a71ab51f9c1a8272dd2b0b1d8e59ea8dd48f6c32059e193fdc671d"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/backend/pc_ml/field.py",
+      "bytes": 7225,
+      "sha256": "29c6e8a02ef60977d422efabe9e26b48e1c4b45cd169818548aab67980e995f5"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/backend/pc_ml/field_gui.py",
+      "bytes": 16179,
+      "sha256": "4ba2efcbdf0c32b32dcd0af78ac0da14c7c46b34630e179cf355b832aee88b7e"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/backend/pc_ml/fixed_linear.py",
+      "bytes": 3485,
+      "sha256": "7858795eee397c081b796a845d4ee6df7180cb8fabf97cd0d25476656e14e366"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/backend/pc_ml/fixed_rbf.py",
+      "bytes": 6893,
+      "sha256": "05ad2b5e2db4b2fd5d711e28fdd0812f4e3ec8d38b30ea372eaa0f0e61e87096"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/backend/pc_ml/fixed_tree.py",
+      "bytes": 8419,
+      "sha256": "1b0ad5ce37214eaf55b23f11a7ff620b1055411725b8b65341fd676f9e73db4c"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/backend/pc_ml/frontend.py",
+      "bytes": 3166,
+      "sha256": "dd74820b52b486cbe3a1b92b28855e1e09da280a6db5db65fc5dfc8915ba5b23"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/backend/pc_ml/fusion.py",
+      "bytes": 10149,
+      "sha256": "013fc32bcee06e0595ac3bd6a9bc6cd482bd009e0cec90a949cb5a4bbd0154af"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/backend/pc_ml/fusion_field.py",
+      "bytes": 8344,
+      "sha256": "cce726f29ce55d74c8665a604819bfd52edd6e67e4af26310a5dc8e295603b71"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/backend/pc_ml/gesture_tasks_export.py",
+      "bytes": 9789,
+      "sha256": "3b93144cdca5c5dec96231de198a858c0c76f22e44530d32979f21f738e243ea"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/backend/pc_ml/gesture_tasks_recording.py",
+      "bytes": 3024,
+      "sha256": "a092901ec8360bf13f3c95bf3827bc5014de49812bde26912f3669b417952b6b"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/backend/pc_ml/hybrid.py",
+      "bytes": 7766,
+      "sha256": "442c556565dfe371a2b62797d842594dae308044a401ece7244550511dd56056"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/backend/pc_ml/models.py",
+      "bytes": 3126,
+      "sha256": "f6163bb17f0aeeeb963bacfc7935f9cc631ced1d9922175c1ec773ef77baafc6"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/backend/pc_ml/package_api.py",
+      "bytes": 1566,
+      "sha256": "7bdcce414c6a32af0ae80edcc0835e7f7c4fc2a5931cdae1366e63facd3dc966"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/backend/pc_ml/parallel_envelope.py",
+      "bytes": 3223,
+      "sha256": "a4e0a7003ffc001a794840f2aa82870d7e94081d8d50743029a250bb09c468a7"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/backend/pc_ml/parameter_store.py",
+      "bytes": 7271,
+      "sha256": "05d4201eb5aa9091ba10c983035121203e70c2a71198c1f176e9e36d918d6350"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/backend/pc_ml/prototype_study.py",
+      "bytes": 2911,
+      "sha256": "571e4b08ea13acd90e8c1e0075850f872cc72e51e39bbb25b2ec194a83d0788b"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/backend/pc_ml/purged_calibration.py",
+      "bytes": 3029,
+      "sha256": "1c994270cde1913d7ddb9644408698d63d34f9a8a7f6ecd013f15043e10956e6"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/backend/pc_ml/quantize.py",
+      "bytes": 14390,
+      "sha256": "81a45b05bf5625ab846c043c165b765677cc2c9b61b48e457707423f954bf230"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/backend/pc_ml/refine.py",
+      "bytes": 10444,
+      "sha256": "e0e4999dd0dcbfbe417b9b6faa409a8ae9033109360e40fde9285aaf52f703a9"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/backend/pc_ml/replay.py",
+      "bytes": 13919,
+      "sha256": "e4ff5681f452aaab4b948a15f0612dd8956a07baa12bb7d5ee1a55437ca9cbff"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/backend/pc_ml/report.py",
+      "bytes": 5828,
+      "sha256": "3c017942414f770c76cd54ed28fa3d972b0f553f646e455ec410f0788e9f137e"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/backend/pc_ml/residual_fusion.py",
+      "bytes": 3487,
+      "sha256": "8083f2e93fd2de7c6157c978fb4d138f2c86620de8e99b9884cfa99a2f8496b7"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/backend/pc_ml/robust_hybrid.py",
+      "bytes": 6125,
+      "sha256": "358954dc822b26777a394754799f38415992407b64a29f40266756bcaf214b26"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/backend/pc_ml/robust_linear.py",
+      "bytes": 4600,
+      "sha256": "66a80f6ddfab6d2521e77b24ab3ee7fc0099a43c0c8540cbea9f18fa5a3e842c"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/backend/pc_ml/temporal_inputs.py",
+      "bytes": 2058,
+      "sha256": "3f1a955dacc5910b60cc8fe4526ad3743c10635762ee4672e1f5744218ab8894"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/backend/pc_ml/test_custom_profiles.py",
+      "bytes": 4731,
+      "sha256": "5c21414653eaa15075796c13d45ec8b5082465ab1430a734d93bbbf8ffe970f7"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/backend/pc_ml/test_data.py",
+      "bytes": 2554,
+      "sha256": "db12327f620aaefa34ec94cc816b0419c6ba7aaa8f97b8860e0c9a3bdd1471b3"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/backend/pc_ml/test_frontend.py",
+      "bytes": 4450,
+      "sha256": "76990c5814bb898b3a7ea0a7d9bad0fedfd0cdb9c87e48a111b2a79d805ed3f9"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/backend/pc_ml/test_gesture_tasks_export.py",
+      "bytes": 5411,
+      "sha256": "7c7d1e47669e4cf39475a79ed98fa92c87ad9347839329377775f7f272119e3d"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/backend/pc_ml/test_hybrid.py",
+      "bytes": 5125,
+      "sha256": "9aaae3fcc6c1f8c507b2175480e1dd4d1bb79fe09a5f39c52d9fe345b3ff3dec"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/backend/pc_ml/test_today_algorithms.py",
+      "bytes": 7183,
+      "sha256": "50c7d1115d7733f57f93f8bdfc2db627f0d6286fe6e8548a4a8138a6822d3838"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/backend/pc_ml/today_compact.py",
+      "bytes": 5655,
+      "sha256": "e2817c4d02d89a08d45c406b8ab54454651155864696971b868c06ab7ac14be2"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/backend/pc_ml/today_covariance.py",
+      "bytes": 7354,
+      "sha256": "16f5744505b54f49739f717e011e083adde46480086ed276a6e431244087fec2"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/backend/pc_ml/today_hybrid.py",
+      "bytes": 11777,
+      "sha256": "bc61fb337b57dbf2a92e852cb6cd26a372d2c5ef61154676d3771d0418e83217"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/backend/pc_ml/today_linear.py",
+      "bytes": 4573,
+      "sha256": "04037ec329d0dc5205e8b420eb2a01f6f325c669a0b50ae4ad42b0ebe8ae5d26"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/backend/pc_ml/today_live.py",
+      "bytes": 5119,
+      "sha256": "1b450e4ab9d253995e27451baddedfbf1e1ca85dbfd8fa9cc1069e813dafd07f"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/backend/pc_ml/today_neural.py",
+      "bytes": 12469,
+      "sha256": "36c6aa4ddb4cfed501d1f91392b87dce7388db4375076cf7abb230c229ad795e"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/backend/pc_ml/today_survey.py",
+      "bytes": 17789,
+      "sha256": "dee0a52863a1ecc206a5d8c1e1d4711c83f20a9fa7a48374042e0c030ab5776f"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/backend/pc_ml/train.py",
+      "bytes": 8613,
+      "sha256": "aea86e2f779f0704624afae793e551f3d4d6f354267415c9b999b6af4c68aef5"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/backend/pc_ml/train_today.py",
+      "bytes": 5178,
+      "sha256": "079b793274edf09b32c8a58531f9ad062699dc8763460082547e70dcce698709"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/backend/pc_ml/trial_log.py",
+      "bytes": 4028,
+      "sha256": "6a61539ccf3e7380c93dc47a01b7101fc92421eb041a083dc21fd167ab6063c2"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/backend/pc_ml/verify.py",
+      "bytes": 3899,
+      "sha256": "2ea0251467a618791e5ad80ee97aaa055a5ded096b8b3f1f0632f49af8c795c6"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/assets/gestures/custom.png",
+      "bytes": 693,
+      "sha256": "bda2e7dccdd909cfdbc22f7b580b259dffa9b9b34020fbfcf3b8478673b59c83"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/assets/gestures/fist.png",
+      "bytes": 823,
+      "sha256": "44bc6ebcb79d391873e86d747895f8a982073502de9f6639eef86c2eebd2f78c"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/assets/gestures/MYO-APACHE-2.0.txt",
+      "bytes": 11357,
+      "sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/bottle_cap_grasp.png",
+      "bytes": 20177,
+      "sha256": "c8820d575ab5358cd02ef89fe3596d916ca17e851f42706302f91d875fc5595c"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/disk_grasp.png",
+      "bytes": 21104,
+      "sha256": "703716427d272a8a8d972bdc631be2dade3e7389c5f06a30ed6080697131a9a5"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/extension_grasp.png",
+      "bytes": 18572,
+      "sha256": "98e7a7d450aecc4fb95ebbf0fea810c73878e548f009043720757dd2af2545f3"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/fingers_together.png",
+      "bytes": 17094,
+      "sha256": "226c26cc9831190c81940c24eebe1b704f5b05e1c2529caa901e3a8727fc58c2"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/fist.png",
+      "bytes": 17340,
+      "sha256": "ea5a220ccba95e69540ac5c17f7e34045ec9c8339c5fd28b2fe16ead2fe07f37"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/hook_grasp.png",
+      "bytes": 19836,
+      "sha256": "e72341ff93440b1480b75469331d65ca9b42f42377965fbcd71eb338e32ba387"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/index_extension.png",
+      "bytes": 16833,
+      "sha256": "d8fce1b29898fee0009cc7c4323d2ce4768f187bc3283bcd24e0fda1e2bd66a4"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/index_flexion.png",
+      "bytes": 17032,
+      "sha256": "d60064bc0e161bacb480952c9abf1220fc609ef9bd9fcc25768ff4fa3967507b"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/index_grasp.png",
+      "bytes": 19664,
+      "sha256": "b11ca39da0e395dc535b65e407d86c57b9ce5e43d80665e4b910f330c18216d6"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/knife_grasp.png",
+      "bytes": 25558,
+      "sha256": "9922328369112864b0519ff0fe924b41fbe48d6b95f674a14c8e528e3182a3a5"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/large_cylinder.png",
+      "bytes": 19995,
+      "sha256": "b28efc191b0639dfcb3dd56d995679b3d1bb77b58b204677a2a369fb7ccee12f"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/lateral_grasp.png",
+      "bytes": 18395,
+      "sha256": "cf3669579e641faa1a3e25138f19c6bff6d8d704bd1ba2b99194a1553b5d1c8a"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/little_extension.png",
+      "bytes": 16936,
+      "sha256": "b00a5eecf33d302695a7331306aa64faa5a13355a857ed913bad7f023970264b"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/little_flexion.png",
+      "bytes": 16807,
+      "sha256": "21863b6dfade338c45a301bfb2f62e5c903e1d56644abb12001b15317cec726b"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/manifest.json",
+      "bytes": 8629,
+      "sha256": "5baffa965654756df45078b3ef19a2fe59d3ef4fecfabddb823372508bfb3c4c"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/medium_wrap.png",
+      "bytes": 18725,
+      "sha256": "536ce5ba61e551616585d0bb5974c676c021779220c5ce24e6df4ac93f3aad24"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/middle_extension.png",
+      "bytes": 17080,
+      "sha256": "5b944a1686e23a55185ad0b2c1f62f0516dc9fe8fe7775c6cb5314550ce3044b"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/middle_flexion.png",
+      "bytes": 17646,
+      "sha256": "ab5bb065e45515edd9c6a8d7f35219e7a5ee841fe741657cd7d747f7f0efd042"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/one.png",
+      "bytes": 15972,
+      "sha256": "38fc51c591b884beac9ee61ff6580ecac0759e45b171405838744dd523e5c3ff"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/open.png",
+      "bytes": 17776,
+      "sha256": "0721284d336b17db7d380637fb63acc931a3e3437f27129023ce48ed1982f645"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/parallel_grasp.png",
+      "bytes": 21520,
+      "sha256": "7aad6b5d5c1d00df81923ae11dac26f570feabb16a3359a1016961ecab9727cd"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/power_sphere.png",
+      "bytes": 18196,
+      "sha256": "e0d8a92c7113ab7c4d3213f53da392e2f7b1a5ce69dc49d0c27e48c172d7f1ea"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/precision_sphere.png",
+      "bytes": 19454,
+      "sha256": "f9e406ddb964fd2d8827dce44a32da0db8d527049f42fc65b5cb459caafb3137"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/prismatic_four.png",
+      "bytes": 18226,
+      "sha256": "388f28f39048b036b5d49646d26d13c1fba3fe1f8fed61a3590ff82df597f4b0"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/prismatic_pinch.png",
+      "bytes": 18114,
+      "sha256": "cea86dafa9e2c2bcefddbcc3d37a75393480fa6989ede6998b848265c3086de0"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/pronation.png",
+      "bytes": 22046,
+      "sha256": "995afc3e39ecc4be049dbdeef93dbe17fc830ca99d91e300874c4b1e2c77ef90"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/pronation_ulnar.png",
+      "bytes": 20596,
+      "sha256": "c5a0b16ac597ba6adfb793c5366c158004844f52c0d71143a88bcecf5dd5411b"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/quadpod_grasp.png",
+      "bytes": 19703,
+      "sha256": "40bd83680be2a40e79a04073c5120e1f8dde8da7c83a2a1b5f2eccc7087c66f6"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/radial_deviation.png",
+      "bytes": 16641,
+      "sha256": "8216f285ee05b6451b77a6bd114ac1bc2939bea0de27b49f251f5510b42b9461"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/ring_extension.png",
+      "bytes": 16851,
+      "sha256": "3c8b33091718d2f7790595e46501050d9967f743f13611c51b6083663e9e0f51"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/ring_flexion.png",
+      "bytes": 16800,
+      "sha256": "f0c9cf2fbd419e0157c6a545088b70d2a2e5e2ccc85d09049dfc10f308a6f38c"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/ring_grasp.png",
+      "bytes": 20949,
+      "sha256": "ad08e3ef9ffcec4e1facb19294928e27a170fa3ed34fdc91c394014d0c860a5b"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/screwdriver_grasp.png",
+      "bytes": 21684,
+      "sha256": "b9fff82d2ab2e2de391c4b5633fecbe76fc7de26d3092d29f69cb0c4b6b58d41"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/small_cylinder.png",
+      "bytes": 18285,
+      "sha256": "ef2cb1902cb699c9bc775fab20b40e089dd4acf4d3c7986c8ef35df7f415bd6e"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/source.png",
+      "bytes": 2270669,
+      "sha256": "f240dfcf247516a632308fc19b62ff0bc08fc87f50bf0cb4d7055b2a74cbc45b"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/stick_grasp.png",
+      "bytes": 19590,
+      "sha256": "5f25eaa4f39eb3b624adbfc4dc10d2c6130a63625ce642baa4610840fe8aa805"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/supination.png",
+      "bytes": 22337,
+      "sha256": "c984ca0d2fcf57cee6f9193137918b18370aac38da21302a0de156fa4b76d0f1"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/supination_ulnar.png",
+      "bytes": 19499,
+      "sha256": "80a96fef7a0f5ed88b007efe2522205919bac7c49ca5a3732c1c3431d5d47a31"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/three.png",
+      "bytes": 18770,
+      "sha256": "05dc44378c510f52c1ae306dfdc8a57bee8efbd7c915a6adc38bc846509f5f05"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/three_finger_sphere.png",
+      "bytes": 19564,
+      "sha256": "6036368bdf1a36c24a051c90fcdcec3481ada9296634d643ddf9b96f72e51b57"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/thumb_abduction.png",
+      "bytes": 16614,
+      "sha256": "6ae120d338126ba6d7c063f303acfe4359228d9d63f7e5d5610483d4445216ee"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/thumb_adduction.png",
+      "bytes": 17109,
+      "sha256": "ca60549172d7108ad5095d63b3a8f0e22816e51320e20298177de57639687006"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/thumb_extension.png",
+      "bytes": 15933,
+      "sha256": "20c2463d719dc46fc0d4f336bf3a1fb5368888d914d720e9fe4bab034c2fe55a"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/thumb_flexion.png",
+      "bytes": 17332,
+      "sha256": "d299d101b5815756ae44f9c148fbcb44c36fc8bbedb9e4a998e6b2a6064fa3d4"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/thumb_to_palm.png",
+      "bytes": 17635,
+      "sha256": "011d497610fcddb9f09a7bd0fa61fc618d658bcd52ae803f2fcf7b04b32fa1f6"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/thumbs_up.png",
+      "bytes": 19414,
+      "sha256": "7dfdd515192386b2cca37f22a2d798bccc0924153d215f3743fed4b7ecfb78af"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/tip_pinch.png",
+      "bytes": 18096,
+      "sha256": "ab043fee0e7d0693d10f82016d292296000bf5f8a64c6f42a0d95f37147e3585"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/tripod_grasp.png",
+      "bytes": 18530,
+      "sha256": "123fa7d769da4810db42d5e3a6b752ea6562072859416288764c301343599509"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/two_fingers.png",
+      "bytes": 17574,
+      "sha256": "c2c686c454d242ce343bbb4247badabd0d9aa5b993bd715300767ff920885f76"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/ulnar_deviation.png",
+      "bytes": 17027,
+      "sha256": "ed8a4cae06b4a4fba8ed056bb488a00b2bc8d5f71867e0aabb51af9021936590"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/wrist_extension.png",
+      "bytes": 17047,
+      "sha256": "1a2056aab7e367f9a4eac2db93a6d0fd81ce135f5313184b939e652a7f4f926b"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/wrist_extension_fist.png",
+      "bytes": 15841,
+      "sha256": "d81ae4e1b272a20439fe3a9abd2842c1187116117fb3e27b367b5bd525414357"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/wrist_flexion.png",
+      "bytes": 17352,
+      "sha256": "23a5ad3caee72a270888195279c70cf304018aabc2f5f4983eab60d3405e8bf3"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/writing_grasp.png",
+      "bytes": 18586,
+      "sha256": "e8e470367fd323fe3f0a3d63573c40525b53d1342275e152e6a816e52fe5665b"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/assets/gestures/one.png",
+      "bytes": 653,
+      "sha256": "265454f6aa0cd22f5a40b294085e4039abb85f1bb739a665817713a580499992"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/assets/gestures/open.png",
+      "bytes": 863,
+      "sha256": "66913e143a99c5692d83d2f5ae15349305da0fb98a394c3c3961215cebb8aa7f"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/assets/gestures/rest.png",
+      "bytes": 390,
+      "sha256": "9e2b51deb7f8dcb594c034b7510c2373ace9e9f52420aed023b8c0bfef60d1c6"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/assets/gestures/scissors.png",
+      "bytes": 786,
+      "sha256": "cea523470d65f2a2a77529df0ba9dbd8b6d625e0311c3438a5a30b4dc583235d"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/assets/gestures/six.png",
+      "bytes": 840,
+      "sha256": "f8345ba42d846232227c2c364b197ceda14c6c17d6a6fc4bd3a541cebfbab9de"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/assets/gestures/SOURCES.md",
+      "bytes": 3452,
+      "sha256": "fe95f69d65b08c185a90da789e38caad3230a5133c95efd160c9a43452274e9e"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/assets/gestures/thumbs_up.png",
+      "bytes": 778,
+      "sha256": "42b43325b3edacba2a0e72b742bdc6fc5e4bc2ad38adca271fcc6d8353639887"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/assets/gestures/TWEMOJI-LICENSE-GRAPHICS.txt",
+      "bytes": 18524,
+      "sha256": "8ae9438818c26e4873b91d8c6ad620526c011e27e125677f13031eda903f007c"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/assets/gestures/wrist_extension.png",
+      "bytes": 9334,
+      "sha256": "14551ead9fd184ac97cfb30c9c265aa673a252894dc10fb5c6231d4faffe97c2"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/assets/gestures/wrist_flexion.png",
+      "bytes": 9729,
+      "sha256": "9d049daacfed1272e2b8381ac6f0795847e74052870a1fe2f7475ce8b0a95b6c"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/benchmark_dgt_fpga.py",
+      "bytes": 18650,
+      "sha256": "9b0b3154ef9fbe5fd9c90731026518880b2f4195ca56ccb4ebc615f932b8a5d7"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/benchmark_experiments.py",
+      "bytes": 17756,
+      "sha256": "a37bf009a34cc9a1a9e2c1ac4f4ff7cb86bbec0796a8da18a659965e425b1758"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/build_gesture_assets.py",
+      "bytes": 2303,
+      "sha256": "e74283f0c54c3ddd66e00e87d3cc917fd5eed406c959a71a9e7c8856ba3183df"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/emg_studio_gui.py",
+      "bytes": 47438,
+      "sha256": "a6a5830a0bca76b37af6f267456a4dc311b5f2c3ce623e518de12109d1ab25d9"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/emg_studio_gui_V2.0.py",
+      "bytes": 50617,
+      "sha256": "ae325d69ba540fdf47bbe54ecc465554d36dd958346d050847cba9593ee002b3"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/emg_studio_gui_V3.0.py",
+      "bytes": 57755,
+      "sha256": "ec3883554e1c746667f2a330e95c47eb979d63e666976268d803a0fb957ab466"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/field_training.py",
+      "bytes": 34479,
+      "sha256": "725ac9d83764dbb447cc96ea80a574552043505480e4686648b95bdb623969ff"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/gesture_config.py",
+      "bytes": 18272,
+      "sha256": "6622256555ce17c86fd1ba529ef70da86dbf14662cd0e368dbba9c262549450e"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/gesture_dialog.py",
+      "bytes": 19624,
+      "sha256": "0b7cefdad772da878e721ab6885bd42586b7684e080ce78db3693f2fb8a4ecf3"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/gesture_tasks_capture.py",
+      "bytes": 3504,
+      "sha256": "c8d2c1dfb1aad3d660c4ee31dc598777d29cc0806fc3fe67f8b69d0f42dd214a"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/gesture_tasks_customer.py",
+      "bytes": 5707,
+      "sha256": "900013cdfeff54bb8f7f4dc097de57c37af1cf464427ed4845d0a1a4465eb30a"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/gesture_tasks_deploy.py",
+      "bytes": 12255,
+      "sha256": "703cd17d6f48cdd3cfb00cb009d55509dd7a4a0b12384d0f49a5537f68da091d"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/gesture_tasks_materials.py",
+      "bytes": 2828,
+      "sha256": "9f2392d56bfd199415b7620f4759299b9d19583a64d34ba3ba584676f1c83350"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/gesture_tasks_protocol.py",
+      "bytes": 8708,
+      "sha256": "3b1d7b1b3121bef242d4984f257c5b51027ad54d95714a8b73cf2d880b986fb8"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/gesture_tasks_stream.py",
+      "bytes": 5541,
+      "sha256": "f90b541dae6c6a48380ea72bdce09c783eef03252fa0d9851a782ab75f0bc8eb"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/gesture_tasks_ui.py",
+      "bytes": 35291,
+      "sha256": "7036f2a9036294fdc76df8b85eecb785b576a626e06f461c89275bb3a90699a6"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/inspect_dataset.py",
+      "bytes": 2816,
+      "sha256": "777f47f71c8a1155764a4a1c1af4ea068ad8edf6e5a81ebcb184f60ed4ef1779"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/models/best_dgt_fpga_model.pth",
+      "bytes": 84661,
+      "sha256": "73bdfcd193239e7076799a97e8cef284e8a447b242eb6d46e9b29e9fdb011fbb"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/models/best_emg_cnn.pth",
+      "bytes": 57441,
+      "sha256": "270227ffb28a0893570e75d569d8fdd710db8478c706ad63669034d32ef93a0d"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/models/best_extratrees.pkl",
+      "bytes": 8302772,
+      "sha256": "4d64983665434d4b9e5bf6336a591e0ed767856b60a2ebc4abdae2615a175221"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/models/best_fpga_model.pth",
+      "bytes": 24757,
+      "sha256": "a7d9ee49942e81a01921f235e8c663f5301688bd86c7befa0a7f6452b164597e"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/models/best_resnet1d.pth",
+      "bytes": 160753,
+      "sha256": "c4f89421b3c55a65ed553a8d2d7dd868d704630e82487dd25a75db7bef9ab3b5"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/models/best_super_feature_mlp.pth",
+      "bytes": 84511,
+      "sha256": "4c4147db7c08037b6d5ada0b7256118502e8813e3f7da4949a6ce86ca83e6a1d"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/models/DGTV1.0.pth",
+      "bytes": 84597,
+      "sha256": "95615687e88fbf41bd0dc93dc1ee50622420d20a6d0f60d7a99379a14463b091"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/models/DGTV1.8.pth",
+      "bytes": 160293,
+      "sha256": "d75ac9d1f26925cf21518c206a8a9e10ccff8ae8866c9598f1597ae51f5526e1"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/models/DGTV1.9.pth",
+      "bytes": 83939,
+      "sha256": "415c21f3e5810719b786b9887aaa7efb666d97892aa61a1f13d417b1491447f9"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/models/DGTV2.0.pth",
+      "bytes": 83853,
+      "sha256": "567607fdc4766ca7c0416c235e0adea8cf259a42faa595f0685f78c7eae440ac"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/models/历史归档/历史旧模型_6分类_20261022_185955.pth",
+      "bytes": 57697,
+      "sha256": "aaf3dc8f921a463f7f6f3642fca71d55e264f002fa80a3abfd238e6f3da91f39"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/models/历史旧模型_20261022_191630.pth",
+      "bytes": 57441,
+      "sha256": "5ad1ab8aee0c2f0f0936228128e4abaa3b60bb8aaecba8a5c3f0bd72214ae193"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/README.md",
+      "bytes": 9117,
+      "sha256": "ee4f169b85c465a30404c4ebb2f2712e15fc6ca067964bc7eda470dffb760243"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/requirements.txt",
+      "bytes": 92,
+      "sha256": "818fb7e29fae8fdf885c3add9483cd7359d177efe3578a9a520ba39eb456dde7"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/signal_processing.py",
+      "bytes": 2539,
+      "sha256": "8a5f9de60157769724e86f2da05ba77e63ca6f0424ee4299203809fc71c7f212"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/test_signal_link.py",
+      "bytes": 6321,
+      "sha256": "622c0df1fa93e0c936461a5d10ede67f08210b632c3b41bf179916ecfa3376bf"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/tests/test_field_integration.py",
+      "bytes": 47790,
+      "sha256": "8a5fe8900f05dd63840491f5f2a5d431981544a2fefb8a0d6b73aa0f73d066cf"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/tests/test_gesture_tasks.py",
+      "bytes": 16624,
+      "sha256": "f252f5b2e09a863ff9ad8869429a6cacf118ec54b637190a95775450d77aed1b"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/tests/test_gesture_tasks_customer.py",
+      "bytes": 4557,
+      "sha256": "a08b5683cc089c7f81b03974eaa4fac0aadbca42cc5591ff39f95565c02b21a1"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/tests/test_gesture_tasks_materials.py",
+      "bytes": 3435,
+      "sha256": "9747659532f727ec82728b648e8ccf793c3f6656079ca678f52c6be7ab141b9e"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/tests/test_gesture_tasks_raw.py",
+      "bytes": 7040,
+      "sha256": "831c0bcb216c626415ebb12cb90e7e9f79e9d9fa66c8ee2277f5c9a160f06109"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/tests/test_signal_processing.py",
+      "bytes": 8135,
+      "sha256": "588ffe1945a1e554d084c83c9c40337bb3ad784976d000129be0bed8216471bc"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/train_cnn.py",
+      "bytes": 10553,
+      "sha256": "2b535c8e35d05c6715ff4c6df7f639f0082305bb3196d8fb9bc5c6284f682e9c"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/train_export_resnet.py",
+      "bytes": 5603,
+      "sha256": "b410abbaabe7372e80080eb5a981cf4e983e88019454af2dbb6477a3cf1a6cee"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/train_super_emg.py",
+      "bytes": 10945,
+      "sha256": "3c1cc854e30f1854e7ef46a0b9e2f12f997e1333bf3295041900a70a96be5916"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/ui_style.py",
+      "bytes": 5828,
+      "sha256": "d66a40b50da2a000b4deecc043db94dcc14c16b98b175862896d142f02518d46"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/USAGE_AND_NOISE_NOTES.md",
+      "bytes": 21441,
+      "sha256": "cf109e6304afe30a50f615d6b7e47d4d66e483be85e6c723310d1c8160718f7a"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/waveform_replay.py",
+      "bytes": 4265,
+      "sha256": "e5234f2275d7815ff2d8b0750731feee279d0694b30250953694c858f444f9cb"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/emg_ml/workstation_ui.py",
+      "bytes": 12209,
+      "sha256": "6d7e4351d416535a00452dfcdd458ac3fac2c670bcc0077297938b560ef1889e"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/requirements.txt",
+      "bytes": 144,
+      "sha256": "67aa594c54da0a9071e86c3d0b3eb67b573519f14a128dff4edfa40262fcf782"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/start_emg_studio.py",
+      "bytes": 925,
+      "sha256": "58859f5705d2137932f4ec71357ea9bc04b5c25e69e48c629673553676f7ba50"
+    },
+    {
+      "path": "EMG_Studio/EMG_Studio/start_gesture_tasks.py",
+      "bytes": 987,
+      "sha256": "4d5ee7c5a3b3b4bc4789d07919e7251de051e8771d3de44ed690da1333780e0a"
+    },
+    {
+      "path": "evidence/raw43/a_consumer.json",
+      "bytes": 515,
+      "sha256": "e8a89a3ee76c8b74f58c26b273e8c48eceba60a6aee74ddedd7d7e22004f5277"
+    },
+    {
+      "path": "evidence/raw43/a_output_fixture.bin",
+      "bytes": 53233,
+      "sha256": "623a0259f95c8512694f786fad065e6f0dda6a77191d687d5af49d8ca93ee771"
+    },
+    {
+      "path": "evidence/raw43/training/a_deployment/verification.json",
+      "bytes": 359,
+      "sha256": "c52e0e6c0fc4db7cbef5d1a0d231ecd94fc2306536bb90a5e3dcf604fc9aca04"
+    },
+    {
+      "path": "evidence/raw43/training/a_validation/verification.json",
+      "bytes": 341,
+      "sha256": "fdcfe59df359c2d6a734d15bdb1173411ba606bce975976888f489c3d0f5ebc7"
+    },
+    {
+      "path": "evidence/raw43/training/field_report.json",
+      "bytes": 11348,
+      "sha256": "516102d23e8853aab2fc93d72f935bef919f6e531abcdd1ab45af7ce6841b346"
+    },
+    {
+      "path": "evidence/synthetic_training/a_deployment/verification.json",
+      "bytes": 359,
+      "sha256": "fbcf62afc8d713568793e94c4b27653df712a4fb3d7a922750632153e6fdaa7f"
+    },
+    {
+      "path": "evidence/synthetic_training/a_validation/verification.json",
+      "bytes": 341,
+      "sha256": "07b1bdd3d4a02ca11987de42e2c5e6b192a365ef6187c582a6516ff7d6d49c07"
+    },
+    {
+      "path": "evidence/synthetic_training/field_report.json",
+      "bytes": 11461,
+      "sha256": "262aaae067c0d0cabf81ffe8289a1c154e0c2e890100bb70cda1c9cd35e612f8"
+    },
+    {
+      "path": "evidence/vectors/golden_vectors.json",
+      "bytes": 17229,
+      "sha256": "f71d4f3adf776381597c3c6118c4d2c387bdd1a36fd2ab131f5c3649ad1f644b"
+    },
+    {
+      "path": "evidence/vectors/map_14_requests.bin",
+      "bytes": 480,
+      "sha256": "e72f53862bb7cbb6b1dc184b8951ceb34bbd22a604bec8963ab210094c4b9113"
+    },
+    {
+      "path": "evidence/vectors/map_2_requests.bin",
+      "bytes": 120,
+      "sha256": "629bdfb2a0a63ff69eba08bb87998bf18f4873c80c531ef862e9a793864b6338"
+    },
+    {
+      "path": "evidence/vectors/map_32_requests.bin",
+      "bytes": 1020,
+      "sha256": "8b921d87b7109e7b0190a289c6d0f5612e768e9d32745f661e5dd9006296dd87"
+    },
+    {
+      "path": "evidence/vectors/map_7_requests.bin",
+      "bytes": 270,
+      "sha256": "08f5c101163461ddce078d5f01eed537253878945d0b05924fbeebc8d84bb400"
+    },
+    {
+      "path": "evidence/verification/compact_raw.log",
+      "bytes": 857,
+      "sha256": "6bd4fc33b4c06d1eb491ce3a96843876e01396d774f3372934bdd9518e1e5650"
+    },
+    {
+      "path": "evidence/verification/customer.log",
+      "bytes": 1041,
+      "sha256": "fb3274535cc143c682b7f79163a037bbb609edb563d8e11d4e2ff6cdaf280d1e"
+    },
+    {
+      "path": "evidence/verification/customer_layout.json",
+      "bytes": 894,
+      "sha256": "39bd743acad43e38ca8831d1cec6fff298f08e959207382c48aa9563746dff65"
+    },
+    {
+      "path": "evidence/verification/default_materials.log",
+      "bytes": 617,
+      "sha256": "7e17c40bff61f16839da68829668751872916b868d2807de51b36839e6ce9f74"
+    },
+    {
+      "path": "evidence/verification/export.log",
+      "bytes": 533,
+      "sha256": "1a20f4ac332b7b56714187a9ff75f961c31d3486973e632a26481e798c1982b5"
+    },
+    {
+      "path": "evidence/verification/gesture_tasks.log",
+      "bytes": 156840,
+      "sha256": "36627573edb80510d68f57c4ad6c91c7441bed0ffdc9ed1762ee8f2e4cd4f9f0"
+    },
+    {
+      "path": "evidence/verification/protocol.log",
+      "bytes": 2432,
+      "sha256": "7cc4efc564cad9650321766c9a46b8a72354592ff37e6bf442b8d1a5d0c33373"
+    },
+    {
+      "path": "evidence/verification/signals.log",
+      "bytes": 1448,
+      "sha256": "0fb24cc3e39d271145a4f443c6aea7a8a06525e0ba47bd8f50f3ca29e33c4f0f"
+    },
+    {
+      "path": "evidence/verification/summary.json",
+      "bytes": 529,
+      "sha256": "bca2e1b09ee09c05df5359e83808a5961c9e2124fbaec3aaab0a0e808e2b68a8"
+    },
+    {
+      "path": "evidence/verification/ui_hidden.log",
+      "bytes": 8323,
+      "sha256": "8ec4d5687f0ef9d011d2784db413bc6f68ca71c6e8a04646c167d487bf644b04"
+    },
+    {
+      "path": "README.txt",
+      "bytes": 2155,
+      "sha256": "35f99e411fd63b7d585430ef6f09a5a3b3a7528803e8bb086b8decac04f29b98"
+    },
+    {
+      "path": "scripts/pc_gesture_tasks_customer_layout.py",
+      "bytes": 4427,
+      "sha256": "9b7535ccba1442145da22c87b9e721fdd7f023c9082c05dc11c2cac1db791003"
+    },
+    {
+      "path": "scripts/pc_gesture_tasks_default_materials.py",
+      "bytes": 5919,
+      "sha256": "9df6ba00a5a8268f5d4b58fea174ccd6e40f87e22f7460f4e7b8675c5e75c690"
+    },
+    {
+      "path": "scripts/pc_gesture_tasks_hidden_ui.py",
+      "bytes": 2009,
+      "sha256": "81440534e0a4434335b9fa668cfcfb04216b8bb60802445901fbb8fe2742cdd6"
+    },
+    {
+      "path": "scripts/pc_gesture_tasks_package.py",
+      "bytes": 11030,
+      "sha256": "fb72f93af072580321350e4cbf1bea5572573a99770488130d041fb5e9500131"
+    },
+    {
+      "path": "scripts/pc_gesture_tasks_raw_smoke.py",
+      "bytes": 4866,
+      "sha256": "e2c8edc25ba1812c31b7be298b5a94f5bc77f76c716dbbe109ac18db665fc590"
+    },
+    {
+      "path": "scripts/pc_gesture_tasks_smoke.py",
+      "bytes": 1686,
+      "sha256": "acdfe918bb83bdd76f76c96e4c4c11a77329ac70cac5ad4e5499b3671ec477ec"
+    },
+    {
+      "path": "scripts/pc_gesture_tasks_vectors.py",
+      "bytes": 1779,
+      "sha256": "d57df18708ec82a72fe5aa0e3ac9e92bbe798f7d91777469bb3dcddd0e25782e"
+    },
+    {
+      "path": "scripts/pc_gesture_tasks_verify.py",
+      "bytes": 2138,
+      "sha256": "e9e6e47fa7b3d5b66d3f079c629fa9ce712f1590cc289bc43a8efb5440e46efd"
+    },
+    {
+      "path": "START_PC_GESTURE_TASKS.cmd",
+      "bytes": 88,
+      "sha256": "d40b03cffa02e42eb424bb3610fcbb1ce90ca0fe98330262fab50ea9393187cd"
+    },
+    {
+      "path": "START_RECOVERED_MODEL.cmd",
+      "bytes": 182,
+      "sha256": "be10855a1eddd198ee02ed677b72de3bfa20fa2ca07c85d194db0382a52159af"
+    }
+  ],
+  "verification_directory": "verify_20261101_180537_567667",
+  "source_root": "E:\\FPGA\\Projects\\emg_hand_fpga",
+  "hardware_verified": false,
+  "bit_included": false,
+  "scope": "PC software only; unresolved interfaces documented"
+}

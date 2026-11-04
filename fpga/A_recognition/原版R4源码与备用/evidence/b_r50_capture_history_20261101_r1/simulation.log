@@ -1,0 +1,2 @@
+B_CAPTURE_REPLAY_PASS
+tb.sv:26: $finish called at 14593200000 (1ps)

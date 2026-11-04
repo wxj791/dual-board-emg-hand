@@ -1,0 +1,4677 @@
+{
+  "project": "双板协同可定制肌电仿生手",
+  "date": "2026-11-04",
+  "hash_algorithm": "SHA-256",
+  "excludes": [
+    "MANIFEST.json",
+    "SHA256SUMS.txt",
+    "docs/PACKAGE_VALIDATION.json"
+  ],
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 77,
+      "sha256": "351f8fed9581e00a182f10ee2baaf5c75fd7799879d76d74b6652e3acfbd8b3d"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 132,
+      "sha256": "fcc5e16a102a99ff792b73bde9448d81457257681cf145bca7c5df2f733d1d81"
+    },
+    {
+      "path": "README.txt",
+      "bytes": 2048,
+      "sha256": "2583fdd065824191b843529dc589762eb57c0c3b243d537e029470fe7608398c"
+    },
+    {
+      "path": "docs/BUILD_AND_RUN.txt",
+      "bytes": 4017,
+      "sha256": "1286e6c12629c45aec49c5b36b79ef9861d9616cff6779caf291da412d0085b7"
+    },
+    {
+      "path": "docs/EXCLUDED_GENERATED_FILES.json",
+      "bytes": 69809,
+      "sha256": "04f4fd6cd01a77679498d50b6b91bbe1463f8e2eaaa12460c961d06636602ed9"
+    },
+    {
+      "path": "docs/SOURCE_ORIGINS.json",
+      "bytes": 301991,
+      "sha256": "669e501f8b9c98324d7e743fee7db42a3244745237202fb4b022c96b33da7386"
+    },
+    {
+      "path": "docs/firmware_versions.json",
+      "bytes": 532,
+      "sha256": "47b4d6d5e6c4a94ff04e825b9ea89fe8c8c8f81e5346cfdb97b35809d7701a1f"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/backend/artifacts/cnn_fusion_pc_trial_20261029/data.json",
+      "bytes": 19172,
+      "sha256": "b07b4d61e039c43bbfbd474f09964f206ddaed38e26a403984edc16098983b12"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/backend/artifacts/cnn_fusion_pc_trial_20261029/export/manifest.json",
+      "bytes": 27478,
+      "sha256": "3f352b876ebd92519012820431a9c4380b6d87e6a44e6605ce7a3e52857dcc00"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/backend/artifacts/cnn_fusion_pc_trial_20261029/export/parameters.bin",
+      "bytes": 27178,
+      "sha256": "3397d11e9f9b7e416e82ce66852f67fd66575d856b80d0a683e3287060a3a333"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/backend/artifacts/cnn_fusion_pc_trial_20261029/field_report.json",
+      "bytes": 36448,
+      "sha256": "9015f4b393852f680416dc74a03c42307dd18d4bfc2d1a86a3c18de59316212b"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/backend/artifacts/cnn_fusion_pc_trial_20261029/integration_backup/field_training.py",
+      "bytes": 33987,
+      "sha256": "e4c96568ed5d2a034e072bf03b7cfd79dbb78dc2fae48106c2655ec0dd127c64"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/backend/artifacts/cnn_fusion_pc_trial_20261029/integration_backup/filtered_cnn_default.json",
+      "bytes": 116,
+      "sha256": "2edaad9e7319bee29a17eaa759a7bf0c8ffba0e33af9abf83657230ce3695294"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/backend/artifacts/cnn_fusion_pc_trial_20261029/integration_backup/parallel_fusion_default.json",
+      "bytes": 116,
+      "sha256": "760c6645045cd2b94af39bfd474a1ce14aa9fdbcc7bb0d91db0d5fb2118f9d37"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/backend/artifacts/cnn_fusion_pc_trial_20261029/integration_verification.json",
+      "bytes": 545,
+      "sha256": "8d0f7e52d42084f770029037ad4c1153c0fafbd59163c4803704cac550248b2b"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/backend/artifacts/cnn_fusion_pc_trial_20261029/prepared.npz",
+      "bytes": 4250001,
+      "sha256": "539d0cc93960e5c4dfc1b169657985279279e60a24d7cf59808145043b3928b9"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/backend/artifacts/cnn_fusion_pc_trial_20261029/replay/replay.png",
+      "bytes": 28503,
+      "sha256": "c1e21b6f0bdd6248cfdca34e81344e35b1cfa7188fc63d9fbb626e92d3809070"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/backend/artifacts/cnn_fusion_pc_trial_20261029/replay/report.json",
+      "bytes": 1241,
+      "sha256": "28bd2d243db38a328d6b6eb6fb80d2b763fa22ea0a97e519e5d12f89d220f651"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/backend/artifacts/cnn_fusion_pc_trial_20261029/validation_export/manifest.json",
+      "bytes": 27479,
+      "sha256": "09c95fbb0b86bfc3d46bade775c89b2beb135f2da97d16bcc447b21819845640"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/backend/artifacts/cnn_fusion_pc_trial_20261029/validation_export/parameters.bin",
+      "bytes": 27195,
+      "sha256": "93afc4b6286db0d88b7c144f048984c0f5d1639fc8eebb3918a63b3442b7bb17"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/backend/pc_ml/__init__.py",
+      "bytes": 54,
+      "sha256": "6bfccd7d0a795f55f48c993b516edebbbf18d8b749feb5c8afdb62e0dcee7c38"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/backend/pc_ml/audit.py",
+      "bytes": 3063,
+      "sha256": "0cfb7de910b7caadecf36ea96466283da57d0001a516234c988b07667b1fcaa6"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/backend/pc_ml/calibration_logistic.py",
+      "bytes": 4755,
+      "sha256": "43ee924d0a870d8a27e3ab3e18a704de4f9b2490267e6b0b39ba9bddcacae33b"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/backend/pc_ml/cnn_fusion.py",
+      "bytes": 8037,
+      "sha256": "3f2762334274f8651fe6d191b35f98de365cd63fe8326ddbcd7687dbcf533e6a"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/backend/pc_ml/cnn_fusion_field.py",
+      "bytes": 9064,
+      "sha256": "350c945b35141666117c6e5b48bee31cb5400eef63ee53883e294d007676b1d4"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/backend/pc_ml/cnn_variants.py",
+      "bytes": 7488,
+      "sha256": "d02e52838a37100871f885557d11fc370f9813d7406a95691b5c9af4baa82424"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/backend/pc_ml/data.py",
+      "bytes": 12905,
+      "sha256": "39b9f0be27095909b7b08fdb6e21b3ce8329e253d114639a3ff91ccfa2841000"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/backend/pc_ml/failure_audit.py",
+      "bytes": 3700,
+      "sha256": "002cb0102128fe3bd241d883116107ea400e206501cfc3dd3817576886b5149a"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/backend/pc_ml/fast_field.py",
+      "bytes": 11633,
+      "sha256": "7c4ac51b07a71ab51f9c1a8272dd2b0b1d8e59ea8dd48f6c32059e193fdc671d"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/backend/pc_ml/field.py",
+      "bytes": 7225,
+      "sha256": "29c6e8a02ef60977d422efabe9e26b48e1c4b45cd169818548aab67980e995f5"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/backend/pc_ml/field_gui.py",
+      "bytes": 16179,
+      "sha256": "4ba2efcbdf0c32b32dcd0af78ac0da14c7c46b34630e179cf355b832aee88b7e"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/backend/pc_ml/fixed_linear.py",
+      "bytes": 3485,
+      "sha256": "7858795eee397c081b796a845d4ee6df7180cb8fabf97cd0d25476656e14e366"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/backend/pc_ml/fixed_rbf.py",
+      "bytes": 6893,
+      "sha256": "05ad2b5e2db4b2fd5d711e28fdd0812f4e3ec8d38b30ea372eaa0f0e61e87096"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/backend/pc_ml/fixed_tree.py",
+      "bytes": 8419,
+      "sha256": "1b0ad5ce37214eaf55b23f11a7ff620b1055411725b8b65341fd676f9e73db4c"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/backend/pc_ml/frontend.py",
+      "bytes": 3166,
+      "sha256": "dd74820b52b486cbe3a1b92b28855e1e09da280a6db5db65fc5dfc8915ba5b23"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/backend/pc_ml/fusion.py",
+      "bytes": 10149,
+      "sha256": "e977472275a460a5d7851aa68d204477062ed96c5cbe8c2768a693a82624bd0f"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/backend/pc_ml/fusion_field.py",
+      "bytes": 8148,
+      "sha256": "4dc11b9da02b65566d917046fc1280b5dd817d2a60b59bcd2942d4ca9912454a"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/backend/pc_ml/hybrid.py",
+      "bytes": 7766,
+      "sha256": "442c556565dfe371a2b62797d842594dae308044a401ece7244550511dd56056"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/backend/pc_ml/models.py",
+      "bytes": 3126,
+      "sha256": "f6163bb17f0aeeeb963bacfc7935f9cc631ced1d9922175c1ec773ef77baafc6"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/backend/pc_ml/package_api.py",
+      "bytes": 1566,
+      "sha256": "7bdcce414c6a32af0ae80edcc0835e7f7c4fc2a5931cdae1366e63facd3dc966"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/backend/pc_ml/parallel_envelope.py",
+      "bytes": 3223,
+      "sha256": "a4e0a7003ffc001a794840f2aa82870d7e94081d8d50743029a250bb09c468a7"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/backend/pc_ml/parameter_store.py",
+      "bytes": 7271,
+      "sha256": "05d4201eb5aa9091ba10c983035121203e70c2a71198c1f176e9e36d918d6350"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/backend/pc_ml/prototype_study.py",
+      "bytes": 2911,
+      "sha256": "571e4b08ea13acd90e8c1e0075850f872cc72e51e39bbb25b2ec194a83d0788b"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/backend/pc_ml/purged_calibration.py",
+      "bytes": 3029,
+      "sha256": "1c994270cde1913d7ddb9644408698d63d34f9a8a7f6ecd013f15043e10956e6"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/backend/pc_ml/quantize.py",
+      "bytes": 14390,
+      "sha256": "76c11e51f9aec286007e5f137c55d896246c7c1313b8ea958ebc8d578b95194f"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/backend/pc_ml/refine.py",
+      "bytes": 10444,
+      "sha256": "e0e4999dd0dcbfbe417b9b6faa409a8ae9033109360e40fde9285aaf52f703a9"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/backend/pc_ml/replay.py",
+      "bytes": 13919,
+      "sha256": "e4ff5681f452aaab4b948a15f0612dd8956a07baa12bb7d5ee1a55437ca9cbff"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/backend/pc_ml/report.py",
+      "bytes": 5828,
+      "sha256": "3c017942414f770c76cd54ed28fa3d972b0f553f646e455ec410f0788e9f137e"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/backend/pc_ml/residual_fusion.py",
+      "bytes": 3487,
+      "sha256": "8083f2e93fd2de7c6157c978fb4d138f2c86620de8e99b9884cfa99a2f8496b7"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/backend/pc_ml/robust_hybrid.py",
+      "bytes": 6125,
+      "sha256": "358954dc822b26777a394754799f38415992407b64a29f40266756bcaf214b26"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/backend/pc_ml/robust_linear.py",
+      "bytes": 4600,
+      "sha256": "66a80f6ddfab6d2521e77b24ab3ee7fc0099a43c0c8540cbea9f18fa5a3e842c"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/backend/pc_ml/temporal_inputs.py",
+      "bytes": 2058,
+      "sha256": "3f1a955dacc5910b60cc8fe4526ad3743c10635762ee4672e1f5744218ab8894"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/backend/pc_ml/test_custom_profiles.py",
+      "bytes": 4731,
+      "sha256": "5c21414653eaa15075796c13d45ec8b5082465ab1430a734d93bbbf8ffe970f7"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/backend/pc_ml/test_data.py",
+      "bytes": 2554,
+      "sha256": "db12327f620aaefa34ec94cc816b0419c6ba7aaa8f97b8860e0c9a3bdd1471b3"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/backend/pc_ml/test_frontend.py",
+      "bytes": 4450,
+      "sha256": "76990c5814bb898b3a7ea0a7d9bad0fedfd0cdb9c87e48a111b2a79d805ed3f9"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/backend/pc_ml/test_hybrid.py",
+      "bytes": 5125,
+      "sha256": "9aaae3fcc6c1f8c507b2175480e1dd4d1bb79fe09a5f39c52d9fe345b3ff3dec"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/backend/pc_ml/test_today_algorithms.py",
+      "bytes": 7183,
+      "sha256": "50c7d1115d7733f57f93f8bdfc2db627f0d6286fe6e8548a4a8138a6822d3838"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/backend/pc_ml/today_compact.py",
+      "bytes": 5655,
+      "sha256": "e2817c4d02d89a08d45c406b8ab54454651155864696971b868c06ab7ac14be2"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/backend/pc_ml/today_covariance.py",
+      "bytes": 7354,
+      "sha256": "16f5744505b54f49739f717e011e083adde46480086ed276a6e431244087fec2"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/backend/pc_ml/today_hybrid.py",
+      "bytes": 11777,
+      "sha256": "bc61fb337b57dbf2a92e852cb6cd26a372d2c5ef61154676d3771d0418e83217"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/backend/pc_ml/today_linear.py",
+      "bytes": 4573,
+      "sha256": "04037ec329d0dc5205e8b420eb2a01f6f325c669a0b50ae4ad42b0ebe8ae5d26"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/backend/pc_ml/today_live.py",
+      "bytes": 5119,
+      "sha256": "1b450e4ab9d253995e27451baddedfbf1e1ca85dbfd8fa9cc1069e813dafd07f"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/backend/pc_ml/today_neural.py",
+      "bytes": 12469,
+      "sha256": "36c6aa4ddb4cfed501d1f91392b87dce7388db4375076cf7abb230c229ad795e"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/backend/pc_ml/today_survey.py",
+      "bytes": 17789,
+      "sha256": "dee0a52863a1ecc206a5d8c1e1d4711c83f20a9fa7a48374042e0c030ab5776f"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/backend/pc_ml/train.py",
+      "bytes": 8613,
+      "sha256": "aea86e2f779f0704624afae793e551f3d4d6f354267415c9b999b6af4c68aef5"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/backend/pc_ml/train_today.py",
+      "bytes": 5178,
+      "sha256": "079b793274edf09b32c8a58531f9ad062699dc8763460082547e70dcce698709"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/backend/pc_ml/trial_log.py",
+      "bytes": 4028,
+      "sha256": "6a61539ccf3e7380c93dc47a01b7101fc92421eb041a083dc21fd167ab6063c2"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/backend/pc_ml/verify.py",
+      "bytes": 3899,
+      "sha256": "2ea0251467a618791e5ad80ee97aaa055a5ded096b8b3f1f0632f49af8c795c6"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/assets/gestures/MYO-APACHE-2.0.txt",
+      "bytes": 11357,
+      "sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/assets/gestures/TWEMOJI-LICENSE-GRAPHICS.txt",
+      "bytes": 18524,
+      "sha256": "8ae9438818c26e4873b91d8c6ad620526c011e27e125677f13031eda903f007c"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/assets/gestures/custom.png",
+      "bytes": 693,
+      "sha256": "bda2e7dccdd909cfdbc22f7b580b259dffa9b9b34020fbfcf3b8478673b59c83"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/assets/gestures/fist.png",
+      "bytes": 823,
+      "sha256": "44bc6ebcb79d391873e86d747895f8a982073502de9f6639eef86c2eebd2f78c"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/assets/gestures/ninapro/bottle_cap_grasp.png",
+      "bytes": 20177,
+      "sha256": "c8820d575ab5358cd02ef89fe3596d916ca17e851f42706302f91d875fc5595c"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/assets/gestures/ninapro/disk_grasp.png",
+      "bytes": 21104,
+      "sha256": "703716427d272a8a8d972bdc631be2dade3e7389c5f06a30ed6080697131a9a5"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/assets/gestures/ninapro/extension_grasp.png",
+      "bytes": 18572,
+      "sha256": "98e7a7d450aecc4fb95ebbf0fea810c73878e548f009043720757dd2af2545f3"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/assets/gestures/ninapro/fingers_together.png",
+      "bytes": 17094,
+      "sha256": "226c26cc9831190c81940c24eebe1b704f5b05e1c2529caa901e3a8727fc58c2"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/assets/gestures/ninapro/fist.png",
+      "bytes": 17340,
+      "sha256": "ea5a220ccba95e69540ac5c17f7e34045ec9c8339c5fd28b2fe16ead2fe07f37"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/assets/gestures/ninapro/hook_grasp.png",
+      "bytes": 19836,
+      "sha256": "e72341ff93440b1480b75469331d65ca9b42f42377965fbcd71eb338e32ba387"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/assets/gestures/ninapro/index_extension.png",
+      "bytes": 16833,
+      "sha256": "d8fce1b29898fee0009cc7c4323d2ce4768f187bc3283bcd24e0fda1e2bd66a4"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/assets/gestures/ninapro/index_flexion.png",
+      "bytes": 17032,
+      "sha256": "d60064bc0e161bacb480952c9abf1220fc609ef9bd9fcc25768ff4fa3967507b"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/assets/gestures/ninapro/index_grasp.png",
+      "bytes": 19664,
+      "sha256": "b11ca39da0e395dc535b65e407d86c57b9ce5e43d80665e4b910f330c18216d6"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/assets/gestures/ninapro/knife_grasp.png",
+      "bytes": 25558,
+      "sha256": "9922328369112864b0519ff0fe924b41fbe48d6b95f674a14c8e528e3182a3a5"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/assets/gestures/ninapro/large_cylinder.png",
+      "bytes": 19995,
+      "sha256": "b28efc191b0639dfcb3dd56d995679b3d1bb77b58b204677a2a369fb7ccee12f"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/assets/gestures/ninapro/lateral_grasp.png",
+      "bytes": 18395,
+      "sha256": "cf3669579e641faa1a3e25138f19c6bff6d8d704bd1ba2b99194a1553b5d1c8a"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/assets/gestures/ninapro/little_extension.png",
+      "bytes": 16936,
+      "sha256": "b00a5eecf33d302695a7331306aa64faa5a13355a857ed913bad7f023970264b"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/assets/gestures/ninapro/little_flexion.png",
+      "bytes": 16807,
+      "sha256": "21863b6dfade338c45a301bfb2f62e5c903e1d56644abb12001b15317cec726b"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/assets/gestures/ninapro/manifest.json",
+      "bytes": 8629,
+      "sha256": "5baffa965654756df45078b3ef19a2fe59d3ef4fecfabddb823372508bfb3c4c"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/assets/gestures/ninapro/medium_wrap.png",
+      "bytes": 18725,
+      "sha256": "536ce5ba61e551616585d0bb5974c676c021779220c5ce24e6df4ac93f3aad24"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/assets/gestures/ninapro/middle_extension.png",
+      "bytes": 17080,
+      "sha256": "5b944a1686e23a55185ad0b2c1f62f0516dc9fe8fe7775c6cb5314550ce3044b"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/assets/gestures/ninapro/middle_flexion.png",
+      "bytes": 17646,
+      "sha256": "ab5bb065e45515edd9c6a8d7f35219e7a5ee841fe741657cd7d747f7f0efd042"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/assets/gestures/ninapro/one.png",
+      "bytes": 15972,
+      "sha256": "38fc51c591b884beac9ee61ff6580ecac0759e45b171405838744dd523e5c3ff"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/assets/gestures/ninapro/open.png",
+      "bytes": 17776,
+      "sha256": "0721284d336b17db7d380637fb63acc931a3e3437f27129023ce48ed1982f645"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/assets/gestures/ninapro/parallel_grasp.png",
+      "bytes": 21520,
+      "sha256": "7aad6b5d5c1d00df81923ae11dac26f570feabb16a3359a1016961ecab9727cd"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/assets/gestures/ninapro/power_sphere.png",
+      "bytes": 18196,
+      "sha256": "e0d8a92c7113ab7c4d3213f53da392e2f7b1a5ce69dc49d0c27e48c172d7f1ea"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/assets/gestures/ninapro/precision_sphere.png",
+      "bytes": 19454,
+      "sha256": "f9e406ddb964fd2d8827dce44a32da0db8d527049f42fc65b5cb459caafb3137"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/assets/gestures/ninapro/prismatic_four.png",
+      "bytes": 18226,
+      "sha256": "388f28f39048b036b5d49646d26d13c1fba3fe1f8fed61a3590ff82df597f4b0"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/assets/gestures/ninapro/prismatic_pinch.png",
+      "bytes": 18114,
+      "sha256": "cea86dafa9e2c2bcefddbcc3d37a75393480fa6989ede6998b848265c3086de0"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/assets/gestures/ninapro/pronation.png",
+      "bytes": 22046,
+      "sha256": "995afc3e39ecc4be049dbdeef93dbe17fc830ca99d91e300874c4b1e2c77ef90"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/assets/gestures/ninapro/pronation_ulnar.png",
+      "bytes": 20596,
+      "sha256": "c5a0b16ac597ba6adfb793c5366c158004844f52c0d71143a88bcecf5dd5411b"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/assets/gestures/ninapro/quadpod_grasp.png",
+      "bytes": 19703,
+      "sha256": "40bd83680be2a40e79a04073c5120e1f8dde8da7c83a2a1b5f2eccc7087c66f6"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/assets/gestures/ninapro/radial_deviation.png",
+      "bytes": 16641,
+      "sha256": "8216f285ee05b6451b77a6bd114ac1bc2939bea0de27b49f251f5510b42b9461"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/assets/gestures/ninapro/ring_extension.png",
+      "bytes": 16851,
+      "sha256": "3c8b33091718d2f7790595e46501050d9967f743f13611c51b6083663e9e0f51"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/assets/gestures/ninapro/ring_flexion.png",
+      "bytes": 16800,
+      "sha256": "f0c9cf2fbd419e0157c6a545088b70d2a2e5e2ccc85d09049dfc10f308a6f38c"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/assets/gestures/ninapro/ring_grasp.png",
+      "bytes": 20949,
+      "sha256": "ad08e3ef9ffcec4e1facb19294928e27a170fa3ed34fdc91c394014d0c860a5b"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/assets/gestures/ninapro/screwdriver_grasp.png",
+      "bytes": 21684,
+      "sha256": "b9fff82d2ab2e2de391c4b5633fecbe76fc7de26d3092d29f69cb0c4b6b58d41"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/assets/gestures/ninapro/small_cylinder.png",
+      "bytes": 18285,
+      "sha256": "ef2cb1902cb699c9bc775fab20b40e089dd4acf4d3c7986c8ef35df7f415bd6e"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/assets/gestures/ninapro/source.png",
+      "bytes": 2270669,
+      "sha256": "f240dfcf247516a632308fc19b62ff0bc08fc87f50bf0cb4d7055b2a74cbc45b"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/assets/gestures/ninapro/stick_grasp.png",
+      "bytes": 19590,
+      "sha256": "5f25eaa4f39eb3b624adbfc4dc10d2c6130a63625ce642baa4610840fe8aa805"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/assets/gestures/ninapro/supination.png",
+      "bytes": 22337,
+      "sha256": "c984ca0d2fcf57cee6f9193137918b18370aac38da21302a0de156fa4b76d0f1"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/assets/gestures/ninapro/supination_ulnar.png",
+      "bytes": 19499,
+      "sha256": "80a96fef7a0f5ed88b007efe2522205919bac7c49ca5a3732c1c3431d5d47a31"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/assets/gestures/ninapro/three.png",
+      "bytes": 18770,
+      "sha256": "05dc44378c510f52c1ae306dfdc8a57bee8efbd7c915a6adc38bc846509f5f05"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/assets/gestures/ninapro/three_finger_sphere.png",
+      "bytes": 19564,
+      "sha256": "6036368bdf1a36c24a051c90fcdcec3481ada9296634d643ddf9b96f72e51b57"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/assets/gestures/ninapro/thumb_abduction.png",
+      "bytes": 16614,
+      "sha256": "6ae120d338126ba6d7c063f303acfe4359228d9d63f7e5d5610483d4445216ee"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/assets/gestures/ninapro/thumb_adduction.png",
+      "bytes": 17109,
+      "sha256": "ca60549172d7108ad5095d63b3a8f0e22816e51320e20298177de57639687006"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/assets/gestures/ninapro/thumb_extension.png",
+      "bytes": 15933,
+      "sha256": "20c2463d719dc46fc0d4f336bf3a1fb5368888d914d720e9fe4bab034c2fe55a"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/assets/gestures/ninapro/thumb_flexion.png",
+      "bytes": 17332,
+      "sha256": "d299d101b5815756ae44f9c148fbcb44c36fc8bbedb9e4a998e6b2a6064fa3d4"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/assets/gestures/ninapro/thumb_to_palm.png",
+      "bytes": 17635,
+      "sha256": "011d497610fcddb9f09a7bd0fa61fc618d658bcd52ae803f2fcf7b04b32fa1f6"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/assets/gestures/ninapro/thumbs_up.png",
+      "bytes": 19414,
+      "sha256": "7dfdd515192386b2cca37f22a2d798bccc0924153d215f3743fed4b7ecfb78af"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/assets/gestures/ninapro/tip_pinch.png",
+      "bytes": 18096,
+      "sha256": "ab043fee0e7d0693d10f82016d292296000bf5f8a64c6f42a0d95f37147e3585"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/assets/gestures/ninapro/tripod_grasp.png",
+      "bytes": 18530,
+      "sha256": "123fa7d769da4810db42d5e3a6b752ea6562072859416288764c301343599509"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/assets/gestures/ninapro/two_fingers.png",
+      "bytes": 17574,
+      "sha256": "c2c686c454d242ce343bbb4247badabd0d9aa5b993bd715300767ff920885f76"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/assets/gestures/ninapro/ulnar_deviation.png",
+      "bytes": 17027,
+      "sha256": "ed8a4cae06b4a4fba8ed056bb488a00b2bc8d5f71867e0aabb51af9021936590"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/assets/gestures/ninapro/wrist_extension.png",
+      "bytes": 17047,
+      "sha256": "1a2056aab7e367f9a4eac2db93a6d0fd81ce135f5313184b939e652a7f4f926b"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/assets/gestures/ninapro/wrist_extension_fist.png",
+      "bytes": 15841,
+      "sha256": "d81ae4e1b272a20439fe3a9abd2842c1187116117fb3e27b367b5bd525414357"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/assets/gestures/ninapro/wrist_flexion.png",
+      "bytes": 17352,
+      "sha256": "23a5ad3caee72a270888195279c70cf304018aabc2f5f4983eab60d3405e8bf3"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/assets/gestures/ninapro/writing_grasp.png",
+      "bytes": 18586,
+      "sha256": "e8e470367fd323fe3f0a3d63573c40525b53d1342275e152e6a816e52fe5665b"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/assets/gestures/one.png",
+      "bytes": 653,
+      "sha256": "265454f6aa0cd22f5a40b294085e4039abb85f1bb739a665817713a580499992"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/assets/gestures/open.png",
+      "bytes": 863,
+      "sha256": "66913e143a99c5692d83d2f5ae15349305da0fb98a394c3c3961215cebb8aa7f"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/assets/gestures/rest.png",
+      "bytes": 390,
+      "sha256": "9e2b51deb7f8dcb594c034b7510c2373ace9e9f52420aed023b8c0bfef60d1c6"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/assets/gestures/scissors.png",
+      "bytes": 786,
+      "sha256": "cea523470d65f2a2a77529df0ba9dbd8b6d625e0311c3438a5a30b4dc583235d"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/assets/gestures/six.png",
+      "bytes": 840,
+      "sha256": "f8345ba42d846232227c2c364b197ceda14c6c17d6a6fc4bd3a541cebfbab9de"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/assets/gestures/thumbs_up.png",
+      "bytes": 778,
+      "sha256": "42b43325b3edacba2a0e72b742bdc6fc5e4bc2ad38adca271fcc6d8353639887"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/assets/gestures/wrist_extension.png",
+      "bytes": 9334,
+      "sha256": "14551ead9fd184ac97cfb30c9c265aa673a252894dc10fb5c6231d4faffe97c2"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/assets/gestures/wrist_flexion.png",
+      "bytes": 9729,
+      "sha256": "9d049daacfed1272e2b8381ac6f0795847e74052870a1fe2f7475ce8b0a95b6c"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/benchmark_dgt_fpga.py",
+      "bytes": 18650,
+      "sha256": "9b0b3154ef9fbe5fd9c90731026518880b2f4195ca56ccb4ebc615f932b8a5d7"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/benchmark_experiments.py",
+      "bytes": 17756,
+      "sha256": "a37bf009a34cc9a1a9e2c1ac4f4ff7cb86bbec0796a8da18a659965e425b1758"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/build_gesture_assets.py",
+      "bytes": 2303,
+      "sha256": "e74283f0c54c3ddd66e00e87d3cc917fd5eed406c959a71a9e7c8856ba3183df"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/emg_studio_gui.py",
+      "bytes": 47438,
+      "sha256": "a6a5830a0bca76b37af6f267456a4dc311b5f2c3ce623e518de12109d1ab25d9"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/emg_studio_gui_V2.0.py",
+      "bytes": 50617,
+      "sha256": "ae325d69ba540fdf47bbe54ecc465554d36dd958346d050847cba9593ee002b3"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/emg_studio_gui_V3.0.py",
+      "bytes": 55111,
+      "sha256": "43eeb891c8f80ec0b52962f50a4d614629dc57c04cb1fd3d9f9cd61f86125784"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/field_training.py",
+      "bytes": 31459,
+      "sha256": "6c53d0680d09fd92f64bbd629b804b84b405ae6802d611201be49114debe2927"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/gesture_config.py",
+      "bytes": 17753,
+      "sha256": "c06038ba47667983c8482a006bba2c10c8420d7eceb10bb82615b4e1c5e46a81"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/gesture_dialog.py",
+      "bytes": 19638,
+      "sha256": "7880f7b6e1a7454143b30a466208e9ceb3d1a420c0a9c315aa8653b040f63adf"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/inspect_dataset.py",
+      "bytes": 2816,
+      "sha256": "777f47f71c8a1155764a4a1c1af4ea068ad8edf6e5a81ebcb184f60ed4ef1779"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/models/DGTV1.0.pth",
+      "bytes": 84597,
+      "sha256": "95615687e88fbf41bd0dc93dc1ee50622420d20a6d0f60d7a99379a14463b091"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/models/DGTV1.8.pth",
+      "bytes": 160293,
+      "sha256": "d75ac9d1f26925cf21518c206a8a9e10ccff8ae8866c9598f1597ae51f5526e1"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/models/DGTV1.9.pth",
+      "bytes": 83939,
+      "sha256": "415c21f3e5810719b786b9887aaa7efb666d97892aa61a1f13d417b1491447f9"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/models/DGTV2.0.pth",
+      "bytes": 83853,
+      "sha256": "567607fdc4766ca7c0416c235e0adea8cf259a42faa595f0685f78c7eae440ac"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/models/best_dgt_fpga_model.pth",
+      "bytes": 84661,
+      "sha256": "73bdfcd193239e7076799a97e8cef284e8a447b242eb6d46e9b29e9fdb011fbb"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/models/best_emg_cnn.pth",
+      "bytes": 57441,
+      "sha256": "270227ffb28a0893570e75d569d8fdd710db8478c706ad63669034d32ef93a0d"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/models/best_extratrees.pkl",
+      "bytes": 8302772,
+      "sha256": "4d64983665434d4b9e5bf6336a591e0ed767856b60a2ebc4abdae2615a175221"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/models/best_fpga_model.pth",
+      "bytes": 24757,
+      "sha256": "a7d9ee49942e81a01921f235e8c663f5301688bd86c7befa0a7f6452b164597e"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/models/best_resnet1d.pth",
+      "bytes": 160753,
+      "sha256": "c4f89421b3c55a65ed553a8d2d7dd868d704630e82487dd25a75db7bef9ab3b5"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/models/best_super_feature_mlp.pth",
+      "bytes": 84511,
+      "sha256": "4c4147db7c08037b6d5ada0b7256118502e8813e3f7da4949a6ce86ca83e6a1d"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/models/cnn_fusion_trial_default.json",
+      "bytes": 116,
+      "sha256": "816bd72220d289b4a1570f65b10b37067e8b856d58730a565f296b398c7414e5"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/models/filtered_cnn_default.json",
+      "bytes": 105,
+      "sha256": "3fd0e9ad4d2ead78f4250d284f42743bdb230d00e4fb78ffd03d889c8958c989"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/models/parallel_fusion_default.json",
+      "bytes": 105,
+      "sha256": "3fd0e9ad4d2ead78f4250d284f42743bdb230d00e4fb78ffd03d889c8958c989"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/models/历史归档/历史旧模型_6分类_20261022_185955.pth",
+      "bytes": 57697,
+      "sha256": "aaf3dc8f921a463f7f6f3642fca71d55e264f002fa80a3abfd238e6f3da91f39"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/models/历史旧模型_20261022_191630.pth",
+      "bytes": 57441,
+      "sha256": "5ad1ab8aee0c2f0f0936228128e4abaa3b60bb8aaecba8a5c3f0bd72214ae193"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/requirements.txt",
+      "bytes": 92,
+      "sha256": "818fb7e29fae8fdf885c3add9483cd7359d177efe3578a9a520ba39eb456dde7"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/settings/gesture_profile.json",
+      "bytes": 3095,
+      "sha256": "2ebb42a89604869c641fb01c1f70833c639c4c54808ff3ae12512553b37be3b5"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/signal_processing.py",
+      "bytes": 2539,
+      "sha256": "8a5f9de60157769724e86f2da05ba77e63ca6f0424ee4299203809fc71c7f212"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/test_signal_link.py",
+      "bytes": 6321,
+      "sha256": "622c0df1fa93e0c936461a5d10ede67f08210b632c3b41bf179916ecfa3376bf"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/tests/test_field_integration.py",
+      "bytes": 24080,
+      "sha256": "7990b9b9491be94cadc85340ea1655129050d7c016c3595a8241dee01d835026"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/tests/test_signal_processing.py",
+      "bytes": 8135,
+      "sha256": "588ffe1945a1e554d084c83c9c40337bb3ad784976d000129be0bed8216471bc"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/train_cnn.py",
+      "bytes": 10553,
+      "sha256": "2b535c8e35d05c6715ff4c6df7f639f0082305bb3196d8fb9bc5c6284f682e9c"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/train_export_resnet.py",
+      "bytes": 5603,
+      "sha256": "b410abbaabe7372e80080eb5a981cf4e983e88019454af2dbb6477a3cf1a6cee"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/train_super_emg.py",
+      "bytes": 10945,
+      "sha256": "3c1cc854e30f1854e7ef46a0b9e2f12f997e1333bf3295041900a70a96be5916"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/ui_style.py",
+      "bytes": 5424,
+      "sha256": "20fcd00e3d0dbb1142bb0b6de503870b80f6e2c158cd04a48d0fb7ab3b32ddaa"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/waveform_replay.py",
+      "bytes": 4265,
+      "sha256": "e5234f2275d7815ff2d8b0750731feee279d0694b30250953694c858f444f9cb"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/emg_ml/workstation_ui.py",
+      "bytes": 11052,
+      "sha256": "b1154377bd93bfb56fe6fbbccbe3dd3ae72303974bccf832e38a320a4529ca11"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/requirements.txt",
+      "bytes": 144,
+      "sha256": "67aa594c54da0a9071e86c3d0b3eb67b573519f14a128dff4edfa40262fcf782"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/start_emg_studio.py",
+      "bytes": 925,
+      "sha256": "58859f5705d2137932f4ec71357ea9bc04b5c25e69e48c629673553676f7ba50"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/启动上位机.cmd",
+      "bytes": 99,
+      "sha256": "57cf09491b88e97da2eec5c3960b209eeaa68a415051aad89a07ba1d2de48264"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/安装依赖.cmd",
+      "bytes": 90,
+      "sha256": "20c7b5da9c43a96644675de8695dbaa68aba007122b58b07372902ec922af00d"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/已验证依赖版本.json",
+      "bytes": 219,
+      "sha256": "bb8cb10e340ef0a025181efbcc048f4094160bf17142a2db220db0145428bc9f"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/文件清单.json",
+      "bytes": 33425,
+      "sha256": "e5f6f7a70fc11b6db82bf434d08294b4b37f0e458eb1fcef65978ab29f088fe6"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/界面预览/信号诊断.png",
+      "bytes": 406254,
+      "sha256": "16eebf9f9adcc55b376905aa25c89fabf5ad5bb4c28e5c3771bb0aea96dccff8"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/界面预览/动作选择.png",
+      "bytes": 522223,
+      "sha256": "eba00a77ff118936b44bd707c6528edfcedd72466d5f9933e816b2ca4d25ebaa"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/界面预览/实时识别.png",
+      "bytes": 373503,
+      "sha256": "9713e985b1b201e9d28c3e262d47b8c72f6ce6676df82033f40b561c98b8fc80"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/界面预览/数据录制.png",
+      "bytes": 463609,
+      "sha256": "634bb78e2ab8d02ddf4b52abcbfbb1830e8cadfe9e66f5785fb32a7f25f3075c"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/界面预览/现场训练.png",
+      "bytes": 471235,
+      "sha256": "12b5aae506dc2425f9d3f5f3531f869a03e342b7e8eb4ed5c453d406aa1ee7a3"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/界面验证记录.json",
+      "bytes": 2300,
+      "sha256": "50cd27e7a68a1acb0e08d546ea399b41232ab2e3ddc34525bfa5b897f5ab1c71"
+    },
+    {
+      "path": "extras/EMG_Studio_UI_20261031/附带数据清单.json",
+      "bytes": 5269,
+      "sha256": "b0af853f2de7388fbffa23e965b9e1f04de9da8e783229aa609601a7a7750e1f"
+    },
+    {
+      "path": "fpga/A_recognition/ECO实现与证据/A_FORWARD_HEADER_ECO_TEST_20261102.bit",
+      "bytes": 671537,
+      "sha256": "f7b5a104c2f32f64cdbd14544b0a4b0db34d8269aa940b865727fc3c11368396"
+    },
+    {
+      "path": "fpga/A_recognition/ECO实现与证据/baseline_physical.v",
+      "bytes": 10664697,
+      "sha256": "5f755db4efd40c465d7a319493cd7b82994f2fa609f31fb9c13eb98d01af33d4"
+    },
+    {
+      "path": "fpga/A_recognition/ECO实现与证据/final_timing.rpt",
+      "bytes": 604438,
+      "sha256": "ad9f247f4e7dc41f874c6395dd6669c5cf6913354789d56b29ddb53d56d4a1d5"
+    },
+    {
+      "path": "fpga/A_recognition/ECO实现与证据/independent_timing.rpt",
+      "bytes": 604438,
+      "sha256": "2bbec7213a428f2d1007fd9e1d44657214fabe41b50e28a5f83848982dacbfd6"
+    },
+    {
+      "path": "fpga/A_recognition/ECO实现与证据/independent_timing_check.rpt",
+      "bytes": 21020,
+      "sha256": "9ff242882a3eeaecb77c7e3a068be65651dd05e16dd68683ea4560aedab8c370"
+    },
+    {
+      "path": "fpga/A_recognition/ECO实现与证据/latest_1255_a_eco.json",
+      "bytes": 840,
+      "sha256": "0b6c224416f44f98f4f0ce1e882ef596d32e936ed85b722f355046160b265c4a"
+    },
+    {
+      "path": "fpga/A_recognition/ECO实现与证据/netlist_verification.json",
+      "bytes": 589,
+      "sha256": "836a6246c680c863424293d56cd1777f77fee68cc212dbefab73ea2f94a79002"
+    },
+    {
+      "path": "fpga/A_recognition/ECO实现与证据/patch.diff",
+      "bytes": 661801,
+      "sha256": "9e7e0fc741b8488dacae2f9a06a3558acc4a41000afd6622f3ae38f75e8faa46"
+    },
+    {
+      "path": "fpga/A_recognition/ECO实现与证据/patch_a_forward_header.tcl",
+      "bytes": 2350,
+      "sha256": "f59adea548d7a9579550a5b26daa49a04999786a0e97d2da72b58d0c35f2cc47"
+    },
+    {
+      "path": "fpga/A_recognition/ECO实现与证据/patched.db",
+      "bytes": 13754534,
+      "sha256": "30f819d495997b04a0c58618986abc90275c838252132365ce0a22b98f770702"
+    },
+    {
+      "path": "fpga/A_recognition/ECO实现与证据/patched_before_route.db",
+      "bytes": 13754148,
+      "sha256": "e2d3084ba9104209b7c407fccc66c9ed8daeba018f8f3f15fccb2c4f286e8add"
+    },
+    {
+      "path": "fpga/A_recognition/ECO实现与证据/patched_before_route.v",
+      "bytes": 10665062,
+      "sha256": "142aa91b5a100b34108ba3bfa3b4ab623eb6fb9350a453beeecbdba2ee50b8bf"
+    },
+    {
+      "path": "fpga/A_recognition/ECO实现与证据/patched_physical.v",
+      "bytes": 10665062,
+      "sha256": "c7b1b404708e36d2f62ac20195ab894a24d2f72aaa7b0e3e1734bcbb045b5986"
+    },
+    {
+      "path": "fpga/A_recognition/ECO实现与证据/release_manifest.json",
+      "bytes": 627,
+      "sha256": "282746f64d2935e09059fecf4546441faf9acd24d50215891bab7529d2b35a31"
+    },
+    {
+      "path": "fpga/A_recognition/ECO实现与证据/resume_a_forward_header.tcl",
+      "bytes": 688,
+      "sha256": "915c89964bafcf5f58b40dccbf19d6f4db04ed91fd3670856b54913b5c4adf10"
+    },
+    {
+      "path": "fpga/A_recognition/ECO实现与证据/signoff_a_forward_header.tcl",
+      "bytes": 668,
+      "sha256": "a0f88f6702e12cad259769512a5443a3b1e270c7c31d361d86b0400877727f64"
+    },
+    {
+      "path": "fpga/A_recognition/ECO实现与证据/source/v2_pc.v",
+      "bytes": 28823,
+      "sha256": "689d1b2660ccfc35349d4b61abea682399ca823bd4b5b0c8d8efc2430c00f156"
+    },
+    {
+      "path": "fpga/A_recognition/ECO实现与证据/timing_check.rpt",
+      "bytes": 21020,
+      "sha256": "9ff242882a3eeaecb77c7e3a068be65651dd05e16dd68683ea4560aedab8c370"
+    },
+    {
+      "path": "fpga/A_recognition/ECO实现与证据/v2_board_top_inst.bid",
+      "bytes": 85578,
+      "sha256": "23eba944c5c5f48d3c14141b061781a8e31dbeeb232a53c7fb3b6ecb35aec566"
+    },
+    {
+      "path": "fpga/A_recognition/ECO实现与证据/verify_a_forward_eco.py",
+      "bytes": 2596,
+      "sha256": "aa0a5e41ebc7fae83385d763e334229de6790023fb5071f8926515491f8af709"
+    },
+    {
+      "path": "fpga/A_recognition/ECO实现与证据/原版R4补丁输入_routed.db",
+      "bytes": 13754852,
+      "sha256": "18fd6ddf1d0de2ca2058038d19fdb0944f1b51cb5088f51331704f3031d435be"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/SHA256.json",
+      "bytes": 32150,
+      "sha256": "23859da15cf805579155857198b18e808a21f89a42d4099a1b65d8d19f400f0c"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/a_ab_v2_cli.py",
+      "bytes": 9990,
+      "sha256": "f40413d2aa1bfadb963e91eba8bc56f43266f18e9bd5a8a88d1014785805b2a9"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/a_gesture_tasks.bit",
+      "bytes": 671537,
+      "sha256": "aa77e2122a40be7dd7bbb17790f0f6b75693e9c48a02e6c41ed7c98a658887c6"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/a_gesture_tasks_capture.py",
+      "bytes": 6588,
+      "sha256": "cc54f709327ff4576837f0ca67e68b50a986247ede6d0f1af4282ce07cb350d4"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/a_gesture_tasks_cli.py",
+      "bytes": 5950,
+      "sha256": "07918424bb5c2033dbaaac40e2ce7735ebccbf3c2224a6f7e740f0ab71f2ba60"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/action_map.hex",
+      "bytes": 192,
+      "sha256": "2af42c3706e9fb196bfde0d7d3efa319e0a36c7c7a5480d71d234e6468c000b7"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/all.v",
+      "bytes": 159769,
+      "sha256": "d717f4aab6060599b871795721cd52a5f0e29ca3f4b2b440ed5b6c53fcb4425b"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/audit.json",
+      "bytes": 19284,
+      "sha256": "61e4e90e73d8eb00b5dedfa5586b44cf21f53484031ae66d55d1e63bfe3a5cb4"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/build.log",
+      "bytes": 97927,
+      "sha256": "99d3144f166f000cf1aed2a90d2d2ac685c59d44d0d37f65aed2614b47e169b6"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/cnn_bias.hex",
+      "bytes": 720,
+      "sha256": "549cb41e2b3d76286638e4b899f8e947253dff055692f8a254b9b714bd94ef43"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/cnn_head_bias.hex",
+      "bytes": 320,
+      "sha256": "2757944434dba8ffe1e0b04bb2dfaeb4121594fd057aeb1ed7baf9e29d69b458"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/cnn_head_shift.hex",
+      "bytes": 128,
+      "sha256": "b2250e7cbe6abb44b12db2d25e67019e3af2e2e1eb5c13bf8fe82bb683c07ccb"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/cnn_head_weights.hex",
+      "bytes": 4096,
+      "sha256": "84e7cfa545e04e2039e626f7a58e11443d42003f956d2ee66c7eea3c62806234"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/cnn_input_shift.hex",
+      "bytes": 32,
+      "sha256": "cbc97bc52b7083e8bd56458b525b2afcd57314e5db5e1a6232dd7f9eb9cee160"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/cnn_shift.hex",
+      "bytes": 288,
+      "sha256": "48fefe14f80a76db99878e4f1f03eed557cf2e0aefdeb8826bed21f079e624e9"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/cnn_w0.hex",
+      "bytes": 2560,
+      "sha256": "99a31e02bbf67acbc9e8c15331d0132391453521a38c9d44eac92cf9512350b0"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/cnn_w1.hex",
+      "bytes": 2560,
+      "sha256": "3e9d2f040452b6dce3c7d48bbb7d60a736d44fe57325e3080879d6478d8c1b78"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/cnn_w2.hex",
+      "bytes": 2560,
+      "sha256": "bd47fa2e93608d0ffd072d006f8c706b4dc3200de1a2fa2efb7c0816c2fbcb79"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/cnn_w3.hex",
+      "bytes": 2560,
+      "sha256": "9a73d4f28874abe9c68d431caeaeb9599f795f53c9dd18f3daa6e684e504a145"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/cnn_w4.hex",
+      "bytes": 2560,
+      "sha256": "1f1683fa6aac6151b1625b5c7411ce77449b5372cf961d8e1494f3415d85a70e"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/cnn_w5.hex",
+      "bytes": 2560,
+      "sha256": "ef4df5f8364ab69f6e010dad58381375253923671b04825118fea6b9157c6c8e"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/cnn_w6.hex",
+      "bytes": 2560,
+      "sha256": "d7ad560f27d2e815b6543034500c2e6ba106510712d658079c1f7938894a0766"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/cnn_w7.hex",
+      "bytes": 2560,
+      "sha256": "eb1f5c45092e87882874fe6f1b0505016921487abd209ca5856b72ab0b05d73a"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/a_to_pc.bin",
+      "bytes": 53233,
+      "sha256": "623a0259f95c8512694f786fad065e6f0dda6a77191d687d5af49d8ca93ee771"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/action_map.hex",
+      "bytes": 192,
+      "sha256": "2af42c3706e9fb196bfde0d7d3efa319e0a36c7c7a5480d71d234e6468c000b7"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/all.v",
+      "bytes": 159763,
+      "sha256": "2870a6d515369f85a8a571b3891a9e18a033d05006da5d084089cb96071b696c"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/b_r50_capture_history_20261101_r1/a_to_pc.bin",
+      "bytes": 1305,
+      "sha256": "d5ada7e3b15ee17d6040f5fb33a37f6581a365eb1b92f788495096702affe8b2"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/b_r50_capture_history_20261101_r1/action_map.hex",
+      "bytes": 192,
+      "sha256": "2af42c3706e9fb196bfde0d7d3efa319e0a36c7c7a5480d71d234e6468c000b7"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/b_r50_capture_history_20261101_r1/all.v",
+      "bytes": 159902,
+      "sha256": "0946346f10a28122bcb8929e720e49a52c11fa7c748ce9496fc5b128e52157a1"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/b_r50_capture_history_20261101_r1/b_release_identity.json",
+      "bytes": 190,
+      "sha256": "daa436f447388dc0cce0c58ab9aad82bb64579bb78be5c9355a56e38d007ac53"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/b_r50_capture_history_20261101_r1/cnn_bias.hex",
+      "bytes": 720,
+      "sha256": "549cb41e2b3d76286638e4b899f8e947253dff055692f8a254b9b714bd94ef43"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/b_r50_capture_history_20261101_r1/cnn_head_bias.hex",
+      "bytes": 320,
+      "sha256": "2757944434dba8ffe1e0b04bb2dfaeb4121594fd057aeb1ed7baf9e29d69b458"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/b_r50_capture_history_20261101_r1/cnn_head_shift.hex",
+      "bytes": 128,
+      "sha256": "b2250e7cbe6abb44b12db2d25e67019e3af2e2e1eb5c13bf8fe82bb683c07ccb"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/b_r50_capture_history_20261101_r1/cnn_head_weights.hex",
+      "bytes": 4096,
+      "sha256": "84e7cfa545e04e2039e626f7a58e11443d42003f956d2ee66c7eea3c62806234"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/b_r50_capture_history_20261101_r1/cnn_input_shift.hex",
+      "bytes": 32,
+      "sha256": "cbc97bc52b7083e8bd56458b525b2afcd57314e5db5e1a6232dd7f9eb9cee160"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/b_r50_capture_history_20261101_r1/cnn_shift.hex",
+      "bytes": 288,
+      "sha256": "48fefe14f80a76db99878e4f1f03eed557cf2e0aefdeb8826bed21f079e624e9"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/b_r50_capture_history_20261101_r1/cnn_w0.hex",
+      "bytes": 2560,
+      "sha256": "99a31e02bbf67acbc9e8c15331d0132391453521a38c9d44eac92cf9512350b0"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/b_r50_capture_history_20261101_r1/cnn_w1.hex",
+      "bytes": 2560,
+      "sha256": "3e9d2f040452b6dce3c7d48bbb7d60a736d44fe57325e3080879d6478d8c1b78"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/b_r50_capture_history_20261101_r1/cnn_w2.hex",
+      "bytes": 2560,
+      "sha256": "bd47fa2e93608d0ffd072d006f8c706b4dc3200de1a2fa2efb7c0816c2fbcb79"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/b_r50_capture_history_20261101_r1/cnn_w3.hex",
+      "bytes": 2560,
+      "sha256": "9a73d4f28874abe9c68d431caeaeb9599f795f53c9dd18f3daa6e684e504a145"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/b_r50_capture_history_20261101_r1/cnn_w4.hex",
+      "bytes": 2560,
+      "sha256": "1f1683fa6aac6151b1625b5c7411ce77449b5372cf961d8e1494f3415d85a70e"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/b_r50_capture_history_20261101_r1/cnn_w5.hex",
+      "bytes": 2560,
+      "sha256": "ef4df5f8364ab69f6e010dad58381375253923671b04825118fea6b9157c6c8e"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/b_r50_capture_history_20261101_r1/cnn_w6.hex",
+      "bytes": 2560,
+      "sha256": "d7ad560f27d2e815b6543034500c2e6ba106510712d658079c1f7938894a0766"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/b_r50_capture_history_20261101_r1/cnn_w7.hex",
+      "bytes": 2560,
+      "sha256": "eb1f5c45092e87882874fe6f1b0505016921487abd209ca5856b72ab0b05d73a"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/b_r50_capture_history_20261101_r1/compile.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/b_r50_capture_history_20261101_r1/factory_identity.json",
+      "bytes": 84,
+      "sha256": "48e1d1ecb8967a28db32ce8e49f3a775e239a280e605a7dcb5079e01a7cdbc3d"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/b_r50_capture_history_20261101_r1/fusion_gate.hex",
+      "bytes": 10,
+      "sha256": "208481ba8ad401a428c367c2e8d415470e250b478681e371807b06ecfdc1ef2e"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/b_r50_capture_history_20261101_r1/fusion_scale.hex",
+      "bytes": 4,
+      "sha256": "74e1fa0d163104516080edc1f7286d841c3cf5e7ec32eebbaccd7c29bca6dab5"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/b_r50_capture_history_20261101_r1/input.hex",
+      "bytes": 5220,
+      "sha256": "083565f25b61f1a68962054f8f56389cb05cd0d074bbc5211a9e517e51a29c25"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/b_r50_capture_history_20261101_r1/linear_bank0.hex",
+      "bytes": 12288,
+      "sha256": "b527518af6e345b6c826379c7158883864af47c9eb583054125ee53d8eafa332"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/b_r50_capture_history_20261101_r1/linear_bank1.hex",
+      "bytes": 12288,
+      "sha256": "905a7219ecaf22a4741b7ee810a351cc8988cc4b82686182c5cedf6ff92e0a46"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/b_r50_capture_history_20261101_r1/linear_bank2.hex",
+      "bytes": 12288,
+      "sha256": "7c92d4b264cfb795fd5241c9b6e5ee5f329435432d4bc5a147f3efcbb0fade7e"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/b_r50_capture_history_20261101_r1/linear_bank3.hex",
+      "bytes": 12288,
+      "sha256": "7c92d4b264cfb795fd5241c9b6e5ee5f329435432d4bc5a147f3efcbb0fade7e"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/b_r50_capture_history_20261101_r1/linear_bank4.hex",
+      "bytes": 12288,
+      "sha256": "7c92d4b264cfb795fd5241c9b6e5ee5f329435432d4bc5a147f3efcbb0fade7e"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/b_r50_capture_history_20261101_r1/linear_bias.hex",
+      "bytes": 448,
+      "sha256": "0385e904e3b7f46411c2ad9a95d776d0df2a01662899a48b05e4caaf9b4959c7"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/b_r50_capture_history_20261101_r1/linear_offsets.hex",
+      "bytes": 1824,
+      "sha256": "ecc5ddb792f79101668f3ab799f745729c6f4b3094519b1730b1f8e3212bcbe4"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/b_r50_capture_history_20261101_r1/linear_weights.hex",
+      "bytes": 12768,
+      "sha256": "799889266234f37fd918deadbaffcdaa9f97253d801d719aa88b3e95ffd0e8be"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/b_r50_capture_history_20261101_r1/linear_weights_high.hex",
+      "bytes": 768,
+      "sha256": "4fa089a6f85b48ee1e3319c3225035f9297caa404ea2cc91ca23cc811dd56cde"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/b_r50_capture_history_20261101_r1/linear_weights_low.hex",
+      "bytes": 12288,
+      "sha256": "b527518af6e345b6c826379c7158883864af47c9eb583054125ee53d8eafa332"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/b_r50_capture_history_20261101_r1/parameters.json",
+      "bytes": 1193,
+      "sha256": "90f3681ef1f8a041ebc0d96d57f8b7cf94dad362fad7aca9482f68b17e40f783"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/b_r50_capture_history_20261101_r1/parameters_uart.bin",
+      "bytes": 49596,
+      "sha256": "4f2b5ccd58e6d02fe7a64bd6299e0f34f19db21c1deaf977f65407bdf04f5cca"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/b_r50_capture_history_20261101_r1/pc.hex",
+      "bytes": 5220,
+      "sha256": "ed4197c396ffccf4199745f3c5c5fe591297bf8c4db3ee5bce5368f0df6988c5"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/b_r50_capture_history_20261101_r1/simulation.log",
+      "bytes": 70,
+      "sha256": "1f178765432428055fdcbb09e9637dc0d188c650f83bb1d43773391972d13c16"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/b_r50_capture_history_20261101_r1/tb.sv",
+      "bytes": 1531,
+      "sha256": "8c050bc57852ea26131d85dd8340bb9453014a49814a5be647453491ef78bf16"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/b_r50_capture_history_20261101_r1/verification.json",
+      "bytes": 3126,
+      "sha256": "41eab1ad9aed28894610229843b19e0f73ab4785a16d2d489645cefda94303a1"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/cnn_bias.hex",
+      "bytes": 720,
+      "sha256": "549cb41e2b3d76286638e4b899f8e947253dff055692f8a254b9b714bd94ef43"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/cnn_head_bias.hex",
+      "bytes": 320,
+      "sha256": "2757944434dba8ffe1e0b04bb2dfaeb4121594fd057aeb1ed7baf9e29d69b458"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/cnn_head_shift.hex",
+      "bytes": 128,
+      "sha256": "b2250e7cbe6abb44b12db2d25e67019e3af2e2e1eb5c13bf8fe82bb683c07ccb"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/cnn_head_weights.hex",
+      "bytes": 4096,
+      "sha256": "84e7cfa545e04e2039e626f7a58e11443d42003f956d2ee66c7eea3c62806234"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/cnn_input_shift.hex",
+      "bytes": 32,
+      "sha256": "cbc97bc52b7083e8bd56458b525b2afcd57314e5db5e1a6232dd7f9eb9cee160"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/cnn_shift.hex",
+      "bytes": 288,
+      "sha256": "48fefe14f80a76db99878e4f1f03eed557cf2e0aefdeb8826bed21f079e624e9"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/cnn_w0.hex",
+      "bytes": 2560,
+      "sha256": "99a31e02bbf67acbc9e8c15331d0132391453521a38c9d44eac92cf9512350b0"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/cnn_w1.hex",
+      "bytes": 2560,
+      "sha256": "3e9d2f040452b6dce3c7d48bbb7d60a736d44fe57325e3080879d6478d8c1b78"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/cnn_w2.hex",
+      "bytes": 2560,
+      "sha256": "bd47fa2e93608d0ffd072d006f8c706b4dc3200de1a2fa2efb7c0816c2fbcb79"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/cnn_w3.hex",
+      "bytes": 2560,
+      "sha256": "9a73d4f28874abe9c68d431caeaeb9599f795f53c9dd18f3daa6e684e504a145"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/cnn_w4.hex",
+      "bytes": 2560,
+      "sha256": "1f1683fa6aac6151b1625b5c7411ce77449b5372cf961d8e1494f3415d85a70e"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/cnn_w5.hex",
+      "bytes": 2560,
+      "sha256": "ef4df5f8364ab69f6e010dad58381375253923671b04825118fea6b9157c6c8e"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/cnn_w6.hex",
+      "bytes": 2560,
+      "sha256": "d7ad560f27d2e815b6543034500c2e6ba106510712d658079c1f7938894a0766"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/cnn_w7.hex",
+      "bytes": 2560,
+      "sha256": "eb1f5c45092e87882874fe6f1b0505016921487abd209ca5856b72ab0b05d73a"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/compile.log",
+      "bytes": 305,
+      "sha256": "e82f7c821d136ef233f5f39ae7542c7ec326c0095e944ae6295a0f8dc3d55554"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/expected.json",
+      "bytes": 6567,
+      "sha256": "92bea53e17ee63a7d3cd9e0ba11dc7578ecce78eae5ff42b3fcdeb0c056a641f"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/expected_decision.hex",
+      "bytes": 378,
+      "sha256": "3b6efc1413048ff970c084cf97fe54fb68fecf1b0b0765344ca05115945441bf"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/expected_wave.hex",
+      "bytes": 255360,
+      "sha256": "884cf63a150b4caf5b1cbc77c7edd0a9ac971cb62cf8413239acf41f0eadae68"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/fusion_gate.hex",
+      "bytes": 10,
+      "sha256": "208481ba8ad401a428c367c2e8d415470e250b478681e371807b06ecfdc1ef2e"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/fusion_scale.hex",
+      "bytes": 4,
+      "sha256": "74e1fa0d163104516080edc1f7286d841c3cf5e7ec32eebbaccd7c29bca6dab5"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/head_dram_ablation/action_map.hex",
+      "bytes": 42,
+      "sha256": "65d4e09e60479cdb5e623b67336a6efcae27c251070059c867a72824a6bc816b"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/head_dram_ablation/cnn_bias.hex",
+      "bytes": 720,
+      "sha256": "549cb41e2b3d76286638e4b899f8e947253dff055692f8a254b9b714bd94ef43"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/head_dram_ablation/cnn_head_bias.hex",
+      "bytes": 70,
+      "sha256": "b39337b0d8969049bebb8c0b984787a5ffb8b29595d1f0b3e037ba6fd1182b69"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/head_dram_ablation/cnn_head_shift.hex",
+      "bytes": 28,
+      "sha256": "48d276efdeb5a3557b956e425045cc7a13d722e67a2ccbf3ae30316ef6187f20"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/head_dram_ablation/cnn_head_weights.hex",
+      "bytes": 896,
+      "sha256": "99b3c79ae0c673961a1e9d30d7def695dda6b73ca4f699abea7a0a49d5c4393e"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/head_dram_ablation/cnn_input_shift.hex",
+      "bytes": 32,
+      "sha256": "cbc97bc52b7083e8bd56458b525b2afcd57314e5db5e1a6232dd7f9eb9cee160"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/head_dram_ablation/cnn_shift.hex",
+      "bytes": 288,
+      "sha256": "48fefe14f80a76db99878e4f1f03eed557cf2e0aefdeb8826bed21f079e624e9"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/head_dram_ablation/cnn_w0.hex",
+      "bytes": 2560,
+      "sha256": "99a31e02bbf67acbc9e8c15331d0132391453521a38c9d44eac92cf9512350b0"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/head_dram_ablation/cnn_w1.hex",
+      "bytes": 2560,
+      "sha256": "3e9d2f040452b6dce3c7d48bbb7d60a736d44fe57325e3080879d6478d8c1b78"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/head_dram_ablation/cnn_w2.hex",
+      "bytes": 2560,
+      "sha256": "bd47fa2e93608d0ffd072d006f8c706b4dc3200de1a2fa2efb7c0816c2fbcb79"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/head_dram_ablation/cnn_w3.hex",
+      "bytes": 2560,
+      "sha256": "9a73d4f28874abe9c68d431caeaeb9599f795f53c9dd18f3daa6e684e504a145"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/head_dram_ablation/cnn_w4.hex",
+      "bytes": 2560,
+      "sha256": "1f1683fa6aac6151b1625b5c7411ce77449b5372cf961d8e1494f3415d85a70e"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/head_dram_ablation/cnn_w5.hex",
+      "bytes": 2560,
+      "sha256": "ef4df5f8364ab69f6e010dad58381375253923671b04825118fea6b9157c6c8e"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/head_dram_ablation/cnn_w6.hex",
+      "bytes": 2560,
+      "sha256": "d7ad560f27d2e815b6543034500c2e6ba106510712d658079c1f7938894a0766"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/head_dram_ablation/cnn_w7.hex",
+      "bytes": 2560,
+      "sha256": "eb1f5c45092e87882874fe6f1b0505016921487abd209ca5856b72ab0b05d73a"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/head_dram_ablation/compile.log",
+      "bytes": 613,
+      "sha256": "5162dd8f34d9cf6ba4b861ccaf31dee117c245d9ed92f2b04056892523929c99"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/head_dram_ablation/decision.hex",
+      "bytes": 756,
+      "sha256": "bd552f95d08b45a8f8a5d487a0a99470a4be7708c0b89e77eab17203b1107f16"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/head_dram_ablation/embedding.hex",
+      "bytes": 3456,
+      "sha256": "5f725fca156a2dfe48f1fe9b88621d28b0574fa308da3a30838c7686a3e0feea"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/head_dram_ablation/factory_identity.json",
+      "bytes": 84,
+      "sha256": "48e1d1ecb8967a28db32ce8e49f3a775e239a280e605a7dcb5079e01a7cdbc3d"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/head_dram_ablation/features.hex",
+      "bytes": 49248,
+      "sha256": "33d1db256b850437277a550c0576cbcfce4409fe0dc1d66b7fbd8ebd8d55af5c"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/head_dram_ablation/fusion_gate.hex",
+      "bytes": 10,
+      "sha256": "208481ba8ad401a428c367c2e8d415470e250b478681e371807b06ecfdc1ef2e"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/head_dram_ablation/fusion_scale.hex",
+      "bytes": 4,
+      "sha256": "74e1fa0d163104516080edc1f7286d841c3cf5e7ec32eebbaccd7c29bca6dab5"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/head_dram_ablation/linear_bank0.hex",
+      "bytes": 12288,
+      "sha256": "b527518af6e345b6c826379c7158883864af47c9eb583054125ee53d8eafa332"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/head_dram_ablation/linear_bank1.hex",
+      "bytes": 12288,
+      "sha256": "905a7219ecaf22a4741b7ee810a351cc8988cc4b82686182c5cedf6ff92e0a46"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/head_dram_ablation/linear_bias.hex",
+      "bytes": 98,
+      "sha256": "3610fe1d0947434988f27a3fae612fb0c35d0f9376e1c605fd21fe5b5a82ec54"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/head_dram_ablation/linear_offsets.hex",
+      "bytes": 1824,
+      "sha256": "ecc5ddb792f79101668f3ab799f745729c6f4b3094519b1730b1f8e3212bcbe4"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/head_dram_ablation/linear_weights.hex",
+      "bytes": 12768,
+      "sha256": "799889266234f37fd918deadbaffcdaa9f97253d801d719aa88b3e95ffd0e8be"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/head_dram_ablation/linear_weights_high.hex",
+      "bytes": 768,
+      "sha256": "4fa089a6f85b48ee1e3319c3225035f9297caa404ea2cc91ca23cc811dd56cde"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/head_dram_ablation/linear_weights_low.hex",
+      "bytes": 12288,
+      "sha256": "b527518af6e345b6c826379c7158883864af47c9eb583054125ee53d8eafa332"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/head_dram_ablation/parameters.json",
+      "bytes": 1192,
+      "sha256": "fd273dd0cfcc69fbae79d1f5934b85e86fce38e8b4218c67e3d2b556bb3e772b"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/head_dram_ablation/scores.hex",
+      "bytes": 5292,
+      "sha256": "813a7c3d3d84d5ce22b2ec34911faf72a224820b68d6aee83b50fe2c4c8f0014"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/head_dram_ablation/simulation.log",
+      "bytes": 182,
+      "sha256": "511cfc17acfbb3a1e107651fd43a885d6b72a5fce2e5668b94431b8b84045f4c"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/head_dram_ablation/tb.sv",
+      "bytes": 2242,
+      "sha256": "28d1452c992dd96a8d217077dd43f8aa55c1d5eedf8f1ade8eee811ab9b86f80"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/head_dram_ablation/verification.json",
+      "bytes": 780,
+      "sha256": "d4a06358ea831449f7299cb70ee67d4d9c3ae93143dd544cb11cf427012e7f5f"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/latency32_dram/action_map.hex",
+      "bytes": 192,
+      "sha256": "2af42c3706e9fb196bfde0d7d3efa319e0a36c7c7a5480d71d234e6468c000b7"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/latency32_dram/cnn_bias.hex",
+      "bytes": 720,
+      "sha256": "549cb41e2b3d76286638e4b899f8e947253dff055692f8a254b9b714bd94ef43"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/latency32_dram/cnn_head_bias.hex",
+      "bytes": 320,
+      "sha256": "2757944434dba8ffe1e0b04bb2dfaeb4121594fd057aeb1ed7baf9e29d69b458"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/latency32_dram/cnn_head_shift.hex",
+      "bytes": 128,
+      "sha256": "b2250e7cbe6abb44b12db2d25e67019e3af2e2e1eb5c13bf8fe82bb683c07ccb"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/latency32_dram/cnn_head_weights.hex",
+      "bytes": 4096,
+      "sha256": "84e7cfa545e04e2039e626f7a58e11443d42003f956d2ee66c7eea3c62806234"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/latency32_dram/cnn_input_shift.hex",
+      "bytes": 32,
+      "sha256": "cbc97bc52b7083e8bd56458b525b2afcd57314e5db5e1a6232dd7f9eb9cee160"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/latency32_dram/cnn_shift.hex",
+      "bytes": 288,
+      "sha256": "48fefe14f80a76db99878e4f1f03eed557cf2e0aefdeb8826bed21f079e624e9"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/latency32_dram/cnn_w0.hex",
+      "bytes": 2560,
+      "sha256": "99a31e02bbf67acbc9e8c15331d0132391453521a38c9d44eac92cf9512350b0"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/latency32_dram/cnn_w1.hex",
+      "bytes": 2560,
+      "sha256": "3e9d2f040452b6dce3c7d48bbb7d60a736d44fe57325e3080879d6478d8c1b78"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/latency32_dram/cnn_w2.hex",
+      "bytes": 2560,
+      "sha256": "bd47fa2e93608d0ffd072d006f8c706b4dc3200de1a2fa2efb7c0816c2fbcb79"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/latency32_dram/cnn_w3.hex",
+      "bytes": 2560,
+      "sha256": "9a73d4f28874abe9c68d431caeaeb9599f795f53c9dd18f3daa6e684e504a145"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/latency32_dram/cnn_w4.hex",
+      "bytes": 2560,
+      "sha256": "1f1683fa6aac6151b1625b5c7411ce77449b5372cf961d8e1494f3415d85a70e"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/latency32_dram/cnn_w5.hex",
+      "bytes": 2560,
+      "sha256": "ef4df5f8364ab69f6e010dad58381375253923671b04825118fea6b9157c6c8e"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/latency32_dram/cnn_w6.hex",
+      "bytes": 2560,
+      "sha256": "d7ad560f27d2e815b6543034500c2e6ba106510712d658079c1f7938894a0766"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/latency32_dram/cnn_w7.hex",
+      "bytes": 2560,
+      "sha256": "eb1f5c45092e87882874fe6f1b0505016921487abd209ca5856b72ab0b05d73a"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/latency32_dram/compile.log",
+      "bytes": 321,
+      "sha256": "0c1b0f841c8feb2472a16cd9153a2c60e4c8ba2c4977f1e2d91ba9f87a3132ab"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/latency32_dram/factory_identity.json",
+      "bytes": 84,
+      "sha256": "48e1d1ecb8967a28db32ce8e49f3a775e239a280e605a7dcb5079e01a7cdbc3d"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/latency32_dram/fusion_gate.hex",
+      "bytes": 10,
+      "sha256": "208481ba8ad401a428c367c2e8d415470e250b478681e371807b06ecfdc1ef2e"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/latency32_dram/fusion_scale.hex",
+      "bytes": 4,
+      "sha256": "74e1fa0d163104516080edc1f7286d841c3cf5e7ec32eebbaccd7c29bca6dab5"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/latency32_dram/input.hex",
+      "bytes": 19584,
+      "sha256": "f98f7492084b1bc01bc5685f2d97ab62d3a6e5d84f16c860032301093c9f9458"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/latency32_dram/linear_bank0.hex",
+      "bytes": 12288,
+      "sha256": "b527518af6e345b6c826379c7158883864af47c9eb583054125ee53d8eafa332"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/latency32_dram/linear_bank1.hex",
+      "bytes": 12288,
+      "sha256": "905a7219ecaf22a4741b7ee810a351cc8988cc4b82686182c5cedf6ff92e0a46"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/latency32_dram/linear_bank2.hex",
+      "bytes": 12288,
+      "sha256": "7c92d4b264cfb795fd5241c9b6e5ee5f329435432d4bc5a147f3efcbb0fade7e"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/latency32_dram/linear_bank3.hex",
+      "bytes": 12288,
+      "sha256": "7c92d4b264cfb795fd5241c9b6e5ee5f329435432d4bc5a147f3efcbb0fade7e"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/latency32_dram/linear_bank4.hex",
+      "bytes": 12288,
+      "sha256": "7c92d4b264cfb795fd5241c9b6e5ee5f329435432d4bc5a147f3efcbb0fade7e"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/latency32_dram/linear_bias.hex",
+      "bytes": 448,
+      "sha256": "0385e904e3b7f46411c2ad9a95d776d0df2a01662899a48b05e4caaf9b4959c7"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/latency32_dram/linear_offsets.hex",
+      "bytes": 1824,
+      "sha256": "ecc5ddb792f79101668f3ab799f745729c6f4b3094519b1730b1f8e3212bcbe4"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/latency32_dram/linear_weights.hex",
+      "bytes": 12768,
+      "sha256": "799889266234f37fd918deadbaffcdaa9f97253d801d719aa88b3e95ffd0e8be"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/latency32_dram/linear_weights_high.hex",
+      "bytes": 768,
+      "sha256": "4fa089a6f85b48ee1e3319c3225035f9297caa404ea2cc91ca23cc811dd56cde"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/latency32_dram/linear_weights_low.hex",
+      "bytes": 12288,
+      "sha256": "b527518af6e345b6c826379c7158883864af47c9eb583054125ee53d8eafa332"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/latency32_dram/parameters.json",
+      "bytes": 1193,
+      "sha256": "90f3681ef1f8a041ebc0d96d57f8b7cf94dad362fad7aca9482f68b17e40f783"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/latency32_dram/simulation.log",
+      "bytes": 378,
+      "sha256": "14b02e91812588b68320e56eb058e8c0e69d17d4cc085281610ba39e709f9140"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/latency32_dram/tb.sv",
+      "bytes": 1906,
+      "sha256": "2a203acf4b0b8305cb6a4f9800853fb05f5e0ccfd3cb26de8f7133f1eeda0eb4"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/latency32_dram/verification.json",
+      "bytes": 3575,
+      "sha256": "54760ba23cf1d990bd1513a353d677540472f2dc3519dd1e6eb899692656e3c8"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/linear_bank0.hex",
+      "bytes": 12288,
+      "sha256": "b527518af6e345b6c826379c7158883864af47c9eb583054125ee53d8eafa332"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/linear_bank1.hex",
+      "bytes": 12288,
+      "sha256": "905a7219ecaf22a4741b7ee810a351cc8988cc4b82686182c5cedf6ff92e0a46"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/linear_bank2.hex",
+      "bytes": 12288,
+      "sha256": "7c92d4b264cfb795fd5241c9b6e5ee5f329435432d4bc5a147f3efcbb0fade7e"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/linear_bank3.hex",
+      "bytes": 12288,
+      "sha256": "7c92d4b264cfb795fd5241c9b6e5ee5f329435432d4bc5a147f3efcbb0fade7e"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/linear_bank4.hex",
+      "bytes": 12288,
+      "sha256": "7c92d4b264cfb795fd5241c9b6e5ee5f329435432d4bc5a147f3efcbb0fade7e"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/linear_bias.hex",
+      "bytes": 448,
+      "sha256": "0385e904e3b7f46411c2ad9a95d776d0df2a01662899a48b05e4caaf9b4959c7"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/linear_offsets.hex",
+      "bytes": 1824,
+      "sha256": "ecc5ddb792f79101668f3ab799f745729c6f4b3094519b1730b1f8e3212bcbe4"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/linear_weights.hex",
+      "bytes": 12768,
+      "sha256": "799889266234f37fd918deadbaffcdaa9f97253d801d719aa88b3e95ffd0e8be"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/linear_weights_high.hex",
+      "bytes": 768,
+      "sha256": "4fa089a6f85b48ee1e3319c3225035f9297caa404ea2cc91ca23cc811dd56cde"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/linear_weights_low.hex",
+      "bytes": 12288,
+      "sha256": "b527518af6e345b6c826379c7158883864af47c9eb583054125ee53d8eafa332"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/link_capture.hex",
+      "bytes": 576080,
+      "sha256": "d99c3e3990e651d480c960dc055877369d04d8db7da5fd40472cf41d5818cdce"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/model_bounds.hex",
+      "bytes": 260,
+      "sha256": "b79f711f3f028279d3cf1d46d978c2f322b2c27d58b83c8f631fca6090e9ce16"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/model_commands.hex",
+      "bytes": 42204,
+      "sha256": "1f568711a07e60e3d603d6f1d0930dfe814578efd5622c24920d86df564f1a4f"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/new_pc_raw43_prefix_20261101_r1/a_to_b.bin",
+      "bytes": 135136,
+      "sha256": "eee4c0b274aee8cab508a1d6bd948433aa440a853088ce487403da32531bd9ff"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/new_pc_raw43_prefix_20261101_r1/a_to_pc.bin",
+      "bytes": 49147,
+      "sha256": "04e98c3d1552a7a9ac3560bb39ae42d80598f62009903da5936392f0fd3cb901"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/new_pc_raw43_prefix_20261101_r1/verification.json",
+      "bytes": 2112,
+      "sha256": "faeaed6edb3d86cfeb82e423ca3126a5d22d2ef4cdf8dfe873fce1ae5fedd4b3"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/pc_capture.hex",
+      "bytes": 212932,
+      "sha256": "6ae2c1078289e4e0da75ee052b05110aa24b7432ffa7c4c73c1db4bc48dce31b"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/pc_consumer_new_model_prefix_20261101_r1/verification.json",
+      "bytes": 1451,
+      "sha256": "6d2e20e07c3728e99b8c6c11c71d25c93ea568439df1b47f7eb272d601e1ab88"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/pc_queries.hex",
+      "bytes": 176,
+      "sha256": "3ae6d3515643f61fca0eeb26212df3284795a2a58257050155539705ceec5dd0"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/routed.v",
+      "bytes": 10664697,
+      "sha256": "ba383f2181a959cb2099477eab6843258476e191a3910a9fd5f3245fb47bf3a2"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/runtime_core_balanced_raw43_20261101_r1/action_map.hex",
+      "bytes": 192,
+      "sha256": "2af42c3706e9fb196bfde0d7d3efa319e0a36c7c7a5480d71d234e6468c000b7"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/runtime_core_balanced_raw43_20261101_r1/all.v",
+      "bytes": 159769,
+      "sha256": "d717f4aab6060599b871795721cd52a5f0e29ca3f4b2b440ed5b6c53fcb4425b"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/runtime_core_balanced_raw43_20261101_r1/cnn_bias.hex",
+      "bytes": 720,
+      "sha256": "549cb41e2b3d76286638e4b899f8e947253dff055692f8a254b9b714bd94ef43"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/runtime_core_balanced_raw43_20261101_r1/cnn_head_bias.hex",
+      "bytes": 320,
+      "sha256": "2757944434dba8ffe1e0b04bb2dfaeb4121594fd057aeb1ed7baf9e29d69b458"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/runtime_core_balanced_raw43_20261101_r1/cnn_head_shift.hex",
+      "bytes": 128,
+      "sha256": "b2250e7cbe6abb44b12db2d25e67019e3af2e2e1eb5c13bf8fe82bb683c07ccb"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/runtime_core_balanced_raw43_20261101_r1/cnn_head_weights.hex",
+      "bytes": 4096,
+      "sha256": "84e7cfa545e04e2039e626f7a58e11443d42003f956d2ee66c7eea3c62806234"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/runtime_core_balanced_raw43_20261101_r1/cnn_input_shift.hex",
+      "bytes": 32,
+      "sha256": "cbc97bc52b7083e8bd56458b525b2afcd57314e5db5e1a6232dd7f9eb9cee160"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/runtime_core_balanced_raw43_20261101_r1/cnn_shift.hex",
+      "bytes": 288,
+      "sha256": "48fefe14f80a76db99878e4f1f03eed557cf2e0aefdeb8826bed21f079e624e9"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/runtime_core_balanced_raw43_20261101_r1/cnn_w0.hex",
+      "bytes": 2560,
+      "sha256": "99a31e02bbf67acbc9e8c15331d0132391453521a38c9d44eac92cf9512350b0"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/runtime_core_balanced_raw43_20261101_r1/cnn_w1.hex",
+      "bytes": 2560,
+      "sha256": "3e9d2f040452b6dce3c7d48bbb7d60a736d44fe57325e3080879d6478d8c1b78"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/runtime_core_balanced_raw43_20261101_r1/cnn_w2.hex",
+      "bytes": 2560,
+      "sha256": "bd47fa2e93608d0ffd072d006f8c706b4dc3200de1a2fa2efb7c0816c2fbcb79"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/runtime_core_balanced_raw43_20261101_r1/cnn_w3.hex",
+      "bytes": 2560,
+      "sha256": "9a73d4f28874abe9c68d431caeaeb9599f795f53c9dd18f3daa6e684e504a145"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/runtime_core_balanced_raw43_20261101_r1/cnn_w4.hex",
+      "bytes": 2560,
+      "sha256": "1f1683fa6aac6151b1625b5c7411ce77449b5372cf961d8e1494f3415d85a70e"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/runtime_core_balanced_raw43_20261101_r1/cnn_w5.hex",
+      "bytes": 2560,
+      "sha256": "ef4df5f8364ab69f6e010dad58381375253923671b04825118fea6b9157c6c8e"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/runtime_core_balanced_raw43_20261101_r1/cnn_w6.hex",
+      "bytes": 2560,
+      "sha256": "d7ad560f27d2e815b6543034500c2e6ba106510712d658079c1f7938894a0766"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/runtime_core_balanced_raw43_20261101_r1/cnn_w7.hex",
+      "bytes": 2560,
+      "sha256": "eb1f5c45092e87882874fe6f1b0505016921487abd209ca5856b72ab0b05d73a"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/runtime_core_balanced_raw43_20261101_r1/compile.log",
+      "bytes": 137,
+      "sha256": "04c2f5c26772a5305dfc312b53ef206e65c017249005b69d350de2fff107e2f6"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/runtime_core_balanced_raw43_20261101_r1/expected_decision.hex",
+      "bytes": 378,
+      "sha256": "e3104e121ce90df4baae6b2bf4537d1af24caefbf317aee24e95b404bfbf9268"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/runtime_core_balanced_raw43_20261101_r1/expected_wave.hex",
+      "bytes": 255360,
+      "sha256": "884cf63a150b4caf5b1cbc77c7edd0a9ac971cb62cf8413239acf41f0eadae68"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/runtime_core_balanced_raw43_20261101_r1/factory_identity.json",
+      "bytes": 84,
+      "sha256": "48e1d1ecb8967a28db32ce8e49f3a775e239a280e605a7dcb5079e01a7cdbc3d"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/runtime_core_balanced_raw43_20261101_r1/fusion_gate.hex",
+      "bytes": 10,
+      "sha256": "208481ba8ad401a428c367c2e8d415470e250b478681e371807b06ecfdc1ef2e"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/runtime_core_balanced_raw43_20261101_r1/fusion_scale.hex",
+      "bytes": 4,
+      "sha256": "74e1fa0d163104516080edc1f7286d841c3cf5e7ec32eebbaccd7c29bca6dab5"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/runtime_core_balanced_raw43_20261101_r1/linear_bank0.hex",
+      "bytes": 12288,
+      "sha256": "b527518af6e345b6c826379c7158883864af47c9eb583054125ee53d8eafa332"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/runtime_core_balanced_raw43_20261101_r1/linear_bank1.hex",
+      "bytes": 12288,
+      "sha256": "905a7219ecaf22a4741b7ee810a351cc8988cc4b82686182c5cedf6ff92e0a46"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/runtime_core_balanced_raw43_20261101_r1/linear_bank2.hex",
+      "bytes": 12288,
+      "sha256": "7c92d4b264cfb795fd5241c9b6e5ee5f329435432d4bc5a147f3efcbb0fade7e"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/runtime_core_balanced_raw43_20261101_r1/linear_bank3.hex",
+      "bytes": 12288,
+      "sha256": "7c92d4b264cfb795fd5241c9b6e5ee5f329435432d4bc5a147f3efcbb0fade7e"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/runtime_core_balanced_raw43_20261101_r1/linear_bank4.hex",
+      "bytes": 12288,
+      "sha256": "7c92d4b264cfb795fd5241c9b6e5ee5f329435432d4bc5a147f3efcbb0fade7e"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/runtime_core_balanced_raw43_20261101_r1/linear_bias.hex",
+      "bytes": 448,
+      "sha256": "0385e904e3b7f46411c2ad9a95d776d0df2a01662899a48b05e4caaf9b4959c7"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/runtime_core_balanced_raw43_20261101_r1/linear_offsets.hex",
+      "bytes": 1824,
+      "sha256": "ecc5ddb792f79101668f3ab799f745729c6f4b3094519b1730b1f8e3212bcbe4"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/runtime_core_balanced_raw43_20261101_r1/linear_weights.hex",
+      "bytes": 12768,
+      "sha256": "799889266234f37fd918deadbaffcdaa9f97253d801d719aa88b3e95ffd0e8be"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/runtime_core_balanced_raw43_20261101_r1/linear_weights_high.hex",
+      "bytes": 768,
+      "sha256": "4fa089a6f85b48ee1e3319c3225035f9297caa404ea2cc91ca23cc811dd56cde"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/runtime_core_balanced_raw43_20261101_r1/linear_weights_low.hex",
+      "bytes": 12288,
+      "sha256": "b527518af6e345b6c826379c7158883864af47c9eb583054125ee53d8eafa332"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/runtime_core_balanced_raw43_20261101_r1/parameter_writes.hex",
+      "bytes": 46094,
+      "sha256": "4ec2affb956f15abf8abfba557e5e57442eda321228ecb300f704566e891f270"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/runtime_core_balanced_raw43_20261101_r1/parameters.json",
+      "bytes": 1193,
+      "sha256": "90f3681ef1f8a041ebc0d96d57f8b7cf94dad362fad7aca9482f68b17e40f783"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/runtime_core_balanced_raw43_20261101_r1/parameters_uart.bin",
+      "bytes": 49596,
+      "sha256": "4f2b5ccd58e6d02fe7a64bd6299e0f34f19db21c1deaf977f65407bdf04f5cca"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/runtime_core_balanced_raw43_20261101_r1/simulation.log",
+      "bytes": 1407,
+      "sha256": "0c57d2d9941f66d9308067476ff866dcf568a55a583061c5c7628d52c82a433f"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/runtime_core_balanced_raw43_20261101_r1/sources.json",
+      "bytes": 2616,
+      "sha256": "97f611d68303d9d037efee27e906a9dc98691e54e02cef52e752402225c83cec"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/runtime_core_balanced_raw43_20261101_r1/tb.sv",
+      "bytes": 2620,
+      "sha256": "fc3fd6fa0d32c149587b498101f3734a47d00fa9e7e39012e31bef99619defa9"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/runtime_core_balanced_raw43_20261101_r1/verification.json",
+      "bytes": 3687,
+      "sha256": "1a877f9b32b5d28eb6f89222ffbf8c366dbeb053a9a2b2aaf90beb7131dcec96"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/signoff_balanced_final24_20261101_r1/eda_gate.json",
+      "bytes": 983,
+      "sha256": "ce79fd631e69baa3e433f3068d65116403fddb301a548dcac9246bb8296e9582"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/signoff_balanced_final24_20261101_r1/independent_coverage.rpt",
+      "bytes": 21020,
+      "sha256": "9ff242882a3eeaecb77c7e3a068be65651dd05e16dd68683ea4560aedab8c370"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/signoff_balanced_final24_20261101_r1/independent_timing.rpt",
+      "bytes": 273547,
+      "sha256": "69d499bb4d24541fedbdfc069c49f66a6dd93b81ea60487d2d846d65176c4c62"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/signoff_balanced_final24_20261101_r1/signoff.log",
+      "bytes": 4256,
+      "sha256": "c84f663ede09a2ac98d54ed2e75d78cb7e9a4e2a8206030d6afddc8d6e740b5c"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/signoff_balanced_final24_20261101_r1/signoff.tcl",
+      "bytes": 654,
+      "sha256": "dda4b181596f358f0b23e90933e54be2fc08e94320ae0a75ec73e58dc268a864"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/signoff_balanced_final24_20261101_r1/td_20261101_124351.log",
+      "bytes": 4228,
+      "sha256": "c1d1d023e58fdfd509692dd79bed9d3170c31be02671d90a4e384f02df8066f4"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/signoff_balanced_final24_20261101_r1/td_20261101_124351.logw",
+      "bytes": 398,
+      "sha256": "e27ff7eb76b4bccff63aefc8c41a07d75e62fee2f812631a1eb69d76993c3b82"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/signoff_balanced_final24_20261101_r1/verification.json",
+      "bytes": 417,
+      "sha256": "b0ccb0d77be509ff6d14eabc259f7548fedac9ce2b685a3d05eab9905cd4cd4b"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/simulation.log",
+      "bytes": 1706,
+      "sha256": "f0289198d085968132b887600ca8c67953be0db025e8e7a5a1b828f6a509588c"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/tb.sv",
+      "bytes": 4283,
+      "sha256": "5b7f0ee556114d069bbfc2c2a4672d28ede339eada2fd23053212d341e81fd4d"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/evidence/wireless_input.hex",
+      "bytes": 175104,
+      "sha256": "c7631db792a67870da23477948c1f6350431bab6ced3b540f305d9e34b1257da"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/factory_model.json",
+      "bytes": 58774,
+      "sha256": "1e417b63668167950013ba77a2f67e93aa2b382cc290e56e036dfff2b69164d6"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/final_timing.rpt",
+      "bytes": 273547,
+      "sha256": "4cff69e6a18a6521439626a4556f710749a795b42a8691c9f94943abeb5e1553"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/fusion_gate.hex",
+      "bytes": 10,
+      "sha256": "208481ba8ad401a428c367c2e8d415470e250b478681e371807b06ecfdc1ef2e"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/fusion_scale.hex",
+      "bytes": 4,
+      "sha256": "74e1fa0d163104516080edc1f7286d841c3cf5e7ec32eebbaccd7c29bca6dab5"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/gate.area",
+      "bytes": 4091,
+      "sha256": "de21d7efce6e784ea707bfed01d6888af712963d34ac05cccf6e04c02730be30"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/linear_bank0.hex",
+      "bytes": 12288,
+      "sha256": "b527518af6e345b6c826379c7158883864af47c9eb583054125ee53d8eafa332"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/linear_bank1.hex",
+      "bytes": 12288,
+      "sha256": "905a7219ecaf22a4741b7ee810a351cc8988cc4b82686182c5cedf6ff92e0a46"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/linear_bank2.hex",
+      "bytes": 12288,
+      "sha256": "7c92d4b264cfb795fd5241c9b6e5ee5f329435432d4bc5a147f3efcbb0fade7e"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/linear_bank3.hex",
+      "bytes": 12288,
+      "sha256": "7c92d4b264cfb795fd5241c9b6e5ee5f329435432d4bc5a147f3efcbb0fade7e"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/linear_bank4.hex",
+      "bytes": 12288,
+      "sha256": "7c92d4b264cfb795fd5241c9b6e5ee5f329435432d4bc5a147f3efcbb0fade7e"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/linear_bias.hex",
+      "bytes": 448,
+      "sha256": "0385e904e3b7f46411c2ad9a95d776d0df2a01662899a48b05e4caaf9b4959c7"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/linear_offsets.hex",
+      "bytes": 1824,
+      "sha256": "ecc5ddb792f79101668f3ab799f745729c6f4b3094519b1730b1f8e3212bcbe4"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/linear_weights.hex",
+      "bytes": 12768,
+      "sha256": "799889266234f37fd918deadbaffcdaa9f97253d801d719aa88b3e95ffd0e8be"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/linear_weights_high.hex",
+      "bytes": 768,
+      "sha256": "4fa089a6f85b48ee1e3319c3225035f9297caa404ea2cc91ca23cc811dd56cde"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/linear_weights_low.hex",
+      "bytes": 12288,
+      "sha256": "b527518af6e345b6c826379c7158883864af47c9eb583054125ee53d8eafa332"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/parameters.json",
+      "bytes": 1193,
+      "sha256": "90f3681ef1f8a041ebc0d96d57f8b7cf94dad362fad7aca9482f68b17e40f783"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/parameters_uart.bin",
+      "bytes": 49596,
+      "sha256": "4f2b5ccd58e6d02fe7a64bd6299e0f34f19db21c1deaf977f65407bdf04f5cca"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/phy.area",
+      "bytes": 7965,
+      "sha256": "bbbc9e6dff7edebc9efa26308d93b9a8c63eaa7ff105a91caf8dc29d8bcf4200"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/rebuild.tcl",
+      "bytes": 1796,
+      "sha256": "bb11120fa09ba67998d0510206e4a209ccf3d803683220eaa29c7949ca2e18fd"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/rtl_memory_attribute_equivalence.json",
+      "bytes": 1343,
+      "sha256": "24ef782bb8a421f48f282774d58ccb729016592238471ded07b6665454a9adc5"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/source/common/rtl/link_crc16_ccitt.v",
+      "bytes": 546,
+      "sha256": "4e26b42c78aa73b8ffab7d98d5f7be96c22a160e679dd4c48c6ad131477d2365"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/source/common/rtl/link_frame_rx.v",
+      "bytes": 14520,
+      "sha256": "c674a6ac4c8cec8d6155372a4dac80fd0c9fb1f6b51e8dcaa9d980f3647b17ac"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/source/common/rtl/link_frame_tx.v",
+      "bytes": 7336,
+      "sha256": "62409e6cae9d3166c0062d652eee7de3f203cb3a2a868c0220cfb0da5ecc8b74"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/source/common/rtl/reset_sync_n.v",
+      "bytes": 448,
+      "sha256": "b22abc66f48a2bac3a557de41bff0e9c4c8a25e2bba33b91cc4070d43543a837"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/source/fpga_a/experimental/cnn256_gesture_tasks/balanced_ram/cnn32_core.v",
+      "bytes": 10405,
+      "sha256": "f984a68989c3f07f6c64f829293dd0a83ef259cf166a22cd281e559bc5910e2b"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/source/fpga_a/experimental/cnn256_gesture_tasks/balanced_ram/fusion_cnn_stream.v",
+      "bytes": 3311,
+      "sha256": "ffa75f5b3a210ee7ea2ed30b432956de392107b8f093f0bac59374e9add8b17d"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/source/fpga_a/experimental/cnn256_gesture_tasks/balanced_ram/fusion_features.v",
+      "bytes": 20196,
+      "sha256": "7a08b521badbf0a7655bf69da4adfc5a158200e94cd104d236b04a49c06cef83"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/source/fpga_a/experimental/cnn256_gesture_tasks/balanced_ram/fusion_head.v",
+      "bytes": 17030,
+      "sha256": "0e5d06e9fe4a330032cd250b37e735019ce3af01e89006a0e44eacf4a27c3bef"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/source/fpga_a/experimental/cnn256_gesture_tasks/balanced_ram/gt_forward.v",
+      "bytes": 2802,
+      "sha256": "db05ef8e1668df99438d76016490cd354f6cc6baa4d237e88f2bc27ee73d254b"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/source/fpga_a/experimental/cnn256_gesture_tasks/balanced_ram/gt_return.v",
+      "bytes": 3918,
+      "sha256": "5d89296cc151a7e291c3d3fe30430b04082ade2b36da8a9078edc647a009e8fe"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/source/fpga_a/experimental/cnn256_gesture_tasks/balanced_ram/gt_usb_stream.v",
+      "bytes": 2873,
+      "sha256": "33f01be0403fb718abe927fffc6c529847a692925853583f4ed70089880ad3c4"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/source/fpga_a/experimental/cnn256_gesture_tasks/balanced_ram/justfloat_ingress.v",
+      "bytes": 6431,
+      "sha256": "43a907ae69554cfb2a428319ccf946294eb396bba240c080d92fd92ad2fce906"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/source/fpga_a/experimental/cnn256_gesture_tasks/balanced_ram/v2_board_top.v",
+      "bytes": 8209,
+      "sha256": "6f013db286b32561e636048e988b3a77bdc6dfb61894ac6d22aa5841c27098b1"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/source/fpga_a/experimental/cnn256_gesture_tasks/balanced_ram/v2_packet_mux.v",
+      "bytes": 6479,
+      "sha256": "c4adb02e9039b973c9ab0dcdaff4b1bc5a6f3308a8c616ba59be9ce63335ea21"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/source/fpga_a/experimental/cnn256_gesture_tasks/balanced_ram/v2_pc.v",
+      "bytes": 28636,
+      "sha256": "3eee8e8889d8fda29208923e566776bcd33f17b28237631db3b62802b6dce83f"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/source/fpga_a/experimental/hybrid_filter_coefficients.v",
+      "bytes": 3752,
+      "sha256": "b038cc930f46e80a2aba0708edf068ecf1b63da5f2c4784d25959cba242da6a8"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/source/fpga_a/experimental/hybrid_filterbank.v",
+      "bytes": 6381,
+      "sha256": "54091da2b7670c577108437b3da9dff5a4b0542978cf395be76297e476045ae1"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/source/fpga_a/experimental/parallel_lane/emg_envelope_bank.v",
+      "bytes": 1830,
+      "sha256": "bda5a54f3969f574fcf6717d9ea46812deef92cbc77abf7bafa9ca050d256d32"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/source/fpga_a/rtl/ingress_uart_rx.v",
+      "bytes": 3566,
+      "sha256": "e7280825f7a7078673556d106ab7e9cf30bdde4ffa3a94c415f8c5a776588fc7"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/source/fpga_a/rtl/link_tx_wrapper.v",
+      "bytes": 9943,
+      "sha256": "b04bf41e234d60f46219f35fcc1ad9a00a532b3c464a72be420de69d9ff844c9"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/sources.json",
+      "bytes": 2616,
+      "sha256": "97f611d68303d9d037efee27e906a9dc98691e54e02cef52e752402225c83cec"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/td_20261101_124044.logw",
+      "bytes": 400,
+      "sha256": "825c4e6080681d75ca86c39b3b811fc73621d540dcb3d491b9fc992eb679709a"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/timing_check.rpt",
+      "bytes": 21020,
+      "sha256": "9ff242882a3eeaecb77c7e3a068be65651dd05e16dd68683ea4560aedab8c370"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/v2.adc",
+      "bytes": 2374,
+      "sha256": "63beb67c514c7229bce588b376598a745f203f1e8264c95fa306a13ee55d3b7c"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/v2.sdc",
+      "bytes": 1128,
+      "sha256": "9b1b51a87762f15a32f173922d3f092b0fffc745359fc19c31a0201c9dcd0efa"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/v2_place.sdc",
+      "bytes": 1126,
+      "sha256": "96ad48448fc473e3397179d371b2e05690253ca2aab3305ec69cc35f61842aa1"
+    },
+    {
+      "path": "fpga/A_recognition/原版R4源码与备用/verification.json",
+      "bytes": 484,
+      "sha256": "c8690b5f240d4d79184aa3effaf85f55393b43a210d1006b262ce268b78da7c3"
+    },
+    {
+      "path": "fpga/A_recognition/肌电识别板_当前使用版.bit",
+      "bytes": 671537,
+      "sha256": "f7b5a104c2f32f64cdbd14544b0a4b0db34d8269aa940b865727fc3c11368396"
+    },
+    {
+      "path": "fpga/B_execution/历史R53源码_仅供追溯.zip",
+      "bytes": 271895,
+      "sha256": "593605149b2b19ecbee2cede855f4a93622e66f093ad26fed4631b02f4942bf1"
+    },
+    {
+      "path": "fpga/B_execution/基准RTL源码/common/rtl/link_async_fifo.v",
+      "bytes": 4159,
+      "sha256": "78d62a6a8bbfc73734943606e10f2721385ebaf3fe31a313782c08621619c8db"
+    },
+    {
+      "path": "fpga/B_execution/基准RTL源码/common/rtl/link_crc16_ccitt.v",
+      "bytes": 546,
+      "sha256": "4e26b42c78aa73b8ffab7d98d5f7be96c22a160e679dd4c48c6ad131477d2365"
+    },
+    {
+      "path": "fpga/B_execution/基准RTL源码/common/rtl/link_frame_rx.v",
+      "bytes": 14520,
+      "sha256": "c674a6ac4c8cec8d6155372a4dac80fd0c9fb1f6b51e8dcaa9d980f3647b17ac"
+    },
+    {
+      "path": "fpga/B_execution/基准RTL源码/common/rtl/reset_sync_n.v",
+      "bytes": 448,
+      "sha256": "b22abc66f48a2bac3a557de41bff0e9c4c8a25e2bba33b91cc4070d43543a837"
+    },
+    {
+      "path": "fpga/B_execution/基准RTL源码/fpga_a/rtl/ingress_uart_rx.v",
+      "bytes": 3566,
+      "sha256": "e7280825f7a7078673556d106ab7e9cf30bdde4ffa3a94c415f8c5a776588fc7"
+    },
+    {
+      "path": "fpga/B_execution/基准RTL源码/fpga_b/ab_scope_v2/assets/whale/packed0.hex",
+      "bytes": 16384,
+      "sha256": "0bff72a1c6e533b1d4f56d991060590469940ef7f1558328c11dfa967e99de75"
+    },
+    {
+      "path": "fpga/B_execution/基准RTL源码/fpga_b/ab_scope_v2/assets/whale/packed1.hex",
+      "bytes": 16384,
+      "sha256": "80341103033ccefb63a0931ff8faf6a36a259b7aafdc27dba27148662ecdeba8"
+    },
+    {
+      "path": "fpga/B_execution/基准RTL源码/fpga_b/ab_scope_v2/assets/whale/packed10.hex",
+      "bytes": 16384,
+      "sha256": "d72d1a6fb7361d0d55dca109a9685eaceaf5ab3cbfe24562f3198dda27feda8d"
+    },
+    {
+      "path": "fpga/B_execution/基准RTL源码/fpga_b/ab_scope_v2/assets/whale/packed11.hex",
+      "bytes": 16384,
+      "sha256": "427feba4a0cd2390d498133b39decb6ce9ce79fa8d2e0d0b99e623bde5cd473e"
+    },
+    {
+      "path": "fpga/B_execution/基准RTL源码/fpga_b/ab_scope_v2/assets/whale/packed2.hex",
+      "bytes": 16384,
+      "sha256": "a1a2006ffb6cfdfbeb24f8dec709aa4bcc5f30305101aac1f677a3b7db06d936"
+    },
+    {
+      "path": "fpga/B_execution/基准RTL源码/fpga_b/ab_scope_v2/assets/whale/packed3.hex",
+      "bytes": 16384,
+      "sha256": "90a439d4388d82d2bf4f97c9fdbac126774d27c0466b8fd1371a00ff9979779d"
+    },
+    {
+      "path": "fpga/B_execution/基准RTL源码/fpga_b/ab_scope_v2/assets/whale/packed4.hex",
+      "bytes": 16384,
+      "sha256": "b009cbb18b08301c6c08e2f6c2bcb52e21c6500eec0c52f20e8e1e5495b57035"
+    },
+    {
+      "path": "fpga/B_execution/基准RTL源码/fpga_b/ab_scope_v2/assets/whale/packed5.hex",
+      "bytes": 16384,
+      "sha256": "1e7e09d507e09ef220f8e3f2b2b455565d358e8b8e3a24f06e305a67e094d23c"
+    },
+    {
+      "path": "fpga/B_execution/基准RTL源码/fpga_b/ab_scope_v2/assets/whale/packed6.hex",
+      "bytes": 16384,
+      "sha256": "5a2c6bf023e00a77d34a2a773c1f765ccbd4563349d6eadff749f0047ee66e49"
+    },
+    {
+      "path": "fpga/B_execution/基准RTL源码/fpga_b/ab_scope_v2/assets/whale/packed7.hex",
+      "bytes": 16384,
+      "sha256": "4f3ca52b58d8a81f1ffec202779175611198ece8b772bcead42d09c7e28008af"
+    },
+    {
+      "path": "fpga/B_execution/基准RTL源码/fpga_b/ab_scope_v2/assets/whale/packed8.hex",
+      "bytes": 16384,
+      "sha256": "742a99411bd1b669f3218933a9bedfd8990be4129fc8ff3853fc3fa4744b9ef2"
+    },
+    {
+      "path": "fpga/B_execution/基准RTL源码/fpga_b/ab_scope_v2/assets/whale/packed9.hex",
+      "bytes": 16384,
+      "sha256": "97b72affbdb8b3ac8aa78eada0e1470445cb8c5ad83309a19fc6971f05e195d2"
+    },
+    {
+      "path": "fpga/B_execution/基准RTL源码/fpga_b/gesture_tasks/assets/font_rows.hex",
+      "bytes": 4096,
+      "sha256": "07e5feeec9cfb16e37df792c3ebd985e3b514cb4ec23af8f57b7929b6cbb1fd0"
+    },
+    {
+      "path": "fpga/B_execution/基准RTL源码/fpga_b/gesture_tasks/assets/query_tokens.hex",
+      "bytes": 24576,
+      "sha256": "6733e05a9d8b10387c881e1c1d06a2df93ec7774cfcbd2bdd74aeabbb446642d"
+    },
+    {
+      "path": "fpga/B_execution/基准RTL源码/fpga_b/gesture_tasks/assets/text_rows.hex",
+      "bytes": 16384,
+      "sha256": "b00d6cade00b271e80e2dbe71d9076b2b9e9004130377f435259f28a5c40e1d6"
+    },
+    {
+      "path": "fpga/B_execution/基准RTL源码/fpga_b/gesture_tasks/assets/text_rows_minimal.hex",
+      "bytes": 4096,
+      "sha256": "ad962583f8df5ef84cfb5d140b96a2966ac7ca0fb1329f28ecbae885d0b4d708"
+    },
+    {
+      "path": "fpga/B_execution/基准RTL源码/fpga_b/gesture_tasks/b_tasks.adc",
+      "bytes": 6182,
+      "sha256": "f0bfcf4ea3892f342ab323d4c4fedf13b9d0183359bbc2b35b25b96b6cd51d37"
+    },
+    {
+      "path": "fpga/B_execution/基准RTL源码/fpga_b/gesture_tasks/b_tasks.sdc",
+      "bytes": 3029,
+      "sha256": "842cf04f468c6234a8b2584859d894276f775878d496e4eb64f84e5d4fcedbf4"
+    },
+    {
+      "path": "fpga/B_execution/基准RTL源码/fpga_b/gesture_tasks/b_tasks_control.v",
+      "bytes": 19653,
+      "sha256": "b2088caaaa59eff6d39824fee12dce9102bd49f71fe036aa6eea8842e9055e1e"
+    },
+    {
+      "path": "fpga/B_execution/基准RTL源码/fpga_b/gesture_tasks/b_tasks_engine.v",
+      "bytes": 19201,
+      "sha256": "03e532031824a1b2934f4d452f8f519187ac0bb9177b490c05a00d8eabd1bcdb"
+    },
+    {
+      "path": "fpga/B_execution/基准RTL源码/fpga_b/gesture_tasks/b_tasks_flash_input.v",
+      "bytes": 406,
+      "sha256": "e520f768206cd4fe669b6f534f7b89f58ec07a3d43624134519677121d0b28f3"
+    },
+    {
+      "path": "fpga/B_execution/基准RTL源码/fpga_b/gesture_tasks/b_tasks_mean_multicycle.sdc",
+      "bytes": 469,
+      "sha256": "afa4ebd8e33ccc78dbee108e6a5fe5f9b47f1a007dec784f262f17163bddafef"
+    },
+    {
+      "path": "fpga/B_execution/基准RTL源码/fpga_b/gesture_tasks/b_tasks_scale.v",
+      "bytes": 3848,
+      "sha256": "1b106364fc41bffcf5de511a9d2c7284a780f1b698dc120b53959b4e8b0d569b"
+    },
+    {
+      "path": "fpga/B_execution/基准RTL源码/fpga_b/gesture_tasks/b_tasks_servo.v",
+      "bytes": 9426,
+      "sha256": "08be9e45a4d5c5eff2016a86130f860782cdbf910e4cbfe1bfb55525ee2d6319"
+    },
+    {
+      "path": "fpga/B_execution/基准RTL源码/fpga_b/gesture_tasks/b_tasks_switch.v",
+      "bytes": 662,
+      "sha256": "ba66ee9b9a4db4b904a864773633c5fe22a214ea36c8f93971108d8f0649ad3a"
+    },
+    {
+      "path": "fpga/B_execution/基准RTL源码/fpga_b/gesture_tasks/b_tasks_top.v",
+      "bytes": 15607,
+      "sha256": "69236929968ee6af011eccb64beefd761f980f17345079bc33dc8d536adcf19c"
+    },
+    {
+      "path": "fpga/B_execution/基准RTL源码/fpga_b/gesture_tasks/b_v2_decode.v",
+      "bytes": 5654,
+      "sha256": "1dbb30742ecd0a9b5d89fc33083d960ad9dd66cbdd9d8bbf0447fb58e44b303d"
+    },
+    {
+      "path": "fpga/B_execution/基准RTL源码/fpga_b/gesture_tasks/b_v2_mailbox.v",
+      "bytes": 2058,
+      "sha256": "517d24908dde335b3418deb52766f339b4657edc5d8377e76bccb5f8aebba1f9"
+    },
+    {
+      "path": "fpga/B_execution/基准RTL源码/fpga_b/gesture_tasks/b_v2_native_trace.v",
+      "bytes": 10664,
+      "sha256": "3c0ddbd9ed5ea468a8e2648734588425801f1bf9a381d3b7ecd3b338be87d2ac"
+    },
+    {
+      "path": "fpga/B_execution/基准RTL源码/fpga_b/gesture_tasks/b_v2_pc.v",
+      "bytes": 5225,
+      "sha256": "6a2a3de4969e1b0b105474bed8703b8b114ed6fff4163c1eb84639d5f15b43ee"
+    },
+    {
+      "path": "fpga/B_execution/基准RTL源码/fpga_b/gesture_tasks/b_v2_timing.v",
+      "bytes": 1772,
+      "sha256": "e152bf97c5e22c8670e6cf228b4ec3adbae3dd4ff416aa2740073eb7644372c9"
+    },
+    {
+      "path": "fpga/B_execution/基准RTL源码/fpga_b/gesture_tasks/b_v2_ui_numbers.v",
+      "bytes": 1092,
+      "sha256": "9aab87fd6e8c6d668944077c69744504963c94f15e7cb7980ad0d7aaa443fdbb"
+    },
+    {
+      "path": "fpga/B_execution/基准RTL源码/fpga_b/gesture_tasks/b_v2_ui_r48_font.v",
+      "bytes": 443,
+      "sha256": "56a2150a894e052ad0df355f04dcc67bed30319c4ad0705de667abf8073b5f37"
+    },
+    {
+      "path": "fpga/B_execution/基准RTL源码/fpga_b/gesture_tasks/b_v2_ui_r48_renderer.v",
+      "bytes": 23280,
+      "sha256": "1ff9f514396474515d2b7a0b1932095a8c6f3a03339b05bdbd7b72e91530d7e1"
+    },
+    {
+      "path": "fpga/B_execution/基准RTL源码/fpga_b/gesture_tasks/b_v2_whale_player.v",
+      "bytes": 1321,
+      "sha256": "06f96b328e459792a0de685a1dc560e086c00952a4f515420b5ddc3f79c2fff3"
+    },
+    {
+      "path": "fpga/B_execution/基准RTL源码/fpga_b/gesture_tasks/b_v2_whale_sprite.v",
+      "bytes": 6375,
+      "sha256": "983b21237ef9370be1cb975f83d07d3caeee63653e182510f3ccec7d532b9ae3"
+    },
+    {
+      "path": "fpga/B_execution/基准RTL源码/fpga_b/gesture_tasks/caps.vh",
+      "bytes": 43,
+      "sha256": "35e299b6170bc496fe5d3ad265709bb20ca8f3db8ef1d8d0c07d9f07b69f2fd8"
+    },
+    {
+      "path": "fpga/B_execution/基准RTL源码/fpga_b/gesture_tasks/sources.txt",
+      "bytes": 1045,
+      "sha256": "1ce3156100749e1a448c38a2cf7c2089e634fd89c5a0a60de59e3dbd75b45527"
+    },
+    {
+      "path": "fpga/B_execution/基准RTL源码/fpga_b/gesture_tasks/status.vh",
+      "bytes": 852,
+      "sha256": "61f8f6e1b8c6a51309a2555aee21b0ac00e9c1101ee600a2eafa174762affa26"
+    },
+    {
+      "path": "fpga/B_execution/基准RTL源码/fpga_b/pc_scope_1080_fine_exp/assets/coverage.hex",
+      "bytes": 32768,
+      "sha256": "b25a341303bf1c60a2d981c28325a6ed27e30f67061cd9a3eea81cab03ee10df"
+    },
+    {
+      "path": "fpga/B_execution/基准RTL源码/fpga_b/pc_scope_1080_fine_exp/assets/normalization.hex",
+      "bytes": 8192,
+      "sha256": "7d649c51fc9e61f5b658693b7966288239125d5c113f5ba64e15020e5fd4e638"
+    },
+    {
+      "path": "fpga/B_execution/基准RTL源码/fpga_b/pc_scope_1080_fine_exp/assets/trace_colours.hex",
+      "bytes": 16384,
+      "sha256": "53f444e7d2e0ee4c40c7d75991ba8350cc391f805786b76572bc0f49f207f716"
+    },
+    {
+      "path": "fpga/B_execution/基准RTL源码/fpga_b/pc_scope_1080_fine_exp/pll_148m5.v",
+      "bytes": 1332,
+      "sha256": "17622ff56bd8a89db4aadb23e0f63f7f561d146230516b0580f8f0ea9404dee0"
+    },
+    {
+      "path": "fpga/B_execution/基准RTL源码/fpga_b/rtl/legacy_scs/spi_flash_byte.v",
+      "bytes": 2094,
+      "sha256": "3e2b707555aefff0e897bad66b926ebe4b7fa7b54f38c6be66bfd2e15123db5a"
+    },
+    {
+      "path": "fpga/B_execution/基准RTL源码/fpga_b/rtl/legacy_scs/teach_flash_store.v",
+      "bytes": 15199,
+      "sha256": "3e3baab5b81a657be941b377923591225ac8c56746fec8166190d76c53dcca48"
+    },
+    {
+      "path": "fpga/B_execution/基准RTL源码/fpga_b/rtl/legacy_scs/uart_rx_byte.v",
+      "bytes": 3711,
+      "sha256": "f81db59c2aff9ecb7820030fa03aa914ab3e8d7e06944d05ebc0d2331d0524ce"
+    },
+    {
+      "path": "fpga/B_execution/基准RTL源码/fpga_b/rtl/legacy_scs/uart_tx_byte.v",
+      "bytes": 2170,
+      "sha256": "73b0d7761a17a510ab442002661973f57388b557dd2cd71a67f5f54dc2f0c414"
+    },
+    {
+      "path": "fpga/B_execution/基准RTL源码/fpga_b/rtl/link_rx_wrapper.v",
+      "bytes": 6659,
+      "sha256": "b391744ddf9c061fed7fd9f9f066141f799f20d97b582df35a95bab13864eeee"
+    },
+    {
+      "path": "fpga/B_execution/基准RTL逐文件核对.json",
+      "bytes": 11152,
+      "sha256": "d74821d38cdc6dff42923cac440ba6a83fc23dcb017687e122ff1c5f5c705a27"
+    },
+    {
+      "path": "fpga/B_execution/基准实现证据/all.v",
+      "bytes": 185708,
+      "sha256": "9e3667bfed3be370ef59c6daf97ec369e1abfbfcc5014be2330a3ff8c02e22e3"
+    },
+    {
+      "path": "fpga/B_execution/基准实现证据/build_recipe.tcl",
+      "bytes": 4182,
+      "sha256": "750a8e8b97d07aa3f3fd04723a8861ba7542a475bbf7c790ccd825a5e0d54048"
+    },
+    {
+      "path": "fpga/B_execution/基准实现证据/final_timing.rpt",
+      "bytes": 1009818,
+      "sha256": "582ad7130cd59db002d7d19e856a40086ebf26cfce37bae5bb9285d0ba301608"
+    },
+    {
+      "path": "fpga/B_execution/基准实现证据/independent_timing.rpt",
+      "bytes": 1009818,
+      "sha256": "c7d87b9370f9e7698252b8642c294acefef75cb4a5a6f7bb48a561696f42d43a"
+    },
+    {
+      "path": "fpga/B_execution/基准实现证据/input_hashes.json",
+      "bytes": 3756,
+      "sha256": "4d7413572d737cdf164317c790cce0f05d05cf5fcbe371a40f9c816ba0c1d792"
+    },
+    {
+      "path": "fpga/B_execution/基准实现证据/phy.area",
+      "bytes": 12059,
+      "sha256": "db6654caf1c30cdd84c50e4f0667c4c7a59f21b0e819709ded2b5baeb16ba1d4"
+    },
+    {
+      "path": "fpga/B_execution/基准实现证据/result.json",
+      "bytes": 101,
+      "sha256": "0932af0fac6ef5caf705a961635d481c0e30863e3d9a91746a884ff7fb288ca3"
+    },
+    {
+      "path": "fpga/B_execution/基准实现证据/routed.db",
+      "bytes": 15988464,
+      "sha256": "80751c3bc90bde08e23a4217cd264db1cb3011e5b7232a35bdbd84926cbf1b0f"
+    },
+    {
+      "path": "fpga/B_execution/基准物理网表/baseline_physical.v",
+      "bytes": 7944373,
+      "sha256": "25507fc306ba1e7a15d5632376664be1aaedfa1ddc7d91f604a295432e20ce19"
+    },
+    {
+      "path": "fpga/B_execution/显示执行板_当前使用版.bit",
+      "bytes": 720424,
+      "sha256": "334a60f06f99d6bf1c0e6f391d24009e862126e0563983ddfbe3d64d0c5a9a3e"
+    },
+    {
+      "path": "fpga/B_execution/最终ECO/B_R53_ECO_NO_IDLE_POLL_20261102.bit",
+      "bytes": 720424,
+      "sha256": "334a60f06f99d6bf1c0e6f391d24009e862126e0563983ddfbe3d64d0c5a9a3e"
+    },
+    {
+      "path": "fpga/B_execution/最终ECO/b_tasks_top_inst.bid",
+      "bytes": 74129,
+      "sha256": "4c4eba246aa834578013822c26e4b887dcd0986ee8c059a40a7e91f25d8d5c3f"
+    },
+    {
+      "path": "fpga/B_execution/最终ECO/bitgen.log",
+      "bytes": 4376,
+      "sha256": "22845acbc96dfb377afead196e37b93b51d5e83b8516bbd7014dead405e990cd"
+    },
+    {
+      "path": "fpga/B_execution/最终ECO/bitgen_verified_eco.tcl",
+      "bytes": 561,
+      "sha256": "baf0de589ce47e92a063de06c2db2981191db6f69ade0a0882b474ac9e036520"
+    },
+    {
+      "path": "fpga/B_execution/最终ECO/independent_signoff.log",
+      "bytes": 5220,
+      "sha256": "05df7a4d406c6f37aa5a9d29ebe0b7164af04803fc4df27a1b1c3965271dbed0"
+    },
+    {
+      "path": "fpga/B_execution/最终ECO/independent_timing.rpt",
+      "bytes": 1009818,
+      "sha256": "d9962934a71d104a50a35de2855af629a26c5e2d9b3179ce4a289050935d8b85"
+    },
+    {
+      "path": "fpga/B_execution/最终ECO/independent_timing_check.rpt",
+      "bytes": 23549,
+      "sha256": "27e1d624b6c2622d124b2fde226cd13be8945b3b7b036d0d0036f71e4fa575bc"
+    },
+    {
+      "path": "fpga/B_execution/最终ECO/patch_verification.json",
+      "bytes": 541,
+      "sha256": "ed24d188143a416547f8a9d3739b3c8027a68c63eb66c9006fdb7e83d5aaf617"
+    },
+    {
+      "path": "fpga/B_execution/最终ECO/patched.db",
+      "bytes": 15988036,
+      "sha256": "bebc1ea8752bb5878913d4be98fcc063230bb2353495c05f38204678d3580528"
+    },
+    {
+      "path": "fpga/B_execution/最终ECO/patched_physical.v",
+      "bytes": 7944357,
+      "sha256": "4588459f7aa54d046514ad1b8e95e8f06729da2d230a00a1d6bc8e6f0dabc080"
+    },
+    {
+      "path": "fpga/B_execution/最终ECO/physical_patch.diff",
+      "bytes": 702,
+      "sha256": "9eed5b322cc387567cc7cf358f23d048800cab79ab5d94cbba1a002efe811eb6"
+    },
+    {
+      "path": "fpga/B_execution/最终ECO/reference_servo.v",
+      "bytes": 9461,
+      "sha256": "9a91de223423b23c98f6f7b52c9a7bebd9873c592dda9b5196be586afedd552f"
+    },
+    {
+      "path": "fpga/B_execution/最终ECO/reloaded_physical.v",
+      "bytes": 7944357,
+      "sha256": "daf43db9ddcbf76b7a038c814fd5daa22cb4b93e7f62fa34398a71be092cd56d"
+    },
+    {
+      "path": "fpga/B_execution/最终ECO/servo_regression.json",
+      "bytes": 321,
+      "sha256": "748c724551696f2fc878ee7c6f3c3f3eed46f87ce3e5c21828b93be93b97ebc8"
+    },
+    {
+      "path": "fpga/B_execution/最终ECO/servo_regression.log",
+      "bytes": 635,
+      "sha256": "33065f33f93a7f220bc8b7611f0a7be419ce5808389dde99451994fbdd3aa592"
+    },
+    {
+      "path": "fpga/B_execution/最终ECO/td_20261102_115207.log",
+      "bytes": 4354,
+      "sha256": "6d5f88c6db06e224ded36f9733716bef619d16654630f65c51fe178e11d11b97"
+    },
+    {
+      "path": "fpga/B_execution/最终ECO/td_20261102_115207.logw",
+      "bytes": 470,
+      "sha256": "04da7dfd7bcaebdf7b6f12d9f6771220cd5f1b2157ce98c746d3b932fe94f739"
+    },
+    {
+      "path": "fpga/B_execution/补丁脚本/inspect_baseline_poll.tcl",
+      "bytes": 578,
+      "sha256": "8fad9f5e7dfb6f06cfdf1f2ae209050fda50fd3b2d06d50e17a14d2da3727c3d"
+    },
+    {
+      "path": "fpga/B_execution/补丁脚本/inspect_poll_cell.tcl",
+      "bytes": 575,
+      "sha256": "538c1de6ad1d39dd32d8b3e660a5eac6c05e913c7aaa95c0bcba78f302340476"
+    },
+    {
+      "path": "fpga/B_execution/补丁脚本/patch_baseline_poll.tcl",
+      "bytes": 752,
+      "sha256": "6062220e3ec9f46fe0fe90ba348a0e2038514dcd9a13c2f51e9e6d8c2b18e6ed"
+    },
+    {
+      "path": "fpga/B_execution/补丁脚本/query_eco_commands.tcl",
+      "bytes": 161,
+      "sha256": "735d1e9db855025c77724775800853b0e67673c85042c827981d3d579fbbe9ad"
+    },
+    {
+      "path": "fpga/B_execution/补丁脚本/query_eco_help.tcl",
+      "bytes": 176,
+      "sha256": "96b6768fac9518eea3ecec73cafa51801abed91e283bfc77a32f5b88e338b2fb"
+    },
+    {
+      "path": "fpga/B_execution/补丁脚本/query_eco_usage.tcl",
+      "bytes": 387,
+      "sha256": "f6ef7cf81a89ed2e3f8e400c5fe2ec4280ea9637f3e1e9a57dd0ff3e58cfcd54"
+    },
+    {
+      "path": "fpga/B_execution/补丁脚本/signoff_poll_eco.tcl",
+      "bytes": 710,
+      "sha256": "6ecde0416bd64cb993c2055e4a11eacc25a939c1bf5f785e1d3e952a951482e5"
+    },
+    {
+      "path": "fpga/B_execution/说明/delivery_eco.json",
+      "bytes": 2191,
+      "sha256": "63d6df95dc2314d3127054422b14bda6248af65a30fa01e0efa7e428d110ec7f"
+    },
+    {
+      "path": "fpga/B_execution/说明/servo_changes.diff",
+      "bytes": 7130,
+      "sha256": "cb596bbe2808cb3351e2279716293d130f6732a6f5abcf31c10fcdc52334377f"
+    },
+    {
+      "path": "fpga/B_execution/说明/source_comparison.json",
+      "bytes": 1842,
+      "sha256": "e9075341e990841e61171611de7496c2beb387b14b245dd37f59a84386714c6d"
+    },
+    {
+      "path": "models/current_8class/a_deployment/a_model.json",
+      "bytes": 64376,
+      "sha256": "380556252de721a9368705b78067c2f99ef08c2089842b774b97901eb080e0eb"
+    },
+    {
+      "path": "models/current_8class/a_deployment/verification.json",
+      "bytes": 780,
+      "sha256": "68a62678c2af5dd8f6f0e61c14e1f5f86fe4b89f7f45e8cfc4d0b42740db4238"
+    },
+    {
+      "path": "models/current_8class/a_validation/a_model.json",
+      "bytes": 64377,
+      "sha256": "789af4ce1afe34dca7d626c7b67311ea3742a52eddee9743e7e0b3c0f4b4288b"
+    },
+    {
+      "path": "models/current_8class/a_validation/verification.json",
+      "bytes": 777,
+      "sha256": "d527a91ba4a4e25108131b013a901fa9211605f1d59c88a1ebb1fbe0ada47015"
+    },
+    {
+      "path": "models/current_8class/data.json",
+      "bytes": 20479,
+      "sha256": "a6282fce56b86f6a605e5eca0a9e5b26912c06781927393758799d6ab8108102"
+    },
+    {
+      "path": "models/current_8class/export/manifest.json",
+      "bytes": 30044,
+      "sha256": "850708f487815a3673faeab5f15179ad47af351e3a8d4a4294cfb6c8abfcb8d7"
+    },
+    {
+      "path": "models/current_8class/export/parameters.bin",
+      "bytes": 27867,
+      "sha256": "f91070000634313208a42317b5e871e92236cb1974e0374cd23d44f81c31b80c"
+    },
+    {
+      "path": "models/current_8class/field_report.json",
+      "bytes": 42035,
+      "sha256": "6a171d0ad9a5b70371a7f6852962a792e5d83939b1543ae4d05158b5d6e1618f"
+    },
+    {
+      "path": "models/current_8class/prepared.npz",
+      "bytes": 6725713,
+      "sha256": "59d0016a216e3b4096ff0b439fc632e845f4b312fd4c812f7a2152520d441f0b"
+    },
+    {
+      "path": "models/current_8class/validation_export/manifest.json",
+      "bytes": 30045,
+      "sha256": "0bf1dcf77124d614bbdeef4c822db2d622555f04e8a8cb1a5004ae4363b3ff7d"
+    },
+    {
+      "path": "models/current_8class/validation_export/parameters.bin",
+      "bytes": 27860,
+      "sha256": "f329ff88b13dd56c921ded53d9be4acab9eba4f78dccbd0a15aa3e6cfc9fe215"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/cnn_fusion_pc_trial_20261029/a_deployment/a_model.json",
+      "bytes": 59396,
+      "sha256": "0ad71b63c8bcd69e0ba33f29b97c2ebde86cadcaff90bee240e905863c6bfe56"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/cnn_fusion_pc_trial_20261029/a_deployment/verification.json",
+      "bytes": 451,
+      "sha256": "793cad0368bba1c231e4687d358d92801fb331508aa3f56254cde52ee369c7b3"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/cnn_fusion_pc_trial_20261029/a_readonly_identities.json",
+      "bytes": 2253,
+      "sha256": "5fbe495e4ab3c2956986ad3ba84e1cd994e23e6385cb3f2d4b9080c2c0f179f4"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/cnn_fusion_pc_trial_20261029/export/manifest.json",
+      "bytes": 27478,
+      "sha256": "3f352b876ebd92519012820431a9c4380b6d87e6a44e6605ce7a3e52857dcc00"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/cnn_fusion_pc_trial_20261029/export/parameters.bin",
+      "bytes": 27178,
+      "sha256": "3397d11e9f9b7e416e82ce66852f67fd66575d856b80d0a683e3287060a3a333"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/cnn_fusion_pc_trial_20261029/materials_verification.json",
+      "bytes": 1077,
+      "sha256": "39bc69f0da614ecd9532997cb1f060471af2ebd739ca3c21d95e291179a26571"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/cnn_fusion_pc_trial_20261029/prepared.npz",
+      "bytes": 4250001,
+      "sha256": "539d0cc93960e5c4dfc1b169657985279279e60a24d7cf59808145043b3928b9"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261101_213759_452506/a_deployment/a_model.json",
+      "bytes": 50857,
+      "sha256": "adf2f7a2093857c1ce158ed5b4a9eb65c783d5a3572dfc1ca6c019bcfbf3ba72"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261101_213759_452506/a_deployment/verification.json",
+      "bytes": 406,
+      "sha256": "b01d5e55a056f74cdd0cb2c1d742af8c9b8bf207f06f82a23b995a3f5a728247"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261101_213759_452506/a_validation/a_model.json",
+      "bytes": 50816,
+      "sha256": "bf590b9c9ede39c62ccb50a79dc84a5c7405d283e8f0f2133b7835325c744d7d"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261101_213759_452506/a_validation/verification.json",
+      "bytes": 418,
+      "sha256": "6fac7686208543ae68e2b246e149617bfe6f95a8f562d5787753d7e6f18289c3"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261101_213759_452506/data.json",
+      "bytes": 10665,
+      "sha256": "83144d658f86685be65230a348990d3813629f2dbbd2ce9f6690d541ada3c87e"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261101_213759_452506/export/manifest.json",
+      "bytes": 17715,
+      "sha256": "7fa258f2c4809de36ed2279f71e0fe9eee055282ad0f609efe1e711c7e7354ae"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261101_213759_452506/export/parameters.bin",
+      "bytes": 25866,
+      "sha256": "8f98ddc5bcb78d1f3b466aa061e931f01ff8a8d2f556e371b285a8e0fa067a7c"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261101_213759_452506/field_report.json",
+      "bytes": 24787,
+      "sha256": "a75ccfdfcabe960ee8b80e4be3e36eb95c4eba5ad5ab7f6054da39bd01846ae0"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261101_213759_452506/prepared.npz",
+      "bytes": 3305433,
+      "sha256": "98ab649bc4bd4df53d740840851c3b9f036f0e2a550f8d3c75a261b69a8ab3fb"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261101_213759_452506/validation_export/manifest.json",
+      "bytes": 17716,
+      "sha256": "34fd98a48f7d89e5ac5656036ce50034e44d0ae9d099e4900debeefe8cfd408d"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261101_213759_452506/validation_export/parameters.bin",
+      "bytes": 25845,
+      "sha256": "ddceabb1590db8fea40ad2993cd10b951fb0f6d3105e7c4ef239a3ed692283b8"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_181024_759390/a_deployment/a_model.json",
+      "bytes": 77556,
+      "sha256": "8ec4a1d0fdd22d88ba074cf73f61c6ad1d95327161878b91b5ad8a8e6dc56bf1"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_181024_759390/a_deployment/verification.json",
+      "bytes": 780,
+      "sha256": "8d188f2e5c28ad4f901e6a844ba60480f8eecb1708841de5c08e79465d919465"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_181024_759390/a_validation/a_model.json",
+      "bytes": 77971,
+      "sha256": "fb61aa3baecf1f8bcab08f3d0c4c09c60ea5a5aa99363d67d580e7df7221e4ea"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_181024_759390/a_validation/verification.json",
+      "bytes": 777,
+      "sha256": "e884eb5f2ac1893b338bd755e6cfb5383c14897da399303cefa980299b7fb34d"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_181024_759390/data.json",
+      "bytes": 25592,
+      "sha256": "ce3b91c2c36c766fd89bc033f6e4185ca4c0becb78e740733a828b8bb71a596c"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_181024_759390/export/manifest.json",
+      "bytes": 36307,
+      "sha256": "6c625ddfaea677770ce55c93dfb7091075666d6c2a593ce112478628ffe3e03e"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_181024_759390/export/parameters.bin",
+      "bytes": 29777,
+      "sha256": "494a36d086b258f2d530ee732da86d7007277eb65f734098ca718a125ec68247"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_181024_759390/field_report.json",
+      "bytes": 53482,
+      "sha256": "e4726ace853c19f05cfe4238a389cf8d506090e06e2ea7dd2af2a77334bd7a35"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_181024_759390/prepared.npz",
+      "bytes": 7060050,
+      "sha256": "61df4b1f9a75525c7f79f7a47a5c741e524f7b5f948f1ef072297f9fd5a0fda1"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_181024_759390/validation_export/manifest.json",
+      "bytes": 36308,
+      "sha256": "a54f26e5addffb66d1fbd552af8c08fad1c1c934046e91887f634408d9d80601"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_181024_759390/validation_export/parameters.bin",
+      "bytes": 29991,
+      "sha256": "cdcfba4ca5fe08b493a20f23213b16fd27f3b10a90e89121ec6d49e7d0568f18"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_181323_101805/a_deployment/a_model.json",
+      "bytes": 42349,
+      "sha256": "e2dddd396958e90eb23fb594f8c7b65c8b3369c5ee5e6fd6ecafb082b2a9ad26"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_181323_101805/a_deployment/verification.json",
+      "bytes": 750,
+      "sha256": "29beb4ed234d0dc814d237d326002b35208667f4138a6415859b6b3c8ba49c6d"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_181323_101805/a_validation/a_model.json",
+      "bytes": 42348,
+      "sha256": "cc8ca159c24f258493a32ac7b292627fcdf71789ea4535244fcb10254822d5df"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_181323_101805/a_validation/verification.json",
+      "bytes": 732,
+      "sha256": "81134b8fd2f76478c44df0db1df67f8913c9a3fdf81c7bec247c99f54fb3b1ba"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_181323_101805/data.json",
+      "bytes": 6181,
+      "sha256": "1b674a95b49ad1e2e4df308a74c4a0b9625ad5e7ee0f5a580031560c11d1d7b2"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_181323_101805/export/manifest.json",
+      "bytes": 11429,
+      "sha256": "60c6a22f4c9c42c26161a95ee4fa694b818fee7210ed0b6d9edf54f4bb613c8e"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_181323_101805/export/parameters.bin",
+      "bytes": 24622,
+      "sha256": "228822921d0bb7e3268971c15dfe1db305f602fdff4ce1104ec985bcd4cbd5b2"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_181323_101805/field_report.json",
+      "bytes": 17130,
+      "sha256": "ae2c06a849e3cc97bbcb67035d8a9185435cb794cf5a67ee0792cf26f52c1943"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_181323_101805/prepared.npz",
+      "bytes": 1159519,
+      "sha256": "c0403ba65088a80f2df98fc28d39b2a8c44c81a8bd1c462d7be10eebf586521e"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_181323_101805/validation_export/manifest.json",
+      "bytes": 11430,
+      "sha256": "99ea39ac9444c488676ef0673e780e04e56f5d0c000ed300a6b9a2d6690b5c54"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_181323_101805/validation_export/parameters.bin",
+      "bytes": 24608,
+      "sha256": "8b22cf0c8bacec8c69b7e693f42b1f3449a88ca16b31628932920e7348ebd347"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_181738_454123/a_deployment/a_model.json",
+      "bytes": 77453,
+      "sha256": "3bc1ebd6b31d0fb875f66a84e3879469725cd12322612ef1113a32ebef2e9bd3"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_181738_454123/a_deployment/verification.json",
+      "bytes": 796,
+      "sha256": "3f4065c70b23b1db22a1bda4eb50d557a8089471e8e5fa33b6cf99b90e4317e3"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_181738_454123/a_validation/a_model.json",
+      "bytes": 77704,
+      "sha256": "23f96d1bd8bac4d33160489248f3c7a124b036bae75929118dab18c23b7a352d"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_181738_454123/a_validation/verification.json",
+      "bytes": 777,
+      "sha256": "ce46dee28d2974450b6f8de05946b003e74bc88231d300b72d388a3190d83ed6"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_181738_454123/data.json",
+      "bytes": 29106,
+      "sha256": "51832d29307f87194b9c9d2d0ea5d91a1489a77a707a280658280df648d8df92"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_181738_454123/export/manifest.json",
+      "bytes": 40387,
+      "sha256": "b732a1f96d0dbe4850c4fcba79b05304517864d3c408e3d0b6d2e7637085fa04"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_181738_454123/export/parameters.bin",
+      "bytes": 29766,
+      "sha256": "7046d5aed56a9a0860b698b374f303eb0ce996dcf9b7513950cd6080415119d2"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_181738_454123/field_report.json",
+      "bytes": 57812,
+      "sha256": "ea8c6c4cde1948841c4514069ab50a535703214ac281a20a96de234646f48ea4"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_181738_454123/prepared.npz",
+      "bytes": 5300107,
+      "sha256": "5ff150508409fa26002c8ea7ea0dd523a0d45cdb8746952efff9ceaef2295c88"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_181738_454123/validation_export/manifest.json",
+      "bytes": 40388,
+      "sha256": "460771660f2c89e90a7d8c041aac831134de5e3ae2d4df31a90499a61a45d7f0"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_181738_454123/validation_export/parameters.bin",
+      "bytes": 29892,
+      "sha256": "5ed2281127a9e4fe117835435a1aa6e014e615908945bb8cab7fa94726300254"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_183154_804051/a_deployment/a_model.json",
+      "bytes": 42349,
+      "sha256": "7a6e4253c58c81c04b8d075740ffb3f6d88328cd5ba8a53d89f936456b6d5c07"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_183154_804051/a_deployment/verification.json",
+      "bytes": 750,
+      "sha256": "29beb4ed234d0dc814d237d326002b35208667f4138a6415859b6b3c8ba49c6d"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_183154_804051/a_validation/a_model.json",
+      "bytes": 42348,
+      "sha256": "3965fa5b54b8727c827e10489e33f2c0b8b24bf94c12409cee14ba9fd276e0c7"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_183154_804051/a_validation/verification.json",
+      "bytes": 732,
+      "sha256": "81134b8fd2f76478c44df0db1df67f8913c9a3fdf81c7bec247c99f54fb3b1ba"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_183154_804051/data.json",
+      "bytes": 6181,
+      "sha256": "1b674a95b49ad1e2e4df308a74c4a0b9625ad5e7ee0f5a580031560c11d1d7b2"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_183154_804051/export/manifest.json",
+      "bytes": 11429,
+      "sha256": "60c6a22f4c9c42c26161a95ee4fa694b818fee7210ed0b6d9edf54f4bb613c8e"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_183154_804051/export/parameters.bin",
+      "bytes": 24622,
+      "sha256": "228822921d0bb7e3268971c15dfe1db305f602fdff4ce1104ec985bcd4cbd5b2"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_183154_804051/field_report.json",
+      "bytes": 17130,
+      "sha256": "4c9e7aab751852f64190acbcb5071d87216ab00122e8e678b7c678bd2d442106"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_183154_804051/prepared.npz",
+      "bytes": 1159519,
+      "sha256": "c0403ba65088a80f2df98fc28d39b2a8c44c81a8bd1c462d7be10eebf586521e"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_183154_804051/validation_export/manifest.json",
+      "bytes": 11430,
+      "sha256": "99ea39ac9444c488676ef0673e780e04e56f5d0c000ed300a6b9a2d6690b5c54"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_183154_804051/validation_export/parameters.bin",
+      "bytes": 24608,
+      "sha256": "8b22cf0c8bacec8c69b7e693f42b1f3449a88ca16b31628932920e7348ebd347"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_184825_204113/a_deployment/a_model.json",
+      "bytes": 77453,
+      "sha256": "96121c6ee29b393cc3e77a8420cb5c13901d290eb1f4bcd40a669367ff655c3a"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_184825_204113/a_deployment/verification.json",
+      "bytes": 796,
+      "sha256": "3f4065c70b23b1db22a1bda4eb50d557a8089471e8e5fa33b6cf99b90e4317e3"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_184825_204113/a_validation/a_model.json",
+      "bytes": 77704,
+      "sha256": "e6887ec793e8fa323bf7977fe6f5474b6d819c5294327df84d0027d136af63ed"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_184825_204113/a_validation/verification.json",
+      "bytes": 777,
+      "sha256": "ce46dee28d2974450b6f8de05946b003e74bc88231d300b72d388a3190d83ed6"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_184825_204113/data.json",
+      "bytes": 29106,
+      "sha256": "51832d29307f87194b9c9d2d0ea5d91a1489a77a707a280658280df648d8df92"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_184825_204113/export/manifest.json",
+      "bytes": 40387,
+      "sha256": "b732a1f96d0dbe4850c4fcba79b05304517864d3c408e3d0b6d2e7637085fa04"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_184825_204113/export/parameters.bin",
+      "bytes": 29766,
+      "sha256": "7046d5aed56a9a0860b698b374f303eb0ce996dcf9b7513950cd6080415119d2"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_184825_204113/field_report.json",
+      "bytes": 57811,
+      "sha256": "195e92599c1e5378bd063be41aec4f81a7401b783d8a3119dda1badcc39f256f"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_184825_204113/prepared.npz",
+      "bytes": 5300107,
+      "sha256": "5ff150508409fa26002c8ea7ea0dd523a0d45cdb8746952efff9ceaef2295c88"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_184825_204113/validation_export/manifest.json",
+      "bytes": 40388,
+      "sha256": "460771660f2c89e90a7d8c041aac831134de5e3ae2d4df31a90499a61a45d7f0"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_184825_204113/validation_export/parameters.bin",
+      "bytes": 29892,
+      "sha256": "5ed2281127a9e4fe117835435a1aa6e014e615908945bb8cab7fa94726300254"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_184848_080570/a_deployment/a_model.json",
+      "bytes": 77453,
+      "sha256": "cf60f369a64a8e7671965a0eb74c33f224727958a936a5f5f51702d7119f36e3"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_184848_080570/a_deployment/verification.json",
+      "bytes": 796,
+      "sha256": "3f4065c70b23b1db22a1bda4eb50d557a8089471e8e5fa33b6cf99b90e4317e3"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_184848_080570/a_validation/a_model.json",
+      "bytes": 77704,
+      "sha256": "25ef04593f4088ef3519cbde2090746b421ef939043bc04cfca7572d6129aa58"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_184848_080570/a_validation/verification.json",
+      "bytes": 777,
+      "sha256": "ce46dee28d2974450b6f8de05946b003e74bc88231d300b72d388a3190d83ed6"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_184848_080570/data.json",
+      "bytes": 29106,
+      "sha256": "51832d29307f87194b9c9d2d0ea5d91a1489a77a707a280658280df648d8df92"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_184848_080570/export/manifest.json",
+      "bytes": 40387,
+      "sha256": "b732a1f96d0dbe4850c4fcba79b05304517864d3c408e3d0b6d2e7637085fa04"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_184848_080570/export/parameters.bin",
+      "bytes": 29766,
+      "sha256": "7046d5aed56a9a0860b698b374f303eb0ce996dcf9b7513950cd6080415119d2"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_184848_080570/field_report.json",
+      "bytes": 57812,
+      "sha256": "437036a60218fde279a157381941c8fb2f4e0eabc23ee91e494f0248a1fe9cf7"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_184848_080570/prepared.npz",
+      "bytes": 5300107,
+      "sha256": "5ff150508409fa26002c8ea7ea0dd523a0d45cdb8746952efff9ceaef2295c88"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_184848_080570/validation_export/manifest.json",
+      "bytes": 40388,
+      "sha256": "460771660f2c89e90a7d8c041aac831134de5e3ae2d4df31a90499a61a45d7f0"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_184848_080570/validation_export/parameters.bin",
+      "bytes": 29892,
+      "sha256": "5ed2281127a9e4fe117835435a1aa6e014e615908945bb8cab7fa94726300254"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_202447_218006/a_deployment/a_model.json",
+      "bytes": 68866,
+      "sha256": "bc5c3922840687696f49749ce44f51b7fc57941a1cc1749f2c4981ab3aa5689f"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_202447_218006/a_deployment/verification.json",
+      "bytes": 792,
+      "sha256": "1fbd9a51bbe0fc586e656b59f922213d75da48c0cc660c0b297986c05b02728d"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_202447_218006/a_validation/a_model.json",
+      "bytes": 68924,
+      "sha256": "660e06480db2e064f363a9a2b61ec75ea8e8f4b4a053554ba9459f0abc67dd60"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_202447_218006/a_validation/verification.json",
+      "bytes": 775,
+      "sha256": "ccfb57a22c1742ffdee9fe04f2f8b8211bf09ec56deb3ac93502554faa3cc5d9"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_202447_218006/data.json",
+      "bytes": 23560,
+      "sha256": "c671eace5efa07f0525c538f5645da0783514603235f99aebf144c193f19b7fe"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_202447_218006/export/manifest.json",
+      "bytes": 34051,
+      "sha256": "9daac13ced54515ac3b81d7289c53bf8456cf91ec902807223f21ff0158ce258"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_202447_218006/export/parameters.bin",
+      "bytes": 28330,
+      "sha256": "dd70c0b25a6befc00c1a6fb9cb281b3d7effdcab97a4d8766208fc3e77839483"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_202447_218006/field_report.json",
+      "bytes": 47829,
+      "sha256": "c83f76f3067968a647efdbb4c46c220e556e7f814986a06ed4db88c6664d0489"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_202447_218006/prepared.npz",
+      "bytes": 7369738,
+      "sha256": "d208e0b1a3f9dbed7aa1dcb2f4d2db669b9b9c82c44b5b66fa07d32816e0d022"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_202447_218006/validation_export/manifest.json",
+      "bytes": 34052,
+      "sha256": "05d3149fed5f4b4bb11d05c6418c5cd743f784f0d33d41601c70905401ba7ecc"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_202447_218006/validation_export/parameters.bin",
+      "bytes": 28259,
+      "sha256": "cca0c4e169b28a0c7c6fcbeeab9a541c79f3efd207f8f18028b342318b9faad5"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_210740_420842/a_deployment/a_model.json",
+      "bytes": 68497,
+      "sha256": "d9c60da1a6a3fc2936f6d080a3c11d18371105942cdc234863b5dabacc9c57a8"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_210740_420842/a_deployment/verification.json",
+      "bytes": 751,
+      "sha256": "824374d088e54983dd8fab0b00356a839e85952c74a21c4a70c51cbd5b8acbb1"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_210740_420842/a_validation/a_model.json",
+      "bytes": 69089,
+      "sha256": "0c6ad77a7b8d75c12679eadd16eb2c03a8f13906a45c5e5245d0c036f977e71c"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_210740_420842/a_validation/verification.json",
+      "bytes": 758,
+      "sha256": "160e458b15483267d2076802b4a0c405248492d62478f3cffc0c56e71b752cc4"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_210740_420842/data.json",
+      "bytes": 23407,
+      "sha256": "a9aa7ede1a1f1316eb8f530d8d08ac50f2d34129e3b93d259b4508349ccba644"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_210740_420842/export/manifest.json",
+      "bytes": 33886,
+      "sha256": "5f1e0db4eaf9acb3abaa1ecc977eb6e822e68baad0941729489a986bd68bcebe"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_210740_420842/export/parameters.bin",
+      "bytes": 28383,
+      "sha256": "79f58ebad71e945f948dcaa26e9b772eb8f4657d913fa0459c5b1e86fd691c6a"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_210740_420842/field_report.json",
+      "bytes": 47360,
+      "sha256": "d56b329e695a91620b4f7b272b95f3ceaa9a0a43c4f5478acf4d322d80ca2273"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_210740_420842/prepared.npz",
+      "bytes": 7693682,
+      "sha256": "9fb02726d9c49bbb2691d7148861708fb9a1759ff712bee7dc8a3d47e2e2a5ca"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_210740_420842/validation_export/manifest.json",
+      "bytes": 33887,
+      "sha256": "a310d326230f0ff302b77fd6f069c62aeee6461ebc8ef4e3a5054ba16c2f813f"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_210740_420842/validation_export/parameters.bin",
+      "bytes": 28397,
+      "sha256": "538fcc1257585bb33a560fdf4aa62437e6c614ee1b733671d0c9ad1c50378311"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_214014_087619/a_deployment/a_model.json",
+      "bytes": 68867,
+      "sha256": "fbc0708522edaad2007989d68e45828c907da812553d58defa5ed38fe474b53e"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_214014_087619/a_deployment/verification.json",
+      "bytes": 751,
+      "sha256": "e2422f814218e81a2b034a0f0ccecc999de642539b506d2bb1be11175c1fee1d"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_214014_087619/a_validation/a_model.json",
+      "bytes": 68987,
+      "sha256": "d18986413e149023879566a2bf77ef2d90d5913597603c1eed4036b3824cea53"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_214014_087619/a_validation/verification.json",
+      "bytes": 778,
+      "sha256": "b7ce7509a49ff88027e63ddfe04b4b769caaf7d7e52fe699e216fbda19b9898e"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_214014_087619/data.json",
+      "bytes": 23286,
+      "sha256": "50288c56fa31f3f2ebfd4803db0635b84a426d31afdcffde8cf283e4bc35ddee"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_214014_087619/export/manifest.json",
+      "bytes": 33740,
+      "sha256": "40b67f6d531bbe483edd7cd953d63763601fd12bb01724130ea14fa8dee16c73"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_214014_087619/export/parameters.bin",
+      "bytes": 28603,
+      "sha256": "63e28cc1cc247bd63eecca023495c0f2df122ec98f51137e6a689f0425e2a5ef"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_214014_087619/field_report.json",
+      "bytes": 47160,
+      "sha256": "a27a08de571f7bd96b0cccf888e3f709a92a33a98bc590822a9eb7856a6dfd71"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_214014_087619/prepared.npz",
+      "bytes": 7736294,
+      "sha256": "05dcfce141e4fc7abbdafe4ac0f94ffc3e5ed6524e63dfbe4f1050856970ae4f"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_214014_087619/validation_export/manifest.json",
+      "bytes": 33741,
+      "sha256": "17e8cb5e89d1bbbf25a8546563c022f214f00e104d0739957fcf1b623f8de11b"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_214014_087619/validation_export/parameters.bin",
+      "bytes": 28649,
+      "sha256": "510f2c3b9b9a1969fa150376e9ba6b3f36406a6b9b6db06e879ccb3758fa7881"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_220703_972275/a_deployment/a_model.json",
+      "bytes": 64376,
+      "sha256": "380556252de721a9368705b78067c2f99ef08c2089842b774b97901eb080e0eb"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_220703_972275/a_deployment/verification.json",
+      "bytes": 780,
+      "sha256": "68a62678c2af5dd8f6f0e61c14e1f5f86fe4b89f7f45e8cfc4d0b42740db4238"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_220703_972275/a_validation/a_model.json",
+      "bytes": 64377,
+      "sha256": "789af4ce1afe34dca7d626c7b67311ea3742a52eddee9743e7e0b3c0f4b4288b"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_220703_972275/a_validation/verification.json",
+      "bytes": 777,
+      "sha256": "d527a91ba4a4e25108131b013a901fa9211605f1d59c88a1ebb1fbe0ada47015"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_220703_972275/data.json",
+      "bytes": 20479,
+      "sha256": "a6282fce56b86f6a605e5eca0a9e5b26912c06781927393758799d6ab8108102"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_220703_972275/export/manifest.json",
+      "bytes": 30044,
+      "sha256": "850708f487815a3673faeab5f15179ad47af351e3a8d4a4294cfb6c8abfcb8d7"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_220703_972275/export/parameters.bin",
+      "bytes": 27867,
+      "sha256": "f91070000634313208a42317b5e871e92236cb1974e0374cd23d44f81c31b80c"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_220703_972275/field_report.json",
+      "bytes": 42035,
+      "sha256": "6a171d0ad9a5b70371a7f6852962a792e5d83939b1543ae4d05158b5d6e1618f"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_220703_972275/prepared.npz",
+      "bytes": 6725713,
+      "sha256": "59d0016a216e3b4096ff0b439fc632e845f4b312fd4c812f7a2152520d441f0b"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_220703_972275/validation_export/manifest.json",
+      "bytes": 30045,
+      "sha256": "0bf1dcf77124d614bbdeef4c822db2d622555f04e8a8cb1a5004ae4363b3ff7d"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/20261102_220703_972275/validation_export/parameters.bin",
+      "bytes": 27860,
+      "sha256": "f329ff88b13dd56c921ded53d9be4acab9eba4f78dccbd0a15aa3e6cfc9fe215"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/recovered_model/a_deployment/a_model.json",
+      "bytes": 58666,
+      "sha256": "405eb9d95eb6cc5ef4114052d4644f1003af784012063dcc724f3223807f62ac"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/recovered_model/a_deployment/verification.json",
+      "bytes": 407,
+      "sha256": "9f3e401b99fb559c4e2a57d75107683901ab5e7a9204a20056df27c59b1262a1"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/recovered_model/a_validation/a_model.json",
+      "bytes": 58760,
+      "sha256": "65027901bb4a85c2c1b5d35f26a2c16c4d9295757bae60f198ef032359e55091"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/recovered_model/a_validation/verification.json",
+      "bytes": 434,
+      "sha256": "c41f71b81912bf46116e434174c8b55d18bae59a05b7d19a3d521bd7058b5575"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/recovered_model/data.json",
+      "bytes": 13847,
+      "sha256": "a100ab6b23d69dc41cfd7ebe000841054dad800bc0a7b44aab7e5e7cf7cc8b40"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/recovered_model/export/manifest.json",
+      "bytes": 21491,
+      "sha256": "d03547b41fa911a51ae4413b2f0f5540be1bd2d467b50fff1ce4c18b50aecd2b"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/recovered_model/export/parameters.bin",
+      "bytes": 27202,
+      "sha256": "9e9fbf319ed2bf12e07b8653f4983846d8edd35dc15ae7d6be3404316b69f921"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/recovered_model/field_report.json",
+      "bytes": 30876,
+      "sha256": "c7afddf815c6b5d16780daf6c538464a2dec0b99ffd16db17ff71b32631dd99f"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/recovered_model/prepared.npz",
+      "bytes": 3667785,
+      "sha256": "3ef2d3fa6c4223f53974b9055add06f463df899511c66a1742321dcccae9b047"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/recovered_model/validation_export/manifest.json",
+      "bytes": 21492,
+      "sha256": "8e828274f5a363c9b51220bdb83bccf1ff6e609dd43a89915dfaa21f7adad719"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/sessions/recovered_model/validation_export/parameters.bin",
+      "bytes": 27017,
+      "sha256": "c1e48b40084d75aae3ba175d3b1529e00c580d891f6617f14297a53761ff58bf"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/pc_ml/__init__.py",
+      "bytes": 54,
+      "sha256": "6bfccd7d0a795f55f48c993b516edebbbf18d8b749feb5c8afdb62e0dcee7c38"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/pc_ml/audit.py",
+      "bytes": 3063,
+      "sha256": "0cfb7de910b7caadecf36ea96466283da57d0001a516234c988b07667b1fcaa6"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/pc_ml/calibration_logistic.py",
+      "bytes": 4755,
+      "sha256": "43ee924d0a870d8a27e3ab3e18a704de4f9b2490267e6b0b39ba9bddcacae33b"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/pc_ml/cnn_fusion.py",
+      "bytes": 8193,
+      "sha256": "327d271a2092e9b01c94d207941fe6d5ae891c0f9814d6299edd1559779381ec"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/pc_ml/cnn_fusion_field.py",
+      "bytes": 12390,
+      "sha256": "094f1e677e0cb1c8c5defcb9079d82f2c14d6c3c37244f67270b37e64a360066"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/pc_ml/cnn_variants.py",
+      "bytes": 7488,
+      "sha256": "d02e52838a37100871f885557d11fc370f9813d7406a95691b5c9af4baa82424"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/pc_ml/data.py",
+      "bytes": 13093,
+      "sha256": "da301c9162bfbfa393b73326a652670923edee64cf8211554b3b4d892f2c5a5c"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/pc_ml/failure_audit.py",
+      "bytes": 3700,
+      "sha256": "002cb0102128fe3bd241d883116107ea400e206501cfc3dd3817576886b5149a"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/pc_ml/fast_field.py",
+      "bytes": 11633,
+      "sha256": "7c4ac51b07a71ab51f9c1a8272dd2b0b1d8e59ea8dd48f6c32059e193fdc671d"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/pc_ml/field.py",
+      "bytes": 7225,
+      "sha256": "29c6e8a02ef60977d422efabe9e26b48e1c4b45cd169818548aab67980e995f5"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/pc_ml/field_gui.py",
+      "bytes": 16179,
+      "sha256": "4ba2efcbdf0c32b32dcd0af78ac0da14c7c46b34630e179cf355b832aee88b7e"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/pc_ml/fixed_linear.py",
+      "bytes": 3485,
+      "sha256": "7858795eee397c081b796a845d4ee6df7180cb8fabf97cd0d25476656e14e366"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/pc_ml/fixed_rbf.py",
+      "bytes": 6893,
+      "sha256": "05ad2b5e2db4b2fd5d711e28fdd0812f4e3ec8d38b30ea372eaa0f0e61e87096"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/pc_ml/fixed_tree.py",
+      "bytes": 8419,
+      "sha256": "1b0ad5ce37214eaf55b23f11a7ff620b1055411725b8b65341fd676f9e73db4c"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/pc_ml/frontend.py",
+      "bytes": 3166,
+      "sha256": "dd74820b52b486cbe3a1b92b28855e1e09da280a6db5db65fc5dfc8915ba5b23"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/pc_ml/fusion.py",
+      "bytes": 10149,
+      "sha256": "013fc32bcee06e0595ac3bd6a9bc6cd482bd009e0cec90a949cb5a4bbd0154af"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/pc_ml/fusion_field.py",
+      "bytes": 8422,
+      "sha256": "dbc1645e10c9d8dab192433530a630d1e298fce866d349c7c5f94de36ae08cf3"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/pc_ml/gesture_tasks_export.py",
+      "bytes": 11413,
+      "sha256": "9076cba001adf89a3c8946ad8f4f3fb24b30d86a0f71a1b2b655c3380105d7d1"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/pc_ml/gesture_tasks_recording.py",
+      "bytes": 3024,
+      "sha256": "a092901ec8360bf13f3c95bf3827bc5014de49812bde26912f3669b417952b6b"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/pc_ml/hybrid.py",
+      "bytes": 7766,
+      "sha256": "442c556565dfe371a2b62797d842594dae308044a401ece7244550511dd56056"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/pc_ml/models.py",
+      "bytes": 3126,
+      "sha256": "f6163bb17f0aeeeb963bacfc7935f9cc631ced1d9922175c1ec773ef77baafc6"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/pc_ml/package_api.py",
+      "bytes": 1566,
+      "sha256": "7bdcce414c6a32af0ae80edcc0835e7f7c4fc2a5931cdae1366e63facd3dc966"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/pc_ml/parallel_envelope.py",
+      "bytes": 3223,
+      "sha256": "a4e0a7003ffc001a794840f2aa82870d7e94081d8d50743029a250bb09c468a7"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/pc_ml/parameter_store.py",
+      "bytes": 7271,
+      "sha256": "05d4201eb5aa9091ba10c983035121203e70c2a71198c1f176e9e36d918d6350"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/pc_ml/prototype_study.py",
+      "bytes": 2911,
+      "sha256": "571e4b08ea13acd90e8c1e0075850f872cc72e51e39bbb25b2ec194a83d0788b"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/pc_ml/purged_calibration.py",
+      "bytes": 3029,
+      "sha256": "1c994270cde1913d7ddb9644408698d63d34f9a8a7f6ecd013f15043e10956e6"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/pc_ml/quantize.py",
+      "bytes": 14390,
+      "sha256": "81a45b05bf5625ab846c043c165b765677cc2c9b61b48e457707423f954bf230"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/pc_ml/refine.py",
+      "bytes": 10444,
+      "sha256": "e0e4999dd0dcbfbe417b9b6faa409a8ae9033109360e40fde9285aaf52f703a9"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/pc_ml/replay.py",
+      "bytes": 13919,
+      "sha256": "e4ff5681f452aaab4b948a15f0612dd8956a07baa12bb7d5ee1a55437ca9cbff"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/pc_ml/report.py",
+      "bytes": 5828,
+      "sha256": "3c017942414f770c76cd54ed28fa3d972b0f553f646e455ec410f0788e9f137e"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/pc_ml/residual_fusion.py",
+      "bytes": 3487,
+      "sha256": "8083f2e93fd2de7c6157c978fb4d138f2c86620de8e99b9884cfa99a2f8496b7"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/pc_ml/robust_hybrid.py",
+      "bytes": 6125,
+      "sha256": "358954dc822b26777a394754799f38415992407b64a29f40266756bcaf214b26"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/pc_ml/robust_linear.py",
+      "bytes": 4600,
+      "sha256": "66a80f6ddfab6d2521e77b24ab3ee7fc0099a43c0c8540cbea9f18fa5a3e842c"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/pc_ml/temporal_inputs.py",
+      "bytes": 2058,
+      "sha256": "3f1a955dacc5910b60cc8fe4526ad3743c10635762ee4672e1f5744218ab8894"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/pc_ml/test_adaptive_training.py",
+      "bytes": 5977,
+      "sha256": "75fe6eca6556f0249869a04255178b920f12f9d77b2c8cc226a30f822f64e2b5"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/pc_ml/test_custom_profiles.py",
+      "bytes": 4731,
+      "sha256": "5c21414653eaa15075796c13d45ec8b5082465ab1430a734d93bbbf8ffe970f7"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/pc_ml/test_data.py",
+      "bytes": 2554,
+      "sha256": "db12327f620aaefa34ec94cc816b0419c6ba7aaa8f97b8860e0c9a3bdd1471b3"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/pc_ml/test_frontend.py",
+      "bytes": 4450,
+      "sha256": "76990c5814bb898b3a7ea0a7d9bad0fedfd0cdb9c87e48a111b2a79d805ed3f9"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/pc_ml/test_gesture_tasks_export.py",
+      "bytes": 8420,
+      "sha256": "7ed63c83d347aae2651504416e1603cad992ef0802daba884d8939ce13da2855"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/pc_ml/test_hybrid.py",
+      "bytes": 5125,
+      "sha256": "9aaae3fcc6c1f8c507b2175480e1dd4d1bb79fe09a5f39c52d9fe345b3ff3dec"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/pc_ml/test_today_algorithms.py",
+      "bytes": 7183,
+      "sha256": "50c7d1115d7733f57f93f8bdfc2db627f0d6286fe6e8548a4a8138a6822d3838"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/pc_ml/today_compact.py",
+      "bytes": 5655,
+      "sha256": "e2817c4d02d89a08d45c406b8ab54454651155864696971b868c06ab7ac14be2"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/pc_ml/today_covariance.py",
+      "bytes": 7354,
+      "sha256": "16f5744505b54f49739f717e011e083adde46480086ed276a6e431244087fec2"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/pc_ml/today_hybrid.py",
+      "bytes": 11777,
+      "sha256": "bc61fb337b57dbf2a92e852cb6cd26a372d2c5ef61154676d3771d0418e83217"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/pc_ml/today_linear.py",
+      "bytes": 4573,
+      "sha256": "04037ec329d0dc5205e8b420eb2a01f6f325c669a0b50ae4ad42b0ebe8ae5d26"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/pc_ml/today_live.py",
+      "bytes": 5119,
+      "sha256": "1b450e4ab9d253995e27451baddedfbf1e1ca85dbfd8fa9cc1069e813dafd07f"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/pc_ml/today_neural.py",
+      "bytes": 12469,
+      "sha256": "36c6aa4ddb4cfed501d1f91392b87dce7388db4375076cf7abb230c229ad795e"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/pc_ml/today_survey.py",
+      "bytes": 17789,
+      "sha256": "dee0a52863a1ecc206a5d8c1e1d4711c83f20a9fa7a48374042e0c030ab5776f"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/pc_ml/train.py",
+      "bytes": 8613,
+      "sha256": "aea86e2f779f0704624afae793e551f3d4d6f354267415c9b999b6af4c68aef5"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/pc_ml/train_today.py",
+      "bytes": 5178,
+      "sha256": "079b793274edf09b32c8a58531f9ad062699dc8763460082547e70dcce698709"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/pc_ml/trial_log.py",
+      "bytes": 4028,
+      "sha256": "6a61539ccf3e7380c93dc47a01b7101fc92421eb041a083dc21fd167ab6063c2"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/backend/pc_ml/verify.py",
+      "bytes": 3899,
+      "sha256": "2ea0251467a618791e5ad80ee97aaa055a5ded096b8b3f1f0632f49af8c795c6"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/assets/gestures/MYO-APACHE-2.0.txt",
+      "bytes": 11357,
+      "sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/assets/gestures/TWEMOJI-LICENSE-GRAPHICS.txt",
+      "bytes": 18524,
+      "sha256": "8ae9438818c26e4873b91d8c6ad620526c011e27e125677f13031eda903f007c"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/assets/gestures/custom.png",
+      "bytes": 693,
+      "sha256": "bda2e7dccdd909cfdbc22f7b580b259dffa9b9b34020fbfcf3b8478673b59c83"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/assets/gestures/fist.png",
+      "bytes": 823,
+      "sha256": "44bc6ebcb79d391873e86d747895f8a982073502de9f6639eef86c2eebd2f78c"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/bottle_cap_grasp.png",
+      "bytes": 20177,
+      "sha256": "c8820d575ab5358cd02ef89fe3596d916ca17e851f42706302f91d875fc5595c"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/disk_grasp.png",
+      "bytes": 21104,
+      "sha256": "703716427d272a8a8d972bdc631be2dade3e7389c5f06a30ed6080697131a9a5"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/extension_grasp.png",
+      "bytes": 18572,
+      "sha256": "98e7a7d450aecc4fb95ebbf0fea810c73878e548f009043720757dd2af2545f3"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/fingers_together.png",
+      "bytes": 17094,
+      "sha256": "226c26cc9831190c81940c24eebe1b704f5b05e1c2529caa901e3a8727fc58c2"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/fist.png",
+      "bytes": 17340,
+      "sha256": "ea5a220ccba95e69540ac5c17f7e34045ec9c8339c5fd28b2fe16ead2fe07f37"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/hook_grasp.png",
+      "bytes": 19836,
+      "sha256": "e72341ff93440b1480b75469331d65ca9b42f42377965fbcd71eb338e32ba387"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/index_extension.png",
+      "bytes": 16833,
+      "sha256": "d8fce1b29898fee0009cc7c4323d2ce4768f187bc3283bcd24e0fda1e2bd66a4"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/index_flexion.png",
+      "bytes": 17032,
+      "sha256": "d60064bc0e161bacb480952c9abf1220fc609ef9bd9fcc25768ff4fa3967507b"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/index_grasp.png",
+      "bytes": 19664,
+      "sha256": "b11ca39da0e395dc535b65e407d86c57b9ce5e43d80665e4b910f330c18216d6"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/knife_grasp.png",
+      "bytes": 25558,
+      "sha256": "9922328369112864b0519ff0fe924b41fbe48d6b95f674a14c8e528e3182a3a5"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/large_cylinder.png",
+      "bytes": 19995,
+      "sha256": "b28efc191b0639dfcb3dd56d995679b3d1bb77b58b204677a2a369fb7ccee12f"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/lateral_grasp.png",
+      "bytes": 18395,
+      "sha256": "cf3669579e641faa1a3e25138f19c6bff6d8d704bd1ba2b99194a1553b5d1c8a"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/little_extension.png",
+      "bytes": 16936,
+      "sha256": "b00a5eecf33d302695a7331306aa64faa5a13355a857ed913bad7f023970264b"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/little_flexion.png",
+      "bytes": 16807,
+      "sha256": "21863b6dfade338c45a301bfb2f62e5c903e1d56644abb12001b15317cec726b"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/manifest.json",
+      "bytes": 8629,
+      "sha256": "5baffa965654756df45078b3ef19a2fe59d3ef4fecfabddb823372508bfb3c4c"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/medium_wrap.png",
+      "bytes": 18725,
+      "sha256": "536ce5ba61e551616585d0bb5974c676c021779220c5ce24e6df4ac93f3aad24"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/middle_extension.png",
+      "bytes": 17080,
+      "sha256": "5b944a1686e23a55185ad0b2c1f62f0516dc9fe8fe7775c6cb5314550ce3044b"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/middle_flexion.png",
+      "bytes": 17646,
+      "sha256": "ab5bb065e45515edd9c6a8d7f35219e7a5ee841fe741657cd7d747f7f0efd042"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/one.png",
+      "bytes": 15972,
+      "sha256": "38fc51c591b884beac9ee61ff6580ecac0759e45b171405838744dd523e5c3ff"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/open.png",
+      "bytes": 17776,
+      "sha256": "0721284d336b17db7d380637fb63acc931a3e3437f27129023ce48ed1982f645"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/parallel_grasp.png",
+      "bytes": 21520,
+      "sha256": "7aad6b5d5c1d00df81923ae11dac26f570feabb16a3359a1016961ecab9727cd"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/power_sphere.png",
+      "bytes": 18196,
+      "sha256": "e0d8a92c7113ab7c4d3213f53da392e2f7b1a5ce69dc49d0c27e48c172d7f1ea"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/precision_sphere.png",
+      "bytes": 19454,
+      "sha256": "f9e406ddb964fd2d8827dce44a32da0db8d527049f42fc65b5cb459caafb3137"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/prismatic_four.png",
+      "bytes": 18226,
+      "sha256": "388f28f39048b036b5d49646d26d13c1fba3fe1f8fed61a3590ff82df597f4b0"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/prismatic_pinch.png",
+      "bytes": 18114,
+      "sha256": "cea86dafa9e2c2bcefddbcc3d37a75393480fa6989ede6998b848265c3086de0"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/pronation.png",
+      "bytes": 22046,
+      "sha256": "995afc3e39ecc4be049dbdeef93dbe17fc830ca99d91e300874c4b1e2c77ef90"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/pronation_ulnar.png",
+      "bytes": 20596,
+      "sha256": "c5a0b16ac597ba6adfb793c5366c158004844f52c0d71143a88bcecf5dd5411b"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/quadpod_grasp.png",
+      "bytes": 19703,
+      "sha256": "40bd83680be2a40e79a04073c5120e1f8dde8da7c83a2a1b5f2eccc7087c66f6"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/radial_deviation.png",
+      "bytes": 16641,
+      "sha256": "8216f285ee05b6451b77a6bd114ac1bc2939bea0de27b49f251f5510b42b9461"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/ring_extension.png",
+      "bytes": 16851,
+      "sha256": "3c8b33091718d2f7790595e46501050d9967f743f13611c51b6083663e9e0f51"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/ring_flexion.png",
+      "bytes": 16800,
+      "sha256": "f0c9cf2fbd419e0157c6a545088b70d2a2e5e2ccc85d09049dfc10f308a6f38c"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/ring_grasp.png",
+      "bytes": 20949,
+      "sha256": "ad08e3ef9ffcec4e1facb19294928e27a170fa3ed34fdc91c394014d0c860a5b"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/screwdriver_grasp.png",
+      "bytes": 21684,
+      "sha256": "b9fff82d2ab2e2de391c4b5633fecbe76fc7de26d3092d29f69cb0c4b6b58d41"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/small_cylinder.png",
+      "bytes": 18285,
+      "sha256": "ef2cb1902cb699c9bc775fab20b40e089dd4acf4d3c7986c8ef35df7f415bd6e"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/source.png",
+      "bytes": 2270669,
+      "sha256": "f240dfcf247516a632308fc19b62ff0bc08fc87f50bf0cb4d7055b2a74cbc45b"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/stick_grasp.png",
+      "bytes": 19590,
+      "sha256": "5f25eaa4f39eb3b624adbfc4dc10d2c6130a63625ce642baa4610840fe8aa805"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/supination.png",
+      "bytes": 22337,
+      "sha256": "c984ca0d2fcf57cee6f9193137918b18370aac38da21302a0de156fa4b76d0f1"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/supination_ulnar.png",
+      "bytes": 19499,
+      "sha256": "80a96fef7a0f5ed88b007efe2522205919bac7c49ca5a3732c1c3431d5d47a31"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/three.png",
+      "bytes": 18770,
+      "sha256": "05dc44378c510f52c1ae306dfdc8a57bee8efbd7c915a6adc38bc846509f5f05"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/three_finger_sphere.png",
+      "bytes": 19564,
+      "sha256": "6036368bdf1a36c24a051c90fcdcec3481ada9296634d643ddf9b96f72e51b57"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/thumb_abduction.png",
+      "bytes": 16614,
+      "sha256": "6ae120d338126ba6d7c063f303acfe4359228d9d63f7e5d5610483d4445216ee"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/thumb_adduction.png",
+      "bytes": 17109,
+      "sha256": "ca60549172d7108ad5095d63b3a8f0e22816e51320e20298177de57639687006"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/thumb_extension.png",
+      "bytes": 15933,
+      "sha256": "20c2463d719dc46fc0d4f336bf3a1fb5368888d914d720e9fe4bab034c2fe55a"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/thumb_flexion.png",
+      "bytes": 17332,
+      "sha256": "d299d101b5815756ae44f9c148fbcb44c36fc8bbedb9e4a998e6b2a6064fa3d4"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/thumb_to_palm.png",
+      "bytes": 17635,
+      "sha256": "011d497610fcddb9f09a7bd0fa61fc618d658bcd52ae803f2fcf7b04b32fa1f6"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/thumbs_up.png",
+      "bytes": 19414,
+      "sha256": "7dfdd515192386b2cca37f22a2d798bccc0924153d215f3743fed4b7ecfb78af"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/tip_pinch.png",
+      "bytes": 18096,
+      "sha256": "ab043fee0e7d0693d10f82016d292296000bf5f8a64c6f42a0d95f37147e3585"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/tripod_grasp.png",
+      "bytes": 18530,
+      "sha256": "123fa7d769da4810db42d5e3a6b752ea6562072859416288764c301343599509"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/two_fingers.png",
+      "bytes": 17574,
+      "sha256": "c2c686c454d242ce343bbb4247badabd0d9aa5b993bd715300767ff920885f76"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/ulnar_deviation.png",
+      "bytes": 17027,
+      "sha256": "ed8a4cae06b4a4fba8ed056bb488a00b2bc8d5f71867e0aabb51af9021936590"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/wrist_extension.png",
+      "bytes": 17047,
+      "sha256": "1a2056aab7e367f9a4eac2db93a6d0fd81ce135f5313184b939e652a7f4f926b"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/wrist_extension_fist.png",
+      "bytes": 15841,
+      "sha256": "d81ae4e1b272a20439fe3a9abd2842c1187116117fb3e27b367b5bd525414357"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/wrist_flexion.png",
+      "bytes": 17352,
+      "sha256": "23a5ad3caee72a270888195279c70cf304018aabc2f5f4983eab60d3405e8bf3"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/assets/gestures/ninapro/writing_grasp.png",
+      "bytes": 18586,
+      "sha256": "e8e470367fd323fe3f0a3d63573c40525b53d1342275e152e6a816e52fe5665b"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/assets/gestures/one.png",
+      "bytes": 653,
+      "sha256": "265454f6aa0cd22f5a40b294085e4039abb85f1bb739a665817713a580499992"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/assets/gestures/open.png",
+      "bytes": 863,
+      "sha256": "66913e143a99c5692d83d2f5ae15349305da0fb98a394c3c3961215cebb8aa7f"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/assets/gestures/rest.png",
+      "bytes": 390,
+      "sha256": "9e2b51deb7f8dcb594c034b7510c2373ace9e9f52420aed023b8c0bfef60d1c6"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/assets/gestures/scissors.png",
+      "bytes": 786,
+      "sha256": "cea523470d65f2a2a77529df0ba9dbd8b6d625e0311c3438a5a30b4dc583235d"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/assets/gestures/six.png",
+      "bytes": 840,
+      "sha256": "f8345ba42d846232227c2c364b197ceda14c6c17d6a6fc4bd3a541cebfbab9de"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/assets/gestures/thumbs_up.png",
+      "bytes": 778,
+      "sha256": "42b43325b3edacba2a0e72b742bdc6fc5e4bc2ad38adca271fcc6d8353639887"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/assets/gestures/wrist_extension.png",
+      "bytes": 9334,
+      "sha256": "14551ead9fd184ac97cfb30c9c265aa673a252894dc10fb5c6231d4faffe97c2"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/assets/gestures/wrist_flexion.png",
+      "bytes": 9729,
+      "sha256": "9d049daacfed1272e2b8381ac6f0795847e74052870a1fe2f7475ce8b0a95b6c"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/benchmark_dgt_fpga.py",
+      "bytes": 18650,
+      "sha256": "9b0b3154ef9fbe5fd9c90731026518880b2f4195ca56ccb4ebc615f932b8a5d7"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/benchmark_experiments.py",
+      "bytes": 17756,
+      "sha256": "a37bf009a34cc9a1a9e2c1ac4f4ff7cb86bbec0796a8da18a659965e425b1758"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/build_gesture_assets.py",
+      "bytes": 2303,
+      "sha256": "e74283f0c54c3ddd66e00e87d3cc917fd5eed406c959a71a9e7c8856ba3183df"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/emg_studio_gui.py",
+      "bytes": 47438,
+      "sha256": "a6a5830a0bca76b37af6f267456a4dc311b5f2c3ce623e518de12109d1ab25d9"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/emg_studio_gui_V2.0.py",
+      "bytes": 50617,
+      "sha256": "ae325d69ba540fdf47bbe54ecc465554d36dd958346d050847cba9593ee002b3"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/emg_studio_gui_V3.0.py",
+      "bytes": 57755,
+      "sha256": "ec3883554e1c746667f2a330e95c47eb979d63e666976268d803a0fb957ab466"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/field_training.py",
+      "bytes": 34818,
+      "sha256": "06e682e0442efc28682634ab959730c8ce1afa247ea916761a27251c72cebbc7"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/gesture_config.py",
+      "bytes": 18272,
+      "sha256": "6622256555ce17c86fd1ba529ef70da86dbf14662cd0e368dbba9c262549450e"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/gesture_dialog.py",
+      "bytes": 19624,
+      "sha256": "0b7cefdad772da878e721ab6885bd42586b7684e080ce78db3693f2fb8a4ecf3"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/gesture_tasks_capture.py",
+      "bytes": 3504,
+      "sha256": "c8d2c1dfb1aad3d660c4ee31dc598777d29cc0806fc3fe67f8b69d0f42dd214a"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/gesture_tasks_customer.py",
+      "bytes": 6241,
+      "sha256": "345acc0526bcfca0cf70b91e5b2fd832f32d9c65b259103fc1482613b1cc44b5"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/gesture_tasks_deploy.py",
+      "bytes": 16680,
+      "sha256": "1cc12f1bf9170aea8f5add4d0c8a00b1d6d0237ee509a34b2a2ef70d699c0a11"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/gesture_tasks_flash.py",
+      "bytes": 3788,
+      "sha256": "2bf48e27159f0719d4537790bac92e6091d97e6f50671c9a295137483dc1f7f1"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/gesture_tasks_materials.py",
+      "bytes": 2828,
+      "sha256": "9f2392d56bfd199415b7620f4759299b9d19583a64d34ba3ba584676f1c83350"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/gesture_tasks_protocol.py",
+      "bytes": 12333,
+      "sha256": "a6072b8570b746a4ba83a264be5cadc81cae9530c5446c5bf2f1c15fdb89a203"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/gesture_tasks_stream.py",
+      "bytes": 5541,
+      "sha256": "f90b541dae6c6a48380ea72bdce09c783eef03252fa0d9851a782ab75f0bc8eb"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/gesture_tasks_ui.py",
+      "bytes": 41374,
+      "sha256": "97a7b5bc2298c1e1829aeff21e3af79673a9004373d1891578f021f49f4fb633"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/inspect_dataset.py",
+      "bytes": 2816,
+      "sha256": "777f47f71c8a1155764a4a1c1af4ea068ad8edf6e5a81ebcb184f60ed4ef1779"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/models/DGTV1.0.pth",
+      "bytes": 84597,
+      "sha256": "95615687e88fbf41bd0dc93dc1ee50622420d20a6d0f60d7a99379a14463b091"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/models/DGTV1.8.pth",
+      "bytes": 160293,
+      "sha256": "d75ac9d1f26925cf21518c206a8a9e10ccff8ae8866c9598f1597ae51f5526e1"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/models/DGTV1.9.pth",
+      "bytes": 83939,
+      "sha256": "415c21f3e5810719b786b9887aaa7efb666d97892aa61a1f13d417b1491447f9"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/models/DGTV2.0.pth",
+      "bytes": 83853,
+      "sha256": "567607fdc4766ca7c0416c235e0adea8cf259a42faa595f0685f78c7eae440ac"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/models/best_dgt_fpga_model.pth",
+      "bytes": 84661,
+      "sha256": "73bdfcd193239e7076799a97e8cef284e8a447b242eb6d46e9b29e9fdb011fbb"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/models/best_emg_cnn.pth",
+      "bytes": 57441,
+      "sha256": "270227ffb28a0893570e75d569d8fdd710db8478c706ad63669034d32ef93a0d"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/models/best_extratrees.pkl",
+      "bytes": 8302772,
+      "sha256": "4d64983665434d4b9e5bf6336a591e0ed767856b60a2ebc4abdae2615a175221"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/models/best_fpga_model.pth",
+      "bytes": 24757,
+      "sha256": "a7d9ee49942e81a01921f235e8c663f5301688bd86c7befa0a7f6452b164597e"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/models/best_resnet1d.pth",
+      "bytes": 160753,
+      "sha256": "c4f89421b3c55a65ed553a8d2d7dd868d704630e82487dd25a75db7bef9ab3b5"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/models/best_super_feature_mlp.pth",
+      "bytes": 84511,
+      "sha256": "4c4147db7c08037b6d5ada0b7256118502e8813e3f7da4949a6ce86ca83e6a1d"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/models/历史归档/历史旧模型_6分类_20261022_185955.pth",
+      "bytes": 57697,
+      "sha256": "aaf3dc8f921a463f7f6f3642fca71d55e264f002fa80a3abfd238e6f3da91f39"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/models/历史旧模型_20261022_191630.pth",
+      "bytes": 57441,
+      "sha256": "5ad1ab8aee0c2f0f0936228128e4abaa3b60bb8aaecba8a5c3f0bd72214ae193"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/requirements.txt",
+      "bytes": 92,
+      "sha256": "818fb7e29fae8fdf885c3add9483cd7359d177efe3578a9a520ba39eb456dde7"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/settings/gesture_profile.json",
+      "bytes": 3210,
+      "sha256": "77643b11af561387667c0023bce273e7ce4aa1d4c739e42efd0f8d66356848c4"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/signal_processing.py",
+      "bytes": 2539,
+      "sha256": "8a5f9de60157769724e86f2da05ba77e63ca6f0424ee4299203809fc71c7f212"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/test_signal_link.py",
+      "bytes": 6321,
+      "sha256": "622c0df1fa93e0c936461a5d10ede67f08210b632c3b41bf179916ecfa3376bf"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/tests/test_b_send_only.py",
+      "bytes": 10530,
+      "sha256": "4829fdd50a6d8849fe18894533525f5a496d2f0a95bba84fc9f4e70590f55230"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/tests/test_communication_diagnostics.py",
+      "bytes": 2789,
+      "sha256": "ce826cca660a349b467d358f153bb463bdadebbd695a73a065aa8eac96707894"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/tests/test_field_integration.py",
+      "bytes": 53674,
+      "sha256": "773bb648277c6634dffba6e7ab6506bbdcb0e1f6fe417f69c64318637cdfaa2d"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/tests/test_gesture_tasks.py",
+      "bytes": 22629,
+      "sha256": "e9316245ff40abfec42766b2d75612796944fdbe0fd42e997a98fe33c1bfdecf"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/tests/test_gesture_tasks_customer.py",
+      "bytes": 5792,
+      "sha256": "44a6504e76e9867f5ca5e00390b5d0661bd6f4082514d855332d5d225df4e695"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/tests/test_gesture_tasks_materials.py",
+      "bytes": 3435,
+      "sha256": "9747659532f727ec82728b648e8ccf793c3f6656079ca678f52c6be7ab141b9e"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/tests/test_gesture_tasks_raw.py",
+      "bytes": 7040,
+      "sha256": "831c0bcb216c626415ebb12cb90e7e9f79e9d9fa66c8ee2277f5c9a160f06109"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/tests/test_model_flash.py",
+      "bytes": 4265,
+      "sha256": "7e644139df586c2bf1ee80f7bc60fdad65b2268936aa24ede40684e6cabb8caf"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/tests/test_signal_processing.py",
+      "bytes": 8135,
+      "sha256": "588ffe1945a1e554d084c83c9c40337bb3ad784976d000129be0bed8216471bc"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/train_cnn.py",
+      "bytes": 10553,
+      "sha256": "2b535c8e35d05c6715ff4c6df7f639f0082305bb3196d8fb9bc5c6284f682e9c"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/train_export_resnet.py",
+      "bytes": 5603,
+      "sha256": "b410abbaabe7372e80080eb5a981cf4e983e88019454af2dbb6477a3cf1a6cee"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/train_super_emg.py",
+      "bytes": 10945,
+      "sha256": "3c1cc854e30f1854e7ef46a0b9e2f12f997e1333bf3295041900a70a96be5916"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/ui_style.py",
+      "bytes": 5828,
+      "sha256": "d66a40b50da2a000b4deecc043db94dcc14c16b98b175862896d142f02518d46"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/waveform_replay.py",
+      "bytes": 4265,
+      "sha256": "e5234f2275d7815ff2d8b0750731feee279d0694b30250953694c858f444f9cb"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/emg_ml/workstation_ui.py",
+      "bytes": 12209,
+      "sha256": "6d7e4351d416535a00452dfcdd458ac3fac2c670bcc0077297938b560ef1889e"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/requirements.txt",
+      "bytes": 144,
+      "sha256": "67aa594c54da0a9071e86c3d0b3eb67b573519f14a128dff4edfa40262fcf782"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/runtime/cnn_fusion_default.json",
+      "bytes": 154,
+      "sha256": "95f910b512923ff9b9e9d7eae9e307dbc979a630062523a40f871e65769ce95d"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/runtime/gesture_tasks.log",
+      "bytes": 24606,
+      "sha256": "86cb2fc5fa44101d37ba2dc1b594f78d2137839e16b1a2a180d81666a5e01d1c"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/runtime/model_9e9fbf319ed2bf12_selection.json",
+      "bytes": 154,
+      "sha256": "9014c89c964e9a550ec8bf9780a08cf01a218c46ee22f2e6c880386284defdb6"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/start_emg_studio.py",
+      "bytes": 925,
+      "sha256": "58859f5705d2137932f4ec71357ea9bc04b5c25e69e48c629673553676f7ba50"
+    },
+    {
+      "path": "pc/app/EMG_Studio/EMG_Studio/start_gesture_tasks.py",
+      "bytes": 1552,
+      "sha256": "e2c00f94675af171e87990629df454cb0cfd48d111d49b8fd831334d4f4fface"
+    },
+    {
+      "path": "pc/app/README.txt",
+      "bytes": 2155,
+      "sha256": "35f99e411fd63b7d585430ef6f09a5a3b3a7528803e8bb086b8decac04f29b98"
+    },
+    {
+      "path": "pc/app/START_PC_GESTURE_TASKS.cmd",
+      "bytes": 88,
+      "sha256": "d40b03cffa02e42eb424bb3610fcbb1ce90ca0fe98330262fab50ea9393187cd"
+    },
+    {
+      "path": "pc/app/START_RECOVERED_MODEL.cmd",
+      "bytes": 182,
+      "sha256": "be10855a1eddd198ee02ed677b72de3bfa20fa2ca07c85d194db0382a52159af"
+    },
+    {
+      "path": "pc/app/artifacts/pc_gesture_tasks/verify_20261102_101909_496360/summary.json",
+      "bytes": 529,
+      "sha256": "dd31e2db78d83c81703ade72ab721be4fcaad17a5ed13da856ffc253b6e55b43"
+    },
+    {
+      "path": "pc/app/artifacts/pc_gesture_tasks/verify_20261102_102518_611788/summary.json",
+      "bytes": 529,
+      "sha256": "bca2e1b09ee09c05df5359e83808a5961c9e2124fbaec3aaab0a0e808e2b68a8"
+    },
+    {
+      "path": "pc/app/artifacts/pc_gesture_tasks/verify_20261102_104720_512773/summary.json",
+      "bytes": 529,
+      "sha256": "dd31e2db78d83c81703ade72ab721be4fcaad17a5ed13da856ffc253b6e55b43"
+    },
+    {
+      "path": "pc/app/evidence/raw43/a_consumer.json",
+      "bytes": 515,
+      "sha256": "e8a89a3ee76c8b74f58c26b273e8c48eceba60a6aee74ddedd7d7e22004f5277"
+    },
+    {
+      "path": "pc/app/evidence/raw43/a_output_fixture.bin",
+      "bytes": 53233,
+      "sha256": "623a0259f95c8512694f786fad065e6f0dda6a77191d687d5af49d8ca93ee771"
+    },
+    {
+      "path": "pc/app/evidence/raw43/training/a_deployment/verification.json",
+      "bytes": 359,
+      "sha256": "c52e0e6c0fc4db7cbef5d1a0d231ecd94fc2306536bb90a5e3dcf604fc9aca04"
+    },
+    {
+      "path": "pc/app/evidence/raw43/training/a_validation/verification.json",
+      "bytes": 341,
+      "sha256": "fdcfe59df359c2d6a734d15bdb1173411ba606bce975976888f489c3d0f5ebc7"
+    },
+    {
+      "path": "pc/app/evidence/raw43/training/field_report.json",
+      "bytes": 11348,
+      "sha256": "516102d23e8853aab2fc93d72f935bef919f6e531abcdd1ab45af7ce6841b346"
+    },
+    {
+      "path": "pc/app/evidence/synthetic_training/a_deployment/verification.json",
+      "bytes": 359,
+      "sha256": "fbcf62afc8d713568793e94c4b27653df712a4fb3d7a922750632153e6fdaa7f"
+    },
+    {
+      "path": "pc/app/evidence/synthetic_training/a_validation/verification.json",
+      "bytes": 341,
+      "sha256": "07b1bdd3d4a02ca11987de42e2c5e6b192a365ef6187c582a6516ff7d6d49c07"
+    },
+    {
+      "path": "pc/app/evidence/synthetic_training/field_report.json",
+      "bytes": 11461,
+      "sha256": "262aaae067c0d0cabf81ffe8289a1c154e0c2e890100bb70cda1c9cd35e612f8"
+    },
+    {
+      "path": "pc/app/evidence/vectors/golden_vectors.json",
+      "bytes": 17229,
+      "sha256": "f71d4f3adf776381597c3c6118c4d2c387bdd1a36fd2ab131f5c3649ad1f644b"
+    },
+    {
+      "path": "pc/app/evidence/vectors/map_14_requests.bin",
+      "bytes": 480,
+      "sha256": "e72f53862bb7cbb6b1dc184b8951ceb34bbd22a604bec8963ab210094c4b9113"
+    },
+    {
+      "path": "pc/app/evidence/vectors/map_2_requests.bin",
+      "bytes": 120,
+      "sha256": "629bdfb2a0a63ff69eba08bb87998bf18f4873c80c531ef862e9a793864b6338"
+    },
+    {
+      "path": "pc/app/evidence/vectors/map_32_requests.bin",
+      "bytes": 1020,
+      "sha256": "8b921d87b7109e7b0190a289c6d0f5612e768e9d32745f661e5dd9006296dd87"
+    },
+    {
+      "path": "pc/app/evidence/vectors/map_7_requests.bin",
+      "bytes": 270,
+      "sha256": "08f5c101163461ddce078d5f01eed537253878945d0b05924fbeebc8d84bb400"
+    },
+    {
+      "path": "pc/app/evidence/verification/customer_layout.json",
+      "bytes": 894,
+      "sha256": "39bd743acad43e38ca8831d1cec6fff298f08e959207382c48aa9563746dff65"
+    },
+    {
+      "path": "pc/app/evidence/verification/summary.json",
+      "bytes": 529,
+      "sha256": "bca2e1b09ee09c05df5359e83808a5961c9e2124fbaec3aaab0a0e808e2b68a8"
+    },
+    {
+      "path": "pc/app/manifest.json",
+      "bytes": 45336,
+      "sha256": "9c54bd04d76c38c64f38219cce1d63a44eaef1e5a67bf6f1d119ea8f4b05619a"
+    },
+    {
+      "path": "pc/app/scripts/pc_gesture_tasks_customer_layout.py",
+      "bytes": 4427,
+      "sha256": "9b7535ccba1442145da22c87b9e721fdd7f023c9082c05dc11c2cac1db791003"
+    },
+    {
+      "path": "pc/app/scripts/pc_gesture_tasks_default_materials.py",
+      "bytes": 5919,
+      "sha256": "9df6ba00a5a8268f5d4b58fea174ccd6e40f87e22f7460f4e7b8675c5e75c690"
+    },
+    {
+      "path": "pc/app/scripts/pc_gesture_tasks_hidden_ui.py",
+      "bytes": 2009,
+      "sha256": "81440534e0a4434335b9fa668cfcfb04216b8bb60802445901fbb8fe2742cdd6"
+    },
+    {
+      "path": "pc/app/scripts/pc_gesture_tasks_package.py",
+      "bytes": 11030,
+      "sha256": "fb72f93af072580321350e4cbf1bea5572573a99770488130d041fb5e9500131"
+    },
+    {
+      "path": "pc/app/scripts/pc_gesture_tasks_raw_smoke.py",
+      "bytes": 4866,
+      "sha256": "e2c8edc25ba1812c31b7be298b5a94f5bc77f76c716dbbe109ac18db665fc590"
+    },
+    {
+      "path": "pc/app/scripts/pc_gesture_tasks_smoke.py",
+      "bytes": 1686,
+      "sha256": "acdfe918bb83bdd76f76c96e4c4c11a77329ac70cac5ad4e5499b3671ec477ec"
+    },
+    {
+      "path": "pc/app/scripts/pc_gesture_tasks_vectors.py",
+      "bytes": 1779,
+      "sha256": "d57df18708ec82a72fe5aa0e3ac9e92bbe798f7d91777469bb3dcddd0e25782e"
+    },
+    {
+      "path": "pc/app/scripts/pc_gesture_tasks_verify.py",
+      "bytes": 2138,
+      "sha256": "e9e6e47fa7b3d5b66d3f079c629fa9ce712f1590cc289bc43a8efb5440e46efd"
+    },
+    {
+      "path": "pc/dependencies.original-lock.json",
+      "bytes": 752,
+      "sha256": "3359cf8f9c24ecd575875fe4e78918f256e2636bd6df07f061b34724683d247e"
+    },
+    {
+      "path": "pc/requirements.original-lock.txt",
+      "bytes": 539,
+      "sha256": "80889e542c4e5fc5d9c74dfc1210b1936febaae5869a98cc6814c51458b7b67f"
+    },
+    {
+      "path": "pc/requirements.txt",
+      "bytes": 144,
+      "sha256": "67aa594c54da0a9071e86c3d0b3eb67b573519f14a128dff4edfa40262fcf782"
+    },
+    {
+      "path": "tools/launch_pc.py",
+      "bytes": 615,
+      "sha256": "3bed55c0d80aac7d74bf7ae9723ce6f4e7d4d1b3b6113cd5e09d4f3765d1c3b8"
+    },
+    {
+      "path": "tools/offline_tests.py",
+      "bytes": 966,
+      "sha256": "0e539ff3eb9b9b48cfe7576561a2b2bfb46b5311b44e8ad41ff72eff48434ff2"
+    },
+    {
+      "path": "tools/verify_package.py",
+      "bytes": 2238,
+      "sha256": "d0d66eaf3514a41144f49725feac6f3a54eb77a7d8d7152ed0f8f52827c608cb"
+    },
+    {
+      "path": "wireless/include/README",
+      "bytes": 1301,
+      "sha256": "dc6d9be88119a80edf773eb5a659f4470caf81ed5e95dbfd0cd3c7a9686ccd8c"
+    },
+    {
+      "path": "wireless/include/emg_filter.h",
+      "bytes": 1014,
+      "sha256": "91425f9820e9b8b3628d8ed37584ea0ce9edc9fd7c12a30c20373ade467cf69f"
+    },
+    {
+      "path": "wireless/include/packet_def.h",
+      "bytes": 918,
+      "sha256": "2c4e80b976c718b9f2f8445c1b6d4e87949786069e9bc90306b027e7e17b8895"
+    },
+    {
+      "path": "wireless/platformio.ini",
+      "bytes": 1572,
+      "sha256": "f7961378826691160f95c4446a935134a127cca70b16532eca42747d084e70c7"
+    },
+    {
+      "path": "wireless/src/emg_filter.cpp",
+      "bytes": 2501,
+      "sha256": "1be78337e7abd4e986d369e17e902f4258392cb56fce35a39c3c26baaaa2ec61"
+    },
+    {
+      "path": "wireless/src/main_10samples_unicast_c3.cpp",
+      "bytes": 22104,
+      "sha256": "2684ee905c0679104d4098939c9c998e0c69cfe104e8089ce2d3f2d889285ab6"
+    }
+  ]
+}

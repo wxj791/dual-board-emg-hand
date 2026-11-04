@@ -1,0 +1,2781 @@
+{
+  "recording": "E:\\FPGA\\Projects\\emg_hand_fpga\\artifacts\\pc_gesture_tasks\\pc_candidate_20261101_180659_073399\\PC_GESTURE_TASKS\\EMG_Studio\\EMG_Studio\\emg_ml\\data\\raw\\DGT\\DGT_P2_2611021817.npz",
+  "preset": "cnn_fusion_clean256_v1",
+  "model_title": "统计＋时序CNN融合",
+  "class_names": [
+    "静息",
+    "张开手掌",
+    "握拳",
+    "掌屈",
+    "背伸",
+    "剪刀手",
+    "点赞",
+    "向小指侧偏腕",
+    "向拇指侧偏腕",
+    "数字一",
+    "数字六"
+  ],
+  "recipe": {
+    "architecture": "sequential256",
+    "epochs": 12,
+    "seed": 17,
+    "alpha": 0.5,
+    "gate": 0.25,
+    "learning_rate": 0.002,
+    "weight_decay": 0.003,
+    "batch_size": 128,
+    "gain_sigma": 0.08,
+    "auxiliary_weight": 0.5
+  },
+  "parameters": {
+    "format": "EMG-CNN-FUSION-PC-1",
+    "sha256": "7046d5aed56a9a0860b698b374f303eb0ce996dcf9b7513950cd6080415119d2",
+    "payload_bytes": 29766,
+    "parameter_bytes": 29766,
+    "class_names": [
+      "静息",
+      "张开手掌",
+      "握拳",
+      "掌屈",
+      "背伸",
+      "剪刀手",
+      "点赞",
+      "向小指侧偏腕",
+      "向拇指侧偏腕",
+      "数字一",
+      "数字六"
+    ],
+    "gesture_profile": {
+      "version": 1,
+      "name": "我的动作方案",
+      "classes": [
+        {
+          "id": 0,
+          "key": "rest",
+          "name": "静息",
+          "instruction": "手和前臂自然放松，不要发力。",
+          "image": "rest.png",
+          "reference": "",
+          "output": {
+            "id": 0,
+            "name": "保持 / 停止触发"
+          }
+        },
+        {
+          "id": 1,
+          "key": "open",
+          "name": "张开手掌",
+          "instruction": "五指自然伸直张开，保持稳定。",
+          "image": "ninapro/open.png",
+          "reference": "B5",
+          "output": {
+            "id": 2,
+            "name": "五指张开"
+          }
+        },
+        {
+          "id": 2,
+          "key": "fist",
+          "name": "握拳",
+          "instruction": "五指握拳，中等力度，保持每次发力一致。",
+          "image": "ninapro/fist.png",
+          "reference": "B6",
+          "output": {
+            "id": 1,
+            "name": "握拳抓握"
+          }
+        },
+        {
+          "id": 3,
+          "key": "wrist_flexion",
+          "name": "掌屈",
+          "instruction": "前臂保持不动，手掌向前臂掌侧弯曲，手指自然放松。",
+          "image": "ninapro/wrist_flexion.png",
+          "reference": "B13",
+          "output": {
+            "id": 3,
+            "name": "两指捏取"
+          }
+        },
+        {
+          "id": 4,
+          "key": "wrist_extension",
+          "name": "背伸",
+          "instruction": "前臂保持不动，手背向前臂背侧弯曲，手指自然放松。",
+          "image": "ninapro/wrist_extension.png",
+          "reference": "B14",
+          "output": {
+            "id": 4,
+            "name": "三指抓握"
+          }
+        },
+        {
+          "id": 5,
+          "key": "scissors",
+          "name": "剪刀手",
+          "instruction": "食指和中指伸出成V字，其余手指握住。",
+          "image": "scissors.png",
+          "reference": "",
+          "output": {
+            "id": 6,
+            "name": "剪刀手形"
+          }
+        },
+        {
+          "id": 6,
+          "key": "thumbs_up",
+          "name": "点赞",
+          "instruction": "大拇指竖起，其余四指握住。",
+          "image": "ninapro/thumbs_up.png",
+          "reference": "B1",
+          "output": {
+            "id": 5,
+            "name": "点赞手形"
+          }
+        },
+        {
+          "id": 7,
+          "key": "ulnar_deviation",
+          "name": "向小指侧偏腕",
+          "instruction": "前臂不动，手腕向小指一侧偏，不要翻转手掌。",
+          "image": "ninapro/ulnar_deviation.png",
+          "reference": "B16",
+          "output": {
+            "id": 4,
+            "name": "三指抓握"
+          }
+        },
+        {
+          "id": 8,
+          "key": "radial_deviation",
+          "name": "向拇指侧偏腕",
+          "instruction": "前臂不动，手腕向拇指一侧偏，不要翻转手掌。",
+          "image": "ninapro/radial_deviation.png",
+          "reference": "B15",
+          "output": {
+            "id": 3,
+            "name": "两指捏取"
+          }
+        },
+        {
+          "id": 9,
+          "key": "one",
+          "name": "数字一",
+          "instruction": "只伸出食指，其余四指握住。",
+          "image": "ninapro/one.png",
+          "reference": "B7",
+          "output": {
+            "id": 7,
+            "name": "数字一手形"
+          }
+        },
+        {
+          "id": 10,
+          "key": "six",
+          "name": "数字六",
+          "instruction": "拇指和小指伸出，其余三指握住。",
+          "image": "six.png",
+          "reference": "",
+          "output": {
+            "id": 8,
+            "name": "数字六手形"
+          }
+        }
+      ]
+    },
+    "action_mapping": [
+      {
+        "id": 0,
+        "name": "保持 / 停止触发"
+      },
+      {
+        "id": 2,
+        "name": "五指张开"
+      },
+      {
+        "id": 1,
+        "name": "握拳抓握"
+      },
+      {
+        "id": 3,
+        "name": "两指捏取"
+      },
+      {
+        "id": 4,
+        "name": "三指抓握"
+      },
+      {
+        "id": 6,
+        "name": "剪刀手形"
+      },
+      {
+        "id": 5,
+        "name": "点赞手形"
+      },
+      {
+        "id": 4,
+        "name": "三指抓握"
+      },
+      {
+        "id": 3,
+        "name": "两指捏取"
+      },
+      {
+        "id": 7,
+        "name": "数字一手形"
+      },
+      {
+        "id": 8,
+        "name": "数字六手形"
+      }
+    ],
+    "frontend": {
+      "name": "clean"
+    },
+    "cnn_correction_active": true,
+    "metadata": {
+      "path": "E:\\FPGA\\Projects\\emg_hand_fpga\\artifacts\\pc_gesture_tasks\\pc_candidate_20261101_180659_073399\\PC_GESTURE_TASKS\\EMG_Studio\\EMG_Studio\\emg_ml\\data\\raw\\DGT\\DGT_P2_2611021817.npz",
+      "sha256": "b9ee3abc0cbf653c0123d6036e446c66d91ef3575ef66ea8e3decf7fdbe1d626",
+      "class_names": [
+        "静息",
+        "张开手掌",
+        "握拳",
+        "掌屈",
+        "背伸",
+        "剪刀手",
+        "点赞",
+        "向小指侧偏腕",
+        "向拇指侧偏腕",
+        "数字一",
+        "数字六"
+      ],
+      "gesture_profile": {
+        "version": 1,
+        "name": "我的动作方案",
+        "classes": [
+          {
+            "id": 0,
+            "key": "rest",
+            "name": "静息",
+            "instruction": "手和前臂自然放松，不要发力。",
+            "image": "rest.png",
+            "reference": "",
+            "output": {
+              "id": 0,
+              "name": "保持 / 停止触发"
+            }
+          },
+          {
+            "id": 1,
+            "key": "open",
+            "name": "张开手掌",
+            "instruction": "五指自然伸直张开，保持稳定。",
+            "image": "ninapro/open.png",
+            "reference": "B5",
+            "output": {
+              "id": 2,
+              "name": "五指张开"
+            }
+          },
+          {
+            "id": 2,
+            "key": "fist",
+            "name": "握拳",
+            "instruction": "五指握拳，中等力度，保持每次发力一致。",
+            "image": "ninapro/fist.png",
+            "reference": "B6",
+            "output": {
+              "id": 1,
+              "name": "握拳抓握"
+            }
+          },
+          {
+            "id": 3,
+            "key": "wrist_flexion",
+            "name": "掌屈",
+            "instruction": "前臂保持不动，手掌向前臂掌侧弯曲，手指自然放松。",
+            "image": "ninapro/wrist_flexion.png",
+            "reference": "B13",
+            "output": {
+              "id": 3,
+              "name": "两指捏取"
+            }
+          },
+          {
+            "id": 4,
+            "key": "wrist_extension",
+            "name": "背伸",
+            "instruction": "前臂保持不动，手背向前臂背侧弯曲，手指自然放松。",
+            "image": "ninapro/wrist_extension.png",
+            "reference": "B14",
+            "output": {
+              "id": 4,
+              "name": "三指抓握"
+            }
+          },
+          {
+            "id": 5,
+            "key": "scissors",
+            "name": "剪刀手",
+            "instruction": "食指和中指伸出成V字，其余手指握住。",
+            "image": "scissors.png",
+            "reference": "",
+            "output": {
+              "id": 6,
+              "name": "剪刀手形"
+            }
+          },
+          {
+            "id": 6,
+            "key": "thumbs_up",
+            "name": "点赞",
+            "instruction": "大拇指竖起，其余四指握住。",
+            "image": "ninapro/thumbs_up.png",
+            "reference": "B1",
+            "output": {
+              "id": 5,
+              "name": "点赞手形"
+            }
+          },
+          {
+            "id": 7,
+            "key": "ulnar_deviation",
+            "name": "向小指侧偏腕",
+            "instruction": "前臂不动，手腕向小指一侧偏，不要翻转手掌。",
+            "image": "ninapro/ulnar_deviation.png",
+            "reference": "B16",
+            "output": {
+              "id": 4,
+              "name": "三指抓握"
+            }
+          },
+          {
+            "id": 8,
+            "key": "radial_deviation",
+            "name": "向拇指侧偏腕",
+            "instruction": "前臂不动，手腕向拇指一侧偏，不要翻转手掌。",
+            "image": "ninapro/radial_deviation.png",
+            "reference": "B15",
+            "output": {
+              "id": 3,
+              "name": "两指捏取"
+            }
+          },
+          {
+            "id": 9,
+            "key": "one",
+            "name": "数字一",
+            "instruction": "只伸出食指，其余四指握住。",
+            "image": "ninapro/one.png",
+            "reference": "B7",
+            "output": {
+              "id": 7,
+              "name": "数字一手形"
+            }
+          },
+          {
+            "id": 10,
+            "key": "six",
+            "name": "数字六",
+            "instruction": "拇指和小指伸出，其余三指握住。",
+            "image": "six.png",
+            "reference": "",
+            "output": {
+              "id": 8,
+              "name": "数字六手形"
+            }
+          }
+        ]
+      },
+      "segments": [
+        {
+          "group": 1,
+          "label": 0,
+          "repetition": 0,
+          "chunks": [
+            {
+              "start": 995,
+              "stop": 3025,
+              "label": 0,
+              "repetition": 0,
+              "split": 0
+            }
+          ],
+          "split": 0
+        },
+        {
+          "group": 3,
+          "label": 1,
+          "repetition": 0,
+          "chunks": [
+            {
+              "start": 4085,
+              "stop": 7105,
+              "label": 1,
+              "repetition": 0,
+              "split": 0
+            }
+          ],
+          "split": 0
+        },
+        {
+          "group": 5,
+          "label": 0,
+          "repetition": 1,
+          "chunks": [
+            {
+              "start": 8145,
+              "stop": 10177,
+              "label": 0,
+              "repetition": 1,
+              "split": 0
+            }
+          ],
+          "split": 0
+        },
+        {
+          "group": 7,
+          "label": 2,
+          "repetition": 0,
+          "chunks": [
+            {
+              "start": 11215,
+              "stop": 14256,
+              "label": 2,
+              "repetition": 0,
+              "split": 0
+            }
+          ],
+          "split": 0
+        },
+        {
+          "group": 9,
+          "label": 0,
+          "repetition": 2,
+          "chunks": [
+            {
+              "start": 15315,
+              "stop": 17345,
+              "label": 0,
+              "repetition": 2,
+              "split": 0
+            }
+          ],
+          "split": 0
+        },
+        {
+          "group": 11,
+          "label": 3,
+          "repetition": 0,
+          "chunks": [
+            {
+              "start": 18405,
+              "stop": 21415,
+              "label": 3,
+              "repetition": 0,
+              "split": 0
+            }
+          ],
+          "split": 0
+        },
+        {
+          "group": 13,
+          "label": 0,
+          "repetition": 3,
+          "chunks": [
+            {
+              "start": 22465,
+              "stop": 24487,
+              "label": 0,
+              "repetition": 3,
+              "split": 0
+            }
+          ],
+          "split": 0
+        },
+        {
+          "group": 15,
+          "label": 4,
+          "repetition": 0,
+          "chunks": [
+            {
+              "start": 25555,
+              "stop": 27334,
+              "label": 4,
+              "repetition": 0,
+              "split": 0
+            },
+            {
+              "start": 27770,
+              "stop": 28472,
+              "label": 4,
+              "repetition": 1,
+              "split": 0
+            }
+          ],
+          "split": 0
+        },
+        {
+          "group": 17,
+          "label": 0,
+          "repetition": 4,
+          "chunks": [
+            {
+              "start": 29512,
+              "stop": 30581,
+              "label": 0,
+              "repetition": 4,
+              "split": 0
+            },
+            {
+              "start": 30822,
+              "stop": 31492,
+              "label": 0,
+              "repetition": 5,
+              "split": 0
+            }
+          ],
+          "split": 0
+        },
+        {
+          "group": 19,
+          "label": 5,
+          "repetition": 0,
+          "chunks": [
+            {
+              "start": 32502,
+              "stop": 35552,
+              "label": 5,
+              "repetition": 0,
+              "split": 0
+            }
+          ],
+          "split": 0
+        },
+        {
+          "group": 21,
+          "label": 0,
+          "repetition": 5,
+          "chunks": [
+            {
+              "start": 36562,
+              "stop": 38622,
+              "label": 0,
+              "repetition": 6,
+              "split": 0
+            }
+          ],
+          "split": 0
+        },
+        {
+          "group": 23,
+          "label": 6,
+          "repetition": 0,
+          "chunks": [
+            {
+              "start": 39672,
+              "stop": 42712,
+              "label": 6,
+              "repetition": 0,
+              "split": 0
+            }
+          ],
+          "split": 0
+        },
+        {
+          "group": 25,
+          "label": 0,
+          "repetition": 6,
+          "chunks": [
+            {
+              "start": 43742,
+              "stop": 45772,
+              "label": 0,
+              "repetition": 7,
+              "split": 0
+            }
+          ],
+          "split": 0
+        },
+        {
+          "group": 27,
+          "label": 7,
+          "repetition": 0,
+          "chunks": [
+            {
+              "start": 46815,
+              "stop": 49865,
+              "label": 7,
+              "repetition": 0,
+              "split": 0
+            }
+          ],
+          "split": 0
+        },
+        {
+          "group": 29,
+          "label": 0,
+          "repetition": 7,
+          "chunks": [
+            {
+              "start": 50853,
+              "stop": 51485,
+              "label": 0,
+              "repetition": 8,
+              "split": 0
+            },
+            {
+              "start": 51491,
+              "stop": 52781,
+              "label": 0,
+              "repetition": 9,
+              "split": 0
+            }
+          ],
+          "split": 0
+        },
+        {
+          "group": 31,
+          "label": 8,
+          "repetition": 0,
+          "chunks": [
+            {
+              "start": 54356,
+              "stop": 56846,
+              "label": 8,
+              "repetition": 0,
+              "split": 0
+            }
+          ],
+          "split": 0
+        },
+        {
+          "group": 33,
+          "label": 0,
+          "repetition": 8,
+          "chunks": [
+            {
+              "start": 57896,
+              "stop": 59946,
+              "label": 0,
+              "repetition": 10,
+              "split": 0
+            }
+          ],
+          "split": 0
+        },
+        {
+          "group": 35,
+          "label": 9,
+          "repetition": 0,
+          "chunks": [
+            {
+              "start": 60967,
+              "stop": 63986,
+              "label": 9,
+              "repetition": 0,
+              "split": 0
+            }
+          ],
+          "split": 0
+        },
+        {
+          "group": 37,
+          "label": 0,
+          "repetition": 9,
+          "chunks": [
+            {
+              "start": 65045,
+              "stop": 65812,
+              "label": 0,
+              "repetition": 11,
+              "split": 0
+            },
+            {
+              "start": 65835,
+              "stop": 67061,
+              "label": 0,
+              "repetition": 12,
+              "split": 0
+            }
+          ],
+          "split": 0
+        },
+        {
+          "group": 39,
+          "label": 10,
+          "repetition": 0,
+          "chunks": [
+            {
+              "start": 68101,
+              "stop": 71121,
+              "label": 10,
+              "repetition": 0,
+              "split": 0
+            }
+          ],
+          "split": 0
+        },
+        {
+          "group": 41,
+          "label": 0,
+          "repetition": 10,
+          "chunks": [
+            {
+              "start": 72161,
+              "stop": 74231,
+              "label": 0,
+              "repetition": 13,
+              "split": 0
+            }
+          ],
+          "split": 0
+        },
+        {
+          "group": 43,
+          "label": 2,
+          "repetition": 1,
+          "chunks": [
+            {
+              "start": 75281,
+              "stop": 78301,
+              "label": 2,
+              "repetition": 1,
+              "split": 1
+            }
+          ],
+          "split": 1
+        },
+        {
+          "group": 45,
+          "label": 0,
+          "repetition": 11,
+          "chunks": [
+            {
+              "start": 79323,
+              "stop": 81331,
+              "label": 0,
+              "repetition": 14,
+              "split": 0
+            }
+          ],
+          "split": 0
+        },
+        {
+          "group": 47,
+          "label": 3,
+          "repetition": 1,
+          "chunks": [
+            {
+              "start": 82341,
+              "stop": 85381,
+              "label": 3,
+              "repetition": 1,
+              "split": 1
+            }
+          ],
+          "split": 1
+        },
+        {
+          "group": 49,
+          "label": 0,
+          "repetition": 12,
+          "chunks": [
+            {
+              "start": 86452,
+              "stop": 88464,
+              "label": 0,
+              "repetition": 15,
+              "split": 0
+            }
+          ],
+          "split": 0
+        },
+        {
+          "group": 51,
+          "label": 4,
+          "repetition": 1,
+          "chunks": [
+            {
+              "start": 89495,
+              "stop": 92545,
+              "label": 4,
+              "repetition": 2,
+              "split": 1
+            }
+          ],
+          "split": 1
+        },
+        {
+          "group": 53,
+          "label": 0,
+          "repetition": 13,
+          "chunks": [
+            {
+              "start": 93525,
+              "stop": 95555,
+              "label": 0,
+              "repetition": 16,
+              "split": 0
+            }
+          ],
+          "split": 0
+        },
+        {
+          "group": 55,
+          "label": 5,
+          "repetition": 1,
+          "chunks": [
+            {
+              "start": 96595,
+              "stop": 98242,
+              "label": 5,
+              "repetition": 1,
+              "split": 0
+            },
+            {
+              "start": 98733,
+              "stop": 99564,
+              "label": 5,
+              "repetition": 2,
+              "split": 1
+            }
+          ],
+          "split": 1
+        },
+        {
+          "group": 57,
+          "label": 0,
+          "repetition": 14,
+          "chunks": [
+            {
+              "start": 100604,
+              "stop": 102664,
+              "label": 0,
+              "repetition": 17,
+              "split": 1
+            }
+          ],
+          "split": 0
+        },
+        {
+          "group": 59,
+          "label": 6,
+          "repetition": 1,
+          "chunks": [
+            {
+              "start": 103694,
+              "stop": 106744,
+              "label": 6,
+              "repetition": 1,
+              "split": 1
+            }
+          ],
+          "split": 1
+        },
+        {
+          "group": 61,
+          "label": 0,
+          "repetition": 15,
+          "chunks": [
+            {
+              "start": 107754,
+              "stop": 109810,
+              "label": 0,
+              "repetition": 18,
+              "split": 1
+            }
+          ],
+          "split": 1
+        },
+        {
+          "group": 63,
+          "label": 7,
+          "repetition": 1,
+          "chunks": [
+            {
+              "start": 110844,
+              "stop": 113904,
+              "label": 7,
+              "repetition": 1,
+              "split": 1
+            }
+          ],
+          "split": 1
+        },
+        {
+          "group": 65,
+          "label": 0,
+          "repetition": 16,
+          "chunks": [
+            {
+              "start": 114944,
+              "stop": 116994,
+              "label": 0,
+              "repetition": 19,
+              "split": 1
+            }
+          ],
+          "split": 1
+        },
+        {
+          "group": 67,
+          "label": 8,
+          "repetition": 1,
+          "chunks": [
+            {
+              "start": 118014,
+              "stop": 120823,
+              "label": 8,
+              "repetition": 1,
+              "split": 1
+            }
+          ],
+          "split": 1
+        },
+        {
+          "group": 69,
+          "label": 0,
+          "repetition": 17,
+          "chunks": [
+            {
+              "start": 122113,
+              "stop": 124083,
+              "label": 0,
+              "repetition": 20,
+              "split": 1
+            }
+          ],
+          "split": 1
+        },
+        {
+          "group": 71,
+          "label": 9,
+          "repetition": 1,
+          "chunks": [
+            {
+              "start": 125133,
+              "stop": 128133,
+              "label": 9,
+              "repetition": 1,
+              "split": 1
+            }
+          ],
+          "split": 1
+        },
+        {
+          "group": 73,
+          "label": 0,
+          "repetition": 18,
+          "chunks": [
+            {
+              "start": 129173,
+              "stop": 129942,
+              "label": 0,
+              "repetition": 21,
+              "split": 1
+            },
+            {
+              "start": 129966,
+              "stop": 131229,
+              "label": 0,
+              "repetition": 22,
+              "split": 1
+            }
+          ],
+          "split": 1
+        },
+        {
+          "group": 75,
+          "label": 10,
+          "repetition": 1,
+          "chunks": [
+            {
+              "start": 132237,
+              "stop": 134446,
+              "label": 10,
+              "repetition": 1,
+              "split": 0
+            },
+            {
+              "start": 134452,
+              "stop": 135275,
+              "label": 10,
+              "repetition": 2,
+              "split": 1
+            }
+          ],
+          "split": 1
+        },
+        {
+          "group": 77,
+          "label": 0,
+          "repetition": 19,
+          "chunks": [
+            {
+              "start": 136265,
+              "stop": 138307,
+              "label": 0,
+              "repetition": 23,
+              "split": 1
+            }
+          ],
+          "split": 1
+        },
+        {
+          "group": 79,
+          "label": 1,
+          "repetition": 1,
+          "chunks": [
+            {
+              "start": 139452,
+              "stop": 141033,
+              "label": 1,
+              "repetition": 1,
+              "split": 0
+            }
+          ],
+          "split": 1
+        },
+        {
+          "group": 81,
+          "label": 0,
+          "repetition": 20,
+          "chunks": [
+            {
+              "start": 143217,
+              "stop": 145297,
+              "label": 0,
+              "repetition": 24,
+              "split": 1
+            }
+          ],
+          "split": 1
+        },
+        {
+          "group": 83,
+          "label": 3,
+          "repetition": 2,
+          "chunks": [
+            {
+              "start": 146337,
+              "stop": 149377,
+              "label": 3,
+              "repetition": 2,
+              "split": 2
+            }
+          ],
+          "split": 2
+        },
+        {
+          "group": 85,
+          "label": 0,
+          "repetition": 21,
+          "chunks": [
+            {
+              "start": 150407,
+              "stop": 152447,
+              "label": 0,
+              "repetition": 25,
+              "split": 1
+            }
+          ],
+          "split": 1
+        },
+        {
+          "group": 87,
+          "label": 4,
+          "repetition": 2,
+          "chunks": [
+            {
+              "start": 153497,
+              "stop": 156547,
+              "label": 4,
+              "repetition": 3,
+              "split": 2
+            }
+          ],
+          "split": 2
+        },
+        {
+          "group": 89,
+          "label": 0,
+          "repetition": 22,
+          "chunks": [
+            {
+              "start": 157598,
+              "stop": 159459,
+              "label": 0,
+              "repetition": 26,
+              "split": 2
+            }
+          ],
+          "split": 1
+        },
+        {
+          "group": 91,
+          "label": 5,
+          "repetition": 2,
+          "chunks": [
+            {
+              "start": 160598,
+              "stop": 163644,
+              "label": 5,
+              "repetition": 3,
+              "split": 2
+            }
+          ],
+          "split": 2
+        },
+        {
+          "group": 93,
+          "label": 0,
+          "repetition": 23,
+          "chunks": [
+            {
+              "start": 164634,
+              "stop": 166674,
+              "label": 0,
+              "repetition": 27,
+              "split": 2
+            }
+          ],
+          "split": 2
+        },
+        {
+          "group": 95,
+          "label": 6,
+          "repetition": 2,
+          "chunks": [
+            {
+              "start": 167674,
+              "stop": 170714,
+              "label": 6,
+              "repetition": 2,
+              "split": 2
+            }
+          ],
+          "split": 2
+        },
+        {
+          "group": 97,
+          "label": 0,
+          "repetition": 24,
+          "chunks": [
+            {
+              "start": 171749,
+              "stop": 173331,
+              "label": 0,
+              "repetition": 28,
+              "split": 2
+            }
+          ],
+          "split": 2
+        },
+        {
+          "group": 99,
+          "label": 7,
+          "repetition": 2,
+          "chunks": [
+            {
+              "start": 175229,
+              "stop": 177725,
+              "label": 7,
+              "repetition": 2,
+              "split": 2
+            }
+          ],
+          "split": 2
+        },
+        {
+          "group": 101,
+          "label": 0,
+          "repetition": 25,
+          "chunks": [
+            {
+              "start": 178743,
+              "stop": 180763,
+              "label": 0,
+              "repetition": 29,
+              "split": 2
+            }
+          ],
+          "split": 2
+        },
+        {
+          "group": 103,
+          "label": 8,
+          "repetition": 2,
+          "chunks": [
+            {
+              "start": 182179,
+              "stop": 184641,
+              "label": 8,
+              "repetition": 2,
+              "split": 2
+            }
+          ],
+          "split": 2
+        },
+        {
+          "group": 105,
+          "label": 0,
+          "repetition": 26,
+          "chunks": [
+            {
+              "start": 185542,
+              "stop": 187060,
+              "label": 0,
+              "repetition": 30,
+              "split": 2
+            }
+          ],
+          "split": 2
+        },
+        {
+          "group": 107,
+          "label": 9,
+          "repetition": 2,
+          "chunks": [
+            {
+              "start": 188581,
+              "stop": 191631,
+              "label": 9,
+              "repetition": 2,
+              "split": 2
+            }
+          ],
+          "split": 2
+        },
+        {
+          "group": 109,
+          "label": 0,
+          "repetition": 27,
+          "chunks": [
+            {
+              "start": 192631,
+              "stop": 194661,
+              "label": 0,
+              "repetition": 31,
+              "split": 2
+            }
+          ],
+          "split": 2
+        },
+        {
+          "group": 111,
+          "label": 10,
+          "repetition": 2,
+          "chunks": [
+            {
+              "start": 195701,
+              "stop": 198691,
+              "label": 10,
+              "repetition": 3,
+              "split": 2
+            }
+          ],
+          "split": 2
+        },
+        {
+          "group": 113,
+          "label": 0,
+          "repetition": 28,
+          "chunks": [
+            {
+              "start": 199751,
+              "stop": 201761,
+              "label": 0,
+              "repetition": 32,
+              "split": 2
+            }
+          ],
+          "split": 2
+        },
+        {
+          "group": 115,
+          "label": 1,
+          "repetition": 2,
+          "chunks": [
+            {
+              "start": 202771,
+              "stop": 203410,
+              "label": 1,
+              "repetition": 2,
+              "split": 1
+            },
+            {
+              "start": 203492,
+              "stop": 205816,
+              "label": 1,
+              "repetition": 3,
+              "split": 2
+            }
+          ],
+          "split": 2
+        },
+        {
+          "group": 117,
+          "label": 0,
+          "repetition": 29,
+          "chunks": [
+            {
+              "start": 206856,
+              "stop": 208898,
+              "label": 0,
+              "repetition": 33,
+              "split": 2
+            }
+          ],
+          "split": 2
+        },
+        {
+          "group": 119,
+          "label": 2,
+          "repetition": 2,
+          "chunks": [
+            {
+              "start": 209946,
+              "stop": 212966,
+              "label": 2,
+              "repetition": 2,
+              "split": 2
+            }
+          ],
+          "split": 2
+        },
+        {
+          "group": 121,
+          "label": 0,
+          "repetition": 30,
+          "chunks": [
+            {
+              "start": 213918,
+              "stop": 215946,
+              "label": 0,
+              "repetition": 34,
+              "split": 2
+            }
+          ],
+          "split": 2
+        }
+      ],
+      "repetitions": [
+        31,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "continuous_filter_and_envelope": true,
+      "no_label_state_resets": true,
+      "capture_edges": [
+        0,
+        812,
+        818,
+        823,
+        829,
+        835,
+        841,
+        847,
+        853,
+        858,
+        859,
+        863,
+        869,
+        874,
+        880,
+        886,
+        892,
+        898,
+        904,
+        910,
+        916,
+        921,
+        927,
+        933,
+        939,
+        945,
+        27334,
+        27340,
+        27346,
+        27352,
+        27358,
+        27363,
+        27369,
+        27375,
+        27381,
+        27387,
+        27393,
+        27399,
+        27405,
+        27410,
+        27730,
+        27736,
+        27742,
+        27748,
+        27754,
+        27759,
+        27765,
+        27766,
+        27770,
+        30581,
+        30587,
+        30593,
+        30599,
+        30605,
+        30610,
+        30642,
+        30648,
+        30654,
+        30659,
+        30665,
+        30680,
+        30685,
+        30691,
+        30697,
+        30702,
+        30708,
+        30714,
+        30720,
+        30725,
+        30731,
+        30736,
+        30742,
+        30748,
+        30754,
+        30759,
+        30765,
+        30771,
+        30777,
+        30783,
+        30789,
+        30795,
+        30801,
+        30805,
+        30811,
+        30817,
+        30822,
+        46484,
+        46490,
+        46495,
+        46501,
+        46507,
+        46513,
+        46519,
+        50054,
+        50066,
+        50072,
+        50078,
+        50083,
+        50089,
+        50095,
+        50101,
+        50107,
+        50113,
+        50119,
+        50141,
+        51485,
+        51491,
+        54333,
+        54339,
+        54344,
+        54350,
+        54356,
+        65812,
+        65818,
+        65824,
+        65829,
+        65835,
+        86423,
+        86428,
+        86434,
+        86440,
+        86446,
+        86452,
+        98242,
+        98248,
+        98253,
+        98259,
+        98265,
+        98271,
+        98277,
+        98283,
+        98289,
+        98295,
+        98300,
+        98305,
+        98311,
+        98580,
+        98586,
+        98592,
+        98598,
+        98604,
+        98609,
+        98615,
+        98621,
+        98627,
+        98633,
+        98639,
+        98645,
+        98651,
+        98656,
+        98662,
+        98668,
+        98674,
+        98680,
+        98686,
+        98692,
+        98698,
+        98703,
+        98709,
+        98715,
+        98721,
+        98727,
+        98733,
+        120823,
+        120829,
+        120835,
+        120841,
+        120847,
+        120852,
+        120858,
+        120864,
+        120870,
+        120876,
+        120882,
+        129942,
+        129948,
+        129954,
+        129960,
+        129966,
+        134446,
+        134452,
+        139452,
+        141033,
+        141038,
+        141461,
+        141466,
+        141472,
+        141478,
+        141484,
+        141490,
+        141495,
+        141501,
+        141507,
+        141513,
+        141519,
+        141525,
+        141531,
+        141536,
+        141542,
+        141548,
+        141554,
+        141560,
+        141566,
+        141572,
+        141578,
+        141583,
+        141589,
+        141595,
+        141601,
+        141607,
+        141613,
+        141619,
+        141625,
+        141630,
+        141636,
+        141642,
+        141648,
+        141654,
+        141660,
+        141666,
+        141672,
+        141677,
+        141683,
+        141689,
+        141695,
+        141701,
+        141707,
+        141713,
+        141719,
+        141724,
+        141730,
+        141736,
+        141742,
+        141748,
+        141754,
+        141760,
+        141766,
+        141771,
+        141777,
+        141783,
+        141789,
+        141795,
+        141801,
+        141807,
+        141813,
+        141818,
+        141824,
+        141830,
+        141831,
+        141835,
+        141841,
+        141846,
+        141852,
+        141858,
+        141864,
+        141870,
+        141876,
+        141881,
+        141887,
+        141893,
+        141899,
+        141905,
+        141911,
+        141917,
+        141923,
+        141928,
+        141934,
+        141940,
+        141946,
+        141952,
+        141958,
+        141964,
+        141970,
+        141975,
+        141981,
+        141987,
+        141993,
+        141999,
+        142005,
+        142011,
+        142017,
+        142022,
+        142028,
+        142034,
+        142040,
+        142046,
+        142052,
+        142058,
+        142064,
+        142069,
+        142075,
+        142076,
+        142080,
+        142086,
+        142091,
+        142097,
+        142103,
+        142109,
+        142115,
+        142121,
+        142126,
+        142132,
+        142138,
+        142144,
+        142150,
+        142156,
+        142162,
+        142168,
+        142173,
+        142179,
+        142185,
+        142191,
+        142197,
+        142203,
+        142209,
+        142215,
+        142220,
+        142226,
+        142232,
+        142238,
+        142244,
+        142250,
+        142256,
+        142262,
+        142267,
+        142273,
+        142279,
+        142285,
+        142291,
+        142297,
+        142303,
+        142309,
+        142314,
+        142320,
+        142321,
+        142325,
+        142331,
+        142336,
+        142342,
+        142348,
+        142354,
+        142360,
+        142366,
+        142372,
+        142377,
+        142383,
+        142389,
+        142395,
+        142401,
+        142407,
+        142413,
+        142419,
+        142424,
+        142430,
+        142436,
+        142442,
+        142448,
+        142454,
+        142460,
+        142466,
+        142471,
+        142477,
+        142721,
+        142726,
+        142732,
+        142738,
+        142744,
+        142750,
+        142755,
+        142761,
+        142767,
+        142773,
+        142779,
+        142785,
+        142791,
+        142797,
+        142802,
+        142808,
+        142814,
+        142820,
+        142826,
+        142832,
+        142838,
+        142844,
+        142849,
+        142855,
+        142861,
+        142867,
+        159459,
+        159465,
+        159470,
+        171133,
+        171139,
+        171145,
+        171151,
+        171157,
+        173331,
+        173337,
+        173343,
+        173348,
+        173354,
+        173360,
+        173366,
+        173372,
+        173377,
+        173383,
+        174558,
+        174564,
+        174570,
+        175218,
+        175223,
+        175229,
+        182115,
+        182121,
+        182127,
+        182132,
+        182138,
+        182144,
+        182150,
+        182156,
+        182161,
+        182167,
+        182173,
+        182179,
+        185183,
+        185189,
+        185194,
+        185200,
+        185206,
+        185212,
+        185218,
+        185233,
+        185239,
+        187060,
+        187066,
+        187071,
+        187077,
+        187083,
+        187089,
+        187095,
+        187100,
+        187106,
+        187112,
+        187118,
+        187124,
+        187130,
+        187136,
+        187141,
+        187146,
+        187152,
+        187158,
+        187163,
+        187169,
+        203410,
+        203416,
+        203422,
+        203428,
+        203434,
+        203439,
+        203445,
+        203451,
+        203457,
+        203463,
+        203469,
+        203475,
+        203481,
+        203486,
+        203492,
+        215946
+      ],
+      "original_class_names": [
+        "静息",
+        "张开手掌",
+        "握拳",
+        "掌屈",
+        "背伸",
+        "剪刀手",
+        "点赞",
+        "向小指侧偏腕",
+        "向拇指侧偏腕",
+        "数字一",
+        "数字六"
+      ],
+      "removed_original_ids": [],
+      "retained_original_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "grouping": "label_bout_across_timestamp_gaps",
+      "removed_gesture_rejection_validated": false,
+      "split_mode": "three_part",
+      "independent_evaluation": true,
+      "training_warnings": [],
+      "windows_per_class": [
+        1295,
+        165,
+        230,
+        230,
+        195,
+        196,
+        231,
+        216,
+        189,
+        229,
+        213
+      ],
+      "trained_all_bouts": true,
+      "runtime": "cnn_fusion_clean256_v1",
+      "model_title": "统计＋时序CNN融合",
+      "window": 256,
+      "stride": 32,
+      "guard": 320,
+      "feature_dimensions": 304,
+      "filter_coefficients_q14": [
+        [
+          14991,
+          -29982,
+          14991,
+          -29863,
+          13716
+        ],
+        [
+          16172,
+          -30762,
+          16172,
+          -30762,
+          15961
+        ],
+        [
+          15966,
+          -25833,
+          15966,
+          -25833,
+          15548
+        ],
+        [
+          15765,
+          -18532,
+          15765,
+          -18532,
+          15145
+        ],
+        [
+          15568,
+          -9622,
+          15568,
+          -9622,
+          14752
+        ],
+        [
+          13117,
+          26234,
+          13117,
+          25576,
+          10508
+        ],
+        [
+          2993,
+          0,
+          -2993,
+          -25820,
+          10398
+        ],
+        [
+          4337,
+          0,
+          -4337,
+          -15695,
+          7710
+        ],
+        [
+          8192,
+          0,
+          -8192,
+          10519,
+          0
+        ]
+      ],
+      "decision_policy": "raw_rest_else_ewma_shift2",
+      "recipe": {
+        "architecture": "sequential256",
+        "epochs": 12,
+        "seed": 17,
+        "alpha": 0.5,
+        "gate": 0.25,
+        "learning_rate": 0.002,
+        "weight_decay": 0.003,
+        "batch_size": 128,
+        "gain_sigma": 0.08,
+        "auxiliary_weight": 0.5
+      },
+      "inference_backend": "PC_float_CNN_integer_statistics",
+      "fpga_deployed": false
+    },
+    "linear_fraction": 22,
+    "linear_bound": 41320546025,
+    "architecture": "sequential256",
+    "alpha": 0.5,
+    "gate": 0.25,
+    "tensor_shapes": {
+      "cnn.blocks.0.0.weight": [
+        16,
+        8,
+        5
+      ],
+      "cnn.blocks.0.1.weight": [
+        16
+      ],
+      "cnn.blocks.0.1.bias": [
+        16
+      ],
+      "cnn.blocks.0.1.running_mean": [
+        16
+      ],
+      "cnn.blocks.0.1.running_var": [
+        16
+      ],
+      "cnn.blocks.0.1.num_batches_tracked": [],
+      "cnn.blocks.2.0.weight": [
+        24,
+        16,
+        3
+      ],
+      "cnn.blocks.2.1.weight": [
+        24
+      ],
+      "cnn.blocks.2.1.bias": [
+        24
+      ],
+      "cnn.blocks.2.1.running_mean": [
+        24
+      ],
+      "cnn.blocks.2.1.running_var": [
+        24
+      ],
+      "cnn.blocks.2.1.num_batches_tracked": [],
+      "cnn.blocks.4.0.weight": [
+        32,
+        24,
+        3
+      ],
+      "cnn.blocks.4.1.weight": [
+        32
+      ],
+      "cnn.blocks.4.1.bias": [
+        32
+      ],
+      "cnn.blocks.4.1.running_mean": [
+        32
+      ],
+      "cnn.blocks.4.1.running_var": [
+        32
+      ],
+      "cnn.blocks.4.1.num_batches_tracked": [],
+      "cnn.fc.weight": [
+        11,
+        32
+      ],
+      "cnn.fc.bias": [
+        11
+      ],
+      "offset": [
+        304
+      ],
+      "weights": [
+        11,
+        304
+      ],
+      "bias": [
+        11
+      ],
+      "classes": [
+        11
+      ],
+      "wave_shifts": [
+        8
+      ]
+    }
+  },
+  "evaluation": {
+    "independent": true,
+    "mode": "three_part",
+    "test": {
+      "cnn_float_raw": {
+        "accuracy": 0.892175572519084,
+        "macro_f1": 0.8870808630827238,
+        "recall": [
+          0.8738738738738738,
+          1.0,
+          1.0,
+          0.4935064935064935,
+          1.0,
+          0.8961038961038961,
+          1.0,
+          0.9344262295081968,
+          0.9830508474576272,
+          1.0,
+          0.75
+        ],
+        "rest_false_activation": 0.12612612612612611,
+        "confusion": [
+          [
+            291,
+            0,
+            34,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            6
+          ],
+          [
+            0,
+            57,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            77,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            38,
+            29,
+            0,
+            0,
+            0,
+            0,
+            0,
+            10
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            77,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            69,
+            0,
+            0,
+            0,
+            7,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            77,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            4,
+            0,
+            0,
+            57,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            58,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            77,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            4,
+            15,
+            0,
+            0,
+            0,
+            0,
+            0,
+            57
+          ]
+        ],
+        "windows": 1048
+      },
+      "stable": {
+        "accuracy": 0.9122137404580153,
+        "macro_f1": 0.9135765781820141,
+        "recall": [
+          0.8798798798798799,
+          1.0,
+          1.0,
+          0.5714285714285714,
+          1.0,
+          0.948051948051948,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          0.8026315789473685
+        ],
+        "rest_false_activation": 0.12012012012012012,
+        "confusion": [
+          [
+            293,
+            0,
+            36,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            3
+          ],
+          [
+            0,
+            57,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            77,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            44,
+            31,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            77,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            73,
+            0,
+            0,
+            0,
+            3,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            77,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            61,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            59,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            77,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            15,
+            0,
+            0,
+            0,
+            0,
+            0,
+            61
+          ]
+        ],
+        "windows": 1048
+      },
+      "statistics_stable": {
+        "accuracy": 0.8807251908396947,
+        "macro_f1": 0.8454280381027947,
+        "recall": [
+          0.8708708708708709,
+          1.0,
+          1.0,
+          0.03896103896103896,
+          1.0,
+          0.974025974025974,
+          1.0,
+          0.9180327868852459,
+          1.0,
+          1.0,
+          0.9868421052631579
+        ],
+        "rest_false_activation": 0.12912912912912913,
+        "confusion": [
+          [
+            290,
+            0,
+            39,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            4
+          ],
+          [
+            0,
+            57,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            77,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            3,
+            42,
+            0,
+            0,
+            0,
+            0,
+            0,
+            32
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            77,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            75,
+            0,
+            0,
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            77,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            5,
+            0,
+            0,
+            56,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            59,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            77,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            75
+          ]
+        ],
+        "windows": 1048
+      }
+    }
+  },
+  "training_warnings": [],
+  "calibration_fit": {
+    "accuracy": 0.9775745057539097,
+    "macro_f1": 0.9809571511703795,
+    "recall": [
+      0.9498069498069498,
+      1.0,
+      0.991304347826087,
+      1.0,
+      0.9794871794871794,
+      0.9744897959183674,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "rest_false_activation": 0.05019305019305019,
+    "confusion": [
+      [
+        1230,
+        0,
+        24,
+        0,
+        16,
+        7,
+        0,
+        0,
+        0,
+        9,
+        9
+      ],
+      [
+        0,
+        165,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        228,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        230,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        4,
+        0,
+        0,
+        0,
+        191,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        4,
+        0,
+        0,
+        0,
+        1,
+        191,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        231,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        216,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        189,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        229,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        213
+      ]
+    ],
+    "windows": 3389
+  },
+  "final_trained_all_bouts": true,
+  "a_deployment": {
+    "heldout": {
+      "scope": "heldout",
+      "statistical_common_score_removed": false,
+      "score_scale_shift": 0,
+      "score_scale_divisor": 1,
+      "fusion_gate_q23": 2097152,
+      "statistical_weight_max": 25438,
+      "score_scaling_note": "统计分数、CNN输出及融合阈值等比缩放；A固定左移15位及参数位宽保持原状",
+      "windows": 1048,
+      "pc_float_accuracy": 0.892175572519084,
+      "a_quantized_accuracy": 0.8940839694656488,
+      "prediction_agreement": 0.9961832061068703,
+      "direct_int64_reference": "all four layers passed on first calibration window",
+      "hardware_verified": false,
+      "source_sha256": "5ed2281127a9e4fe117835435a1aa6e014e615908945bb8cab7fa94726300254"
+    },
+    "final": {
+      "scope": "all_bout_model_self_check",
+      "statistical_common_score_removed": false,
+      "score_scale_shift": 1,
+      "score_scale_divisor": 2,
+      "fusion_gate_q23": 1048576,
+      "statistical_weight_max": 22649,
+      "score_scaling_note": "统计分数、CNN输出及融合阈值等比缩放；A固定左移15位及参数位宽保持原状",
+      "windows": 1048,
+      "pc_float_accuracy": 0.9627862595419847,
+      "a_quantized_accuracy": 0.9618320610687023,
+      "prediction_agreement": 0.9990458015267175,
+      "direct_int64_reference": "all four layers passed on first calibration window",
+      "hardware_verified": false,
+      "source_sha256": "7046d5aed56a9a0860b698b374f303eb0ce996dcf9b7513950cd6080415119d2"
+    }
+  },
+  "prospective_online_acceptance": false,
+  "timing_seconds": 19.559895600017626,
+  "acceptance": {
+    "evaluated": true,
+    "passed_offline": false,
+    "weak_classes": [
+      "静息",
+      "掌屈",
+      "数字六"
+    ]
+  },
+  "limitations": [
+    "固定配方来自已研究记录，留出成绩（如有）是开发证据。",
+    "export使用全数据，不能把训练自检当实时精度。",
+    "电脑浮点CNN试用，尚未部署FPGA。"
+  ]
+}

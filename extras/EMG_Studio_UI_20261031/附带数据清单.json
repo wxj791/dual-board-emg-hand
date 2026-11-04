@@ -1,0 +1,214 @@
+[
+  {
+    "recording": "DDW_P2_2610281200",
+    "path": "raw/DDW/DDW_P2_2610281200.npz",
+    "samples": 146880,
+    "channels": 8,
+    "class_names": [
+      "静息",
+      "握拳",
+      "张开手掌",
+      "点赞",
+      "剪刀手",
+      "数字一",
+      "数字六"
+    ],
+    "label_sample_counts": {
+      "静息": 57160,
+      "握拳": 14690,
+      "张开手掌": 14644,
+      "点赞": 15055,
+      "剪刀手": 15075,
+      "数字一": 15139,
+      "数字六": 15117
+    },
+    "capture_complete_field": null,
+    "sha256": "82e4fc0f1849c0a8407681d1d25ad33f1aa46fc7d0a79976b71b9394a2802f95"
+  },
+  {
+    "recording": "DGT_P1_2610280803",
+    "path": "raw/DGT/DGT_P1_2610280803.npz",
+    "samples": 148348,
+    "channels": 8,
+    "class_names": [
+      "静息",
+      "握拳",
+      "张开手掌",
+      "点赞",
+      "剪刀手",
+      "数字一",
+      "数字六"
+    ],
+    "label_sample_counts": {
+      "静息": 57644,
+      "握拳": 15093,
+      "张开手掌": 15118,
+      "点赞": 15094,
+      "剪刀手": 15123,
+      "数字一": 15126,
+      "数字六": 15150
+    },
+    "capture_complete_field": null,
+    "sha256": "cc9ea98a4c44a3654cf613d8ba57f6ae5db608cc96846326f751397aac0c6b53"
+  },
+  {
+    "recording": "DGT_P1_2610280911",
+    "path": "raw/DGT/DGT_P1_2610280911.npz",
+    "samples": 148339,
+    "channels": 8,
+    "class_names": [
+      "静息",
+      "握拳",
+      "张开手掌",
+      "点赞",
+      "剪刀手",
+      "数字一",
+      "数字六"
+    ],
+    "label_sample_counts": {
+      "静息": 57666,
+      "握拳": 15086,
+      "张开手掌": 15150,
+      "点赞": 15115,
+      "剪刀手": 15095,
+      "数字一": 15110,
+      "数字六": 15117
+    },
+    "capture_complete_field": null,
+    "sha256": "e275ce66ecbb7dc288a118a8369b20a5f75ed8d589a3baef2d053a62c181c995"
+  },
+  {
+    "recording": "DGT_P1_2610282029",
+    "path": "raw/DGT/DGT_P1_2610282029.npz",
+    "samples": 136336,
+    "channels": 8,
+    "class_names": [
+      "静息",
+      "握拳",
+      "张开手掌",
+      "点赞",
+      "剪刀手",
+      "背伸",
+      "掌屈"
+    ],
+    "label_sample_counts": {
+      "静息": 48412,
+      "握拳": 15045,
+      "张开手掌": 15119,
+      "点赞": 14829,
+      "剪刀手": 15031,
+      "背伸": 13211,
+      "掌屈": 14689
+    },
+    "capture_complete_field": null,
+    "sha256": "ec532a8848a36d65a5dd8a9616151f913a39dd1c73af425363365e0c9db11df7"
+  },
+  {
+    "recording": "DGT_P1_2610291313",
+    "path": "raw/DGT/DGT_P1_2610291313.npz",
+    "samples": 162072,
+    "channels": 8,
+    "class_names": [
+      "静息",
+      "张开手掌",
+      "握拳",
+      "掌屈",
+      "背伸",
+      "向拇指侧偏腕",
+      "向小指侧偏腕",
+      "翻掌向上",
+      "翻掌向下"
+    ],
+    "label_sample_counts": {
+      "静息": 66642,
+      "张开手掌": 12126,
+      "握拳": 12135,
+      "掌屈": 12101,
+      "背伸": 11823,
+      "向拇指侧偏腕": 12120,
+      "向小指侧偏腕": 12105,
+      "翻掌向上": 10804,
+      "翻掌向下": 12216
+    },
+    "capture_complete_field": null,
+    "sha256": "67f5f3ac45b15fee40ff54eab820b0137f2711fd02eec29b29d8de36169badda"
+  },
+  {
+    "recording": "DGT_P2_2610280808",
+    "path": "raw/DGT/DGT_P2_2610280808.npz",
+    "samples": 148432,
+    "channels": 8,
+    "class_names": [
+      "静息",
+      "握拳",
+      "张开手掌",
+      "点赞",
+      "剪刀手",
+      "数字一",
+      "数字六"
+    ],
+    "label_sample_counts": {
+      "静息": 57673,
+      "握拳": 15060,
+      "张开手掌": 15120,
+      "点赞": 15146,
+      "剪刀手": 15133,
+      "数字一": 15120,
+      "数字六": 15180
+    },
+    "capture_complete_field": null,
+    "sha256": "a6629b7df2c21ebae67b28a35f235b57523f11dda69d6040914716a4301c1251"
+  },
+  {
+    "recording": "DGT_P2_2610282008",
+    "path": "raw/DGT/DGT_P2_2610282008.npz",
+    "samples": 148472,
+    "channels": 8,
+    "class_names": [
+      "静息",
+      "握拳",
+      "张开手掌",
+      "点赞",
+      "剪刀手",
+      "数字一",
+      "数字六"
+    ],
+    "label_sample_counts": {
+      "静息": 57790,
+      "握拳": 15116,
+      "张开手掌": 15127,
+      "点赞": 15119,
+      "剪刀手": 15102,
+      "数字一": 15090,
+      "数字六": 15128
+    },
+    "capture_complete_field": null,
+    "sha256": "df67fcc3dc6e5327c802a9c62f9b0ca05530ed9b63a447beb559fe5168c5d1fd"
+  },
+  {
+    "recording": "DGTV2_P2_2610271931",
+    "path": "raw/DGTV2/DGTV2_P2_2610271931.npz",
+    "samples": 139455,
+    "channels": 8,
+    "class_names": [
+      "静息",
+      "握拳",
+      "张开手掌",
+      "点赞",
+      "剪刀手",
+      "数字一",
+      "数字六"
+    ],
+    "label_sample_counts": {
+      "静息": 50267,
+      "握拳": 15097,
+      "张开手掌": 14439,
+      "点赞": 15071,
+      "剪刀手": 15101,
+      "数字一": 15090,
+      "数字六": 14390
+    },
+    "capture_complete_field": null,
+    "sha256": "3ef10c9987ab2333474217b8fba9160cef247c5c1e106b80c211026b0d9f3279"
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "public_name": "01_FPGA肌电识别板/肌电识别板_当前使用版.bit",
+    "original_name": "A_FORWARD_HEADER_ECO_TEST_20261102.bit",
+    "sha256": "f7b5a104c2f32f64cdbd14544b0a4b0db34d8269aa940b865727fc3c11368396",
+    "renamed_only": true
+  },
+  {
+    "public_name": "02_FPGA显示执行板/显示执行板_当前使用版.bit",
+    "original_name": "B_R53_ECO_NO_IDLE_POLL_20261102.bit",
+    "sha256": "334a60f06f99d6bf1c0e6f391d24009e862126e0563983ddfbe3d64d0c5a9a3e",
+    "renamed_only": true
+  }
+]

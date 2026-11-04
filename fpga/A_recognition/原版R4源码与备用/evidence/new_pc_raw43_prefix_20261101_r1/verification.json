@@ -1,0 +1,118 @@
+{
+  "passed": true,
+  "status": "COMPLETE_PREFIX_FRAMES_VERIFIED",
+  "full_board_run": "TIMED_OUT_NOT_PASS",
+  "origin": "board32_history_raw43_20261101_r1",
+  "actual_RTL_sha256": "0946346f10a28122bcb8929e720e49a52c11fa7c748ce9496fc5b128e52157a1",
+  "raw_samples": 1122,
+  "wave_groups": 1136,
+  "exact_valid_classifications": [
+    [
+      575,
+      0
+    ],
+    [
+      607,
+      0
+    ],
+    [
+      639,
+      0
+    ],
+    [
+      671,
+      0
+    ],
+    [
+      703,
+      0
+    ],
+    [
+      735,
+      0
+    ],
+    [
+      767,
+      1
+    ],
+    [
+      799,
+      1
+    ],
+    [
+      831,
+      1
+    ],
+    [
+      863,
+      1
+    ],
+    [
+      895,
+      1
+    ],
+    [
+      927,
+      1
+    ],
+    [
+      959,
+      1
+    ],
+    [
+      991,
+      1
+    ],
+    [
+      1023,
+      1
+    ],
+    [
+      1055,
+      1
+    ],
+    [
+      1087,
+      1
+    ],
+    [
+      1119,
+      1
+    ]
+  ],
+  "actual_transition": {
+    "sample_seq": 767,
+    "class_id": 1
+  },
+  "all_completed_raw_wave_class_payloads_exact": true,
+  "model_state": {
+    "identity": "A-AB-V2",
+    "valid": 1,
+    "loading": 0,
+    "source_pc": 0,
+    "active_hex": "0002",
+    "generation_hex": "0001",
+    "accepted_hex": "0000000d",
+    "drops_hex": "00000000",
+    "results_hex": "00000000",
+    "wireless_bad_hex": "00000000",
+    "command_errors_hex": "00000000",
+    "crc_errors_hex": "00000000",
+    "model_crc32_hex": "df1dd2ae",
+    "model_crc32_valid": 1
+  },
+  "model_package_sha256": "233f6560c1b279d2db69499224fa9aff7d8a2fc2d7faa78ef6b769ceec03ba94",
+  "link_tail": {
+    "trailing_bytes": 32,
+    "incomplete_hex_token": false
+  },
+  "pc_tail": {
+    "trailing_bytes": 5,
+    "incomplete_hex_token": false
+  },
+  "requested_samples": 1216,
+  "pc_capture_sha256": "5a559d7a7cb1230c84d1eadc2c033894b2f39c05207b6a313126c1bffda2998d",
+  "link_capture_sha256": "38e6607d0cd6361d11210e5b3363bb9fd006c8294bd2688fc473aab5c7ea4e76",
+  "hardware_io": false,
+  "three_endpoint_hardware": "NOT_RUN"
+}

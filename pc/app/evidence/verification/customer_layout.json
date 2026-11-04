@@ -1,0 +1,46 @@
+{
+  "desktop_accessed": false,
+  "serial_opened": false,
+  "measurement": "Tk requested geometry, not a screen capture",
+  "body_font_points": 14,
+  "geometry": {
+    "hand_page": {
+      "width": 477,
+      "height": 602
+    },
+    "use": {
+      "width": 406,
+      "height": 381
+    },
+    "teach": {
+      "width": 349,
+      "height": 376
+    },
+    "display": {
+      "width": 449,
+      "height": 384
+    },
+    "inference": {
+      "width": 398,
+      "height": 602
+    },
+    "source_selector": {
+      "width": 204,
+      "height": 39
+    },
+    "inference_pc": {
+      "width": 475,
+      "height": 602
+    },
+    "inference_pc_result": {
+      "width": 475,
+      "height": 627
+    },
+    "response_editor_32": {
+      "width": 483,
+      "height": 326
+    },
+    "response_options": 32
+  },
+  "mapped_visual_checks": "not performed"
+}

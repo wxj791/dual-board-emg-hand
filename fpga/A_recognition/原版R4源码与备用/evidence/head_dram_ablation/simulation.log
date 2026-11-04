@@ -1,0 +1,2 @@
+RESIDUAL_HEAD_ABLATION_PASS windows=27 phases=2 results=54
+E:\FPGA\Projects\emg_hand_fpga\artifacts\a_gesture_tasks\head_dram_ablation\tb.sv:44: $finish called at 1496560000 (1ps)

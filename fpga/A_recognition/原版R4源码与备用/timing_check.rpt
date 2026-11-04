@@ -1,0 +1,535 @@
+Table of Contents
+-----------------
+1. checking no clock(0) (HIGH)
+2. checking clock definition(0) (HIGH)
+3. checking dummy node(4) (HIGH)
+4. checking invalid constraint(0) (HIGH)
+5. checking pll/clock buffer clock constraints(0) (HIGH)
+6. checking combinational loops(0) (HIGH)
+7. checking soft fifo timing exception constraints(0) (HIGH)
+8. checking no path constraints(0) (MEDIUM)
+9. checking shadowed/ignored timing exception constraints(0) (MEDIUM)
+10. checking no input delay(4) (MEDIUM)
+11. checking no output delay(0) (MEDIUM)
+12. checking partial input delay(0) (MEDIUM)
+13. checking partial output delay(0) (MEDIUM)
+14. checking abnormal input delay(0) (MEDIUM)
+
+
+1. checking nets with no clock driven. (HIGH)
+---------------------------------------------
+2. checking clock definition problems. (HIGH)
+---------------------------------------------
+2.1 There are 0 leaf clock pins driven by multiple clocks. (HIGH)
+
+
+2.2 There are 0 clocks created on internal clock network. (HIGH)
+
+
+2.3 There are 0 unexpandable clock sets. (HIGH)
+
+
+2.4 There are 0 local clocks. (HIGH)
+
+
+2.5 There are 0 generated clocks that are not connected to their master clocks. (HIGH)
+
+
+3. checking dummy nodes. (HIGH)
+---------------------------------------------
+There are 4 nodes are dangling. (HIGH)
+
+DummyNode in Model: EG_PHY_BRAM32K
+	core/head_unit/ramread13_syn_6.dob[9]
+	core/head_unit/ramread4_syn_6.dob[9]
+	core/head_unit/ramread6_syn_6.dob[9]
+	core/head_unit/ramread10_syn_6.dob[9]
+	core/head_unit/ramread12_syn_6.dob[9]
+
+DummyNode in Model: EG_PHY_LSLICE
+	pc/ret/uart/mux13_syn_296.d[0]
+	mux/result_slots_reg[1]_syn_213.d[1]
+	mux/result_slots_reg[1]_syn_179.d[1]
+	core/features_unit/telemetry_filtered_reg[107]_syn_4.d[1]
+	mux/result_slots_reg[1]_syn_232.d[1]
+	core/filter_unit/current_x_b[11]_syn_21.d[0]
+	core/features_unit/mux154_syn_1256.d[0]
+	core/features_unit/feature_data_b6[11]_syn_20.d[0]
+	core/features_unit/log_energy_reg[392]_syn_4.d[0]
+	core/features_unit/log_energy_reg[408]_syn_4.d[0]
+	mux/result_slots_reg[1]_syn_165.d[1]
+	core/features_unit/telemetry_slow_reg[58]_syn_4.d[0]
+	mux/result_slots_reg[1]_syn_167.d[1]
+	pc/bridge_snapshot_reg[238]_syn_4.d[1]
+	pc/replay_data_reg[123]_syn_4.d[0]
+	pc/replay_hold_reg[106]_syn_4.d[0]
+	core/head_unit/divisor_reg[38]_syn_4.d[0]
+	pc/replay_data_reg[101]_syn_4.d[0]
+	core/telemetry_sample_seq_reg[28]_syn_4.c[1]
+	ingress/good_frames_reg[30]_syn_4.c[1]
+	pc/s_model_crc32_reg[14]_syn_4.c[0]
+	core/seq_filter_reg[23]_syn_4.d[0]
+	pc/s_diagnostic_reg[421]_syn_4.d[1]
+	core/telemetry_sample_seq_reg[14]_syn_4.d[1]
+	core/telemetry_sample_seq_reg[28]_syn_4.b[1]
+	ingress/good_frames_reg[30]_syn_4.b[1]
+	pc/s_model_crc32_reg[14]_syn_4.b[0]
+	core/telemetry_sample_seq_reg[28]_syn_4.d[1]
+	ingress/good_frames_reg[30]_syn_4.d[1]
+	pc/s_model_crc32_reg[14]_syn_4.d[0]
+	core/features_unit/telemetry_filtered_reg[107]_syn_4.c[1]
+	core/features_unit/mux154_syn_1256.c[0]
+	mux/result_slots_reg[1]_syn_165.c[1]
+	mux/result_slots_reg[1]_syn_179.c[1]
+	mux/result_slots_reg[1]_syn_213.c[1]
+	core/features_unit/feature_data_b6[11]_syn_20.c[0]
+	core/features_unit/log_energy_reg[408]_syn_4.c[0]
+	core/features_unit/log_energy_reg[392]_syn_4.c[0]
+	mux/result_slots_reg[1]_syn_232.c[1]
+	core/filter_unit/current_x_b[11]_syn_21.c[0]
+	core/features_unit/telemetry_slow_reg[58]_syn_4.c[0]
+	core/head_unit/divisor_reg[38]_syn_4.c[0]
+	pc/replay_data_reg[123]_syn_4.c[0]
+	pc/replay_data_reg[101]_syn_4.c[0]
+	pc/replay_hold_reg[106]_syn_4.c[0]
+	mux/capture_time_reg[18]_syn_4.c[0]
+	pc/ret/uart/mux13_syn_296.c[0]
+	core/seq_filter_reg[14]_syn_4.c[0]
+	pc/bridge_snapshot_reg[238]_syn_4.c[1]
+	mux/result_slots_reg[1]_syn_167.c[1]
+	core/cnn_unit/mux77_syn_2329.mi[0]
+	ingress/level_reg[2]_syn_13.mi[0]
+	core/cnn_unit/mux77_syn_2391.mi[0]
+	core/cnn_unit/mux77_syn_2347.mi[0]
+	pc/command_errors_reg[5]_syn_4.c[1]
+	ingress/good_frames_reg[8]_syn_4.c[1]
+	ingress/good_frames_reg[8]_syn_4.d[1]
+	pc/command_errors_reg[5]_syn_4.d[1]
+	core/features_unit/sel3_syn_1713.mi[0]
+	core/features_unit/state_reg[5]_syn_17.mi[1]
+	ingress/converted_reg[68]_syn_4.d[0]
+	ingress/converted_reg[68]_syn_4.c[0]
+	ingress/converted_reg[68]_syn_4.b[0]
+	core/features_unit/pair_b_reg[1]_syn_19.mi[0]
+	core/features_unit/mux142_syn_1435.c[1]
+	core/features_unit/mux142_syn_1435.b[1]
+	core/features_unit/mux142_syn_1435.a[1]
+	core/features_unit/mux142_syn_1435.d[1]
+	pc/s_diagnostic_reg[421]_syn_4.c[1]
+	core/telemetry_sample_seq_reg[14]_syn_4.c[1]
+	core/seq_filter_reg[23]_syn_4.c[0]
+	core/telemetry_sample_seq_reg[14]_syn_4.b[1]
+	core/seq_filter_reg[23]_syn_4.b[0]
+	pc/s_diagnostic_reg[421]_syn_4.b[1]
+	mux/packet_write_data[1]_syn_171.mi[0]
+	core/cnn_unit/mux77_syn_2383.c[0]
+	pc/command_errors_reg[21]_syn_4.c[0]
+	pc/encoder/crc_value_b[7]_syn_1174.c[1]
+	core/cnn_unit/mux77_syn_2383.b[0]
+	pc/command_errors_reg[21]_syn_4.b[0]
+	pc/encoder/crc_value_b[7]_syn_1174.b[1]
+	core/cnn_unit/mux77_syn_2383.d[0]
+	pc/command_errors_reg[21]_syn_4.d[0]
+	pc/encoder/crc_value_b[7]_syn_1174.d[1]
+	core/features_unit/mux142_syn_1447.mi[0]
+	reset_unit/sync_pipe_reg[1]_syn_165.mi[0]
+	reset_unit/sync_pipe_reg[1]_syn_156.mi[1]
+	core/features_unit/cross_energy_b3[42]_syn_4.mi[0]
+	core/features_unit/sel3_syn_1727.mi[0]
+	reset_unit/sync_pipe_reg[1]_syn_165.mi[1]
+	reset_unit/sync_pipe_reg[1]_syn_161.mi[1]
+	reset_unit/sync_pipe_reg[1]_syn_161.mi[0]
+	core/head_unit/best_reg[1]_syn_17.mi[0]
+	reset_unit/sync_pipe_reg[1]_syn_171.mi[0]
+	reset_unit/sync_pipe_reg[1]_syn_232.mi[0]
+	reset_unit/sync_pipe_reg[1]_syn_238.mi[0]
+	reset_unit/sync_pipe_reg[1]_syn_238.mi[1]
+	ingress/receiver/mux14_syn_118.mi[0]
+	reset_unit/sync_pipe_reg[1]_syn_242.mi[0]
+	usb_stream/count_reg[3]_syn_52.mi[0]
+	usb_stream/count_reg[2]_syn_10.mi[0]
+	pc/status_reg[1]_syn_232.mi[0]
+	reset_unit/sync_pipe_reg[1]_syn_244.mi[0]
+	pc/state_reg[0]_syn_690.mi[0]
+	tx/tx_reset_sync/sync_pipe_reg[1]_syn_30.mi[0]
+	core/head_unit/mux74_syn_3785.mi[0]
+	tx/frame_tx/crc_value_b[15]_syn_18.mi[0]
+	pc/replay_hold_reg[37]_syn_4.d[1]
+	pc/replay_hold_reg[37]_syn_4.c[1]
+	core/cnn_unit/ramread10_syn_883.mi[0]
+	core/cnn_unit/output_lane_reg[0]_syn_37.mi[0]
+	core/cnn_unit/ramread10_syn_815.mi[0]
+	core/features_unit/sel4_syn_1716.mi[0]
+	mux/packet_write_data[3]_syn_125.mi[0]
+	core/features_unit/state_reg[5]_syn_17.mi[0]
+	core/head_unit/coefficient[9]_syn_10.mi[0]
+	core/features_unit/lane_reg[0]_syn_54.mi[0]
+	core/features_unit/incoming_b6[15]_syn_57.mi[0]
+	core/features_unit/lane_reg[1]_syn_58.mi[0]
+	core/features_unit/mux142_syn_1537.mi[0]
+	core/features_unit/lane_reg[3]_syn_22.mi[0]
+	core/head_unit/mux95_syn_104.mi[0]
+	core/head_unit/accumulator_b[4]_syn_9.mi[0]
+	core/filter_unit/current_x_b[9]_syn_42.mi[0]
+	core/head_unit/mux74_syn_3779.mi[0]
+	core/head_unit/second_b[45]_syn_305.mi[0]
+	ingress/read_pointer_reg[1]_syn_13.mi[1]
+	mux/capture_index_reg[1]_syn_27.mi[0]
+	mux/capture_index_reg[1]_syn_27.mi[1]
+	mux/capture_time_reg[18]_syn_4.d[0]
+	core/seq_filter_reg[14]_syn_4.d[0]
+
+DummyNode in Model: EG_PHY_MSLICE
+	mux/result_slots_reg[1]_syn_175.d[1]
+	mux/result_slots_reg[1]_syn_181.d[1]
+	mux/result_slots_reg[1]_syn_187.d[1]
+	mux/result_slots_reg[1]_syn_197.d[1]
+	mux/result_slots_reg[1]_syn_173.d[1]
+	core/features_unit/energy_log_sum_b2[1]_syn_83.d[0]
+	mux/result_slots_reg[1]_syn_169.d[1]
+	mux/packet_write_data[3]_syn_127.d[0]
+	core/filter_unit/y2_reg[18]_syn_4.d[0]
+	core/features_unit/telemetry_filtered_reg[29]_syn_4.d[0]
+	core/filter_unit/current_x_b[10]_syn_19.d[0]
+	core/features_unit/energy_log_sum_b2[5]_syn_48.d[0]
+	core/features_unit/sel4_syn_1712.d[0]
+	pc/s_diagnostic_reg[207]_syn_4.d[0]
+	core/features_unit/telemetry_fast_reg[90]_syn_4.d[0]
+	tx/local_timestamp_us_reg[13]_syn_4.d[0]
+	pc/s_diagnostic_reg[467]_syn_4.c[1]
+	pc/s_diagnostic_reg[475]_syn_4.d[0]
+	pc/s_diagnostic_reg[467]_syn_4.b[1]
+	pc/s_diagnostic_reg[467]_syn_4.d[1]
+	mux/result_slots_reg[1]_syn_175.c[1]
+	core/features_unit/energy_log_sum_b2[5]_syn_48.c[0]
+	core/features_unit/sel4_syn_1712.c[0]
+	core/features_unit/energy_log_sum_b2[1]_syn_83.c[0]
+	mux/result_slots_reg[1]_syn_169.c[1]
+	mux/result_slots_reg[1]_syn_181.c[1]
+	mux/result_slots_reg[1]_syn_173.c[1]
+	mux/result_slots_reg[1]_syn_197.c[1]
+	pc/s_diagnostic_reg[207]_syn_4.c[0]
+	core/filter_unit/y2_reg[18]_syn_4.c[0]
+	core/filter_unit/current_x_b[10]_syn_19.c[0]
+	core/features_unit/telemetry_filtered_reg[29]_syn_4.c[0]
+	mux/packet_write_data[3]_syn_127.c[0]
+	mux/result_slots_reg[1]_syn_187.c[1]
+	core/features_unit/telemetry_fast_reg[90]_syn_4.c[0]
+	tx/local_timestamp_us_reg[13]_syn_4.c[0]
+	core/seq_filter_reg[7]_syn_4.c[0]
+	pc/clear_pipeline_n_syn_30.mi[0]
+	core/cnn_unit/state_reg[3]_syn_36.mi[1]
+	core/cnn_unit/mux77_syn_2385.mi[0]
+	pc/encoder/crc_value_b[7]_syn_1154.mi[0]
+	core/cnn_unit/state_reg[1]_syn_35.mi[1]
+	core/cnn_unit/mux77_syn_2393.mi[0]
+	core/cnn_unit/state_reg[3]_syn_36.mi[0]
+	core/cnn_unit/state_reg[1]_syn_35.mi[0]
+	core/cnn_unit/ramread11_syn_13051.c[0]
+	core/cnn_unit/ramread11_syn_12911.c[1]
+	pc/command_errors_reg[26]_syn_4.c[0]
+	core/cnn_unit/ramread11_syn_13051.d[0]
+	core/cnn_unit/ramread11_syn_12911.d[1]
+	pc/command_errors_reg[26]_syn_4.d[0]
+	core/features_unit/state_reg[1]_syn_18.mi[0]
+	core/features_unit/sel3_syn_1739.d[1]
+	core/features_unit/sel3_syn_1735.d[1]
+	core/features_unit/sel3_syn_1739.b[1]
+	core/features_unit/sel3_syn_1735.b[1]
+	core/features_unit/sel3_syn_1739.c[1]
+	core/features_unit/sel3_syn_1735.c[1]
+	ingress/converted_reg[27]_syn_4.d[0]
+	ingress/converted_reg[27]_syn_4.c[0]
+	ingress/converted_reg[27]_syn_4.b[0]
+	core/features_unit/ramread2_syn_691.d[0]
+	core/features_unit/ramread2_syn_607.d[1]
+	core/features_unit/ramread2_syn_607.d[0]
+	core/features_unit/ramread2_syn_691.d[1]
+	core/features_unit/ramread2_syn_606.d[1]
+	core/features_unit/ramread2_syn_690.d[1]
+	core/features_unit/ramread2_syn_522.d[1]
+	core/features_unit/ramread2_syn_438.d[1]
+	core/features_unit/ramread2_syn_523.d[1]
+	core/features_unit/ramread2_syn_439.d[0]
+	core/features_unit/ramread2_syn_439.d[1]
+	core/features_unit/ramread2_syn_523.d[0]
+	core/features_unit/ramread0_syn_690.d[1]
+	core/features_unit/ramread0_syn_691.d[0]
+	core/features_unit/ramread0_syn_607.d[1]
+	core/features_unit/ramread0_syn_607.d[0]
+	core/features_unit/ramread0_syn_691.d[1]
+	core/features_unit/ramread0_syn_606.d[1]
+	core/features_unit/ramread0_syn_523.d[1]
+	core/features_unit/ramread0_syn_522.d[1]
+	core/features_unit/ramread0_syn_523.d[0]
+	core/features_unit/ramread0_syn_438.d[1]
+	core/features_unit/ramread0_syn_439.d[0]
+	core/features_unit/ramread0_syn_439.d[1]
+	core/features_unit/ramread0_syn_523.c[1]
+	core/features_unit/ramread0_syn_522.c[1]
+	core/features_unit/ramread0_syn_523.c[0]
+	core/features_unit/ramread0_syn_438.c[1]
+	core/features_unit/ramread0_syn_439.c[0]
+	core/features_unit/ramread0_syn_439.c[1]
+	core/features_unit/ramread0_syn_523.b[1]
+	core/features_unit/ramread0_syn_522.b[1]
+	core/features_unit/ramread0_syn_523.b[0]
+	core/features_unit/ramread0_syn_438.b[1]
+	core/features_unit/ramread0_syn_439.b[0]
+	core/features_unit/ramread0_syn_439.b[1]
+	core/features_unit/ramread0_syn_523.a[1]
+	core/features_unit/ramread0_syn_522.a[1]
+	core/features_unit/ramread0_syn_523.a[0]
+	core/features_unit/ramread0_syn_438.a[1]
+	core/features_unit/ramread0_syn_439.a[0]
+	core/features_unit/ramread0_syn_439.a[1]
+	core/features_unit/ramread5_syn_81.c[1]
+	core/features_unit/ramread7_syn_81.c[1]
+	core/features_unit/ramread7_syn_82.c[0]
+	core/features_unit/ramread5_syn_82.c[1]
+	core/features_unit/ramread5_syn_82.c[0]
+	core/features_unit/ramread7_syn_82.c[1]
+	core/features_unit/ramread6_syn_82.c[1]
+	core/features_unit/ramread6_syn_82.c[0]
+	core/features_unit/ramread6_syn_81.c[1]
+	core/features_unit/ramread4_syn_81.c[1]
+	core/features_unit/ramread4_syn_82.c[0]
+	core/features_unit/ramread4_syn_82.c[1]
+	core/features_unit/ramread4_syn_82.b[1]
+	core/features_unit/ramread4_syn_82.b[0]
+	core/features_unit/ramread4_syn_81.b[1]
+	core/features_unit/ramread6_syn_82.b[1]
+	core/features_unit/ramread6_syn_82.b[0]
+	core/features_unit/ramread5_syn_81.b[1]
+	core/features_unit/ramread7_syn_81.b[1]
+	core/features_unit/ramread6_syn_81.b[1]
+	core/features_unit/ramread7_syn_82.b[0]
+	core/features_unit/ramread5_syn_82.b[1]
+	core/features_unit/ramread5_syn_82.b[0]
+	core/features_unit/ramread7_syn_82.b[1]
+	core/features_unit/ramread4_syn_82.a[1]
+	core/features_unit/ramread4_syn_82.a[0]
+	core/features_unit/ramread4_syn_81.a[1]
+	core/features_unit/ramread6_syn_82.a[1]
+	core/features_unit/ramread6_syn_82.a[0]
+	core/features_unit/ramread5_syn_81.a[1]
+	core/features_unit/ramread7_syn_81.a[1]
+	core/features_unit/ramread6_syn_81.a[1]
+	core/features_unit/ramread7_syn_82.a[0]
+	core/features_unit/ramread5_syn_82.a[1]
+	core/features_unit/ramread5_syn_82.a[0]
+	core/features_unit/ramread7_syn_82.a[1]
+	core/features_unit/ramread2_syn_522.c[1]
+	core/features_unit/ramread2_syn_438.c[1]
+	core/features_unit/ramread2_syn_523.c[1]
+	core/features_unit/ramread2_syn_439.c[0]
+	core/features_unit/ramread2_syn_439.c[1]
+	core/features_unit/ramread2_syn_523.c[0]
+	core/features_unit/ramread2_syn_522.b[1]
+	core/features_unit/ramread2_syn_438.b[1]
+	core/features_unit/ramread2_syn_523.b[1]
+	core/features_unit/ramread2_syn_439.b[0]
+	core/features_unit/ramread2_syn_439.b[1]
+	core/features_unit/ramread2_syn_523.b[0]
+	core/features_unit/ramread2_syn_522.a[1]
+	core/features_unit/ramread2_syn_438.a[1]
+	core/features_unit/ramread2_syn_523.a[1]
+	core/features_unit/ramread2_syn_439.a[0]
+	core/features_unit/ramread2_syn_439.a[1]
+	core/features_unit/ramread2_syn_523.a[0]
+	core/features_unit/ramread2_syn_607.c[1]
+	core/features_unit/ramread2_syn_607.c[0]
+	core/features_unit/ramread2_syn_691.c[1]
+	core/features_unit/ramread2_syn_606.c[1]
+	core/features_unit/ramread2_syn_690.c[1]
+	core/features_unit/ramread2_syn_691.c[0]
+	core/features_unit/ramread0_syn_690.c[1]
+	core/features_unit/ramread0_syn_606.c[1]
+	core/features_unit/ramread0_syn_691.c[1]
+	core/features_unit/ramread0_syn_607.c[0]
+	core/features_unit/ramread0_syn_607.c[1]
+	core/features_unit/ramread0_syn_691.c[0]
+	core/features_unit/ramread2_syn_690.b[1]
+	core/features_unit/ramread2_syn_606.b[1]
+	core/features_unit/ramread2_syn_691.b[1]
+	core/features_unit/ramread2_syn_607.b[0]
+	core/features_unit/ramread2_syn_607.b[1]
+	core/features_unit/ramread2_syn_691.b[0]
+	core/features_unit/ramread0_syn_690.b[1]
+	core/features_unit/ramread0_syn_606.b[1]
+	core/features_unit/ramread0_syn_691.b[1]
+	core/features_unit/ramread0_syn_607.b[0]
+	core/features_unit/ramread0_syn_607.b[1]
+	core/features_unit/ramread0_syn_691.b[0]
+	core/features_unit/ramread2_syn_606.a[1]
+	core/features_unit/ramread2_syn_607.a[1]
+	core/features_unit/ramread2_syn_607.a[0]
+	core/features_unit/ramread2_syn_690.a[1]
+	core/features_unit/ramread0_syn_691.a[1]
+	core/features_unit/ramread0_syn_607.a[0]
+	core/features_unit/ramread2_syn_691.a[1]
+	core/features_unit/ramread0_syn_607.a[1]
+	core/features_unit/ramread0_syn_691.a[0]
+	core/features_unit/ramread2_syn_691.a[0]
+	core/features_unit/ramread0_syn_690.a[1]
+	core/features_unit/ramread0_syn_606.a[1]
+	mux/packet_write_data[1]_syn_167.mi[0]
+	core/features_unit/mux142_syn_1487.c[1]
+	core/features_unit/mux142_syn_1487.b[1]
+	core/features_unit/mux142_syn_1487.a[1]
+	core/features_unit/mux142_syn_1487.d[1]
+	core/head_unit/cnn_debug_b6[33]_syn_4.mi[0]
+	core/head_unit/ramread5_syn_74.d[1]
+	core/head_unit/ramread5_syn_74.d[0]
+	core/head_unit/ramread5_syn_73.d[1]
+	core/head_unit/ramread5_syn_102.d[0]
+	core/head_unit/ramread5_syn_102.d[1]
+	core/head_unit/ramread5_syn_101.d[1]
+	core/head_unit/ramread5_syn_101.c[1]
+	core/head_unit/ramread5_syn_73.c[1]
+	core/head_unit/ramread5_syn_102.c[1]
+	core/head_unit/ramread5_syn_74.c[0]
+	core/head_unit/ramread5_syn_74.c[1]
+	core/head_unit/ramread5_syn_102.c[0]
+	core/head_unit/ramread5_syn_101.b[1]
+	core/head_unit/ramread5_syn_102.b[0]
+	core/head_unit/ramread5_syn_74.b[1]
+	core/head_unit/ramread5_syn_74.b[0]
+	core/head_unit/ramread5_syn_102.b[1]
+	core/head_unit/ramread5_syn_73.b[1]
+	core/head_unit/ramread5_syn_102.a[0]
+	core/head_unit/ramread5_syn_74.a[1]
+	core/head_unit/ramread5_syn_74.a[0]
+	core/head_unit/ramread5_syn_102.a[1]
+	core/head_unit/ramread5_syn_73.a[1]
+	core/head_unit/ramread5_syn_101.a[1]
+	pc/s_diagnostic_reg[475]_syn_4.c[0]
+	pc/s_diagnostic_reg[475]_syn_4.b[0]
+	uptime_reg[24]_syn_4.b[0]
+	uptime_reg[24]_syn_4.c[0]
+	uptime_reg[24]_syn_4.d[0]
+	uptime_reg[24]_syn_4.a[0]
+	pc/s_crc_errors_reg[3]_syn_4.c[1]
+	pc/s_command_errors_reg[15]_syn_4.c[0]
+	pc/s_command_errors_reg[8]_syn_4.c[1]
+	pc/command_errors_reg[11]_syn_4.c[0]
+	pc/s_crc_errors_reg[3]_syn_4.b[1]
+	pc/s_command_errors_reg[8]_syn_4.b[1]
+	pc/s_command_errors_reg[15]_syn_4.b[0]
+	pc/command_errors_reg[11]_syn_4.b[0]
+	pc/s_crc_errors_reg[3]_syn_4.d[1]
+	pc/s_command_errors_reg[8]_syn_4.d[1]
+	pc/s_command_errors_reg[15]_syn_4.d[0]
+	pc/command_errors_reg[11]_syn_4.d[0]
+	pc/ret/ramread1_syn_37.a[1]
+	reset_unit/sync_pipe_reg[1]_syn_184.mi[0]
+	reset_unit/sync_pipe_reg[1]_syn_180.mi[1]
+	core/features_unit/sel2_syn_2144.mi[0]
+	reset_unit/sync_pipe_reg[1]_syn_192.mi[0]
+	reset_unit/sync_pipe_reg[1]_syn_189.mi[1]
+	reset_unit/sync_pipe_reg[1]_syn_202.mi[1]
+	pc/encoder/mux17_syn_182.mi[0]
+	pc/ret/occupied_reg[1]_syn_27.mi[0]
+	reset_unit/sync_pipe_reg[1]_syn_224.mi[1]
+	reset_unit/sync_pipe_reg[1]_syn_220.mi[1]
+	pc/sel16_syn_502.mi[0]
+	reset_unit/sync_pipe_reg[1]_syn_224.mi[0]
+	pc/sel0_syn_144.mi[0]
+	reset_unit/sync_pipe_reg[1]_syn_220.mi[0]
+	core/head_unit/best_reg[2]_syn_27.mi[0]
+	core/telemetry_sample_seq_reg[30]_syn_4.d[1]
+	core/telemetry_sample_seq_reg[29]_syn_4.d[1]
+	core/telemetry_sample_seq_reg[30]_syn_4.c[1]
+	core/telemetry_sample_seq_reg[29]_syn_4.c[1]
+	mux/capture_header_reg[91]_syn_4.d[1]
+	core/cnn_unit/mux77_syn_2433.mi[0]
+	core/features_unit/band_reg[1]_syn_33.mi[0]
+	core/features_unit/lane_reg[0]_syn_52.mi[1]
+	core/features_unit/lane_reg[0]_syn_52.mi[0]
+	core/features_unit/lane_reg[1]_syn_52.mi[1]
+	core/features_unit/lane_reg[2]_syn_32.mi[0]
+	core/features_unit/lane_reg[2]_syn_32.mi[1]
+	core/features_unit/energy_log_sum_b2[1]_syn_74.mi[0]
+	core/head_unit/head_class_reg[2]_syn_29.mi[1]
+	ingress/read_pointer_reg[1]_syn_15.mi[0]
+	ingress/read_pointer_reg[2]_syn_13.mi[1]
+	mux/capture_index_reg[1]_syn_24.mi[0]
+	mux/capture_index_reg[0]_syn_18.mi[1]
+	mux/capture_index_reg[0]_syn_18.mi[0]
+	core/seq_filter_reg[7]_syn_4.d[0]
+	mux/capture_header_reg[91]_syn_4.b[1]
+	mux/capture_header_reg[91]_syn_4.c[1]
+
+DummyNode in Model: EG_PHY_MULT18
+	core/features_unit/mult0_syn_178.a[6]
+	core/features_unit/mult0_syn_178.a[7]
+	core/features_unit/mult0_syn_178.a[8]
+	core/features_unit/mult0_syn_178.b[6]
+	core/features_unit/mult0_syn_178.b[7]
+	core/features_unit/mult0_syn_178.b[8]
+
+4. checking invalid constraints. (HIGH)
+---------------------------------------------
+There are 0 invalid constraints. (HIGH)
+
+
+5. checking PLL/buffer clocks. (HIGH)
+---------------------------------------------
+6. checking combinational loops. (HIGH)
+---------------------------------------------
+There are 0 combinational loops. (HIGH)
+
+
+7. checking soft fifo set_max_delay constraints. (HIGH)
+---------------------------------------------
+There are 0 max-delay datapath-only paths that are part of the provided async clock paths, whereas the timing between other registers is not relaxed or ignored. (HIGH)
+
+
+8. checking no path constraints. (MEDIUM)
+---------------------------------------------
+There are 0 constraints that have no timing paths. (MEDIUM)
+
+
+9. checking path exception constraints shadowed/ignored by other constraints. (MEDIUM)
+---------------------------------------------
+
+MCP/SMD Summary
+--------------------
+
+		Max Check
+		--------------------
+		     Total    Dominated     Shadowed      Ignored   Constraint
+
+		Min Check
+		--------------------
+		     Total    Dominated     Shadowed      Ignored   Constraint
+
+10. checking no input delay (MEDIUM)
+--------------------------
+There are 4 input ports that with no input delay specified. (MEDIUM)
+
+	b_return_rx
+	pc_uart_rx
+	rst_n
+	wireless_uart_rx
+
+11. checking no output delay (MEDIUM)
+--------------------------
+There are 0 output ports that with no output delay specified. (MEDIUM)
+
+
+12. checking partial input delay (MEDIUM)
+--------------------------
+There are 0 input ports with partial input delay specified. (MEDIUM)
+
+
+13. checking partial output delay (MEDIUM)
+--------------------------
+There are 0 output ports with partial output delay specified. (MEDIUM)
+
+
+14. checking abnormal set_input_delay constraints. (MEDIUM)
+---------------------------------------------
+There are 0 abnormal set_input_delay constraints. (MEDIUM)
+
+

@@ -1,0 +1,219 @@
+{
+  "samples": 1216,
+  "nominal_hz": 1000,
+  "clock_hz": 24000000,
+  "uart_bit_cycles": 26,
+  "uart_acceleration": false,
+  "all_four_groups_bit_exact": true,
+  "all_results_bit_exact": true,
+  "waves_transmitted": 1210,
+  "classification_seqs": [
+    575,
+    607,
+    639,
+    671,
+    703,
+    735,
+    767,
+    799,
+    831,
+    863,
+    895,
+    927,
+    959,
+    991,
+    1023,
+    1055,
+    1087,
+    1119,
+    1151,
+    1183,
+    1215
+  ],
+  "telemetry_drop_test": true,
+  "pc_during_wireless": true,
+  "source_sha256": {
+    "common\\rtl\\reset_sync_n.v": "b22abc66f48a2bac3a557de41bff0e9c4c8a25e2bba33b91cc4070d43543a837",
+    "common\\rtl\\link_crc16_ccitt.v": "4e26b42c78aa73b8ffab7d98d5f7be96c22a160e679dd4c48c6ad131477d2365",
+    "common\\rtl\\link_frame_rx.v": "c674a6ac4c8cec8d6155372a4dac80fd0c9fb1f6b51e8dcaa9d980f3647b17ac",
+    "common\\rtl\\link_frame_tx.v": "62409e6cae9d3166c0062d652eee7de3f203cb3a2a868c0220cfb0da5ecc8b74",
+    "fpga_a\\rtl\\ingress_uart_rx.v": "e7280825f7a7078673556d106ab7e9cf30bdde4ffa3a94c415f8c5a776588fc7",
+    "fpga_a\\rtl\\link_tx_wrapper.v": "b04bf41e234d60f46219f35fcc1ad9a00a532b3c464a72be420de69d9ff844c9",
+    "fpga_a\\experimental\\hybrid_filter_coefficients.v": "b038cc930f46e80a2aba0708edf068ecf1b63da5f2c4784d25959cba242da6a8",
+    "fpga_a\\experimental\\hybrid_filterbank.v": "54091da2b7670c577108437b3da9dff5a4b0542978cf395be76297e476045ae1",
+    "fpga_a\\experimental\\parallel_lane\\emg_envelope_bank.v": "bda5a54f3969f574fcf6717d9ea46812deef92cbc77abf7bafa9ca050d256d32",
+    "fpga_a\\experimental\\cnn256_gesture_tasks\\scratch_dram\\justfloat_ingress.v": "43a907ae69554cfb2a428319ccf946294eb396bba240c080d92fd92ad2fce906",
+    "fpga_a\\experimental\\cnn256_gesture_tasks\\scratch_dram\\cnn32_core.v": "f984a68989c3f07f6c64f829293dd0a83ef259cf166a22cd281e559bc5910e2b",
+    "fpga_a\\experimental\\cnn256_gesture_tasks\\scratch_dram\\fusion_features.v": "664ba49c139722cd8a3c9a6ac34b884f4fb00977be4ab683a3520cfeb9a481f1",
+    "fpga_a\\experimental\\cnn256_gesture_tasks\\scratch_dram\\fusion_head.v": "5659ceac7c844048a18c7de245487c33f687335843dedc3466ec4ddda0822204",
+    "fpga_a\\experimental\\cnn256_gesture_tasks\\scratch_dram\\fusion_cnn_stream.v": "ffa75f5b3a210ee7ea2ed30b432956de392107b8f093f0bac59374e9add8b17d",
+    "fpga_a\\experimental\\cnn256_gesture_tasks\\scratch_dram\\v2_packet_mux.v": "c4adb02e9039b973c9ab0dcdaff4b1bc5a6f3308a8c616ba59be9ce63335ea21",
+    "fpga_a\\experimental\\cnn256_gesture_tasks\\scratch_dram\\v2_pc.v": "3eee8e8889d8fda29208923e566776bcd33f17b28237631db3b62802b6dce83f",
+    "fpga_a\\experimental\\cnn256_gesture_tasks\\scratch_dram\\v2_board_top.v": "6f013db286b32561e636048e988b3a77bdc6dfb61894ac6d22aa5841c27098b1",
+    "fpga_a\\experimental\\cnn256_gesture_tasks\\scratch_dram\\gt_forward.v": "db05ef8e1668df99438d76016490cd354f6cc6baa4d237e88f2bc27ee73d254b",
+    "fpga_a\\experimental\\cnn256_gesture_tasks\\scratch_dram\\gt_return.v": "5d89296cc151a7e291c3d3fe30430b04082ade2b36da8a9078edc647a009e8fe",
+    "fpga_a\\experimental\\cnn256_gesture_tasks\\scratch_dram\\gt_usb_stream.v": "33f01be0403fb718abe927fffc6c529847a692925853583f4ed70089880ad3c4"
+  },
+  "simulation_capacity": 32,
+  "trained_classes": 2,
+  "hardware_io": false,
+  "freshly_deployed_package_sha256": "3f0f95ec818bbd8280920c72596f7de86fcad4930405c00e809e1a1d74bc5c8c",
+  "transaction_crc32": "624382bb",
+  "input_file": "wireless_input.hex",
+  "expected_file": "expected_wave.hex",
+  "expected_results": [
+    {
+      "sample_seq": 575,
+      "raw_class": 0,
+      "stable_class": 0,
+      "margin": 256,
+      "action": 0
+    },
+    {
+      "sample_seq": 607,
+      "raw_class": 0,
+      "stable_class": 0,
+      "margin": 256,
+      "action": 0
+    },
+    {
+      "sample_seq": 639,
+      "raw_class": 0,
+      "stable_class": 0,
+      "margin": 256,
+      "action": 0
+    },
+    {
+      "sample_seq": 671,
+      "raw_class": 0,
+      "stable_class": 0,
+      "margin": 256,
+      "action": 0
+    },
+    {
+      "sample_seq": 703,
+      "raw_class": 1,
+      "stable_class": 0,
+      "margin": 256,
+      "action": 0
+    },
+    {
+      "sample_seq": 735,
+      "raw_class": 1,
+      "stable_class": 0,
+      "margin": 208,
+      "action": 0
+    },
+    {
+      "sample_seq": 767,
+      "raw_class": 1,
+      "stable_class": 1,
+      "margin": 17,
+      "action": 0
+    },
+    {
+      "sample_seq": 799,
+      "raw_class": 1,
+      "stable_class": 1,
+      "margin": 185,
+      "action": 0
+    },
+    {
+      "sample_seq": 831,
+      "raw_class": 1,
+      "stable_class": 1,
+      "margin": 255,
+      "action": 0
+    },
+    {
+      "sample_seq": 863,
+      "raw_class": 1,
+      "stable_class": 1,
+      "margin": 256,
+      "action": 0
+    },
+    {
+      "sample_seq": 895,
+      "raw_class": 1,
+      "stable_class": 1,
+      "margin": 256,
+      "action": 0
+    },
+    {
+      "sample_seq": 927,
+      "raw_class": 1,
+      "stable_class": 1,
+      "margin": 256,
+      "action": 0
+    },
+    {
+      "sample_seq": 959,
+      "raw_class": 1,
+      "stable_class": 1,
+      "margin": 256,
+      "action": 0
+    },
+    {
+      "sample_seq": 991,
+      "raw_class": 1,
+      "stable_class": 1,
+      "margin": 256,
+      "action": 0
+    },
+    {
+      "sample_seq": 1023,
+      "raw_class": 1,
+      "stable_class": 1,
+      "margin": 256,
+      "action": 0
+    },
+    {
+      "sample_seq": 1055,
+      "raw_class": 1,
+      "stable_class": 1,
+      "margin": 256,
+      "action": 0
+    },
+    {
+      "sample_seq": 1087,
+      "raw_class": 1,
+      "stable_class": 1,
+      "margin": 256,
+      "action": 0
+    },
+    {
+      "sample_seq": 1119,
+      "raw_class": 1,
+      "stable_class": 1,
+      "margin": 256,
+      "action": 0
+    },
+    {
+      "sample_seq": 1151,
+      "raw_class": 1,
+      "stable_class": 1,
+      "margin": 256,
+      "action": 0
+    },
+    {
+      "sample_seq": 1183,
+      "raw_class": 1,
+      "stable_class": 1,
+      "margin": 256,
+      "action": 0
+    },
+    {
+      "sample_seq": 1215,
+      "raw_class": 1,
+      "stable_class": 1,
+      "margin": 256,
+      "action": 0
+    }
+  ],
+  "real_recording_sha256": null,
+  "recording_sha256": "696d894ddbece11f20f5266e1e8a1083a336bed222fe77bea632faad31f6a4de",
+  "synthetic_recording": true,
+  "usb_raw_verified": true,
+  "usb_classification_exact": true,
+  "proposal_not_frozen": true
+}

@@ -1,0 +1,847 @@
+{
+  "format": "EMG-CNN-FUSION-PC-1",
+  "sha256": "ddceabb1590db8fea40ad2993cd10b951fb0f6d3105e7c4ef239a3ed692283b8",
+  "payload_bytes": 25845,
+  "parameter_bytes": 25845,
+  "class_names": [
+    "静息",
+    "张开手掌",
+    "握拳",
+    "向拇指侧偏腕",
+    "向小指侧偏腕"
+  ],
+  "gesture_profile": {
+    "version": 1,
+    "name": "我的动作方案",
+    "classes": [
+      {
+        "id": 0,
+        "key": "rest",
+        "name": "静息",
+        "instruction": "手和前臂自然放松，不要发力。",
+        "image": "rest.png",
+        "reference": "",
+        "output": {
+          "id": 0,
+          "name": "保持 / 停止触发"
+        }
+      },
+      {
+        "id": 1,
+        "key": "open",
+        "name": "张开手掌",
+        "instruction": "五指自然伸直张开，保持稳定。",
+        "image": "ninapro/open.png",
+        "reference": "B5",
+        "output": {
+          "id": 2,
+          "name": "五指张开"
+        },
+        "response": {
+          "kind": 3,
+          "enabled": true,
+          "argument": 0
+        }
+      },
+      {
+        "id": 2,
+        "key": "fist",
+        "name": "握拳",
+        "instruction": "五指握拳，中等力度，保持每次发力一致。",
+        "image": "ninapro/fist.png",
+        "reference": "B6",
+        "output": {
+          "id": 1,
+          "name": "握拳抓握"
+        },
+        "response": {
+          "kind": 4,
+          "enabled": true,
+          "argument": 0
+        }
+      },
+      {
+        "id": 3,
+        "key": "radial_deviation",
+        "name": "向拇指侧偏腕",
+        "instruction": "前臂不动，手腕向拇指一侧偏，不要翻转手掌。",
+        "image": "ninapro/radial_deviation.png",
+        "reference": "B15",
+        "output": {
+          "id": 3,
+          "name": "两指捏取"
+        },
+        "response": {
+          "kind": 5,
+          "enabled": true,
+          "argument": 0
+        }
+      },
+      {
+        "id": 4,
+        "key": "ulnar_deviation",
+        "name": "向小指侧偏腕",
+        "instruction": "前臂不动，手腕向小指一侧偏，不要翻转手掌。",
+        "image": "ninapro/ulnar_deviation.png",
+        "reference": "B16",
+        "output": {
+          "id": 4,
+          "name": "三指抓握"
+        },
+        "response": {
+          "kind": 6,
+          "enabled": true,
+          "argument": 0
+        }
+      }
+    ]
+  },
+  "action_mapping": [
+    {
+      "id": 0,
+      "name": "保持 / 停止触发"
+    },
+    {
+      "id": 2,
+      "name": "五指张开"
+    },
+    {
+      "id": 1,
+      "name": "握拳抓握"
+    },
+    {
+      "id": 3,
+      "name": "两指捏取"
+    },
+    {
+      "id": 4,
+      "name": "三指抓握"
+    }
+  ],
+  "frontend": {
+    "name": "clean"
+  },
+  "cnn_correction_active": true,
+  "metadata": {
+    "path": "E:\\FPGA\\Projects\\emg_hand_fpga\\artifacts\\pc_gesture_tasks\\pc_candidate_20261101_180659_073399\\PC_GESTURE_TASKS\\EMG_Studio\\EMG_Studio\\emg_ml\\data\\raw\\001\\001_P2_2611012137.npz",
+    "sha256": "94e947c6f7b6d12949b2c11cc46ce9d3750fcd1b3d1e124b9c9836a7a337ee97",
+    "class_names": [
+      "静息",
+      "张开手掌",
+      "握拳",
+      "向拇指侧偏腕",
+      "向小指侧偏腕"
+    ],
+    "gesture_profile": {
+      "version": 1,
+      "name": "我的动作方案",
+      "classes": [
+        {
+          "id": 0,
+          "key": "rest",
+          "name": "静息",
+          "instruction": "手和前臂自然放松，不要发力。",
+          "image": "rest.png",
+          "reference": "",
+          "output": {
+            "id": 0,
+            "name": "保持 / 停止触发"
+          }
+        },
+        {
+          "id": 1,
+          "key": "open",
+          "name": "张开手掌",
+          "instruction": "五指自然伸直张开，保持稳定。",
+          "image": "ninapro/open.png",
+          "reference": "B5",
+          "output": {
+            "id": 2,
+            "name": "五指张开"
+          },
+          "response": {
+            "kind": 3,
+            "enabled": true,
+            "argument": 0
+          }
+        },
+        {
+          "id": 2,
+          "key": "fist",
+          "name": "握拳",
+          "instruction": "五指握拳，中等力度，保持每次发力一致。",
+          "image": "ninapro/fist.png",
+          "reference": "B6",
+          "output": {
+            "id": 1,
+            "name": "握拳抓握"
+          },
+          "response": {
+            "kind": 4,
+            "enabled": true,
+            "argument": 0
+          }
+        },
+        {
+          "id": 3,
+          "key": "radial_deviation",
+          "name": "向拇指侧偏腕",
+          "instruction": "前臂不动，手腕向拇指一侧偏，不要翻转手掌。",
+          "image": "ninapro/radial_deviation.png",
+          "reference": "B15",
+          "output": {
+            "id": 3,
+            "name": "两指捏取"
+          },
+          "response": {
+            "kind": 5,
+            "enabled": true,
+            "argument": 0
+          }
+        },
+        {
+          "id": 4,
+          "key": "ulnar_deviation",
+          "name": "向小指侧偏腕",
+          "instruction": "前臂不动，手腕向小指一侧偏，不要翻转手掌。",
+          "image": "ninapro/ulnar_deviation.png",
+          "reference": "B16",
+          "output": {
+            "id": 4,
+            "name": "三指抓握"
+          },
+          "response": {
+            "kind": 6,
+            "enabled": true,
+            "argument": 0
+          }
+        }
+      ]
+    },
+    "segments": [
+      {
+        "group": 1,
+        "label": 0,
+        "repetition": 0,
+        "split": 0,
+        "chunks": [
+          {
+            "start": 2097,
+            "stop": 4134,
+            "label": 0,
+            "repetition": 0,
+            "split": 0
+          }
+        ]
+      },
+      {
+        "group": 3,
+        "label": 1,
+        "repetition": 0,
+        "split": 0,
+        "chunks": [
+          {
+            "start": 6154,
+            "stop": 10174,
+            "label": 1,
+            "repetition": 0,
+            "split": 0
+          }
+        ]
+      },
+      {
+        "group": 5,
+        "label": 0,
+        "repetition": 1,
+        "split": 0,
+        "chunks": [
+          {
+            "start": 12205,
+            "stop": 14244,
+            "label": 0,
+            "repetition": 1,
+            "split": 0
+          }
+        ]
+      },
+      {
+        "group": 7,
+        "label": 2,
+        "repetition": 0,
+        "split": 0,
+        "chunks": [
+          {
+            "start": 16274,
+            "stop": 20304,
+            "label": 2,
+            "repetition": 0,
+            "split": 0
+          }
+        ]
+      },
+      {
+        "group": 9,
+        "label": 0,
+        "repetition": 2,
+        "split": 0,
+        "chunks": [
+          {
+            "start": 22324,
+            "stop": 24354,
+            "label": 0,
+            "repetition": 2,
+            "split": 0
+          }
+        ]
+      },
+      {
+        "group": 11,
+        "label": 3,
+        "repetition": 0,
+        "split": 0,
+        "chunks": [
+          {
+            "start": 26394,
+            "stop": 30434,
+            "label": 3,
+            "repetition": 0,
+            "split": 0
+          }
+        ]
+      },
+      {
+        "group": 13,
+        "label": 0,
+        "repetition": 3,
+        "split": 0,
+        "chunks": [
+          {
+            "start": 32474,
+            "stop": 34504,
+            "label": 0,
+            "repetition": 3,
+            "split": 0
+          }
+        ]
+      },
+      {
+        "group": 15,
+        "label": 4,
+        "repetition": 0,
+        "split": 0,
+        "chunks": [
+          {
+            "start": 36534,
+            "stop": 40574,
+            "label": 4,
+            "repetition": 0,
+            "split": 0
+          }
+        ]
+      },
+      {
+        "group": 17,
+        "label": 0,
+        "repetition": 4,
+        "split": 0,
+        "chunks": [
+          {
+            "start": 42594,
+            "stop": 44614,
+            "label": 0,
+            "repetition": 4,
+            "split": 0
+          }
+        ]
+      },
+      {
+        "group": 19,
+        "label": 2,
+        "repetition": 1,
+        "split": 1,
+        "chunks": [
+          {
+            "start": 46674,
+            "stop": 50706,
+            "label": 2,
+            "repetition": 1,
+            "split": 1
+          }
+        ]
+      },
+      {
+        "group": 21,
+        "label": 0,
+        "repetition": 5,
+        "split": 0,
+        "chunks": [
+          {
+            "start": 52724,
+            "stop": 54754,
+            "label": 0,
+            "repetition": 5,
+            "split": 0
+          }
+        ]
+      },
+      {
+        "group": 23,
+        "label": 3,
+        "repetition": 1,
+        "split": 1,
+        "chunks": [
+          {
+            "start": 56786,
+            "stop": 60834,
+            "label": 3,
+            "repetition": 1,
+            "split": 1
+          }
+        ]
+      },
+      {
+        "group": 25,
+        "label": 0,
+        "repetition": 6,
+        "split": 1,
+        "chunks": [
+          {
+            "start": 62834,
+            "stop": 64858,
+            "label": 0,
+            "repetition": 6,
+            "split": 1
+          }
+        ]
+      },
+      {
+        "group": 27,
+        "label": 4,
+        "repetition": 1,
+        "split": 1,
+        "chunks": [
+          {
+            "start": 66884,
+            "stop": 70926,
+            "label": 4,
+            "repetition": 1,
+            "split": 1
+          }
+        ]
+      },
+      {
+        "group": 29,
+        "label": 0,
+        "repetition": 7,
+        "split": 1,
+        "chunks": [
+          {
+            "start": 72934,
+            "stop": 74984,
+            "label": 0,
+            "repetition": 7,
+            "split": 1
+          }
+        ]
+      },
+      {
+        "group": 31,
+        "label": 1,
+        "repetition": 1,
+        "split": 1,
+        "chunks": [
+          {
+            "start": 76994,
+            "stop": 81044,
+            "label": 1,
+            "repetition": 1,
+            "split": 0
+          }
+        ]
+      },
+      {
+        "group": 33,
+        "label": 0,
+        "repetition": 8,
+        "split": 1,
+        "chunks": [
+          {
+            "start": 83064,
+            "stop": 85114,
+            "label": 0,
+            "repetition": 8,
+            "split": 1
+          }
+        ]
+      },
+      {
+        "group": 35,
+        "label": 3,
+        "repetition": 2,
+        "split": 2,
+        "chunks": [
+          {
+            "start": 87136,
+            "stop": 91154,
+            "label": 3,
+            "repetition": 2,
+            "split": 2
+          }
+        ]
+      },
+      {
+        "group": 37,
+        "label": 0,
+        "repetition": 9,
+        "split": 2,
+        "chunks": [
+          {
+            "start": 93194,
+            "stop": 95234,
+            "label": 0,
+            "repetition": 9,
+            "split": 2
+          }
+        ]
+      },
+      {
+        "group": 39,
+        "label": 4,
+        "repetition": 2,
+        "split": 2,
+        "chunks": [
+          {
+            "start": 97254,
+            "stop": 101295,
+            "label": 4,
+            "repetition": 2,
+            "split": 2
+          }
+        ]
+      },
+      {
+        "group": 41,
+        "label": 0,
+        "repetition": 10,
+        "split": 2,
+        "chunks": [
+          {
+            "start": 103314,
+            "stop": 105346,
+            "label": 0,
+            "repetition": 10,
+            "split": 2
+          }
+        ]
+      },
+      {
+        "group": 43,
+        "label": 1,
+        "repetition": 2,
+        "split": 2,
+        "chunks": [
+          {
+            "start": 107384,
+            "stop": 110776,
+            "label": 1,
+            "repetition": 2,
+            "split": 1
+          },
+          {
+            "start": 110799,
+            "stop": 111429,
+            "label": 1,
+            "repetition": 3,
+            "split": 2
+          }
+        ]
+      },
+      {
+        "group": 45,
+        "label": 0,
+        "repetition": 11,
+        "split": 2,
+        "chunks": [
+          {
+            "start": 113439,
+            "stop": 115483,
+            "label": 0,
+            "repetition": 11,
+            "split": 2
+          }
+        ]
+      },
+      {
+        "group": 47,
+        "label": 2,
+        "repetition": 2,
+        "split": 2,
+        "chunks": [
+          {
+            "start": 117509,
+            "stop": 121569,
+            "label": 2,
+            "repetition": 2,
+            "split": 2
+          }
+        ]
+      },
+      {
+        "group": 49,
+        "label": 0,
+        "repetition": 12,
+        "split": 2,
+        "chunks": [
+          {
+            "start": 123619,
+            "stop": 125639,
+            "label": 0,
+            "repetition": 12,
+            "split": 2
+          }
+        ]
+      }
+    ],
+    "repetitions": [
+      13,
+      3,
+      3,
+      3,
+      3
+    ],
+    "continuous_filter_and_envelope": true,
+    "no_label_state_resets": true,
+    "capture_edges": [
+      0,
+      320,
+      326,
+      332,
+      338,
+      343,
+      349,
+      96700,
+      96706,
+      96712,
+      96718,
+      96723,
+      96729,
+      96735,
+      96741,
+      96747,
+      96753,
+      96759,
+      96765,
+      96770,
+      96776,
+      96873,
+      96878,
+      96884,
+      96890,
+      96896,
+      96902,
+      96907,
+      96913,
+      96919,
+      96925,
+      96931,
+      96937,
+      96943,
+      96948,
+      96953,
+      110776,
+      110781,
+      110788,
+      110793,
+      110799,
+      125639
+    ],
+    "original_class_names": [
+      "静息",
+      "张开手掌",
+      "握拳",
+      "向拇指侧偏腕",
+      "向小指侧偏腕"
+    ],
+    "removed_original_ids": [],
+    "retained_original_ids": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "grouping": "label_bout_across_timestamp_gaps",
+    "removed_gesture_rejection_validated": false,
+    "trained_all_bouts": false,
+    "runtime": "cnn_fusion_clean256_v1",
+    "model_title": "统计＋时序CNN融合",
+    "window": 256,
+    "stride": 32,
+    "guard": 320,
+    "feature_dimensions": 304,
+    "filter_coefficients_q14": [
+      [
+        14991,
+        -29982,
+        14991,
+        -29863,
+        13716
+      ],
+      [
+        16172,
+        -30762,
+        16172,
+        -30762,
+        15961
+      ],
+      [
+        15966,
+        -25833,
+        15966,
+        -25833,
+        15548
+      ],
+      [
+        15765,
+        -18532,
+        15765,
+        -18532,
+        15145
+      ],
+      [
+        15568,
+        -9622,
+        15568,
+        -9622,
+        14752
+      ],
+      [
+        13117,
+        26234,
+        13117,
+        25576,
+        10508
+      ],
+      [
+        2993,
+        0,
+        -2993,
+        -25820,
+        10398
+      ],
+      [
+        4337,
+        0,
+        -4337,
+        -15695,
+        7710
+      ],
+      [
+        8192,
+        0,
+        -8192,
+        10519,
+        0
+      ]
+    ],
+    "decision_policy": "raw_rest_else_ewma_shift2",
+    "recipe": {
+      "architecture": "sequential256",
+      "epochs": 12,
+      "seed": 17,
+      "alpha": 0.5,
+      "gate": 0.25,
+      "learning_rate": 0.002,
+      "weight_decay": 0.003,
+      "batch_size": 128,
+      "gain_sigma": 0.08,
+      "auxiliary_weight": 0.5
+    },
+    "inference_backend": "PC_float_CNN_integer_statistics",
+    "fpga_deployed": false
+  },
+  "linear_fraction": 23,
+  "linear_bound": 28758425050,
+  "architecture": "sequential256",
+  "alpha": 0.5,
+  "gate": 0.25,
+  "tensor_shapes": {
+    "cnn.blocks.0.0.weight": [
+      16,
+      8,
+      5
+    ],
+    "cnn.blocks.0.1.weight": [
+      16
+    ],
+    "cnn.blocks.0.1.bias": [
+      16
+    ],
+    "cnn.blocks.0.1.running_mean": [
+      16
+    ],
+    "cnn.blocks.0.1.running_var": [
+      16
+    ],
+    "cnn.blocks.0.1.num_batches_tracked": [],
+    "cnn.blocks.2.0.weight": [
+      24,
+      16,
+      3
+    ],
+    "cnn.blocks.2.1.weight": [
+      24
+    ],
+    "cnn.blocks.2.1.bias": [
+      24
+    ],
+    "cnn.blocks.2.1.running_mean": [
+      24
+    ],
+    "cnn.blocks.2.1.running_var": [
+      24
+    ],
+    "cnn.blocks.2.1.num_batches_tracked": [],
+    "cnn.blocks.4.0.weight": [
+      32,
+      24,
+      3
+    ],
+    "cnn.blocks.4.1.weight": [
+      32
+    ],
+    "cnn.blocks.4.1.bias": [
+      32
+    ],
+    "cnn.blocks.4.1.running_mean": [
+      32
+    ],
+    "cnn.blocks.4.1.running_var": [
+      32
+    ],
+    "cnn.blocks.4.1.num_batches_tracked": [],
+    "cnn.fc.weight": [
+      5,
+      32
+    ],
+    "cnn.fc.bias": [
+      5
+    ],
+    "offset": [
+      304
+    ],
+    "weights": [
+      5,
+      304
+    ],
+    "bias": [
+      5
+    ],
+    "classes": [
+      5
+    ],
+    "wave_shifts": [
+      8
+    ]
+  }
+}

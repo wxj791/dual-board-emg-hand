@@ -1,0 +1,1004 @@
+{
+  "path": "E:\\FPGA\\FPGA2026(5)\\emg_ml\\data\\raw\\DGT\\DGT_P1_2610291313.npz",
+  "sha256": "67f5f3ac45b15fee40ff54eab820b0137f2711fd02eec29b29d8de36169badda",
+  "class_names": [
+    "静息",
+    "张开手掌",
+    "握拳",
+    "掌屈",
+    "背伸",
+    "向拇指侧偏腕",
+    "向小指侧偏腕"
+  ],
+  "gesture_profile": {
+    "version": 1,
+    "name": "前臂七类（去掉翻掌）",
+    "classes": [
+      {
+        "id": 0,
+        "key": "rest",
+        "name": "静息",
+        "instruction": "手指、手腕、前臂自然放松。",
+        "image": "rest.png",
+        "reference": "",
+        "output": {
+          "id": 0,
+          "name": "保持 / 停止触发"
+        }
+      },
+      {
+        "id": 1,
+        "key": "open",
+        "name": "张开手掌",
+        "instruction": "五指自然伸直张开，手腕保持平直。",
+        "image": "ninapro/open.png",
+        "reference": "B5",
+        "output": {
+          "id": 2,
+          "name": "五指张开"
+        }
+      },
+      {
+        "id": 2,
+        "key": "fist",
+        "name": "握拳",
+        "instruction": "正常握拳，中等力度，不用捏到发抖。",
+        "image": "ninapro/fist.png",
+        "reference": "B6",
+        "output": {
+          "id": 1,
+          "name": "握拳抓握"
+        }
+      },
+      {
+        "id": 3,
+        "key": "wrist_flexion",
+        "name": "掌屈",
+        "instruction": "前臂不动，手掌向手心这一侧弯。",
+        "image": "ninapro/wrist_flexion.png",
+        "reference": "B13",
+        "output": {
+          "id": 3,
+          "name": "两指捏取"
+        }
+      },
+      {
+        "id": 4,
+        "key": "wrist_extension",
+        "name": "背伸",
+        "instruction": "前臂不动，把手背向前臂背侧抬起。",
+        "image": "ninapro/wrist_extension.png",
+        "reference": "B14",
+        "output": {
+          "id": 4,
+          "name": "三指抓握"
+        }
+      },
+      {
+        "id": 5,
+        "key": "radial_deviation",
+        "name": "向拇指侧偏腕",
+        "instruction": "手腕向拇指方向侧弯，不翻掌。",
+        "image": "ninapro/radial_deviation.png",
+        "reference": "B15",
+        "output": {
+          "id": 3,
+          "name": "两指捏取"
+        }
+      },
+      {
+        "id": 6,
+        "key": "ulnar_deviation",
+        "name": "向小指侧偏腕",
+        "instruction": "手腕向小指方向侧弯，不翻掌。",
+        "image": "ninapro/ulnar_deviation.png",
+        "reference": "B16",
+        "output": {
+          "id": 4,
+          "name": "三指抓握"
+        }
+      }
+    ]
+  },
+  "segments": [
+    {
+      "group": 0,
+      "label": 0,
+      "repetition": 0,
+      "split": 0,
+      "chunks": [
+        {
+          "start": 0,
+          "stop": 2025,
+          "label": 0,
+          "repetition": 0,
+          "split": 0
+        }
+      ]
+    },
+    {
+      "group": 1,
+      "label": 1,
+      "repetition": 0,
+      "split": 0,
+      "chunks": [
+        {
+          "start": 2025,
+          "stop": 5085,
+          "label": 1,
+          "repetition": 0,
+          "split": 0
+        }
+      ]
+    },
+    {
+      "group": 2,
+      "label": 0,
+      "repetition": 1,
+      "split": 0,
+      "chunks": [
+        {
+          "start": 5085,
+          "stop": 7122,
+          "label": 0,
+          "repetition": 1,
+          "split": 0
+        }
+      ]
+    },
+    {
+      "group": 3,
+      "label": 2,
+      "repetition": 0,
+      "split": 0,
+      "chunks": [
+        {
+          "start": 7122,
+          "stop": 10164,
+          "label": 2,
+          "repetition": 0,
+          "split": 0
+        }
+      ]
+    },
+    {
+      "group": 4,
+      "label": 0,
+      "repetition": 2,
+      "split": 0,
+      "chunks": [
+        {
+          "start": 10164,
+          "stop": 12191,
+          "label": 0,
+          "repetition": 2,
+          "split": 0
+        }
+      ]
+    },
+    {
+      "group": 5,
+      "label": 3,
+      "repetition": 0,
+      "split": 0,
+      "chunks": [
+        {
+          "start": 12191,
+          "stop": 15231,
+          "label": 3,
+          "repetition": 0,
+          "split": 0
+        }
+      ]
+    },
+    {
+      "group": 6,
+      "label": 0,
+      "repetition": 3,
+      "split": 0,
+      "chunks": [
+        {
+          "start": 15231,
+          "stop": 16920,
+          "label": 0,
+          "repetition": 3,
+          "split": 0
+        }
+      ]
+    },
+    {
+      "group": 7,
+      "label": 4,
+      "repetition": 0,
+      "split": 0,
+      "chunks": [
+        {
+          "start": 16920,
+          "stop": 19950,
+          "label": 4,
+          "repetition": 0,
+          "split": 0
+        }
+      ]
+    },
+    {
+      "group": 8,
+      "label": 0,
+      "repetition": 4,
+      "split": 0,
+      "chunks": [
+        {
+          "start": 19950,
+          "stop": 21930,
+          "label": 0,
+          "repetition": 4,
+          "split": 0
+        }
+      ]
+    },
+    {
+      "group": 9,
+      "label": 5,
+      "repetition": 0,
+      "split": 0,
+      "chunks": [
+        {
+          "start": 21930,
+          "stop": 24971,
+          "label": 5,
+          "repetition": 0,
+          "split": 0
+        }
+      ]
+    },
+    {
+      "group": 10,
+      "label": 0,
+      "repetition": 5,
+      "split": 0,
+      "chunks": [
+        {
+          "start": 24971,
+          "stop": 26953,
+          "label": 0,
+          "repetition": 5,
+          "split": 0
+        }
+      ]
+    },
+    {
+      "group": 11,
+      "label": 6,
+      "repetition": 0,
+      "split": 0,
+      "chunks": [
+        {
+          "start": 26953,
+          "stop": 29915,
+          "label": 6,
+          "repetition": 0,
+          "split": 0
+        }
+      ]
+    },
+    {
+      "group": 12,
+      "label": 0,
+      "repetition": 6,
+      "split": 0,
+      "chunks": [
+        {
+          "start": 29915,
+          "stop": 31861,
+          "label": 0,
+          "repetition": 6,
+          "split": 0
+        }
+      ]
+    },
+    {
+      "group": 14,
+      "label": 0,
+      "repetition": 7,
+      "split": 0,
+      "chunks": [
+        {
+          "start": 34884,
+          "stop": 36914,
+          "label": 0,
+          "repetition": 7,
+          "split": 0
+        }
+      ]
+    },
+    {
+      "group": 16,
+      "label": 0,
+      "repetition": 8,
+      "split": 0,
+      "chunks": [
+        {
+          "start": 39972,
+          "stop": 41992,
+          "label": 0,
+          "repetition": 8,
+          "split": 0
+        }
+      ]
+    },
+    {
+      "group": 17,
+      "label": 2,
+      "repetition": 1,
+      "split": 0,
+      "chunks": [
+        {
+          "start": 41992,
+          "stop": 45033,
+          "label": 2,
+          "repetition": 1,
+          "split": 0
+        }
+      ]
+    },
+    {
+      "group": 18,
+      "label": 0,
+      "repetition": 9,
+      "split": 0,
+      "chunks": [
+        {
+          "start": 45033,
+          "stop": 47113,
+          "label": 0,
+          "repetition": 9,
+          "split": 0
+        }
+      ]
+    },
+    {
+      "group": 19,
+      "label": 3,
+      "repetition": 1,
+      "split": 0,
+      "chunks": [
+        {
+          "start": 47113,
+          "stop": 50134,
+          "label": 3,
+          "repetition": 1,
+          "split": 0
+        }
+      ]
+    },
+    {
+      "group": 20,
+      "label": 0,
+      "repetition": 10,
+      "split": 0,
+      "chunks": [
+        {
+          "start": 50134,
+          "stop": 52184,
+          "label": 0,
+          "repetition": 10,
+          "split": 0
+        }
+      ]
+    },
+    {
+      "group": 21,
+      "label": 4,
+      "repetition": 1,
+      "split": 0,
+      "chunks": [
+        {
+          "start": 52184,
+          "stop": 55214,
+          "label": 4,
+          "repetition": 1,
+          "split": 0
+        }
+      ]
+    },
+    {
+      "group": 22,
+      "label": 0,
+      "repetition": 11,
+      "split": 0,
+      "chunks": [
+        {
+          "start": 55214,
+          "stop": 57236,
+          "label": 0,
+          "repetition": 11,
+          "split": 0
+        }
+      ]
+    },
+    {
+      "group": 23,
+      "label": 5,
+      "repetition": 1,
+      "split": 0,
+      "chunks": [
+        {
+          "start": 57236,
+          "stop": 60275,
+          "label": 5,
+          "repetition": 1,
+          "split": 0
+        }
+      ]
+    },
+    {
+      "group": 24,
+      "label": 0,
+      "repetition": 12,
+      "split": 0,
+      "chunks": [
+        {
+          "start": 60275,
+          "stop": 62317,
+          "label": 0,
+          "repetition": 12,
+          "split": 0
+        }
+      ]
+    },
+    {
+      "group": 25,
+      "label": 6,
+      "repetition": 1,
+      "split": 0,
+      "chunks": [
+        {
+          "start": 62317,
+          "stop": 65361,
+          "label": 6,
+          "repetition": 1,
+          "split": 0
+        }
+      ]
+    },
+    {
+      "group": 26,
+      "label": 0,
+      "repetition": 13,
+      "split": 0,
+      "chunks": [
+        {
+          "start": 65361,
+          "stop": 67398,
+          "label": 0,
+          "repetition": 13,
+          "split": 0
+        }
+      ]
+    },
+    {
+      "group": 28,
+      "label": 0,
+      "repetition": 14,
+      "split": 0,
+      "chunks": [
+        {
+          "start": 69589,
+          "stop": 71649,
+          "label": 0,
+          "repetition": 14,
+          "split": 0
+        }
+      ]
+    },
+    {
+      "group": 30,
+      "label": 0,
+      "repetition": 15,
+      "split": 0,
+      "chunks": [
+        {
+          "start": 74707,
+          "stop": 76766,
+          "label": 0,
+          "repetition": 15,
+          "split": 0
+        }
+      ]
+    },
+    {
+      "group": 31,
+      "label": 1,
+      "repetition": 1,
+      "split": 0,
+      "chunks": [
+        {
+          "start": 76766,
+          "stop": 79803,
+          "label": 1,
+          "repetition": 1,
+          "split": 0
+        }
+      ]
+    },
+    {
+      "group": 32,
+      "label": 0,
+      "repetition": 16,
+      "split": 1,
+      "chunks": [
+        {
+          "start": 79803,
+          "stop": 81869,
+          "label": 0,
+          "repetition": 16,
+          "split": 0
+        }
+      ]
+    },
+    {
+      "group": 33,
+      "label": 3,
+      "repetition": 2,
+      "split": 1,
+      "chunks": [
+        {
+          "start": 81869,
+          "stop": 84889,
+          "label": 3,
+          "repetition": 2,
+          "split": 1
+        }
+      ]
+    },
+    {
+      "group": 34,
+      "label": 0,
+      "repetition": 17,
+      "split": 1,
+      "chunks": [
+        {
+          "start": 84889,
+          "stop": 86965,
+          "label": 0,
+          "repetition": 17,
+          "split": 1
+        }
+      ]
+    },
+    {
+      "group": 35,
+      "label": 4,
+      "repetition": 2,
+      "split": 1,
+      "chunks": [
+        {
+          "start": 86965,
+          "stop": 89684,
+          "label": 4,
+          "repetition": 2,
+          "split": 1
+        }
+      ]
+    },
+    {
+      "group": 36,
+      "label": 0,
+      "repetition": 18,
+      "split": 1,
+      "chunks": [
+        {
+          "start": 89684,
+          "stop": 92024,
+          "label": 0,
+          "repetition": 18,
+          "split": 1
+        }
+      ]
+    },
+    {
+      "group": 37,
+      "label": 5,
+      "repetition": 2,
+      "split": 1,
+      "chunks": [
+        {
+          "start": 92024,
+          "stop": 95038,
+          "label": 5,
+          "repetition": 2,
+          "split": 1
+        }
+      ]
+    },
+    {
+      "group": 38,
+      "label": 0,
+      "repetition": 19,
+      "split": 1,
+      "chunks": [
+        {
+          "start": 95038,
+          "stop": 97106,
+          "label": 0,
+          "repetition": 19,
+          "split": 1
+        }
+      ]
+    },
+    {
+      "group": 39,
+      "label": 6,
+      "repetition": 2,
+      "split": 1,
+      "chunks": [
+        {
+          "start": 97106,
+          "stop": 100146,
+          "label": 6,
+          "repetition": 2,
+          "split": 1
+        }
+      ]
+    },
+    {
+      "group": 40,
+      "label": 0,
+      "repetition": 20,
+      "split": 1,
+      "chunks": [
+        {
+          "start": 100146,
+          "stop": 102220,
+          "label": 0,
+          "repetition": 20,
+          "split": 1
+        }
+      ]
+    },
+    {
+      "group": 42,
+      "label": 0,
+      "repetition": 21,
+      "split": 1,
+      "chunks": [
+        {
+          "start": 104780,
+          "stop": 105547,
+          "label": 0,
+          "repetition": 21,
+          "split": 1
+        },
+        {
+          "start": 105547,
+          "stop": 106407,
+          "label": 0,
+          "repetition": 22,
+          "split": 1
+        }
+      ]
+    },
+    {
+      "group": 44,
+      "label": 0,
+      "repetition": 22,
+      "split": 1,
+      "chunks": [
+        {
+          "start": 109452,
+          "stop": 111443,
+          "label": 0,
+          "repetition": 23,
+          "split": 1
+        }
+      ]
+    },
+    {
+      "group": 45,
+      "label": 1,
+      "repetition": 2,
+      "split": 1,
+      "chunks": [
+        {
+          "start": 111443,
+          "stop": 114472,
+          "label": 1,
+          "repetition": 2,
+          "split": 1
+        }
+      ]
+    },
+    {
+      "group": 46,
+      "label": 0,
+      "repetition": 23,
+      "split": 1,
+      "chunks": [
+        {
+          "start": 114472,
+          "stop": 116460,
+          "label": 0,
+          "repetition": 24,
+          "split": 1
+        }
+      ]
+    },
+    {
+      "group": 47,
+      "label": 2,
+      "repetition": 2,
+      "split": 1,
+      "chunks": [
+        {
+          "start": 116460,
+          "stop": 119492,
+          "label": 2,
+          "repetition": 2,
+          "split": 1
+        }
+      ]
+    },
+    {
+      "group": 48,
+      "label": 0,
+      "repetition": 24,
+      "split": 2,
+      "chunks": [
+        {
+          "start": 119492,
+          "stop": 121541,
+          "label": 0,
+          "repetition": 25,
+          "split": 2
+        }
+      ]
+    },
+    {
+      "group": 49,
+      "label": 4,
+      "repetition": 3,
+      "split": 2,
+      "chunks": [
+        {
+          "start": 121541,
+          "stop": 124585,
+          "label": 4,
+          "repetition": 3,
+          "split": 2
+        }
+      ]
+    },
+    {
+      "group": 50,
+      "label": 0,
+      "repetition": 25,
+      "split": 2,
+      "chunks": [
+        {
+          "start": 124585,
+          "stop": 126653,
+          "label": 0,
+          "repetition": 26,
+          "split": 2
+        }
+      ]
+    },
+    {
+      "group": 51,
+      "label": 5,
+      "repetition": 3,
+      "split": 2,
+      "chunks": [
+        {
+          "start": 126653,
+          "stop": 129679,
+          "label": 5,
+          "repetition": 3,
+          "split": 2
+        }
+      ]
+    },
+    {
+      "group": 52,
+      "label": 0,
+      "repetition": 26,
+      "split": 2,
+      "chunks": [
+        {
+          "start": 129679,
+          "stop": 131729,
+          "label": 0,
+          "repetition": 27,
+          "split": 2
+        }
+      ]
+    },
+    {
+      "group": 53,
+      "label": 6,
+      "repetition": 3,
+      "split": 2,
+      "chunks": [
+        {
+          "start": 131729,
+          "stop": 134788,
+          "label": 6,
+          "repetition": 3,
+          "split": 2
+        }
+      ]
+    },
+    {
+      "group": 54,
+      "label": 0,
+      "repetition": 27,
+      "split": 2,
+      "chunks": [
+        {
+          "start": 134788,
+          "stop": 136859,
+          "label": 0,
+          "repetition": 28,
+          "split": 2
+        }
+      ]
+    },
+    {
+      "group": 56,
+      "label": 0,
+      "repetition": 28,
+      "split": 2,
+      "chunks": [
+        {
+          "start": 139889,
+          "stop": 141965,
+          "label": 0,
+          "repetition": 29,
+          "split": 2
+        }
+      ]
+    },
+    {
+      "group": 58,
+      "label": 0,
+      "repetition": 29,
+      "split": 2,
+      "chunks": [
+        {
+          "start": 145020,
+          "stop": 146902,
+          "label": 0,
+          "repetition": 30,
+          "split": 2
+        }
+      ]
+    },
+    {
+      "group": 59,
+      "label": 1,
+      "repetition": 3,
+      "split": 2,
+      "chunks": [
+        {
+          "start": 146902,
+          "stop": 149902,
+          "label": 1,
+          "repetition": 3,
+          "split": 2
+        }
+      ]
+    },
+    {
+      "group": 60,
+      "label": 0,
+      "repetition": 30,
+      "split": 2,
+      "chunks": [
+        {
+          "start": 149902,
+          "stop": 151982,
+          "label": 0,
+          "repetition": 31,
+          "split": 2
+        }
+      ]
+    },
+    {
+      "group": 61,
+      "label": 2,
+      "repetition": 3,
+      "split": 2,
+      "chunks": [
+        {
+          "start": 151982,
+          "stop": 155002,
+          "label": 2,
+          "repetition": 3,
+          "split": 2
+        }
+      ]
+    },
+    {
+      "group": 62,
+      "label": 0,
+      "repetition": 31,
+      "split": 2,
+      "chunks": [
+        {
+          "start": 155002,
+          "stop": 157062,
+          "label": 0,
+          "repetition": 32,
+          "split": 2
+        }
+      ]
+    },
+    {
+      "group": 63,
+      "label": 3,
+      "repetition": 3,
+      "split": 2,
+      "chunks": [
+        {
+          "start": 157062,
+          "stop": 160082,
+          "label": 3,
+          "repetition": 3,
+          "split": 2
+        }
+      ]
+    },
+    {
+      "group": 64,
+      "label": 0,
+      "repetition": 32,
+      "split": 2,
+      "chunks": [
+        {
+          "start": 160082,
+          "stop": 162072,
+          "label": 0,
+          "repetition": 33,
+          "split": 2
+        }
+      ]
+    }
+  ],
+  "repetitions": [
+    33,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4
+  ],
+  "continuous_filter_and_envelope": true,
+  "no_label_state_resets": true,
+  "original_class_names": [
+    "静息",
+    "张开手掌",
+    "握拳",
+    "掌屈",
+    "背伸",
+    "向拇指侧偏腕",
+    "向小指侧偏腕",
+    "翻掌向上",
+    "翻掌向下"
+  ],
+  "removed_original_ids": [
+    7,
+    8
+  ],
+  "retained_original_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "grouping": "label_bout_across_timestamp_gaps",
+  "removed_gesture_rejection_validated": false
+}

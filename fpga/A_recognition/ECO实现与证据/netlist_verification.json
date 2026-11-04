@@ -1,0 +1,17 @@
+{
+  "candidate": "E:\\FPGA\\Projects\\emg_hand_fpga\\artifacts\\pc_gesture_tasks\\pc_candidate_20261101_180659_073399\\mechanical_check_20261102\\a_forward_header_eco\\patched_physical.v",
+  "physical_cells": 9627,
+  "added_cells": 0,
+  "removed_cells": 0,
+  "changed_cells": [
+    "core/seq_filter_reg[8]_syn_4",
+    "forwarding/ramread0_syn_6",
+    "forwarding/stop_header_reg[34]_syn_4",
+    "mux/result_hold_reg[116]_syn_4",
+    "pc/parameter_bank_reg[1]_syn_4"
+  ],
+  "truth_table_checks": 256,
+  "new_registers": 0,
+  "status": "PASS",
+  "hardware_confirmed": false
+}

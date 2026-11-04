@@ -1,0 +1,23 @@
+CORE_RESULT seq=575 raw=0 stable=0 margin=256 latency=40745
+CORE_RESULT seq=607 raw=0 stable=0 margin=256 latency=40745
+CORE_RESULT seq=639 raw=0 stable=0 margin=256 latency=40745
+CORE_RESULT seq=671 raw=0 stable=0 margin=256 latency=40745
+CORE_RESULT seq=703 raw=1 stable=0 margin=256 latency=40745
+CORE_RESULT seq=735 raw=1 stable=0 margin=199 latency=40753
+CORE_RESULT seq=767 raw=1 stable=1 margin=28 latency=40753
+CORE_RESULT seq=799 raw=1 stable=1 margin=187 latency=40753
+CORE_RESULT seq=831 raw=1 stable=1 margin=256 latency=40745
+CORE_RESULT seq=863 raw=1 stable=1 margin=256 latency=40745
+CORE_RESULT seq=895 raw=1 stable=1 margin=256 latency=40745
+CORE_RESULT seq=927 raw=1 stable=1 margin=256 latency=40745
+CORE_RESULT seq=959 raw=1 stable=1 margin=256 latency=40745
+CORE_RESULT seq=991 raw=1 stable=1 margin=256 latency=40745
+CORE_RESULT seq=1023 raw=1 stable=1 margin=256 latency=40745
+CORE_RESULT seq=1055 raw=1 stable=1 margin=256 latency=40745
+CORE_RESULT seq=1087 raw=1 stable=1 margin=256 latency=40745
+CORE_RESULT seq=1119 raw=1 stable=1 margin=256 latency=40745
+CORE_RESULT seq=1151 raw=1 stable=1 margin=256 latency=40745
+CORE_RESULT seq=1183 raw=1 stable=1 margin=256 latency=40745
+CORE_RESULT seq=1215 raw=1 stable=1 margin=256 latency=40745
+RUNTIME_CORE_PASS samples=1216 results=21 writes=2426 max_latency=40753
+tb.sv:47: $finish called at 16641080000 (1ps)

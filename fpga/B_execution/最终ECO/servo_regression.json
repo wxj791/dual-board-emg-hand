@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "reference_sha256": "9a91de223423b23c98f6f7b52c9a7bebd9873c592dda9b5196be586afedd552f",
+  "baseline_source_sha256": "08be9e45a4d5c5eff2016a86130f860782cdbf910e4cbfe1bfb55525ee2d6319",
+  "test": "quiet idle before and after replay, save, failures and STOP preemption",
+  "hardware": "NOT_RUN"
+}

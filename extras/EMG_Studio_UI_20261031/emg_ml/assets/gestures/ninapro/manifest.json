@@ -1,0 +1,529 @@
+{
+  "source": "https://ninapro.hevs.ch/figures/SData_Movements.png",
+  "paper": "https://doi.org/10.1038/sdata.2014.53",
+  "license": "CC BY 4.0",
+  "source_sha256": "f240dfcf247516a632308fc19b62ff0bc08fc87f50bf0cb4d7055b2a74cbc45b",
+  "changes": "Photo panels cropped from the source figure; no pose manipulation.",
+  "images": [
+    {
+      "key": "index_flexion",
+      "reference": "A1",
+      "crop_xyxy": [
+        163,
+        39,
+        297,
+        142
+      ]
+    },
+    {
+      "key": "index_extension",
+      "reference": "A2",
+      "crop_xyxy": [
+        163,
+        148,
+        297,
+        249
+      ]
+    },
+    {
+      "key": "middle_flexion",
+      "reference": "A3",
+      "crop_xyxy": [
+        163,
+        255,
+        297,
+        358
+      ]
+    },
+    {
+      "key": "middle_extension",
+      "reference": "A4",
+      "crop_xyxy": [
+        163,
+        364,
+        297,
+        466
+      ]
+    },
+    {
+      "key": "ring_flexion",
+      "reference": "A5",
+      "crop_xyxy": [
+        163,
+        472,
+        297,
+        574
+      ]
+    },
+    {
+      "key": "ring_extension",
+      "reference": "A6",
+      "crop_xyxy": [
+        163,
+        580,
+        297,
+        681
+      ]
+    },
+    {
+      "key": "little_flexion",
+      "reference": "A7",
+      "crop_xyxy": [
+        163,
+        687,
+        297,
+        789
+      ]
+    },
+    {
+      "key": "little_extension",
+      "reference": "A8",
+      "crop_xyxy": [
+        163,
+        795,
+        297,
+        897
+      ]
+    },
+    {
+      "key": "thumb_adduction",
+      "reference": "A9",
+      "crop_xyxy": [
+        163,
+        903,
+        297,
+        1005
+      ]
+    },
+    {
+      "key": "thumb_abduction",
+      "reference": "A10",
+      "crop_xyxy": [
+        163,
+        1011,
+        297,
+        1114
+      ]
+    },
+    {
+      "key": "thumb_flexion",
+      "reference": "A11",
+      "crop_xyxy": [
+        163,
+        1120,
+        297,
+        1222
+      ]
+    },
+    {
+      "key": "thumb_extension",
+      "reference": "A12",
+      "crop_xyxy": [
+        163,
+        1228,
+        297,
+        1330
+      ]
+    },
+    {
+      "key": "thumbs_up",
+      "reference": "B1",
+      "crop_xyxy": [
+        482,
+        39,
+        601,
+        169
+      ]
+    },
+    {
+      "key": "two_fingers",
+      "reference": "B2",
+      "crop_xyxy": [
+        482,
+        175,
+        601,
+        324
+      ]
+    },
+    {
+      "key": "three",
+      "reference": "B3",
+      "crop_xyxy": [
+        482,
+        330,
+        601,
+        479
+      ]
+    },
+    {
+      "key": "thumb_to_palm",
+      "reference": "B4",
+      "crop_xyxy": [
+        482,
+        485,
+        601,
+        603
+      ]
+    },
+    {
+      "key": "open",
+      "reference": "B5",
+      "crop_xyxy": [
+        482,
+        609,
+        601,
+        706
+      ]
+    },
+    {
+      "key": "fist",
+      "reference": "B6",
+      "crop_xyxy": [
+        482,
+        712,
+        601,
+        830
+      ]
+    },
+    {
+      "key": "one",
+      "reference": "B7",
+      "crop_xyxy": [
+        482,
+        836,
+        601,
+        932
+      ]
+    },
+    {
+      "key": "fingers_together",
+      "reference": "B8",
+      "crop_xyxy": [
+        482,
+        938,
+        601,
+        1035
+      ]
+    },
+    {
+      "key": "supination",
+      "reference": "B9",
+      "crop_xyxy": [
+        482,
+        1041,
+        601,
+        1159
+      ]
+    },
+    {
+      "key": "pronation",
+      "reference": "B10",
+      "crop_xyxy": [
+        482,
+        1165,
+        601,
+        1284
+      ]
+    },
+    {
+      "key": "supination_ulnar",
+      "reference": "B11",
+      "crop_xyxy": [
+        482,
+        1290,
+        601,
+        1408
+      ]
+    },
+    {
+      "key": "pronation_ulnar",
+      "reference": "B12",
+      "crop_xyxy": [
+        482,
+        1414,
+        601,
+        1532
+      ]
+    },
+    {
+      "key": "wrist_flexion",
+      "reference": "B13",
+      "crop_xyxy": [
+        482,
+        1538,
+        601,
+        1636
+      ]
+    },
+    {
+      "key": "wrist_extension",
+      "reference": "B14",
+      "crop_xyxy": [
+        482,
+        1642,
+        601,
+        1739
+      ]
+    },
+    {
+      "key": "radial_deviation",
+      "reference": "B15",
+      "crop_xyxy": [
+        482,
+        1745,
+        601,
+        1843
+      ]
+    },
+    {
+      "key": "ulnar_deviation",
+      "reference": "B16",
+      "crop_xyxy": [
+        482,
+        1849,
+        601,
+        1946
+      ]
+    },
+    {
+      "key": "wrist_extension_fist",
+      "reference": "B17",
+      "crop_xyxy": [
+        482,
+        1952,
+        601,
+        2070
+      ]
+    },
+    {
+      "key": "large_cylinder",
+      "reference": "C1",
+      "crop_xyxy": [
+        786,
+        39,
+        904,
+        169
+      ]
+    },
+    {
+      "key": "small_cylinder",
+      "reference": "C2",
+      "crop_xyxy": [
+        786,
+        175,
+        904,
+        306
+      ]
+    },
+    {
+      "key": "hook_grasp",
+      "reference": "C3",
+      "crop_xyxy": [
+        786,
+        312,
+        904,
+        441
+      ]
+    },
+    {
+      "key": "index_grasp",
+      "reference": "C4",
+      "crop_xyxy": [
+        786,
+        447,
+        904,
+        577
+      ]
+    },
+    {
+      "key": "medium_wrap",
+      "reference": "C5",
+      "crop_xyxy": [
+        786,
+        583,
+        904,
+        713
+      ]
+    },
+    {
+      "key": "ring_grasp",
+      "reference": "C6",
+      "crop_xyxy": [
+        786,
+        719,
+        904,
+        849
+      ]
+    },
+    {
+      "key": "prismatic_four",
+      "reference": "C7",
+      "crop_xyxy": [
+        786,
+        855,
+        904,
+        985
+      ]
+    },
+    {
+      "key": "stick_grasp",
+      "reference": "C8",
+      "crop_xyxy": [
+        786,
+        991,
+        904,
+        1121
+      ]
+    },
+    {
+      "key": "writing_grasp",
+      "reference": "C9",
+      "crop_xyxy": [
+        786,
+        1127,
+        904,
+        1257
+      ]
+    },
+    {
+      "key": "power_sphere",
+      "reference": "C10",
+      "crop_xyxy": [
+        786,
+        1263,
+        904,
+        1393
+      ]
+    },
+    {
+      "key": "three_finger_sphere",
+      "reference": "C11",
+      "crop_xyxy": [
+        786,
+        1399,
+        904,
+        1529
+      ]
+    },
+    {
+      "key": "precision_sphere",
+      "reference": "C12",
+      "crop_xyxy": [
+        786,
+        1535,
+        904,
+        1665
+      ]
+    },
+    {
+      "key": "tripod_grasp",
+      "reference": "C13",
+      "crop_xyxy": [
+        786,
+        1671,
+        904,
+        1801
+      ]
+    },
+    {
+      "key": "prismatic_pinch",
+      "reference": "C14",
+      "crop_xyxy": [
+        786,
+        1807,
+        904,
+        1937
+      ]
+    },
+    {
+      "key": "tip_pinch",
+      "reference": "C15",
+      "crop_xyxy": [
+        786,
+        1943,
+        904,
+        2073
+      ]
+    },
+    {
+      "key": "quadpod_grasp",
+      "reference": "C16",
+      "crop_xyxy": [
+        1090,
+        8,
+        1208,
+        138
+      ]
+    },
+    {
+      "key": "lateral_grasp",
+      "reference": "C17",
+      "crop_xyxy": [
+        1090,
+        144,
+        1208,
+        274
+      ]
+    },
+    {
+      "key": "parallel_grasp",
+      "reference": "C18",
+      "crop_xyxy": [
+        1090,
+        280,
+        1208,
+        411
+      ]
+    },
+    {
+      "key": "extension_grasp",
+      "reference": "C19",
+      "crop_xyxy": [
+        1090,
+        417,
+        1208,
+        547
+      ]
+    },
+    {
+      "key": "disk_grasp",
+      "reference": "C20",
+      "crop_xyxy": [
+        1090,
+        553,
+        1208,
+        683
+      ]
+    },
+    {
+      "key": "bottle_cap_grasp",
+      "reference": "C21",
+      "crop_xyxy": [
+        1090,
+        689,
+        1208,
+        819
+      ]
+    },
+    {
+      "key": "screwdriver_grasp",
+      "reference": "C22",
+      "crop_xyxy": [
+        1090,
+        825,
+        1208,
+        973
+      ]
+    },
+    {
+      "key": "knife_grasp",
+      "reference": "C23",
+      "crop_xyxy": [
+        1090,
+        979,
+        1208,
+        1188
+      ]
+    }
+  ]
+}

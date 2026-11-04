@@ -1,0 +1,2037 @@
+{
+  "policy": "排除缓存、临时文件、实时录制、原始数据集和早期无线备份；保留模型prepared.npz及所有源程序。Python便携运行环境未复制，以requirements安装。",
+  "files": [
+    {
+      "root": "delivery_A",
+      "path": ".DS_Store",
+      "bytes": 6148
+    },
+    {
+      "root": "delivery_B",
+      "path": ".DS_Store",
+      "bytes": 6148
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_074558_725215/blocks.jsonl",
+      "bytes": 0
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_074558_725215/package/manifest.json",
+      "bytes": 3516
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_074558_725215/package/parameters.bin",
+      "bytes": 4824
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_074558_725215/predictions.jsonl",
+      "bytes": 0
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_074558_725215/raw_physical.f32",
+      "bytes": 0
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_074558_725215/session.json",
+      "bytes": 1821
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_074600_952099/blocks.jsonl",
+      "bytes": 116
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_074600_952099/live_raw.npz",
+      "bytes": 27448
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_074600_952099/package/manifest.json",
+      "bytes": 27478
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_074600_952099/package/parameters.bin",
+      "bytes": 27178
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_074600_952099/predictions.jsonl",
+      "bytes": 3002
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_074600_952099/raw_physical.f32",
+      "bytes": 32768
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_074600_952099/session.json",
+      "bytes": 3438
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_074601_331003/blocks.jsonl",
+      "bytes": 0
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_074601_331003/package/manifest.json",
+      "bytes": 27478
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_074601_331003/package/parameters.bin",
+      "bytes": 27178
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_074601_331003/predictions.jsonl",
+      "bytes": 0
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_074601_331003/raw_physical.f32",
+      "bytes": 0
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_074601_331003/session.json",
+      "bytes": 3423
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_074604_742170/blocks.jsonl",
+      "bytes": 116
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_074604_742170/live_raw.npz",
+      "bytes": 27448
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_074604_742170/package/manifest.json",
+      "bytes": 27478
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_074604_742170/package/parameters.bin",
+      "bytes": 27178
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_074604_742170/predictions.jsonl",
+      "bytes": 3002
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_074604_742170/raw_physical.f32",
+      "bytes": 32768
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_074604_742170/session.json",
+      "bytes": 3438
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_074608_196371/blocks.jsonl",
+      "bytes": 0
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_074608_196371/package/manifest.json",
+      "bytes": 27478
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_074608_196371/package/parameters.bin",
+      "bytes": 27178
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_074608_196371/predictions.jsonl",
+      "bytes": 0
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_074608_196371/raw_physical.f32",
+      "bytes": 0
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_074608_196371/session.json",
+      "bytes": 3423
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_074650_305665/blocks.jsonl",
+      "bytes": 0
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_074650_305665/package/manifest.json",
+      "bytes": 3515
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_074650_305665/package/parameters.bin",
+      "bytes": 4824
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_074650_305665/predictions.jsonl",
+      "bytes": 0
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_074650_305665/raw_physical.f32",
+      "bytes": 0
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_074650_305665/session.json",
+      "bytes": 1821
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_074652_362474/blocks.jsonl",
+      "bytes": 116
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_074652_362474/live_raw.npz",
+      "bytes": 27448
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_074652_362474/package/manifest.json",
+      "bytes": 27478
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_074652_362474/package/parameters.bin",
+      "bytes": 27178
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_074652_362474/predictions.jsonl",
+      "bytes": 3002
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_074652_362474/raw_physical.f32",
+      "bytes": 32768
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_074652_362474/session.json",
+      "bytes": 3438
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_074652_790021/blocks.jsonl",
+      "bytes": 0
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_074652_790021/package/manifest.json",
+      "bytes": 27478
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_074652_790021/package/parameters.bin",
+      "bytes": 27178
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_074652_790021/predictions.jsonl",
+      "bytes": 0
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_074652_790021/raw_physical.f32",
+      "bytes": 0
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_074652_790021/session.json",
+      "bytes": 3423
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_074655_040971/blocks.jsonl",
+      "bytes": 116
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_074655_040971/live_raw.npz",
+      "bytes": 27448
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_074655_040971/package/manifest.json",
+      "bytes": 27478
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_074655_040971/package/parameters.bin",
+      "bytes": 27178
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_074655_040971/predictions.jsonl",
+      "bytes": 3002
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_074655_040971/raw_physical.f32",
+      "bytes": 32768
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_074655_040971/session.json",
+      "bytes": 3438
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_074658_724666/blocks.jsonl",
+      "bytes": 0
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_074658_724666/package/manifest.json",
+      "bytes": 27478
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_074658_724666/package/parameters.bin",
+      "bytes": 27178
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_074658_724666/predictions.jsonl",
+      "bytes": 0
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_074658_724666/raw_physical.f32",
+      "bytes": 0
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_074658_724666/session.json",
+      "bytes": 3423
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102000_060126/blocks.jsonl",
+      "bytes": 0
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102000_060126/package/manifest.json",
+      "bytes": 3516
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102000_060126/package/parameters.bin",
+      "bytes": 4824
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102000_060126/predictions.jsonl",
+      "bytes": 0
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102000_060126/raw_physical.f32",
+      "bytes": 0
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102000_060126/session.json",
+      "bytes": 1821
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102001_742794/blocks.jsonl",
+      "bytes": 115
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102001_742794/live_raw.npz",
+      "bytes": 27448
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102001_742794/package/manifest.json",
+      "bytes": 27478
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102001_742794/package/parameters.bin",
+      "bytes": 27178
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102001_742794/predictions.jsonl",
+      "bytes": 3002
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102001_742794/raw_physical.f32",
+      "bytes": 32768
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102001_742794/session.json",
+      "bytes": 3438
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102002_117760/blocks.jsonl",
+      "bytes": 0
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102002_117760/package/manifest.json",
+      "bytes": 27478
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102002_117760/package/parameters.bin",
+      "bytes": 27178
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102002_117760/predictions.jsonl",
+      "bytes": 0
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102002_117760/raw_physical.f32",
+      "bytes": 0
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102002_117760/session.json",
+      "bytes": 3423
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102004_445335/blocks.jsonl",
+      "bytes": 116
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102004_445335/live_raw.npz",
+      "bytes": 27448
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102004_445335/package/manifest.json",
+      "bytes": 27478
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102004_445335/package/parameters.bin",
+      "bytes": 27178
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102004_445335/predictions.jsonl",
+      "bytes": 3002
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102004_445335/raw_physical.f32",
+      "bytes": 32768
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102004_445335/session.json",
+      "bytes": 3438
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102007_161671/blocks.jsonl",
+      "bytes": 0
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102007_161671/package/manifest.json",
+      "bytes": 27478
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102007_161671/package/parameters.bin",
+      "bytes": 27178
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102007_161671/predictions.jsonl",
+      "bytes": 0
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102007_161671/raw_physical.f32",
+      "bytes": 0
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102007_161671/session.json",
+      "bytes": 3423
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102255_662843/blocks.jsonl",
+      "bytes": 0
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102255_662843/package/manifest.json",
+      "bytes": 3516
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102255_662843/package/parameters.bin",
+      "bytes": 4824
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102255_662843/predictions.jsonl",
+      "bytes": 0
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102255_662843/raw_physical.f32",
+      "bytes": 0
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102255_662843/session.json",
+      "bytes": 1821
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102303_849005/blocks.jsonl",
+      "bytes": 114
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102303_849005/live_raw.npz",
+      "bytes": 27448
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102303_849005/package/manifest.json",
+      "bytes": 27478
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102303_849005/package/parameters.bin",
+      "bytes": 27178
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102303_849005/predictions.jsonl",
+      "bytes": 3002
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102303_849005/raw_physical.f32",
+      "bytes": 32768
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102303_849005/session.json",
+      "bytes": 3438
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102304_432488/blocks.jsonl",
+      "bytes": 0
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102304_432488/package/manifest.json",
+      "bytes": 27478
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102304_432488/package/parameters.bin",
+      "bytes": 27178
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102304_432488/predictions.jsonl",
+      "bytes": 0
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102304_432488/raw_physical.f32",
+      "bytes": 0
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102304_432488/session.json",
+      "bytes": 3423
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102310_481282/blocks.jsonl",
+      "bytes": 116
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102310_481282/live_raw.npz",
+      "bytes": 27448
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102310_481282/package/manifest.json",
+      "bytes": 27478
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102310_481282/package/parameters.bin",
+      "bytes": 27178
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102310_481282/predictions.jsonl",
+      "bytes": 3002
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102310_481282/raw_physical.f32",
+      "bytes": 32768
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102310_481282/session.json",
+      "bytes": 3438
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102320_645423/blocks.jsonl",
+      "bytes": 0
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102320_645423/package/manifest.json",
+      "bytes": 27478
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102320_645423/package/parameters.bin",
+      "bytes": 27178
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102320_645423/predictions.jsonl",
+      "bytes": 0
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102320_645423/raw_physical.f32",
+      "bytes": 0
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102320_645423/session.json",
+      "bytes": 3423
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102604_137518/blocks.jsonl",
+      "bytes": 0
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102604_137518/package/manifest.json",
+      "bytes": 3513
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102604_137518/package/parameters.bin",
+      "bytes": 4824
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102604_137518/predictions.jsonl",
+      "bytes": 0
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102604_137518/raw_physical.f32",
+      "bytes": 0
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102604_137518/session.json",
+      "bytes": 1821
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102611_767380/blocks.jsonl",
+      "bytes": 116
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102611_767380/live_raw.npz",
+      "bytes": 27448
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102611_767380/package/manifest.json",
+      "bytes": 27478
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102611_767380/package/parameters.bin",
+      "bytes": 27178
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102611_767380/predictions.jsonl",
+      "bytes": 3002
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102611_767380/raw_physical.f32",
+      "bytes": 32768
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102611_767380/session.json",
+      "bytes": 3438
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102612_350634/blocks.jsonl",
+      "bytes": 0
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102612_350634/package/manifest.json",
+      "bytes": 27478
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102612_350634/package/parameters.bin",
+      "bytes": 27178
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102612_350634/predictions.jsonl",
+      "bytes": 0
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102612_350634/raw_physical.f32",
+      "bytes": 0
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102612_350634/session.json",
+      "bytes": 3423
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102620_876083/blocks.jsonl",
+      "bytes": 115
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102620_876083/live_raw.npz",
+      "bytes": 27448
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102620_876083/package/manifest.json",
+      "bytes": 27478
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102620_876083/package/parameters.bin",
+      "bytes": 27178
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102620_876083/predictions.jsonl",
+      "bytes": 3002
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102620_876083/raw_physical.f32",
+      "bytes": 32768
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102620_876083/session.json",
+      "bytes": 3438
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102631_792527/blocks.jsonl",
+      "bytes": 0
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102631_792527/package/manifest.json",
+      "bytes": 27478
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102631_792527/package/parameters.bin",
+      "bytes": 27178
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102631_792527/predictions.jsonl",
+      "bytes": 0
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102631_792527/raw_physical.f32",
+      "bytes": 0
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_102631_792527/session.json",
+      "bytes": 3423
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_104747_688683/blocks.jsonl",
+      "bytes": 0
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_104747_688683/package/manifest.json",
+      "bytes": 3516
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_104747_688683/package/parameters.bin",
+      "bytes": 4824
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_104747_688683/predictions.jsonl",
+      "bytes": 0
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_104747_688683/raw_physical.f32",
+      "bytes": 0
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_104747_688683/session.json",
+      "bytes": 1821
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_104749_209770/blocks.jsonl",
+      "bytes": 116
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_104749_209770/live_raw.npz",
+      "bytes": 27448
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_104749_209770/package/manifest.json",
+      "bytes": 27478
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_104749_209770/package/parameters.bin",
+      "bytes": 27178
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_104749_209770/predictions.jsonl",
+      "bytes": 3002
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_104749_209770/raw_physical.f32",
+      "bytes": 32768
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_104749_209770/session.json",
+      "bytes": 3438
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_104749_576046/blocks.jsonl",
+      "bytes": 0
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_104749_576046/package/manifest.json",
+      "bytes": 27478
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_104749_576046/package/parameters.bin",
+      "bytes": 27178
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_104749_576046/predictions.jsonl",
+      "bytes": 0
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_104749_576046/raw_physical.f32",
+      "bytes": 0
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_104749_576046/session.json",
+      "bytes": 3423
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_104751_380455/blocks.jsonl",
+      "bytes": 116
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_104751_380455/live_raw.npz",
+      "bytes": 27448
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_104751_380455/package/manifest.json",
+      "bytes": 27478
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_104751_380455/package/parameters.bin",
+      "bytes": 27178
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_104751_380455/predictions.jsonl",
+      "bytes": 3002
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_104751_380455/raw_physical.f32",
+      "bytes": 32768
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_104751_380455/session.json",
+      "bytes": 3438
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_104753_837116/blocks.jsonl",
+      "bytes": 0
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_104753_837116/package/manifest.json",
+      "bytes": 27478
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_104753_837116/package/parameters.bin",
+      "bytes": 27178
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_104753_837116/predictions.jsonl",
+      "bytes": 0
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_104753_837116/raw_physical.f32",
+      "bytes": 0
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_104753_837116/session.json",
+      "bytes": 3423
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_104956_833296/blocks.jsonl",
+      "bytes": 0
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_104956_833296/package/manifest.json",
+      "bytes": 3516
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_104956_833296/package/parameters.bin",
+      "bytes": 4824
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_104956_833296/predictions.jsonl",
+      "bytes": 0
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_104956_833296/raw_physical.f32",
+      "bytes": 0
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_104956_833296/session.json",
+      "bytes": 1821
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_104958_465715/blocks.jsonl",
+      "bytes": 116
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_104958_465715/live_raw.npz",
+      "bytes": 27448
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_104958_465715/package/manifest.json",
+      "bytes": 27478
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_104958_465715/package/parameters.bin",
+      "bytes": 27178
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_104958_465715/predictions.jsonl",
+      "bytes": 3002
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_104958_465715/raw_physical.f32",
+      "bytes": 32768
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_104958_465715/session.json",
+      "bytes": 3438
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_104958_818970/blocks.jsonl",
+      "bytes": 0
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_104958_818970/package/manifest.json",
+      "bytes": 27478
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_104958_818970/package/parameters.bin",
+      "bytes": 27178
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_104958_818970/predictions.jsonl",
+      "bytes": 0
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_104958_818970/raw_physical.f32",
+      "bytes": 0
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_104958_818970/session.json",
+      "bytes": 3423
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_105000_550734/blocks.jsonl",
+      "bytes": 116
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_105000_550734/live_raw.npz",
+      "bytes": 27448
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_105000_550734/package/manifest.json",
+      "bytes": 27478
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_105000_550734/package/parameters.bin",
+      "bytes": 27178
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_105000_550734/predictions.jsonl",
+      "bytes": 3002
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_105000_550734/raw_physical.f32",
+      "bytes": 32768
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_105000_550734/session.json",
+      "bytes": 3438
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_105002_999314/blocks.jsonl",
+      "bytes": 0
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_105002_999314/package/manifest.json",
+      "bytes": 27478
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_105002_999314/package/parameters.bin",
+      "bytes": 27178
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_105002_999314/predictions.jsonl",
+      "bytes": 0
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_105002_999314/raw_physical.f32",
+      "bytes": 0
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_105002_999314/session.json",
+      "bytes": 3423
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_110004_325348/blocks.jsonl",
+      "bytes": 0
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_110004_325348/package/manifest.json",
+      "bytes": 3516
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_110004_325348/package/parameters.bin",
+      "bytes": 4824
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_110004_325348/predictions.jsonl",
+      "bytes": 0
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_110004_325348/raw_physical.f32",
+      "bytes": 0
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_110004_325348/session.json",
+      "bytes": 1821
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_110005_847460/blocks.jsonl",
+      "bytes": 116
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_110005_847460/live_raw.npz",
+      "bytes": 27448
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_110005_847460/package/manifest.json",
+      "bytes": 27478
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_110005_847460/package/parameters.bin",
+      "bytes": 27178
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_110005_847460/predictions.jsonl",
+      "bytes": 3002
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_110005_847460/raw_physical.f32",
+      "bytes": 32768
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_110005_847460/session.json",
+      "bytes": 3438
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_110006_224096/blocks.jsonl",
+      "bytes": 0
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_110006_224096/package/manifest.json",
+      "bytes": 27478
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_110006_224096/package/parameters.bin",
+      "bytes": 27178
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_110006_224096/predictions.jsonl",
+      "bytes": 0
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_110006_224096/raw_physical.f32",
+      "bytes": 0
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_110006_224096/session.json",
+      "bytes": 3423
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_110007_942628/blocks.jsonl",
+      "bytes": 116
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_110007_942628/live_raw.npz",
+      "bytes": 27448
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_110007_942628/package/manifest.json",
+      "bytes": 27478
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_110007_942628/package/parameters.bin",
+      "bytes": 27178
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_110007_942628/predictions.jsonl",
+      "bytes": 3002
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_110007_942628/raw_physical.f32",
+      "bytes": 32768
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_110007_942628/session.json",
+      "bytes": 3438
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_110010_412152/blocks.jsonl",
+      "bytes": 0
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_110010_412152/package/manifest.json",
+      "bytes": 27478
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_110010_412152/package/parameters.bin",
+      "bytes": 27178
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_110010_412152/predictions.jsonl",
+      "bytes": 0
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_110010_412152/raw_physical.f32",
+      "bytes": 0
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_110010_412152/session.json",
+      "bytes": 3423
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_111514_089996/blocks.jsonl",
+      "bytes": 0
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_111514_089996/package/manifest.json",
+      "bytes": 3516
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_111514_089996/package/parameters.bin",
+      "bytes": 4824
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_111514_089996/predictions.jsonl",
+      "bytes": 0
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_111514_089996/raw_physical.f32",
+      "bytes": 0
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_111514_089996/session.json",
+      "bytes": 1821
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_111515_830094/blocks.jsonl",
+      "bytes": 116
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_111515_830094/live_raw.npz",
+      "bytes": 27448
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_111515_830094/package/manifest.json",
+      "bytes": 27478
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_111515_830094/package/parameters.bin",
+      "bytes": 27178
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_111515_830094/predictions.jsonl",
+      "bytes": 3002
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_111515_830094/raw_physical.f32",
+      "bytes": 32768
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_111515_830094/session.json",
+      "bytes": 3438
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_111516_189839/blocks.jsonl",
+      "bytes": 0
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_111516_189839/package/manifest.json",
+      "bytes": 27478
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_111516_189839/package/parameters.bin",
+      "bytes": 27178
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_111516_189839/predictions.jsonl",
+      "bytes": 0
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_111516_189839/raw_physical.f32",
+      "bytes": 0
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_111516_189839/session.json",
+      "bytes": 3423
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_111518_184439/blocks.jsonl",
+      "bytes": 116
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_111518_184439/live_raw.npz",
+      "bytes": 27448
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_111518_184439/package/manifest.json",
+      "bytes": 27478
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_111518_184439/package/parameters.bin",
+      "bytes": 27178
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_111518_184439/predictions.jsonl",
+      "bytes": 3002
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_111518_184439/raw_physical.f32",
+      "bytes": 32768
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_111518_184439/session.json",
+      "bytes": 3438
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_111521_014329/blocks.jsonl",
+      "bytes": 0
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_111521_014329/package/manifest.json",
+      "bytes": 27478
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_111521_014329/package/parameters.bin",
+      "bytes": 27178
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_111521_014329/predictions.jsonl",
+      "bytes": 0
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_111521_014329/raw_physical.f32",
+      "bytes": 0
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/backend/artifacts/pc_ml/live_trials/20261102_111521_014329/session.json",
+      "bytes": 3423
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/emg_ml/data/raw/001/001_P1_2611012134.npz",
+      "bytes": 1762171
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/emg_ml/data/raw/001/001_P2_2611012137.npz",
+      "bytes": 2159517
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/emg_ml/data/raw/11/11_P1_2611021738.npz",
+      "bytes": 3291393
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/emg_ml/data/raw/11/11_P2_2611021743.npz",
+      "bytes": 4742294
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/emg_ml/data/raw/666/666_P1_2611022024.npz",
+      "bytes": 5059173
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/emg_ml/data/raw/DGT/DGT_P1_2611021813.npz",
+      "bytes": 767499
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/emg_ml/data/raw/DGT/DGT_P1_2611022107.npz",
+      "bytes": 4998347
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/emg_ml/data/raw/DGT/DGT_P2_2611021817.npz",
+      "bytes": 3599831
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/emg_ml/data/raw/DGT/DGT_P2_2611022140.npz",
+      "bytes": 5184700
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/emg_ml/data/raw/DGT/DGT_P3_2611022206.npz",
+      "bytes": 4231407
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/emg_ml/data/raw/emg_001_aborted_20261101_213141.npz",
+      "bytes": 161838
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/runtime/gesture_tasks.log",
+      "bytes": 1815250
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/runtime/live_trials/20261101_213902_087065/blocks.jsonl",
+      "bytes": 2150030
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/runtime/live_trials/20261101_213902_087065/live_raw.npz",
+      "bytes": 139347
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/runtime/live_trials/20261101_213902_087065/package/manifest.json",
+      "bytes": 17715
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/runtime/live_trials/20261101_213902_087065/package/parameters.bin",
+      "bytes": 25866
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/runtime/live_trials/20261101_213902_087065/predictions.jsonl",
+      "bytes": 107716
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/runtime/live_trials/20261101_213902_087065/raw_physical.f32",
+      "bytes": 588160
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/runtime/live_trials/20261101_213902_087065/session.json",
+      "bytes": 3223
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/runtime/live_trials/20261101_221641_094268/blocks.jsonl",
+      "bytes": 2231183
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/runtime/live_trials/20261101_221641_094268/live_raw.npz",
+      "bytes": 93894
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/runtime/live_trials/20261101_221641_094268/package/manifest.json",
+      "bytes": 17715
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/runtime/live_trials/20261101_221641_094268/package/parameters.bin",
+      "bytes": 25866
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/runtime/live_trials/20261101_221641_094268/predictions.jsonl",
+      "bytes": 110367
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/runtime/live_trials/20261101_221641_094268/raw_physical.f32",
+      "bytes": 610240
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/runtime/live_trials/20261101_221641_094268/session.json",
+      "bytes": 3223
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/runtime/live_trials/20261102_130119_997767/blocks.jsonl",
+      "bytes": 22212558
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/runtime/live_trials/20261102_130119_997767/live_raw.npz",
+      "bytes": 1756330
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/runtime/live_trials/20261102_130119_997767/package/manifest.json",
+      "bytes": 21491
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/runtime/live_trials/20261102_130119_997767/package/parameters.bin",
+      "bytes": 27202
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/runtime/live_trials/20261102_130119_997767/predictions.jsonl",
+      "bytes": 903855
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/runtime/live_trials/20261102_130119_997767/raw_physical.f32",
+      "bytes": 6024384
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/runtime/live_trials/20261102_130119_997767/session.json",
+      "bytes": 6613
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/runtime/live_trials/20261102_181910_995055/blocks.jsonl",
+      "bytes": 6474892
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/runtime/live_trials/20261102_181910_995055/live_raw.npz",
+      "bytes": 393605
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/runtime/live_trials/20261102_181910_995055/package/manifest.json",
+      "bytes": 40387
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/runtime/live_trials/20261102_181910_995055/package/parameters.bin",
+      "bytes": 29766
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/runtime/live_trials/20261102_181910_995055/predictions.jsonl",
+      "bytes": 304550
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/runtime/live_trials/20261102_181910_995055/raw_physical.f32",
+      "bytes": 1765184
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/runtime/live_trials/20261102_181910_995055/session.json",
+      "bytes": 5335
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/runtime/live_trials/20261102_185010_852032/blocks.jsonl",
+      "bytes": 1118077
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/runtime/live_trials/20261102_185010_852032/live_raw.npz",
+      "bytes": 72450
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/runtime/live_trials/20261102_185010_852032/package/manifest.json",
+      "bytes": 40387
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/runtime/live_trials/20261102_185010_852032/package/parameters.bin",
+      "bytes": 29766
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/runtime/live_trials/20261102_185010_852032/predictions.jsonl",
+      "bytes": 53544
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/runtime/live_trials/20261102_185010_852032/raw_physical.f32",
+      "bytes": 307136
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/runtime/live_trials/20261102_185010_852032/session.json",
+      "bytes": 4860
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/runtime/live_trials/20261102_202523_239241/blocks.jsonl",
+      "bytes": 8206780
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/runtime/live_trials/20261102_202523_239241/live_raw.npz",
+      "bytes": 588114
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/runtime/live_trials/20261102_202523_239241/package/manifest.json",
+      "bytes": 34051
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/runtime/live_trials/20261102_202523_239241/package/parameters.bin",
+      "bytes": 28330
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/runtime/live_trials/20261102_202523_239241/predictions.jsonl",
+      "bytes": 415317
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/runtime/live_trials/20261102_202523_239241/raw_physical.f32",
+      "bytes": 2236480
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/runtime/live_trials/20261102_202523_239241/session.json",
+      "bytes": 5087
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/runtime/live_trials/20261102_205729_183073/blocks.jsonl",
+      "bytes": 438338
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/runtime/live_trials/20261102_205729_183073/live_raw.npz",
+      "bytes": 28892
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/runtime/live_trials/20261102_205729_183073/package/manifest.json",
+      "bytes": 34051
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/runtime/live_trials/20261102_205729_183073/package/parameters.bin",
+      "bytes": 28330
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/runtime/live_trials/20261102_205729_183073/predictions.jsonl",
+      "bytes": 19077
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/runtime/live_trials/20261102_205729_183073/raw_physical.f32",
+      "bytes": 120640
+    },
+    {
+      "root": "delivery_PC",
+      "path": "EMG_Studio/EMG_Studio/runtime/live_trials/20261102_205729_183073/session.json",
+      "bytes": 5085
+    },
+    {
+      "root": "delivery_PC",
+      "path": "artifacts/pc_gesture_tasks/verify_20261102_101909_496360/compact_raw.log",
+      "bytes": 857
+    },
+    {
+      "root": "delivery_PC",
+      "path": "artifacts/pc_gesture_tasks/verify_20261102_101909_496360/customer.log",
+      "bytes": 1175
+    },
+    {
+      "root": "delivery_PC",
+      "path": "artifacts/pc_gesture_tasks/verify_20261102_101909_496360/default_materials.log",
+      "bytes": 617
+    },
+    {
+      "root": "delivery_PC",
+      "path": "artifacts/pc_gesture_tasks/verify_20261102_101909_496360/export.log",
+      "bytes": 533
+    },
+    {
+      "root": "delivery_PC",
+      "path": "artifacts/pc_gesture_tasks/verify_20261102_101909_496360/protocol.log",
+      "bytes": 3091
+    },
+    {
+      "root": "delivery_PC",
+      "path": "artifacts/pc_gesture_tasks/verify_20261102_101909_496360/runtime/gesture_tasks.log",
+      "bytes": 863833
+    },
+    {
+      "root": "delivery_PC",
+      "path": "artifacts/pc_gesture_tasks/verify_20261102_101909_496360/signals.log",
+      "bytes": 1448
+    },
+    {
+      "root": "delivery_PC",
+      "path": "artifacts/pc_gesture_tasks/verify_20261102_101909_496360/ui_hidden.log",
+      "bytes": 13591
+    },
+    {
+      "root": "delivery_PC",
+      "path": "artifacts/pc_gesture_tasks/verify_20261102_102518_611788/compact_raw.log",
+      "bytes": 857
+    },
+    {
+      "root": "delivery_PC",
+      "path": "artifacts/pc_gesture_tasks/verify_20261102_102518_611788/customer.log",
+      "bytes": 1175
+    },
+    {
+      "root": "delivery_PC",
+      "path": "artifacts/pc_gesture_tasks/verify_20261102_102518_611788/default_materials.log",
+      "bytes": 617
+    },
+    {
+      "root": "delivery_PC",
+      "path": "artifacts/pc_gesture_tasks/verify_20261102_102518_611788/export.log",
+      "bytes": 533
+    },
+    {
+      "root": "delivery_PC",
+      "path": "artifacts/pc_gesture_tasks/verify_20261102_102518_611788/protocol.log",
+      "bytes": 3091
+    },
+    {
+      "root": "delivery_PC",
+      "path": "artifacts/pc_gesture_tasks/verify_20261102_102518_611788/runtime/gesture_tasks.log",
+      "bytes": 863833
+    },
+    {
+      "root": "delivery_PC",
+      "path": "artifacts/pc_gesture_tasks/verify_20261102_102518_611788/signals.log",
+      "bytes": 1448
+    },
+    {
+      "root": "delivery_PC",
+      "path": "artifacts/pc_gesture_tasks/verify_20261102_102518_611788/ui_hidden.log",
+      "bytes": 9459
+    },
+    {
+      "root": "delivery_PC",
+      "path": "artifacts/pc_gesture_tasks/verify_20261102_104720_512773/compact_raw.log",
+      "bytes": 857
+    },
+    {
+      "root": "delivery_PC",
+      "path": "artifacts/pc_gesture_tasks/verify_20261102_104720_512773/customer.log",
+      "bytes": 1175
+    },
+    {
+      "root": "delivery_PC",
+      "path": "artifacts/pc_gesture_tasks/verify_20261102_104720_512773/default_materials.log",
+      "bytes": 617
+    },
+    {
+      "root": "delivery_PC",
+      "path": "artifacts/pc_gesture_tasks/verify_20261102_104720_512773/export.log",
+      "bytes": 533
+    },
+    {
+      "root": "delivery_PC",
+      "path": "artifacts/pc_gesture_tasks/verify_20261102_104720_512773/protocol.log",
+      "bytes": 3090
+    },
+    {
+      "root": "delivery_PC",
+      "path": "artifacts/pc_gesture_tasks/verify_20261102_104720_512773/runtime/gesture_tasks.log",
+      "bytes": 863833
+    },
+    {
+      "root": "delivery_PC",
+      "path": "artifacts/pc_gesture_tasks/verify_20261102_104720_512773/signals.log",
+      "bytes": 1448
+    },
+    {
+      "root": "delivery_PC",
+      "path": "artifacts/pc_gesture_tasks/verify_20261102_104720_512773/ui_hidden.log",
+      "bytes": 10300
+    },
+    {
+      "root": "delivery_PC",
+      "path": "evidence/verification/compact_raw.log",
+      "bytes": 857
+    },
+    {
+      "root": "delivery_PC",
+      "path": "evidence/verification/customer.log",
+      "bytes": 1041
+    },
+    {
+      "root": "delivery_PC",
+      "path": "evidence/verification/default_materials.log",
+      "bytes": 617
+    },
+    {
+      "root": "delivery_PC",
+      "path": "evidence/verification/export.log",
+      "bytes": 533
+    },
+    {
+      "root": "delivery_PC",
+      "path": "evidence/verification/gesture_tasks.log",
+      "bytes": 156840
+    },
+    {
+      "root": "delivery_PC",
+      "path": "evidence/verification/protocol.log",
+      "bytes": 2432
+    },
+    {
+      "root": "delivery_PC",
+      "path": "evidence/verification/signals.log",
+      "bytes": 1448
+    },
+    {
+      "root": "delivery_PC",
+      "path": "evidence/verification/ui_hidden.log",
+      "bytes": 8323
+    },
+    {
+      "root": "delivery_models",
+      "path": ".DS_Store",
+      "bytes": 6148
+    },
+    {
+      "root": "wireless",
+      "path": "main.cpp.old",
+      "bytes": 7814
+    },
+    {
+      "root": "wireless",
+      "path": "main2.0.cpp.old",
+      "bytes": 11483
+    },
+    {
+      "root": "wireless",
+      "path": "main3.0.cpp.old",
+      "bytes": 15779
+    },
+    {
+      "root": "wireless",
+      "path": "main4.0..cpp.old",
+      "bytes": 16788
+    },
+    {
+      "root": "optional_UI",
+      "path": "backend/artifacts/cnn_fusion_pc_trial_20261029/studio_stderr.log",
+      "bytes": 0
+    },
+    {
+      "root": "optional_UI",
+      "path": "backend/artifacts/cnn_fusion_pc_trial_20261029/studio_stdout.log",
+      "bytes": 54
+    },
+    {
+      "root": "optional_UI",
+      "path": "emg_ml/data/raw/DDW/DDW_P2_2610281200.npz",
+      "bytes": 1425022
+    },
+    {
+      "root": "optional_UI",
+      "path": "emg_ml/data/raw/DGT/DGT_P1_2610280803.npz",
+      "bytes": 1459827
+    },
+    {
+      "root": "optional_UI",
+      "path": "emg_ml/data/raw/DGT/DGT_P1_2610280911.npz",
+      "bytes": 1568689
+    },
+    {
+      "root": "optional_UI",
+      "path": "emg_ml/data/raw/DGT/DGT_P1_2610282029.npz",
+      "bytes": 1173974
+    },
+    {
+      "root": "optional_UI",
+      "path": "emg_ml/data/raw/DGT/DGT_P1_2610291313.npz",
+      "bytes": 1325459
+    },
+    {
+      "root": "optional_UI",
+      "path": "emg_ml/data/raw/DGT/DGT_P2_2610280808.npz",
+      "bytes": 1343007
+    },
+    {
+      "root": "optional_UI",
+      "path": "emg_ml/data/raw/DGT/DGT_P2_2610282008.npz",
+      "bytes": 1353972
+    },
+    {
+      "root": "optional_UI",
+      "path": "emg_ml/data/raw/DGTV2/DGTV2_P2_2610271931.npz",
+      "bytes": 1542312
+    }
+  ],
+  "user_requested_cleanup": {
+    "remove_all_markdown": true,
+    "removed_paths": [
+      "README.md",
+      "docs/BUILD_AND_RUN.md",
+      "docs/CODE_MAP.md",
+      "extras/EMG_Studio_UI_20261031/emg_ml/README.md",
+      "extras/EMG_Studio_UI_20261031/emg_ml/USAGE_AND_NOISE_NOTES.md",
+      "extras/EMG_Studio_UI_20261031/emg_ml/assets/gestures/SOURCES.md",
+      "extras/EMG_Studio_UI_20261031/先读说明.md",
+      "extras/EMG_Studio_UI_20261031/界面修改说明.md",
+      "extras/EMG_Studio_UI_20261031/界面预览/说明.md",
+      "fpga/A_recognition/ECO实现与证据/A_FORWARDING_FINDINGS_CN.md",
+      "fpga/A_recognition/ECO实现与证据/A_FORWARD_ECO_RESULT_CN.md",
+      "fpga/A_recognition/ECO实现与证据/LATEST_A_ECO_1255_CN.md",
+      "fpga/A_recognition/先读说明.md",
+      "fpga/A_recognition/原版R4源码与备用/A_GESTURE_TASKS_B_R50_ACK_20261101.md",
+      "fpga/A_recognition/原版R4源码与备用/A_GESTURE_TASKS_DELIVERY_20261101_R4.md",
+      "fpga/A_recognition/原版R4源码与备用/A_GESTURE_TASKS_INTERFACE.md",
+      "fpga/A_recognition/原版R4源码与备用/A_GESTURE_TASKS_PC_DIFF_REPLY_20261031.md",
+      "fpga/A_recognition/原版R4源码与备用/A_GESTURE_TASKS_PC_RAW43_ACK_20261101.md",
+      "fpga/A_recognition/原版R4源码与备用/A_GESTURE_TASKS_PROGRESS_20261101.md",
+      "fpga/A_recognition/原版R4源码与备用/A_GESTURE_TASKS_TRAINING_FLOW_20261101.md",
+      "fpga/A_recognition/原版R4源码与备用/README.md",
+      "fpga/B_execution/先读说明.md",
+      "fpga/B_execution/说明/README_CN.md",
+      "models/current_8class/先读说明.md",
+      "pc/app/EMG_Studio/EMG_Studio/emg_ml/README.md",
+      "pc/app/EMG_Studio/EMG_Studio/emg_ml/USAGE_AND_NOISE_NOTES.md",
+      "pc/app/EMG_Studio/EMG_Studio/emg_ml/assets/gestures/SOURCES.md",
+      "pc/app/docs/PC_B_DISPLAY_DIRECT_20261102.md",
+      "pc/app/docs/PC_GESTURE_TASKS_A_READONLY_MATERIALS_20261101.md",
+      "pc/app/docs/PC_GESTURE_TASKS_B_SYNC_FIX_20261101.md",
+      "pc/app/docs/PC_GESTURE_TASKS_CUSTOMER_UI_20261101.md",
+      "pc/app/docs/PC_GESTURE_TASKS_INTERFACE_DIFF_20261031.md",
+      "pc/app/docs/PC_GESTURE_TASKS_MODEL_CHECK_FIX_20261101.md",
+      "pc/app/docs/PC_GESTURE_TASKS_QUICKSTART_20261031.md",
+      "pc/app/docs/PC_GESTURE_TASKS_RAW43_20261101.md",
+      "pc/app/docs/PC_GESTURE_TASKS_RECOGNITION_SOURCE_20261101.md",
+      "pc/app/docs/PC_GESTURE_TASKS_STATUS_20261031.md"
+    ]
+  }
+}

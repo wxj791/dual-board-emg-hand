@@ -1,0 +1,53 @@
+{
+  "bit": "E:\\FPGA\\Projects\\emg_hand_fpga\\artifacts\\pc_gesture_tasks\\pc_candidate_20261101_180659_073399\\B_R53_ECO_NO_IDLE_POLL_20261102.bit",
+  "sha256": "334a60f06f99d6bf1c0e6f391d24009e862126e0563983ddfbe3d64d0c5a9a3e",
+  "bytes": 720424,
+  "baseline_sha256": "f0ed3c14aecac32f617e793daef4bdd427b731da895b86bb608bb9a881b99b3f",
+  "baseline_preserved": true,
+  "physical_parameter_changes": 1,
+  "place_called": false,
+  "route_called": false,
+  "observation_added": false,
+  "collision_added": false,
+  "waveform_logic_unchanged": true,
+  "original_control_logic_unchanged": true,
+  "firmware_capability_revision_unchanged": "r53_nc1",
+  "timing": {
+    "SWNS": 0.101,
+    "STNS": 0.0,
+    "HWNS": 0.032,
+    "HTNS": 0.0
+  },
+  "functional_regression": {
+    "passed": true,
+    "reference_sha256": "9a91de223423b23c98f6f7b52c9a7bebd9873c592dda9b5196be586afedd552f",
+    "baseline_source_sha256": "08be9e45a4d5c5eff2016a86130f860782cdbf910e4cbfe1bfb55525ee2d6319",
+    "test": "quiet idle before and after replay, save, failures and STOP preemption",
+    "hardware": "NOT_RUN"
+  },
+  "comparator_verification": {
+    "passed": true,
+    "physical_parameter_changes": 1,
+    "connections_unchanged": true,
+    "checked_counter_values": 32768,
+    "original_function": "poll_age >= 24000",
+    "patched_function": "constant 0",
+    "place_called": false,
+    "route_called": false,
+    "comparator_cells": [
+      "servo_controller/lane_reg[2]_syn_10",
+      "servo_controller/lane_reg[2]_syn_12",
+      "servo_controller/lane_reg[2]_syn_8"
+    ],
+    "patched_db_sha256": "bebc1ea8752bb5878913d4be98fcc063230bb2353495c05f38204678d3580528",
+    "hardware": "NOT_RUN"
+  },
+  "hardware": "NOT_RUN",
+  "reference_source": "E:\\FPGA\\Projects\\emg_hand_fpga\\artifacts\\pc_gesture_tasks\\pc_candidate_20261101_180659_073399\\r53_servo_schedule_20261102\\artifacts\\b_gesture_tasks\\td_eco_poll\\reference_servo.v",
+  "note": "The broader RTL candidate under fpga_b/ is NOT the delivered implementation.",
+  "delivered_at": "2026-11-02T11:52:17.789892",
+  "bitstream_difference": {
+    "changed_bytes": 39,
+    "changed_bits": 58
+  }
+}

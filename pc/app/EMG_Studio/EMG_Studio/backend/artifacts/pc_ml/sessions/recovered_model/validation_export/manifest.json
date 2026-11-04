@@ -1,0 +1,1042 @@
+{
+  "format": "EMG-CNN-FUSION-PC-1",
+  "sha256": "c1e48b40084d75aae3ba175d3b1529e00c580d891f6617f14297a53761ff58bf",
+  "payload_bytes": 27017,
+  "parameter_bytes": 27017,
+  "class_names": [
+    "静息",
+    "握拳",
+    "张开手掌",
+    "点赞",
+    "剪刀手",
+    "数字一",
+    "数字六"
+  ],
+  "gesture_profile": {
+    "version": 1,
+    "name": "原七类 · 手指手势",
+    "classes": [
+      {
+        "id": 0,
+        "key": "rest",
+        "name": "静息",
+        "instruction": "手和前臂自然放松，不要发力。",
+        "image": "rest.png",
+        "reference": "",
+        "output": {
+          "id": 0,
+          "name": "保持 / 停止触发"
+        }
+      },
+      {
+        "id": 1,
+        "key": "fist",
+        "name": "握拳",
+        "instruction": "五指握拳，中等力度，保持每次发力一致。",
+        "image": "ninapro/fist.png",
+        "reference": "B6",
+        "output": {
+          "id": 1,
+          "name": "握拳抓握"
+        }
+      },
+      {
+        "id": 2,
+        "key": "open",
+        "name": "张开手掌",
+        "instruction": "五指自然伸直张开，保持稳定。",
+        "image": "ninapro/open.png",
+        "reference": "B5",
+        "output": {
+          "id": 2,
+          "name": "五指张开"
+        }
+      },
+      {
+        "id": 3,
+        "key": "thumbs_up",
+        "name": "点赞",
+        "instruction": "大拇指竖起，其余四指握住。",
+        "image": "ninapro/thumbs_up.png",
+        "reference": "B1",
+        "output": {
+          "id": 5,
+          "name": "点赞手形"
+        }
+      },
+      {
+        "id": 4,
+        "key": "scissors",
+        "name": "剪刀手",
+        "instruction": "食指和中指伸出成V字，其余手指握住。",
+        "image": "scissors.png",
+        "reference": "",
+        "output": {
+          "id": 6,
+          "name": "剪刀手形"
+        }
+      },
+      {
+        "id": 5,
+        "key": "one",
+        "name": "数字一",
+        "instruction": "只伸出食指，其余四指握住。",
+        "image": "ninapro/one.png",
+        "reference": "B7",
+        "output": {
+          "id": 7,
+          "name": "数字一手形"
+        }
+      },
+      {
+        "id": 6,
+        "key": "six",
+        "name": "数字六",
+        "instruction": "拇指和小指伸出，其余三指握住。",
+        "image": "six.png",
+        "reference": "",
+        "output": {
+          "id": 8,
+          "name": "数字六手形"
+        }
+      }
+    ]
+  },
+  "action_mapping": [
+    {
+      "id": 0,
+      "name": "保持 / 停止触发"
+    },
+    {
+      "id": 1,
+      "name": "握拳抓握"
+    },
+    {
+      "id": 2,
+      "name": "五指张开"
+    },
+    {
+      "id": 5,
+      "name": "点赞手形"
+    },
+    {
+      "id": 6,
+      "name": "剪刀手形"
+    },
+    {
+      "id": 7,
+      "name": "数字一手形"
+    },
+    {
+      "id": 8,
+      "name": "数字六手形"
+    }
+  ],
+  "frontend": {
+    "name": "clean"
+  },
+  "cnn_correction_active": true,
+  "metadata": {
+    "path": "E:\\FPGA\\Projects\\emg_hand_fpga\\交接资料\\可用自采数据_20261029\\raw\\DGT\\DGT_P2_2610282008.npz",
+    "sha256": "df67fcc3dc6e5327c802a9c62f9b0ca05530ed9b63a447beb559fe5168c5d1fd",
+    "class_names": [
+      "静息",
+      "握拳",
+      "张开手掌",
+      "点赞",
+      "剪刀手",
+      "数字一",
+      "数字六"
+    ],
+    "gesture_profile": {
+      "version": 1,
+      "name": "原七类 · 手指手势",
+      "classes": [
+        {
+          "id": 0,
+          "key": "rest",
+          "name": "静息",
+          "instruction": "手和前臂自然放松，不要发力。",
+          "image": "rest.png",
+          "reference": "",
+          "output": {
+            "id": 0,
+            "name": "保持 / 停止触发"
+          }
+        },
+        {
+          "id": 1,
+          "key": "fist",
+          "name": "握拳",
+          "instruction": "五指握拳，中等力度，保持每次发力一致。",
+          "image": "ninapro/fist.png",
+          "reference": "B6",
+          "output": {
+            "id": 1,
+            "name": "握拳抓握"
+          }
+        },
+        {
+          "id": 2,
+          "key": "open",
+          "name": "张开手掌",
+          "instruction": "五指自然伸直张开，保持稳定。",
+          "image": "ninapro/open.png",
+          "reference": "B5",
+          "output": {
+            "id": 2,
+            "name": "五指张开"
+          }
+        },
+        {
+          "id": 3,
+          "key": "thumbs_up",
+          "name": "点赞",
+          "instruction": "大拇指竖起，其余四指握住。",
+          "image": "ninapro/thumbs_up.png",
+          "reference": "B1",
+          "output": {
+            "id": 5,
+            "name": "点赞手形"
+          }
+        },
+        {
+          "id": 4,
+          "key": "scissors",
+          "name": "剪刀手",
+          "instruction": "食指和中指伸出成V字，其余手指握住。",
+          "image": "scissors.png",
+          "reference": "",
+          "output": {
+            "id": 6,
+            "name": "剪刀手形"
+          }
+        },
+        {
+          "id": 5,
+          "key": "one",
+          "name": "数字一",
+          "instruction": "只伸出食指，其余四指握住。",
+          "image": "ninapro/one.png",
+          "reference": "B7",
+          "output": {
+            "id": 7,
+            "name": "数字一手形"
+          }
+        },
+        {
+          "id": 6,
+          "key": "six",
+          "name": "数字六",
+          "instruction": "拇指和小指伸出，其余三指握住。",
+          "image": "six.png",
+          "reference": "",
+          "output": {
+            "id": 8,
+            "name": "数字六手形"
+          }
+        }
+      ]
+    },
+    "segments": [
+      {
+        "group": 0,
+        "label": 0,
+        "repetition": 0,
+        "split": 0,
+        "chunks": [
+          {
+            "start": 0,
+            "stop": 3064,
+            "label": 0,
+            "repetition": 0,
+            "split": 0
+          }
+        ]
+      },
+      {
+        "group": 1,
+        "label": 1,
+        "repetition": 0,
+        "split": 0,
+        "chunks": [
+          {
+            "start": 3064,
+            "stop": 8100,
+            "label": 1,
+            "repetition": 0,
+            "split": 0
+          }
+        ]
+      },
+      {
+        "group": 2,
+        "label": 0,
+        "repetition": 1,
+        "split": 0,
+        "chunks": [
+          {
+            "start": 8100,
+            "stop": 11110,
+            "label": 0,
+            "repetition": 1,
+            "split": 0
+          }
+        ]
+      },
+      {
+        "group": 3,
+        "label": 1,
+        "repetition": 1,
+        "split": 1,
+        "chunks": [
+          {
+            "start": 11110,
+            "stop": 16150,
+            "label": 1,
+            "repetition": 1,
+            "split": 1
+          }
+        ]
+      },
+      {
+        "group": 4,
+        "label": 0,
+        "repetition": 2,
+        "split": 0,
+        "chunks": [
+          {
+            "start": 16150,
+            "stop": 19182,
+            "label": 0,
+            "repetition": 2,
+            "split": 0
+          }
+        ]
+      },
+      {
+        "group": 5,
+        "label": 1,
+        "repetition": 2,
+        "split": 2,
+        "chunks": [
+          {
+            "start": 19182,
+            "stop": 24222,
+            "label": 1,
+            "repetition": 2,
+            "split": 2
+          }
+        ]
+      },
+      {
+        "group": 6,
+        "label": 0,
+        "repetition": 3,
+        "split": 0,
+        "chunks": [
+          {
+            "start": 24222,
+            "stop": 27294,
+            "label": 0,
+            "repetition": 3,
+            "split": 0
+          }
+        ]
+      },
+      {
+        "group": 7,
+        "label": 2,
+        "repetition": 0,
+        "split": 0,
+        "chunks": [
+          {
+            "start": 27294,
+            "stop": 32349,
+            "label": 2,
+            "repetition": 0,
+            "split": 0
+          }
+        ]
+      },
+      {
+        "group": 8,
+        "label": 0,
+        "repetition": 4,
+        "split": 0,
+        "chunks": [
+          {
+            "start": 32349,
+            "stop": 35374,
+            "label": 0,
+            "repetition": 4,
+            "split": 0
+          }
+        ]
+      },
+      {
+        "group": 9,
+        "label": 2,
+        "repetition": 1,
+        "split": 1,
+        "chunks": [
+          {
+            "start": 35374,
+            "stop": 40415,
+            "label": 2,
+            "repetition": 1,
+            "split": 1
+          }
+        ]
+      },
+      {
+        "group": 10,
+        "label": 0,
+        "repetition": 5,
+        "split": 0,
+        "chunks": [
+          {
+            "start": 40415,
+            "stop": 43425,
+            "label": 0,
+            "repetition": 5,
+            "split": 0
+          }
+        ]
+      },
+      {
+        "group": 11,
+        "label": 2,
+        "repetition": 2,
+        "split": 2,
+        "chunks": [
+          {
+            "start": 43425,
+            "stop": 48456,
+            "label": 2,
+            "repetition": 2,
+            "split": 2
+          }
+        ]
+      },
+      {
+        "group": 12,
+        "label": 0,
+        "repetition": 6,
+        "split": 0,
+        "chunks": [
+          {
+            "start": 48456,
+            "stop": 51502,
+            "label": 0,
+            "repetition": 6,
+            "split": 0
+          }
+        ]
+      },
+      {
+        "group": 13,
+        "label": 3,
+        "repetition": 0,
+        "split": 0,
+        "chunks": [
+          {
+            "start": 51502,
+            "stop": 56542,
+            "label": 3,
+            "repetition": 0,
+            "split": 0
+          }
+        ]
+      },
+      {
+        "group": 14,
+        "label": 0,
+        "repetition": 7,
+        "split": 0,
+        "chunks": [
+          {
+            "start": 56542,
+            "stop": 59602,
+            "label": 0,
+            "repetition": 7,
+            "split": 0
+          }
+        ]
+      },
+      {
+        "group": 15,
+        "label": 3,
+        "repetition": 1,
+        "split": 1,
+        "chunks": [
+          {
+            "start": 59602,
+            "stop": 64622,
+            "label": 3,
+            "repetition": 1,
+            "split": 1
+          }
+        ]
+      },
+      {
+        "group": 16,
+        "label": 0,
+        "repetition": 8,
+        "split": 0,
+        "chunks": [
+          {
+            "start": 64622,
+            "stop": 67675,
+            "label": 0,
+            "repetition": 8,
+            "split": 0
+          }
+        ]
+      },
+      {
+        "group": 17,
+        "label": 3,
+        "repetition": 2,
+        "split": 2,
+        "chunks": [
+          {
+            "start": 67675,
+            "stop": 72734,
+            "label": 3,
+            "repetition": 2,
+            "split": 2
+          }
+        ]
+      },
+      {
+        "group": 18,
+        "label": 0,
+        "repetition": 9,
+        "split": 1,
+        "chunks": [
+          {
+            "start": 72734,
+            "stop": 75775,
+            "label": 0,
+            "repetition": 9,
+            "split": 1
+          }
+        ]
+      },
+      {
+        "group": 19,
+        "label": 4,
+        "repetition": 0,
+        "split": 0,
+        "chunks": [
+          {
+            "start": 75775,
+            "stop": 80805,
+            "label": 4,
+            "repetition": 0,
+            "split": 0
+          }
+        ]
+      },
+      {
+        "group": 20,
+        "label": 0,
+        "repetition": 10,
+        "split": 1,
+        "chunks": [
+          {
+            "start": 80805,
+            "stop": 83844,
+            "label": 0,
+            "repetition": 10,
+            "split": 1
+          }
+        ]
+      },
+      {
+        "group": 21,
+        "label": 4,
+        "repetition": 1,
+        "split": 1,
+        "chunks": [
+          {
+            "start": 83844,
+            "stop": 88896,
+            "label": 4,
+            "repetition": 1,
+            "split": 1
+          }
+        ]
+      },
+      {
+        "group": 22,
+        "label": 0,
+        "repetition": 11,
+        "split": 1,
+        "chunks": [
+          {
+            "start": 88896,
+            "stop": 91937,
+            "label": 0,
+            "repetition": 11,
+            "split": 1
+          }
+        ]
+      },
+      {
+        "group": 23,
+        "label": 4,
+        "repetition": 2,
+        "split": 2,
+        "chunks": [
+          {
+            "start": 91937,
+            "stop": 96957,
+            "label": 4,
+            "repetition": 2,
+            "split": 2
+          }
+        ]
+      },
+      {
+        "group": 24,
+        "label": 0,
+        "repetition": 12,
+        "split": 1,
+        "chunks": [
+          {
+            "start": 96957,
+            "stop": 100007,
+            "label": 0,
+            "repetition": 12,
+            "split": 1
+          }
+        ]
+      },
+      {
+        "group": 25,
+        "label": 5,
+        "repetition": 0,
+        "split": 0,
+        "chunks": [
+          {
+            "start": 100007,
+            "stop": 105067,
+            "label": 5,
+            "repetition": 0,
+            "split": 0
+          }
+        ]
+      },
+      {
+        "group": 26,
+        "label": 0,
+        "repetition": 13,
+        "split": 1,
+        "chunks": [
+          {
+            "start": 105067,
+            "stop": 108137,
+            "label": 0,
+            "repetition": 13,
+            "split": 1
+          }
+        ]
+      },
+      {
+        "group": 27,
+        "label": 5,
+        "repetition": 1,
+        "split": 1,
+        "chunks": [
+          {
+            "start": 108137,
+            "stop": 113157,
+            "label": 5,
+            "repetition": 1,
+            "split": 1
+          }
+        ]
+      },
+      {
+        "group": 28,
+        "label": 0,
+        "repetition": 14,
+        "split": 2,
+        "chunks": [
+          {
+            "start": 113157,
+            "stop": 116210,
+            "label": 0,
+            "repetition": 14,
+            "split": 2
+          }
+        ]
+      },
+      {
+        "group": 29,
+        "label": 5,
+        "repetition": 2,
+        "split": 2,
+        "chunks": [
+          {
+            "start": 116210,
+            "stop": 121220,
+            "label": 5,
+            "repetition": 2,
+            "split": 2
+          }
+        ]
+      },
+      {
+        "group": 30,
+        "label": 0,
+        "repetition": 15,
+        "split": 2,
+        "chunks": [
+          {
+            "start": 121220,
+            "stop": 124252,
+            "label": 0,
+            "repetition": 15,
+            "split": 2
+          }
+        ]
+      },
+      {
+        "group": 31,
+        "label": 6,
+        "repetition": 0,
+        "split": 0,
+        "chunks": [
+          {
+            "start": 124252,
+            "stop": 129289,
+            "label": 6,
+            "repetition": 0,
+            "split": 0
+          }
+        ]
+      },
+      {
+        "group": 32,
+        "label": 0,
+        "repetition": 16,
+        "split": 2,
+        "chunks": [
+          {
+            "start": 129289,
+            "stop": 132319,
+            "label": 0,
+            "repetition": 16,
+            "split": 2
+          }
+        ]
+      },
+      {
+        "group": 33,
+        "label": 6,
+        "repetition": 1,
+        "split": 1,
+        "chunks": [
+          {
+            "start": 132319,
+            "stop": 137376,
+            "label": 6,
+            "repetition": 1,
+            "split": 1
+          }
+        ]
+      },
+      {
+        "group": 34,
+        "label": 0,
+        "repetition": 17,
+        "split": 2,
+        "chunks": [
+          {
+            "start": 137376,
+            "stop": 140410,
+            "label": 0,
+            "repetition": 17,
+            "split": 2
+          }
+        ]
+      },
+      {
+        "group": 35,
+        "label": 6,
+        "repetition": 2,
+        "split": 2,
+        "chunks": [
+          {
+            "start": 140410,
+            "stop": 145444,
+            "label": 6,
+            "repetition": 2,
+            "split": 2
+          }
+        ]
+      },
+      {
+        "group": 36,
+        "label": 0,
+        "repetition": 18,
+        "split": 2,
+        "chunks": [
+          {
+            "start": 145444,
+            "stop": 148472,
+            "label": 0,
+            "repetition": 18,
+            "split": 2
+          }
+        ]
+      }
+    ],
+    "repetitions": [
+      19,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "continuous_filter_and_envelope": true,
+    "no_label_state_resets": true,
+    "capture_edges": [
+      0,
+      3064,
+      8100,
+      11110,
+      16150,
+      19182,
+      24222,
+      27294,
+      32349,
+      35374,
+      40415,
+      43425,
+      48456,
+      51502,
+      56542,
+      59602,
+      64622,
+      67675,
+      72734,
+      75775,
+      80805,
+      83844,
+      88896,
+      91937,
+      96957,
+      100007,
+      105067,
+      108137,
+      113157,
+      116210,
+      121220,
+      124252,
+      129289,
+      132319,
+      137376,
+      140410,
+      145444,
+      148472
+    ],
+    "original_class_names": [
+      "静息",
+      "握拳",
+      "张开手掌",
+      "点赞",
+      "剪刀手",
+      "数字一",
+      "数字六"
+    ],
+    "removed_original_ids": [],
+    "retained_original_ids": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "grouping": "label_bout_across_timestamp_gaps",
+    "removed_gesture_rejection_validated": false,
+    "trained_all_bouts": false,
+    "runtime": "cnn_fusion_clean256_v1",
+    "model_title": "统计＋时序CNN融合",
+    "window": 256,
+    "stride": 32,
+    "guard": 320,
+    "feature_dimensions": 304,
+    "filter_coefficients_q14": [
+      [
+        14991,
+        -29982,
+        14991,
+        -29863,
+        13716
+      ],
+      [
+        16172,
+        -30762,
+        16172,
+        -30762,
+        15961
+      ],
+      [
+        15966,
+        -25833,
+        15966,
+        -25833,
+        15548
+      ],
+      [
+        15765,
+        -18532,
+        15765,
+        -18532,
+        15145
+      ],
+      [
+        15568,
+        -9622,
+        15568,
+        -9622,
+        14752
+      ],
+      [
+        13117,
+        26234,
+        13117,
+        25576,
+        10508
+      ],
+      [
+        2993,
+        0,
+        -2993,
+        -25820,
+        10398
+      ],
+      [
+        4337,
+        0,
+        -4337,
+        -15695,
+        7710
+      ],
+      [
+        8192,
+        0,
+        -8192,
+        10519,
+        0
+      ]
+    ],
+    "decision_policy": "raw_rest_else_ewma_shift2",
+    "recipe": {
+      "architecture": "sequential256",
+      "epochs": 12,
+      "seed": 17,
+      "alpha": 0.5,
+      "gate": 0.25,
+      "learning_rate": 0.002,
+      "weight_decay": 0.003,
+      "batch_size": 128,
+      "gain_sigma": 0.08,
+      "auxiliary_weight": 0.5
+    },
+    "inference_backend": "PC_float_CNN_integer_statistics",
+    "fpga_deployed": false
+  },
+  "linear_fraction": 23,
+  "linear_bound": 22675354482,
+  "architecture": "sequential256",
+  "alpha": 0.5,
+  "gate": 0.25,
+  "tensor_shapes": {
+    "cnn.blocks.0.0.weight": [
+      16,
+      8,
+      5
+    ],
+    "cnn.blocks.0.1.weight": [
+      16
+    ],
+    "cnn.blocks.0.1.bias": [
+      16
+    ],
+    "cnn.blocks.0.1.running_mean": [
+      16
+    ],
+    "cnn.blocks.0.1.running_var": [
+      16
+    ],
+    "cnn.blocks.0.1.num_batches_tracked": [],
+    "cnn.blocks.2.0.weight": [
+      24,
+      16,
+      3
+    ],
+    "cnn.blocks.2.1.weight": [
+      24
+    ],
+    "cnn.blocks.2.1.bias": [
+      24
+    ],
+    "cnn.blocks.2.1.running_mean": [
+      24
+    ],
+    "cnn.blocks.2.1.running_var": [
+      24
+    ],
+    "cnn.blocks.2.1.num_batches_tracked": [],
+    "cnn.blocks.4.0.weight": [
+      32,
+      24,
+      3
+    ],
+    "cnn.blocks.4.1.weight": [
+      32
+    ],
+    "cnn.blocks.4.1.bias": [
+      32
+    ],
+    "cnn.blocks.4.1.running_mean": [
+      32
+    ],
+    "cnn.blocks.4.1.running_var": [
+      32
+    ],
+    "cnn.blocks.4.1.num_batches_tracked": [],
+    "cnn.fc.weight": [
+      7,
+      32
+    ],
+    "cnn.fc.bias": [
+      7
+    ],
+    "offset": [
+      304
+    ],
+    "weights": [
+      7,
+      304
+    ],
+    "bias": [
+      7
+    ],
+    "classes": [
+      7
+    ],
+    "wave_shifts": [
+      8
+    ]
+  }
+}

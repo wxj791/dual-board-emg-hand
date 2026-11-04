@@ -1,0 +1,11 @@
+{
+  "scope": "all_bout_model_self_check",
+  "statistical_common_score_removed": false,
+  "windows": 597,
+  "pc_float_accuracy": 1.0,
+  "a_quantized_accuracy": 1.0,
+  "prediction_agreement": 1.0,
+  "direct_int64_reference": "all four layers passed on first calibration window",
+  "hardware_verified": false,
+  "source_sha256": "8f98ddc5bcb78d1f3b466aa061e931f01ff8a8d2f556e371b285a8e0fa067a7c"
+}

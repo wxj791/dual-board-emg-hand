@@ -1,0 +1,126 @@
+{
+  "version": 1,
+  "name": "我的动作方案",
+  "classes": [
+    {
+      "id": 0,
+      "key": "rest",
+      "name": "静息",
+      "instruction": "手指、手腕、前臂自然放松。",
+      "image": "rest.png",
+      "reference": "",
+      "output": {
+        "id": 0,
+        "name": "保持 / 停止触发"
+      }
+    },
+    {
+      "id": 1,
+      "key": "open",
+      "name": "张开手掌",
+      "instruction": "五指自然伸直张开，手腕保持平直。",
+      "image": "ninapro/open.png",
+      "reference": "B5",
+      "output": {
+        "id": 2,
+        "name": "五指张开"
+      }
+    },
+    {
+      "id": 2,
+      "key": "fist",
+      "name": "握拳",
+      "instruction": "正常握拳，中等力度，不用捏到发抖。",
+      "image": "ninapro/fist.png",
+      "reference": "B6",
+      "output": {
+        "id": 1,
+        "name": "握拳抓握"
+      }
+    },
+    {
+      "id": 3,
+      "key": "wrist_flexion",
+      "name": "掌屈",
+      "instruction": "前臂不动，手掌向手心这一侧弯。",
+      "image": "ninapro/wrist_flexion.png",
+      "reference": "B13",
+      "output": {
+        "id": 3,
+        "name": "两指捏取"
+      }
+    },
+    {
+      "id": 4,
+      "key": "wrist_extension",
+      "name": "背伸",
+      "instruction": "前臂不动，把手背向前臂背侧抬起。",
+      "image": "ninapro/wrist_extension.png",
+      "reference": "B14",
+      "output": {
+        "id": 4,
+        "name": "三指抓握"
+      }
+    },
+    {
+      "id": 5,
+      "key": "radial_deviation",
+      "name": "向拇指侧偏腕",
+      "instruction": "手腕向拇指方向侧弯，不翻掌。",
+      "image": "ninapro/radial_deviation.png",
+      "reference": "B15",
+      "output": {
+        "id": 3,
+        "name": "两指捏取"
+      }
+    },
+    {
+      "id": 6,
+      "key": "ulnar_deviation",
+      "name": "向小指侧偏腕",
+      "instruction": "手腕向小指方向侧弯，不翻掌。",
+      "image": "ninapro/ulnar_deviation.png",
+      "reference": "B16",
+      "output": {
+        "id": 4,
+        "name": "三指抓握"
+      }
+    },
+    {
+      "id": 7,
+      "key": "scissors",
+      "name": "剪刀手",
+      "instruction": "食指和中指伸出成V字，其余手指握住。",
+      "image": "scissors.png",
+      "reference": "",
+      "output": {
+        "id": 6,
+        "name": "剪刀手形"
+      }
+    },
+    {
+      "id": 8,
+      "key": "thumbs_up",
+      "name": "点赞",
+      "instruction": "大拇指竖起，其余四指握住。",
+      "image": "ninapro/thumbs_up.png",
+      "reference": "B1",
+      "output": {
+        "id": 5,
+        "name": "点赞手形"
+      }
+    },
+    {
+      "id": 9,
+      "key": "one",
+      "name": "数字一",
+      "instruction": "只伸出食指，其余四指握住。",
+      "image": "ninapro/one.png",
+      "reference": "B7",
+      "output": {
+        "id": 7,
+        "name": "数字一手形"
+      }
+    }
+  ]
+}

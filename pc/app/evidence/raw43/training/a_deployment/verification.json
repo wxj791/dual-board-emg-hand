@@ -1,0 +1,10 @@
+{
+  "scope": "all_bout_model_self_check",
+  "windows": 86,
+  "pc_float_accuracy": 1.0,
+  "a_quantized_accuracy": 1.0,
+  "prediction_agreement": 1.0,
+  "direct_int64_reference": "all four layers passed on first calibration window",
+  "hardware_verified": false,
+  "source_sha256": "889c2b99eb034df10da4082be3d7a592465a2380a09b67554c7e1d33fb28d50e"
+}

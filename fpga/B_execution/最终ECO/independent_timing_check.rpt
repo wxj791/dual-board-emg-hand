@@ -1,0 +1,582 @@
+Table of Contents
+-----------------
+1. checking no clock(0) (HIGH)
+2. checking clock definition(0) (HIGH)
+3. checking dummy node(3) (HIGH)
+4. checking invalid constraint(0) (HIGH)
+5. checking pll/clock buffer clock constraints(0) (HIGH)
+6. checking combinational loops(0) (HIGH)
+7. checking soft fifo timing exception constraints(0) (HIGH)
+8. checking no path constraints(0) (MEDIUM)
+9. checking shadowed/ignored timing exception constraints(0) (MEDIUM)
+10. checking no input delay(4) (MEDIUM)
+11. checking no output delay(0) (MEDIUM)
+12. checking partial input delay(9) (MEDIUM)
+13. checking partial output delay(0) (MEDIUM)
+14. checking abnormal input delay(0) (MEDIUM)
+
+
+1. checking nets with no clock driven. (HIGH)
+---------------------------------------------
+2. checking clock definition problems. (HIGH)
+---------------------------------------------
+2.1 There are 0 leaf clock pins driven by multiple clocks. (HIGH)
+
+
+2.2 There are 0 clocks created on internal clock network. (HIGH)
+
+
+2.3 There are 0 unexpandable clock sets. (HIGH)
+
+
+2.4 There are 0 local clocks. (HIGH)
+
+
+2.5 There are 0 generated clocks that are not connected to their master clocks. (HIGH)
+
+
+3. checking dummy nodes. (HIGH)
+---------------------------------------------
+There are 3 nodes are dangling. (HIGH)
+
+DummyNode in Model: EG_PHY_LSLICE
+	receiver/fifo_overflow_count_reg[18]_syn_4.d[0]
+	pc/id_hold_reg[8]_syn_4.d[0]
+	servo_controller/flash_save_group_reg[2]_syn_4.d[0]
+	flash_store/load_positions_reg[19]_syn_4.d[0]
+	flash_store/rst_n_syn_53.d[1]
+	flash_store/byte_engine/mosi_n_syn_31.d[0]
+	flash_store/write_record_b7_n24_syn_76.d[0]
+	flash_store/rst_n_syn_51.d[0]
+	a_decode/raw_mv_reg[99]_syn_4.b[0]
+	control/page_reg[0]_syn_58.b[0]
+	a_decode/raw_mv_reg[57]_syn_4.b[0]
+	a_decode/slow_q4_reg[157]_syn_4.b[1]
+	a_decode/slow_q4_reg[48]_syn_4.b[1]
+	a_decode/slow_q4_reg[65]_syn_4.c[1]
+	renderer/sprite/delay6_reg[1]_syn_4.d[0]
+	a_decode/slow_q4_reg[38]_syn_4.d[1]
+	a_decode/slow_q4_reg[18]_syn_4.d[0]
+	control/last_window_reg[18]_syn_4.c[1]
+	control/page_reg[0]_syn_71.e[0]
+	control/page_reg[0]_syn_73.e[0]
+	control/page_reg[0]_syn_71.d[0]
+	control/page_reg[0]_syn_73.d[0]
+	control/page_reg[0]_syn_71.c[0]
+	control/page_reg[0]_syn_73.c[0]
+	control/page_reg[0]_syn_71.b[0]
+	control/page_reg[0]_syn_73.b[0]
+	control/page_reg[0]_syn_71.a[0]
+	control/page_reg[0]_syn_73.a[0]
+	a_decode/raw_mv_reg[99]_syn_4.c[0]
+	control/page_reg[0]_syn_58.c[0]
+	a_decode/raw_mv_reg[57]_syn_4.c[0]
+	a_decode/slow_q4_reg[157]_syn_4.c[1]
+	a_decode/slow_q4_reg[48]_syn_4.c[1]
+	a_decode/raw_mv_reg[99]_syn_4.d[0]
+	control/page_reg[0]_syn_58.d[0]
+	a_decode/raw_mv_reg[57]_syn_4.d[0]
+	a_decode/slow_q4_reg[157]_syn_4.d[1]
+	a_decode/slow_q4_reg[48]_syn_4.d[1]
+	a_decode/slow_q4_reg[65]_syn_4.d[1]
+	control/last_window_reg[18]_syn_4.d[1]
+	renderer/sprite/delay6_reg[1]_syn_4.c[0]
+	a_decode/slow_q4_reg[38]_syn_4.c[1]
+	a_decode/slow_q4_reg[18]_syn_4.c[0]
+	renderer/mean_lane_reg[1]_syn_33.c[1]
+	renderer/mean_lane_reg[1]_syn_35.c[1]
+	meta_mailbox/dst_data_reg[87]_syn_4.d[0]
+	renderer/sprite/delay3_reg[7]_syn_4.d[0]
+	control/json_loads_reg[10]_syn_4.d[1]
+	pc/arguments_reg[1]_syn_59.d[1]
+	pc/arguments_reg[1]_syn_59.d[0]
+	pc/arguments_reg[1]_syn_52.d[1]
+	pc/arguments_reg[1]_syn_52.d[0]
+	pc/arguments_reg[1]_syn_53.d[1]
+	pc/arguments_reg[1]_syn_53.d[0]
+	pc/arguments_reg[1]_syn_54.d[1]
+	pc/arguments_reg[1]_syn_54.d[0]
+	pc/arguments_reg[1]_syn_55.d[1]
+	pc/arguments_reg[1]_syn_55.d[0]
+	pc/arguments_reg[1]_syn_56.d[1]
+	pc/arguments_reg[1]_syn_56.d[0]
+	pc/arguments_reg[1]_syn_57.d[1]
+	pc/arguments_reg[1]_syn_57.d[0]
+	renderer/sample_data1_reg[83]_syn_4.d[1]
+	meta_mailbox/dst_data_reg[87]_syn_4.c[0]
+	renderer/sample_data1_reg[83]_syn_4.c[1]
+	renderer/native_trace/odd_ram2_reg[125]_syn_4.c[0]
+	renderer/mean_lane_reg[1]_syn_33.d[1]
+	renderer/mean_lane_reg[1]_syn_35.d[1]
+	renderer/sample_data1_reg[83]_syn_4.b[1]
+	renderer/sprite/delay3_reg[7]_syn_4.c[0]
+	control/json_loads_reg[10]_syn_4.c[1]
+	meta_mailbox/dst_data_reg[87]_syn_4.b[0]
+	renderer/native_trace/odd_ram2_reg[125]_syn_4.b[0]
+	pc/arguments_reg[1]_syn_59.c[0]
+	pc/arguments_reg[1]_syn_52.c[0]
+	pc/arguments_reg[1]_syn_53.c[0]
+	pc/arguments_reg[1]_syn_54.c[0]
+	pc/arguments_reg[1]_syn_55.c[0]
+	pc/arguments_reg[1]_syn_56.c[0]
+	pc/arguments_reg[1]_syn_57.c[0]
+	pc/arguments_reg[1]_syn_59.c[1]
+	pc/arguments_reg[1]_syn_52.c[1]
+	pc/arguments_reg[1]_syn_53.c[1]
+	pc/arguments_reg[1]_syn_54.c[1]
+	pc/arguments_reg[1]_syn_55.c[1]
+	pc/arguments_reg[1]_syn_56.c[1]
+	pc/arguments_reg[1]_syn_57.c[1]
+	receiver/fifo_overflow_count_reg[18]_syn_4.c[0]
+	pc/id_hold_reg[8]_syn_4.c[0]
+	flash_store/rst_n_syn_53.c[1]
+	flash_store/load_positions_reg[19]_syn_4.c[0]
+	servo_controller/flash_save_group_reg[2]_syn_4.c[0]
+	flash_store/rst_n_syn_51.c[0]
+	flash_store/byte_engine/mosi_n_syn_31.c[0]
+	flash_store/write_record_b7_n24_syn_76.c[0]
+	flash_store/record_buf_reg[89]_syn_4.c[0]
+	flash_store/mux321_syn_574.c[0]
+	flash_store/record_buf_reg[89]_syn_4.a[0]
+	flash_store/mux321_syn_574.a[0]
+	flash_store/record_buf_reg[89]_syn_4.d[0]
+	flash_store/mux321_syn_574.d[0]
+	flash_store/record_buf_reg[89]_syn_4.b[0]
+	flash_store/mux321_syn_574.b[0]
+	renderer/native_trace/inv_phase_reg[15]_syn_4.c[0]
+	renderer/native_trace/inv_phase_reg[15]_syn_4.d[0]
+	renderer/mean_even_word_reg[64]_syn_4.c[1]
+	meta_mailbox/dst_data_reg[327]_syn_4.c[0]
+	renderer/mean_even_word_reg[64]_syn_4.a[1]
+	meta_mailbox/dst_data_reg[327]_syn_4.a[0]
+	renderer/mean_even_word_reg[64]_syn_4.b[1]
+	meta_mailbox/dst_data_reg[327]_syn_4.b[0]
+	renderer/mean_even_word_reg[64]_syn_4.d[1]
+	meta_mailbox/dst_data_reg[327]_syn_4.d[0]
+	pc/arguments_reg[1]_syn_46.mi[1]
+	pc/arguments_reg[1]_syn_52.mi[1]
+	pc/arguments_reg[1]_syn_53.mi[1]
+	pc/arguments_reg[1]_syn_54.mi[1]
+	pc/arguments_reg[1]_syn_55.mi[1]
+	pc/arguments_reg[1]_syn_46.mi[0]
+	pc/arguments_reg[1]_syn_59.mi[0]
+	pc/arguments_reg[1]_syn_56.mi[0]
+	pc/arguments_reg[1]_syn_57.mi[0]
+	renderer/mean_even_word_reg[64]_syn_4.e[1]
+	meta_mailbox/dst_data_reg[327]_syn_4.e[0]
+	renderer/native_trace/odd_ram2_reg[81]_syn_4.c[0]
+	renderer/native_trace/odd_ram2_reg[62]_syn_4.c[0]
+	renderer/native_trace/odd_ram2_reg[126]_syn_4.c[0]
+	renderer/native_trace/even_read2_reg[2]_syn_4.c[0]
+	renderer/mean_lane_reg[0]_syn_17.c[0]
+	renderer/native_trace/odd_ram2_reg[39]_syn_4.c[0]
+	renderer/native_trace/even_ram2_reg[95]_syn_4.c[0]
+	renderer/native_trace/even_ram2_reg[50]_syn_4.c[0]
+	a_decode/raw_mv_reg[99]_syn_4.a[0]
+	control/page_reg[0]_syn_58.a[0]
+	a_decode/raw_mv_reg[57]_syn_4.a[0]
+	a_decode/slow_q4_reg[157]_syn_4.a[1]
+	a_decode/slow_q4_reg[48]_syn_4.a[1]
+	renderer/mean_lane_reg[1]_syn_33.b[0]
+	renderer/mean_lane_reg[1]_syn_35.b[0]
+	renderer/mean_lane_reg[1]_syn_33.a[0]
+	renderer/mean_lane_reg[1]_syn_35.a[0]
+	renderer/mean_lane_reg[1]_syn_33.c[0]
+	renderer/mean_lane_reg[1]_syn_35.c[0]
+	renderer/native_trace/odd_ram2_reg[62]_syn_4.d[0]
+	renderer/mean_sum_reg[61]_syn_4.e[0]
+	renderer/native_trace/index0_reg[4]_syn_4.e[1]
+	renderer/mean_sum_reg[61]_syn_4.e[1]
+	renderer/native_trace/even_ram2_reg[95]_syn_4.e[0]
+	renderer/native_trace/odd_ram2_reg[62]_syn_4.e[0]
+	renderer/native_trace/odd_ram2_reg[81]_syn_4.e[0]
+	renderer/native_trace/odd_ram2_reg[126]_syn_4.e[0]
+	renderer/native_trace/odd_ram2_reg[39]_syn_4.e[0]
+	renderer/mean_lane_reg[0]_syn_17.e[0]
+	renderer/native_trace/even_read2_reg[2]_syn_4.e[0]
+	renderer/native_trace/even_ram2_reg[50]_syn_4.e[0]
+	renderer/native_trace/index0_reg[4]_syn_4.d[1]
+	renderer/mean_sum_reg[61]_syn_4.d[1]
+	renderer/mean_sum_reg[61]_syn_4.d[0]
+	renderer/native_trace/odd_ram2_reg[126]_syn_4.d[0]
+	renderer/native_trace/odd_ram2_reg[39]_syn_4.d[0]
+	renderer/native_trace/odd_ram2_reg[81]_syn_4.d[0]
+	renderer/native_trace/even_read2_reg[2]_syn_4.d[0]
+	renderer/mean_lane_reg[0]_syn_17.d[0]
+	renderer/native_trace/even_ram2_reg[50]_syn_4.d[0]
+	renderer/native_trace/even_ram2_reg[95]_syn_4.d[0]
+	renderer/timing/logical_x_reg[4]_syn_18.b[0]
+	renderer/timing/logical_x_reg[4]_syn_19.b[0]
+	renderer/timing/logical_x_reg[4]_syn_20.b[0]
+	renderer/timing/logical_x_reg[4]_syn_21.b[0]
+	renderer/timing/logical_x_reg[4]_syn_18.a[0]
+	renderer/timing/logical_x_reg[4]_syn_19.a[0]
+	renderer/timing/logical_x_reg[4]_syn_20.a[0]
+	renderer/timing/logical_x_reg[4]_syn_21.a[0]
+	renderer/mean_lane_reg[1]_syn_33.e[0]
+	renderer/mean_lane_reg[1]_syn_35.e[0]
+	renderer/mean_lane_reg[1]_syn_33.d[0]
+	renderer/mean_lane_reg[1]_syn_35.d[0]
+	renderer/timing/logical_x_reg[4]_syn_18.a[1]
+	renderer/timing/logical_x_reg[4]_syn_19.a[1]
+	renderer/timing/logical_x_reg[4]_syn_20.a[1]
+	renderer/timing/logical_x_reg[4]_syn_21.a[1]
+	renderer/timing/logical_x_reg[4]_syn_18.d[1]
+	renderer/timing/logical_x_reg[4]_syn_19.d[1]
+	renderer/timing/logical_x_reg[4]_syn_20.d[1]
+	renderer/timing/logical_x_reg[4]_syn_21.d[1]
+	renderer/timing/logical_x_reg[4]_syn_18.c[1]
+	renderer/timing/logical_x_reg[4]_syn_19.c[1]
+	renderer/timing/logical_x_reg[4]_syn_20.c[1]
+	renderer/timing/logical_x_reg[4]_syn_21.c[1]
+	renderer/timing/logical_x_reg[4]_syn_18.b[1]
+	renderer/timing/logical_x_reg[4]_syn_19.b[1]
+	renderer/timing/logical_x_reg[4]_syn_20.b[1]
+	renderer/timing/logical_x_reg[4]_syn_21.b[1]
+	renderer/timing/logical_x_reg[4]_syn_18.d[0]
+	renderer/timing/logical_x_reg[4]_syn_19.d[0]
+	renderer/timing/logical_x_reg[4]_syn_20.d[0]
+	renderer/timing/logical_x_reg[4]_syn_21.d[0]
+	renderer/timing/logical_x_reg[4]_syn_21.c[0]
+	renderer/timing/logical_x_reg[4]_syn_19.c[0]
+	renderer/timing/logical_x_reg[4]_syn_20.c[0]
+	renderer/timing/logical_x_reg[4]_syn_18.c[0]
+	renderer/native_trace/even_ram2_reg[95]_syn_4.b[0]
+	renderer/native_trace/even_read2_reg[2]_syn_4.b[0]
+	renderer/native_trace/even_ram2_reg[50]_syn_4.b[0]
+	renderer/mean_lane_reg[0]_syn_17.b[0]
+	renderer/mean_sum_reg[61]_syn_4.b[1]
+	renderer/mean_sum_reg[61]_syn_4.b[0]
+	renderer/native_trace/index0_reg[4]_syn_4.b[1]
+	renderer/native_trace/odd_ram2_reg[62]_syn_4.b[0]
+	renderer/native_trace/odd_ram2_reg[126]_syn_4.b[0]
+	renderer/native_trace/odd_ram2_reg[39]_syn_4.b[0]
+	renderer/native_trace/odd_ram2_reg[81]_syn_4.b[0]
+	renderer/mean_sum_reg[61]_syn_4.c[0]
+	renderer/native_trace/index0_reg[4]_syn_4.c[1]
+	renderer/mean_sum_reg[61]_syn_4.c[1]
+	renderer/mean_sum_reg[61]_syn_4.a[0]
+	renderer/native_trace/even_ram2_reg[95]_syn_4.a[0]
+	renderer/native_trace/odd_ram2_reg[62]_syn_4.a[0]
+	renderer/native_trace/odd_ram2_reg[81]_syn_4.a[0]
+	renderer/native_trace/odd_ram2_reg[126]_syn_4.a[0]
+	renderer/native_trace/odd_ram2_reg[39]_syn_4.a[0]
+	renderer/mean_lane_reg[0]_syn_17.a[0]
+	renderer/native_trace/even_read2_reg[2]_syn_4.a[0]
+	renderer/native_trace/even_ram2_reg[50]_syn_4.a[0]
+	renderer/native_trace/index0_reg[4]_syn_4.a[1]
+	renderer/mean_sum_reg[61]_syn_4.a[1]
+	renderer/native_trace/channel_reg[55]_syn_24.mi[1]
+	renderer/native_trace/channel_reg[54]_syn_12.mi[1]
+	pix_data_reg[50]_syn_4.mi[0]
+	renderer/timing/logical_x_reg[4]_syn_14.mi[0]
+	renderer/timing/logical_x_reg[3]_syn_9.mi[0]
+	renderer/timing/logical_x_reg[4]_syn_18.mi[0]
+	renderer/timing/logical_x_reg[4]_syn_19.mi[0]
+	renderer/timing/logical_x_reg[4]_syn_20.mi[0]
+	renderer/timing/logical_x_reg[4]_syn_21.mi[0]
+	renderer/timing/logical_x_reg[3]_syn_9.mi[1]
+	renderer/native_trace/lane[7]_reg[5]_syn_4.c[0]
+	renderer/native_trace/lane[7]_reg[5]_syn_4.d[0]
+	control/page_reg[0]_syn_71.b[1]
+	control/page_reg[0]_syn_73.b[1]
+	control/page_reg[0]_syn_71.d[1]
+	control/page_reg[0]_syn_73.d[1]
+	control/page_reg[0]_syn_71.c[1]
+	control/page_reg[0]_syn_73.c[1]
+	renderer/native_trace/numerator8_reg[7]_syn_4.b[0]
+	renderer/text_colour3_reg[10]_syn_4.b[0]
+	renderer/native_trace/numerator8_reg[7]_syn_4.d[0]
+	renderer/text_colour3_reg[10]_syn_4.d[0]
+	renderer/native_trace/numerator8_reg[7]_syn_4.c[0]
+	renderer/text_colour3_reg[10]_syn_4.c[0]
+	renderer/native_trace/odd_ram2_reg[125]_syn_4.d[0]
+	servo_controller/event_valid_reg_syn_212.mi[0]
+	control/page_reg[0]_syn_44.mi[1]
+	control/page_reg[0]_syn_51.mi[0]
+	control/page_reg[0]_syn_51.mi[1]
+	control/page_reg[0]_syn_44.mi[0]
+	control/page_reg[0]_syn_71.mi[0]
+	control/page_reg[0]_syn_73.mi[0]
+	control/page_reg[0]_syn_65.mi[0]
+	renderer/mean_lane_reg[0]_syn_17.mi[1]
+	renderer/mean_lane_reg[1]_syn_32.mi[1]
+	renderer/mean_lane_reg[1]_syn_22.mi[1]
+	renderer/mean_lane_reg[1]_syn_32.mi[0]
+	renderer/mean_lane_reg[0]_syn_17.mi[0]
+	renderer/mean_lane_reg[2]_syn_20.mi[1]
+	renderer/mean_lane_reg[1]_syn_33.mi[0]
+	renderer/mean_lane_reg[1]_syn_35.mi[0]
+	scale/sat_reg_syn_69.mi[0]
+
+DummyNode in Model: EG_PHY_MSLICE
+	flash_store/byte_engine/tx_shift_b[1]_syn_31.d[0]
+	flash_store/write_record_reg[41]_syn_4.d[0]
+	renderer/overlay_pipe_reg[342]_syn_4.b[0]
+	renderer/overlay_pipe_reg[108]_syn_4.b[1]
+	servo_controller/speeds_reg[71]_syn_4.b[0]
+	servo_controller/loads_reg[18]_syn_4.b[0]
+	a_decode/sample_seq_reg[20]_syn_4.b[0]
+	renderer/overlay_pipe_reg[621]_syn_4.b[0]
+	renderer/overlay_pipe_reg[650]_syn_4.b[0]
+	renderer/overlay_b_reg[7]_syn_4.b[0]
+	renderer/sprite/delay9_reg[6]_syn_4.b[0]
+	control/ranges_b[26]_syn_22.mi[0]
+	pix_clear_reg_syn_20.mi[0]
+	renderer/overlay_pipe_reg[526]_syn_4.d[0]
+	renderer/overlay_pipe_reg[658]_syn_4.d[0]
+	renderer/overlay_pipe_reg[342]_syn_4.c[0]
+	renderer/overlay_pipe_reg[108]_syn_4.c[1]
+	servo_controller/speeds_reg[71]_syn_4.c[0]
+	servo_controller/loads_reg[18]_syn_4.c[0]
+	a_decode/sample_seq_reg[20]_syn_4.c[0]
+	renderer/overlay_pipe_reg[621]_syn_4.c[0]
+	renderer/overlay_pipe_reg[650]_syn_4.c[0]
+	renderer/overlay_b_reg[7]_syn_4.c[0]
+	renderer/sprite/delay9_reg[6]_syn_4.c[0]
+	renderer/overlay_pipe_reg[342]_syn_4.d[0]
+	renderer/overlay_pipe_reg[108]_syn_4.d[1]
+	servo_controller/speeds_reg[71]_syn_4.d[0]
+	servo_controller/loads_reg[18]_syn_4.d[0]
+	a_decode/sample_seq_reg[20]_syn_4.d[0]
+	renderer/overlay_pipe_reg[621]_syn_4.d[0]
+	renderer/overlay_pipe_reg[650]_syn_4.d[0]
+	renderer/overlay_b_reg[7]_syn_4.d[0]
+	renderer/sprite/delay9_reg[6]_syn_4.d[0]
+	renderer/overlay_pipe_reg[526]_syn_4.c[0]
+	renderer/overlay_pipe_reg[658]_syn_4.c[0]
+	control/commit_id_reg[9]_syn_4.c[0]
+	control/commit_id_reg[9]_syn_4.d[0]
+	control/gain_pages_reg[120]_syn_4.d[1]
+	meta_mailbox/dst_data_reg[77]_syn_4.d[0]
+	control/gain_pages_reg[120]_syn_4.c[1]
+	meta_mailbox/dst_data_reg[77]_syn_4.c[0]
+	control/ranges_b[26]_syn_26.c[0]
+	control/ranges_b[26]_syn_26.d[1]
+	control/ranges_b[26]_syn_27.c[0]
+	control/ranges_b[26]_syn_27.d[1]
+	control/ranges_b[26]_syn_28.c[0]
+	control/ranges_b[26]_syn_28.d[1]
+	control/ranges_b[26]_syn_29.c[0]
+	control/ranges_b[26]_syn_29.d[1]
+	control/ranges_b[26]_syn_31.c[0]
+	control/ranges_b[26]_syn_31.d[1]
+	control/ranges_b[26]_syn_26.c[1]
+	control/ranges_b[26]_syn_27.c[1]
+	control/ranges_b[26]_syn_28.c[1]
+	control/ranges_b[26]_syn_29.c[1]
+	control/ranges_b[26]_syn_31.c[1]
+	control/ranges_b[26]_syn_26.d[0]
+	control/ranges_b[26]_syn_27.d[0]
+	control/ranges_b[26]_syn_28.d[0]
+	control/ranges_b[26]_syn_29.d[0]
+	control/ranges_b[26]_syn_31.d[0]
+	control/ranges_b[26]_syn_26.b[0]
+	control/ranges_b[26]_syn_27.b[0]
+	control/ranges_b[26]_syn_28.b[0]
+	control/ranges_b[26]_syn_29.b[0]
+	control/ranges_b[26]_syn_31.b[0]
+	control/ranges_b[26]_syn_26.b[1]
+	control/ranges_b[26]_syn_27.b[1]
+	control/ranges_b[26]_syn_28.b[1]
+	control/ranges_b[26]_syn_29.b[1]
+	control/ranges_b[26]_syn_31.b[1]
+	control/gain_pages_reg[120]_syn_4.b[1]
+	meta_mailbox/dst_data_reg[77]_syn_4.b[0]
+	flash_store/byte_engine/tx_shift_b[1]_syn_31.c[0]
+	flash_store/write_record_reg[41]_syn_4.c[0]
+	meta_mailbox/payload_hold_reg[64]_syn_4.c[0]
+	meta_mailbox/payload_hold_reg[64]_syn_4.d[0]
+	pc/arguments_reg[0]_syn_35.mi[0]
+	pc/arguments_reg[1]_syn_31.mi[1]
+	pc/arguments_reg[1]_syn_48.mi[1]
+	pc/arguments_reg[1]_syn_40.mi[1]
+	pc/arguments_reg[1]_syn_42.mi[1]
+	pc/arguments_reg[1]_syn_42.mi[0]
+	pc/opcode_reg[3]_syn_4.mi[0]
+	pc/arguments_reg[0]_syn_35.mi[1]
+	pc/arguments_reg[1]_syn_48.mi[0]
+	pc/arguments_reg[1]_syn_40.mi[0]
+	renderer/overlay_pipe_reg[342]_syn_4.a[0]
+	renderer/overlay_pipe_reg[108]_syn_4.a[1]
+	servo_controller/speeds_reg[71]_syn_4.a[0]
+	servo_controller/loads_reg[18]_syn_4.a[0]
+	a_decode/sample_seq_reg[20]_syn_4.a[0]
+	renderer/overlay_pipe_reg[621]_syn_4.a[0]
+	renderer/overlay_pipe_reg[650]_syn_4.a[0]
+	renderer/overlay_b_reg[7]_syn_4.a[0]
+	renderer/sprite/delay9_reg[6]_syn_4.a[0]
+	control/trigger_ready_reg_syn_646.mi[0]
+	pc/mux25_syn_921.mi[0]
+	renderer/native_trace/channel_reg[55]_syn_20.mi[1]
+	renderer/native_trace/ramread2_syn_11.c[0]
+	renderer/native_trace/ramread2_syn_11.c[1]
+	renderer/native_trace/ramread2_syn_12.c[0]
+	renderer/native_trace/ramread2_syn_12.c[1]
+	renderer/native_trace/ramread2_syn_25.c[0]
+	renderer/native_trace/ramread2_syn_25.c[1]
+	renderer/native_trace/ramread2_syn_26.c[0]
+	renderer/native_trace/ramread2_syn_26.c[1]
+	renderer/native_trace/ramread2_syn_39.c[0]
+	renderer/native_trace/ramread2_syn_39.c[1]
+	renderer/native_trace/ramread2_syn_40.c[0]
+	renderer/native_trace/ramread2_syn_40.c[1]
+	renderer/native_trace/ramread2_syn_53.c[0]
+	renderer/native_trace/ramread2_syn_53.c[1]
+	renderer/native_trace/ramread2_syn_54.c[0]
+	renderer/native_trace/ramread2_syn_54.c[1]
+	renderer/native_trace/ramread2_syn_67.c[0]
+	renderer/native_trace/ramread2_syn_11.b[0]
+	renderer/native_trace/ramread2_syn_11.b[1]
+	renderer/native_trace/ramread2_syn_12.b[0]
+	renderer/native_trace/ramread2_syn_12.b[1]
+	renderer/native_trace/ramread2_syn_25.b[0]
+	renderer/native_trace/ramread2_syn_25.b[1]
+	renderer/native_trace/ramread2_syn_26.b[0]
+	renderer/native_trace/ramread2_syn_26.b[1]
+	renderer/native_trace/ramread2_syn_39.b[0]
+	renderer/native_trace/ramread2_syn_39.b[1]
+	renderer/native_trace/ramread2_syn_40.b[0]
+	renderer/native_trace/ramread2_syn_40.b[1]
+	renderer/native_trace/ramread2_syn_53.b[0]
+	renderer/native_trace/ramread2_syn_53.b[1]
+	renderer/native_trace/ramread2_syn_54.b[0]
+	renderer/native_trace/ramread2_syn_54.b[1]
+	renderer/native_trace/ramread2_syn_67.b[0]
+	renderer/native_trace/ramread2_syn_11.a[0]
+	renderer/native_trace/ramread2_syn_11.a[1]
+	renderer/native_trace/ramread2_syn_12.a[0]
+	renderer/native_trace/ramread2_syn_12.a[1]
+	renderer/native_trace/ramread2_syn_25.a[0]
+	renderer/native_trace/ramread2_syn_25.a[1]
+	renderer/native_trace/ramread2_syn_26.a[0]
+	renderer/native_trace/ramread2_syn_26.a[1]
+	renderer/native_trace/ramread2_syn_39.a[0]
+	renderer/native_trace/ramread2_syn_39.a[1]
+	renderer/native_trace/ramread2_syn_40.a[0]
+	renderer/native_trace/ramread2_syn_40.a[1]
+	renderer/native_trace/ramread2_syn_53.a[0]
+	renderer/native_trace/ramread2_syn_53.a[1]
+	renderer/native_trace/ramread2_syn_54.a[0]
+	renderer/native_trace/ramread2_syn_54.a[1]
+	renderer/native_trace/ramread2_syn_67.a[0]
+	renderer/timing/logical_x_reg[4]_syn_16.mi[1]
+	renderer/x0_reg[8]_syn_4.c[0]
+	renderer/x0_reg[8]_syn_4.d[0]
+	meta_mailbox/payload_hold_reg[48]_syn_4.b[0]
+	renderer/centers_bcd_reg[73]_syn_4.b[0]
+	scale/scaled_reg[94]_syn_4.c[0]
+	scale/data_reg[118]_syn_4.c[0]
+	scale/data_reg[139]_syn_4.c[0]
+	scale/scaled_reg[94]_syn_4.d[0]
+	scale/data_reg[118]_syn_4.d[0]
+	scale/data_reg[139]_syn_4.d[0]
+	meta_mailbox/payload_hold_reg[48]_syn_4.d[0]
+	renderer/centers_bcd_reg[73]_syn_4.d[0]
+	meta_mailbox/payload_hold_reg[48]_syn_4.c[0]
+	renderer/centers_bcd_reg[73]_syn_4.c[0]
+	control/ranges_b[26]_syn_26.a[0]
+	control/ranges_b[26]_syn_27.a[0]
+	control/ranges_b[26]_syn_28.a[0]
+	control/ranges_b[26]_syn_29.a[0]
+	control/ranges_b[26]_syn_31.a[0]
+	control/page_reg[0]_syn_56.mi[1]
+	renderer/mean_lane_reg[0]_syn_25.mi[0]
+	renderer/mean_lane_reg[1]_syn_24.mi[0]
+	renderer/mean_lane_reg[1]_syn_24.mi[1]
+	renderer/mean_lane_reg[1]_syn_29.mi[0]
+
+DummyNode in Model: EG_PHY_PAD
+	host_uart_rx_syn_2.ipad
+
+4. checking invalid constraints. (HIGH)
+---------------------------------------------
+There are 0 invalid constraints. (HIGH)
+
+
+5. checking PLL/buffer clocks. (HIGH)
+---------------------------------------------
+PLL/buffer inst: u_pll/pll
+{
+	There are 0 clock pins that have no clock constraints. (HIGH)
+
+
+	There are 0 clocks whose clock frequency do not match the PLL setting. (HIGH)
+
+
+}
+
+6. checking combinational loops. (HIGH)
+---------------------------------------------
+There are 0 combinational loops. (HIGH)
+
+
+7. checking soft fifo set_max_delay constraints. (HIGH)
+---------------------------------------------
+There are 0 max-delay datapath-only paths that are part of the provided async clock paths, whereas the timing between other registers is not relaxed or ignored. (HIGH)
+
+
+8. checking no path constraints. (MEDIUM)
+---------------------------------------------
+There are 0 constraints that have no timing paths. (MEDIUM)
+
+
+9. checking path exception constraints shadowed/ignored by other constraints. (MEDIUM)
+---------------------------------------------
+
+MCP/SMD Summary
+--------------------
+
+		Max Check
+		--------------------
+		     Total    Dominated     Shadowed      Ignored   Constraint
+		       634          634            0            0   set_max_delay -from [get_regs {meta_mailbox/payload_hold[*]}] -to [get_regs {meta_mailbox/dst_data[*]}] -datapath_only 6.734007
+		        10           10            0            0   set_max_delay -from [get_regs {sample_fifo/wr_gray[*]}] -to [get_regs {sample_fifo/wr_gray_rd_sync1[*]}] -datapath_only 41.666667
+		        10           10            0            0   set_max_delay -from [get_regs {sample_fifo/rd_gray[*]}] -to [get_regs {sample_fifo/rd_gray_wr_sync1[*]}] -datapath_only 6.734007
+		        10           10            0            0   set_max_delay -from [get_regs {receiver/byte_fifo/wr_gray[*]}] -to [get_regs {receiver/byte_fifo/wr_gray_rd_sync1[*]}] -datapath_only 166.666667
+		        10           10            0            0   set_max_delay -from [get_regs {receiver/byte_fifo/rd_gray[*]}] -to [get_regs {receiver/byte_fifo/rd_gray_wr_sync1[*]}] -datapath_only 41.666667
+		      8192         8192            0            0   set_multicycle_path -setup 3 -from [get_regs {renderer/mean_lane* renderer/mean_sum*}] -to [get_regs {renderer/mean_sum*}]
+
+		Min Check
+		--------------------
+		     Total    Dominated     Shadowed      Ignored   Constraint
+		      8192         8192            0            0   set_multicycle_path -hold 2 -from [get_regs {renderer/mean_lane* renderer/mean_sum*}] -to [get_regs {renderer/mean_sum*}]
+
+10. checking no input delay (MEDIUM)
+--------------------------
+There are 4 input ports that with no input delay specified. (MEDIUM)
+
+	display_sw
+	host_uart_rx
+	rst_n
+	scs_rx
+
+11. checking no output delay (MEDIUM)
+--------------------------
+There are 0 output ports that with no output delay specified. (MEDIUM)
+
+
+12. checking partial input delay (MEDIUM)
+--------------------------
+There are 9 input ports with partial input delay specified. (MEDIUM)
+
+	link_data[7]
+	link_data[6]
+	link_data[5]
+	link_data[4]
+	link_data[3]
+	link_data[2]
+	link_data[1]
+	link_data[0]
+	link_valid
+
+13. checking partial output delay (MEDIUM)
+--------------------------
+There are 0 output ports with partial output delay specified. (MEDIUM)
+
+
+14. checking abnormal set_input_delay constraints. (MEDIUM)
+---------------------------------------------
+There are 0 abnormal set_input_delay constraints. (MEDIUM)
+
+

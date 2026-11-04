@@ -1,0 +1,12 @@
+event     1 status     0
+event     2 status     7
+event     3 status     0
+event     4 status     0
+event     5 status     7
+event     6 status     0
+event     7 status     7
+event    70 status     0
+event     8 status     7
+event     9 status     0
+PASS: command-only servo traffic, quiet idle before/after commands, five torque readbacks, capture/Flash failure/pose feedback, STOP preemption and missing feedback failure
+E:\FPGA\Projects\emg_hand_fpga\artifacts\pc_gesture_tasks\pc_candidate_20261101_180659_073399\r53_servo_schedule_20261102\fpga_b\gesture_tasks\tb_tasks_servo.sv:53: $finish called at 8271780000 (1ps)

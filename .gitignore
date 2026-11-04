@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.nb[ci]
+.DS_Store
+.pio/
+.vscode/
+.idea/
+**/runtime/live_trials/
+**/runtime/*.log
+local_verification/

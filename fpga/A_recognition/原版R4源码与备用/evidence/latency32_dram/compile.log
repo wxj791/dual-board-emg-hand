@@ -1,0 +1,2 @@
+E:\FPGA\Projects\emg_hand_fpga\fpga_a\experimental\cnn256_gesture_tasks\scratch_dram\fusion_head.v:192: warning: Port 4 (wd) of v2_score_ram expects 24 bits, got 48.
+E:\FPGA\Projects\emg_hand_fpga\fpga_a\experimental\cnn256_gesture_tasks\scratch_dram\fusion_head.v:192:        : Pruning 24 high bits of the expression.

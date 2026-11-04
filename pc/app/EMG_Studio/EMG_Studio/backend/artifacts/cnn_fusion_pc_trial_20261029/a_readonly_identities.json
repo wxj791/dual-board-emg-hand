@@ -1,0 +1,51 @@
+{
+  "schema": 1,
+  "source_sha256": "3397d11e9f9b7e416e82ce66852f67fd66575d856b80d0a683e3287060a3a333",
+  "class_names": [
+    "静息",
+    "张开手掌",
+    "握拳",
+    "掌屈",
+    "背伸",
+    "向拇指侧偏腕",
+    "向小指侧偏腕"
+  ],
+  "identities": [
+    {
+      "model_crc32": "fc91830a",
+      "origin": "factory_quantized_export",
+      "source_sha256": "3397d11e9f9b7e416e82ce66852f67fd66575d856b80d0a683e3287060a3a333",
+      "class_names": [
+        "静息",
+        "张开手掌",
+        "握拳",
+        "掌屈",
+        "背伸",
+        "向拇指侧偏腕",
+        "向小指侧偏腕"
+      ],
+      "proof": {
+        "all_eight_banks_equal": true,
+        "transaction_crc_recalculated": true,
+        "bank_sha256": [
+          "01885d655c9a502b6109bc581454c0b6bb37bc3126358c1aa31805b704297e33",
+          "e53905b995aecf91b440ff3681cdd677e2ff8885dc47799881a802b473b17b04",
+          "50c74dc2790d1e5e5b4b33e97ec56f3a472c2319c3407980011b4328fe4fb14d",
+          "85aa468c0c7d2c74ad866ff107890e26517d184f006dcf1bfd8dfa95b9fc18b9",
+          "a10719f6b557300580301d102d3546b7a8e4d7cb2d44a7d1d0b889036e2748d5",
+          "8a1b0f76a0a5b475e8ec9a7139a54313f287eda8f953921cd8634bd341fb70b6",
+          "9c0cc7b22e41ea31899aa5698e9d4444c81800c530c1374e3f72be75fac75062",
+          "1ce84bcf88abcff1115ebc1e9b66bf0aa9f47471968d9d12d676d9047792ba02"
+        ],
+        "recording_sha256": "67f5f3ac45b15fee40ff54eab820b0137f2711fd02eec29b29d8de36169badda",
+        "source_files_sha256": {
+          "artifacts/a_gesture_tasks/a_release_20261101_r4/factory_model.json": "1e417b63668167950013ba77a2f67e93aa2b382cc290e56e036dfff2b69164d6",
+          "artifacts/a_cnn256/final/linear/manifest.json": "c4e0b9798af194add97cd3811e71a6ceba040c7b6c1a13fb16e9566060f2083d",
+          "artifacts/a_cnn256/final/linear/parameters.bin": "7e0ecf90b073fe05acaba6002fa988f4ec617738c5a3c2253490dd88f1abdc0c",
+          "artifacts/a_cnn256/final/cnn/manifest.json": "bed8c91abe5c35bbb38f4034b7f294dace596d340dcdf2048fd2f7f3e12058a6",
+          "artifacts/a_cnn256/final/cnn/integer.npz": "2d89c9dcc1aa87240a64123f186d78908377d36fe7f6fe1eeda680251d1a4f03"
+        }
+      }
+    }
+  ]
+}

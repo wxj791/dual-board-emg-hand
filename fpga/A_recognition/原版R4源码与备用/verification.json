@@ -1,0 +1,18 @@
+{
+  "capacity": 32,
+  "routed": true,
+  "success": true,
+  "origin": "route32_balanced_s5_p35_20261101_r1",
+  "routing_reused": true,
+  "actual_period_ns": 41.666,
+  "SDC_cleared_and_timer_rebuilt": true,
+  "programmed": false,
+  "timing": {
+    "setup_wns_ns": 4.294,
+    "hold_wns_ns": 0.031,
+    "period_check_wns_ns": 0.0,
+    "coverage_percent": 100.0,
+    "clock_mhz": 24
+  },
+  "bit_sha256": "aa77e2122a40be7dd7bbb17790f0f6b75693e9c48a02e6c41ed7c98a658887c6"
+}

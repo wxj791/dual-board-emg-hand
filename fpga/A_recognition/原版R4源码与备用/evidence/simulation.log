@@ -1,0 +1,24 @@
+FRESH_MODEL_UART_DEPLOYED classes=2 crc=624382bb
+BOARD_RESULT seq=575 cnn=31584 head=31668 feature=681 latency=40745
+BOARD_RESULT seq=607 cnn=31584 head=31668 feature=681 latency=40745
+BOARD_RESULT seq=639 cnn=31584 head=31668 feature=681 latency=40745
+BOARD_RESULT seq=671 cnn=31584 head=31668 feature=681 latency=40745
+BOARD_RESULT seq=703 cnn=31584 head=31668 feature=681 latency=40745
+BOARD_RESULT seq=735 cnn=31584 head=31676 feature=681 latency=40753
+BOARD_RESULT seq=767 cnn=31584 head=31676 feature=681 latency=40753
+BOARD_RESULT seq=799 cnn=31584 head=31676 feature=681 latency=40753
+BOARD_RESULT seq=831 cnn=31584 head=31676 feature=681 latency=40753
+BOARD_RESULT seq=863 cnn=31584 head=31668 feature=681 latency=40745
+BOARD_RESULT seq=895 cnn=31584 head=31668 feature=681 latency=40745
+BOARD_RESULT seq=927 cnn=31584 head=31668 feature=681 latency=40745
+BOARD_RESULT seq=959 cnn=31584 head=31668 feature=681 latency=40745
+BOARD_RESULT seq=991 cnn=31584 head=31668 feature=681 latency=40745
+BOARD_RESULT seq=1023 cnn=31584 head=31668 feature=681 latency=40745
+BOARD_RESULT seq=1055 cnn=31584 head=31668 feature=681 latency=40745
+BOARD_RESULT seq=1087 cnn=31584 head=31668 feature=681 latency=40745
+BOARD_RESULT seq=1119 cnn=31584 head=31668 feature=681 latency=40745
+BOARD_RESULT seq=1151 cnn=31584 head=31668 feature=681 latency=40745
+BOARD_RESULT seq=1183 cnn=31584 head=31668 feature=681 latency=40745
+BOARD_RESULT seq=1215 cnn=31584 head=31668 feature=7850 latency=40745
+BOARD_PASS samples=1216 results=21 wave_drops=6 max_latency=40753
+E:\FPGA\Projects\emg_hand_fpga\artifacts\a_gesture_tasks\board32_dram_pc_transition\tb.sv:75: $finish called at 323645170000 (1ps)

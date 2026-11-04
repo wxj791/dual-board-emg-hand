@@ -1,0 +1,65 @@
+standard
+***Report Model: v2_board_top Device: EG4S20BG256***
+
+IO Statistics
+#IO                        21   out of    188   11.17%
+  #input                    6
+  #output                  15
+  #inout                    0
+
+LUT Statistics
+#Total_luts             17362
+  #lut4                 10077
+  #lut5                  2690
+  #lut6                    12
+  #lut5_mx41                0
+  #lut4_alu1b            4583
+
+Utilization Statistics
+#lut                    17374   out of  19600   88.64%
+#reg                     9419   out of  19600   48.06%
+#le                         0
+#bram                      53   out of     64   82.81%
+  #bram9k                  53
+  #fifo9k                   0
+#bram32k                   13   out of     16   81.25%
+#dsp                       26   out of     29   89.66%
+#dram                     182
+#pad                       21   out of    188   11.17%
+  #ireg                     3
+  #oreg                     1
+  #treg                     0
+#pll                        0   out of      4    0.00%
+#gclk                       0   out of     16    0.00%
+
+Report Hierarchy Area:
++----------------------------------------------------------------------------------------------+
+|Instance             |Module                     |lut     |ripple  |seq     |bram    |dsp     |
++----------------------------------------------------------------------------------------------+
+|top                  |v2_board_top               |12791   |4583    |9423    |66      |26      |
+|  core               |fusion_cnn_stream          |7959    |3238    |5080    |57      |26      |
+|    cnn_unit         |cnn32_core                 |1694    |976     |1478    |21      |16      |
+|    features_unit    |fusion_features            |2694    |1175    |1632    |18      |7       |
+|    filter_unit      |hybrid_filterbank          |1673    |291     |1219    |2       |2       |
+|      rom            |hybrid_filter_coefficients |53      |8       |0       |0       |0       |
+|    head_unit        |fusion_head                |1818    |692     |455     |16      |1       |
+|      cnn_store      |v2_score_ram               |145     |0       |0       |2       |0       |
+|      decision_store |v2_score_ram               |49      |0       |0       |3       |0       |
+|      score_store    |v2_score_ram               |55      |0       |0       |3       |0       |
+|  forwarding         |gt_forward                 |141     |47      |119     |1       |0       |
+|  ingress            |justfloat_ingress          |699     |194     |827     |0       |0       |
+|    receiver         |ingress_uart_rx            |52      |17      |34      |0       |0       |
+|  mux                |v2_packet_mux              |782     |90      |484     |2       |0       |
+|  pc                 |v2_pc                      |2388    |617     |2165    |5       |0       |
+|    encoder          |link_frame_tx              |655     |41      |170     |0       |0       |
+|    receiver         |link_frame_rx              |159     |100     |145     |1       |0       |
+|      crc_step       |link_crc16_ccitt           |1       |0       |0       |0       |0       |
+|    ret              |gt_return                  |257     |113     |239     |2       |0       |
+|      uart           |ingress_uart_rx            |52      |17      |34      |0       |0       |
+|    uart_rx          |ingress_uart_rx            |50      |17      |33      |0       |0       |
+|  reset_unit         |reset_sync_n               |1       |0       |2       |0       |0       |
+|  tx                 |link_tx_wrapper            |273     |114     |255     |0       |0       |
+|    frame_tx         |link_frame_tx              |124     |37      |162     |0       |0       |
+|    tx_reset_sync    |reset_sync_n               |0       |0       |2       |0       |0       |
+|  usb_stream         |gt_usb_stream              |492     |33      |282     |1       |0       |
++----------------------------------------------------------------------------------------------+
