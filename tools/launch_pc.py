@@ -3,7 +3,7 @@ from pathlib import Path
 import os,sys,runpy
 ROOT=Path(__file__).resolve().parents[1]
 APP=ROOT/'pc/app/EMG_Studio/EMG_Studio'
-PACKAGE=ROOT/'models/current_8class/export'
+PACKAGE=ROOT/'models/example_8class/export'
 for key in ['EMG_GESTURE_TASKS_STATE','EMG_FIELD_DEFAULT_PACKAGE','EMG_FIELD_SETTINGS_FILE','EMG_FPGA_PROJECT','EMG_SPARSE_OPCODES']:
     os.environ.pop(key,None)
 sys.path[:0]=[str(APP),str(APP/'backend'),str(APP/'emg_ml')]

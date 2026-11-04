@@ -2,7 +2,7 @@
 
 A 板
 
-1. 从 fpga/A_recognition/原版R4源码与备用/source/ 阅读模块化 RTL，sources.json 给出冻结输入的哈希。整板入口为 fpga_a/experimental/cnn256_gesture_tasks/balanced_ram/v2_board_top.v。
+1. 从 fpga/A_recognition/原版R4源码与备用/source/ 阅读模块化 RTL。整板入口为 fpga_a/experimental/cnn256_gesture_tasks/balanced_ram/v2_board_top.v。
 2. all.v 是冻结的合并构建输入，旁边的 HEX 文件用于工厂模型初始化。v2.adc 与 v2.sdc 为管脚和时序约束。
 3. 在安路 TD 的 Tcl 环境执行 rebuild.tcl 可按原流程重建基准实现；脚本从自身目录定位文件，并建立独立构建目录。器件数据库与 TD 安装由使用者配置。
 4. 当前使用版本是 肌电识别板_当前使用版.bit。ECO实现与证据/ 同时保存基准检查点、修改后的物理网表、补丁脚本、时序和等价检查。物理脚本中历史环境路径需改为本机的对应路径；先用基准检查点应用 patch_a_forward_header.tcl，再按恢复/签核脚本验证和生成位流。
@@ -11,7 +11,7 @@ A 板
 B 板
 
 1. 源根目录为 fpga/B_execution/基准RTL源码/，顶层 fpga_b/gesture_tasks/b_tasks_top.v。模块清单在同目录 sources.txt，所有路径相对这个源根目录。
-2. 显示 ROM、公共模块、UART 接入、ADC/SDC 约束一并保留。基准RTL逐文件核对.json 保存原核对记录。
+2. 显示 ROM、公共模块、UART 接入、ADC/SDC 约束一并保留。。
 3. 基准实现证据/build_recipe.tcl 是原基准构建流程。执行前将环境变量 B_TASKS_ROOT 指向上述源根目录，将 B_TASKS_BUILD_DIR 指向新的可写输出目录。
 4. 最终ECO/ 保存当前位流对应的物理网表、检查点和位流生成脚本，补丁脚本/ 保存修改与签核程序。按 说明/ 中的原版本和ECO记录 确认基准及补丁顺序，并调整脚本中的历史路径。
 5. 当前位流 显示执行板_当前使用版.bit 关闭空闲轮询，保留普通示教、回放、执行保护和显示。源码中的历史候选及归档仅用于追溯，主版本以当前位流和对应 ECO 记录为准。
@@ -32,7 +32,6 @@ PC 内还保留训练、整数参考、评估和预览推理代码，实际双�
 
 自检及材料范围
 
-- python tools/verify_package.py：哈希、文件完整性、Python 语法、源依赖及模型包参数检查，不连接串口。
 - python tools/offline_tests.py：运行已有的协议、原始流和响应绑定回归，不进行板卡烧录或机械动作。
 - 原始肌电采集数据另见已提供的数据汇总文件夹；模型需要的 prepared.npz 保留在相应模型目录。
 - TD 与无线工具链完整编译、当前硬件复测需在相应开发/板卡环境进行，和本次打包校验分别记录。
